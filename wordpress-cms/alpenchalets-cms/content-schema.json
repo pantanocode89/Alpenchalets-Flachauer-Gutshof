@@ -1,0 +1,4155 @@
+{
+  "pages": {
+    "home": [
+      {
+        "key": "home_text_001",
+        "label": "Zum Inhalt",
+        "de": "Zum Inhalt",
+        "en": "Skip to content",
+        "nl": "Naar inhoud"
+      },
+      {
+        "key": "home_text_002",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "home_text_003",
+        "label": "Ihr Urlaub beginnt hier",
+        "de": "Ihr Urlaub beginnt hier",
+        "en": "Your holiday starts here",
+        "nl": "Uw vakantie begint hier"
+      },
+      {
+        "key": "home_text_004",
+        "label": "Anerkennung Partnerschaft",
+        "de": "Anerkennung &amp; Partnerschaft",
+        "en": "Recognition &amp; partnership",
+        "nl": "Erkenning &amp; partnerschap"
+      },
+      {
+        "key": "home_text_005",
+        "label": "Ausgezeichnete Gastfreundschaft",
+        "de": "Ausgezeichnete Gastfreundschaft",
+        "en": "Recognised hospitality",
+        "nl": "Erkende gastvrijheid"
+      },
+      {
+        "key": "home_text_006",
+        "label": "Eine besondere Anerkennung unserer G ste und eine langj hrige Verbindung zur alpinen Touri",
+        "de": "Eine besondere Anerkennung unserer G&auml;ste und eine langj&auml;hrige Verbindung zur alpinen Tourismuswelt.",
+        "en": "Special recognition from our guests and a long-standing connection with the Alpine tourism community.",
+        "nl": "Een bijzondere erkenning van onze gasten en een langdurige band met de alpine toerismewereld."
+      },
+      {
+        "key": "home_text_007",
+        "label": "Sunweb Certificate of Excellence",
+        "de": "Sunweb Certificate of Excellence",
+        "en": "Sunweb Certificate of Excellence",
+        "nl": "Sunweb Certificate of Excellence"
+      },
+      {
+        "key": "home_text_008",
+        "label": "Von Sunweb-G sten als bevorzugte Unterkunft ausgezeichnet.",
+        "de": "Von Sunweb-G&auml;sten als bevorzugte Unterkunft ausgezeichnet.",
+        "en": "Recognised as a preferred accommodation by Sunweb guests.",
+        "nl": "Door Sunweb-gasten erkend als voorkeursaccommodatie."
+      },
+      {
+        "key": "home_text_009",
+        "label": "Top of the Mountains",
+        "de": "Top of the Mountains",
+        "en": "Top of the Mountains",
+        "nl": "Top of the Mountains"
+      },
+      {
+        "key": "home_text_010",
+        "label": "VIP-Mitgliedschaft im Netzwerk Die Besten der Berge .",
+        "de": "VIP-Mitgliedschaft im Netzwerk &bdquo;Die Besten der Berge&ldquo;.",
+        "en": "VIP membership in the &ldquo;Best of the Mountains&rdquo; network.",
+        "nl": "VIP-lidmaatschap van het netwerk &lsquo;De besten van de bergen&rsquo;."
+      },
+      {
+        "key": "home_text_011",
+        "label": "Unsere Unterkünfte",
+        "de": "Unsere Unterkünfte",
+        "en": "Our accommodation",
+        "nl": "Onze accommodaties"
+      },
+      {
+        "key": "home_text_012",
+        "label": "Unsere Chalets",
+        "de": "Unsere Chalets",
+        "en": "Our chalets",
+        "nl": "Onze chalets"
+      },
+      {
+        "key": "home_text_013",
+        "label": "Gemütliche Rückzugsorte für kleine und große Gruppen – mit viel Platz zum Ankommen und Woh",
+        "de": "Gemütliche Rückzugsorte für kleine und große Gruppen – mit viel Platz zum Ankommen und Wohlfühlen.",
+        "en": "Cosy retreats for small and large groups – with plenty of space to arrive and feel at home.",
+        "nl": "Gezellige verblijven voor kleine en grote groepen – met volop ruimte om aan te komen en u thuis te voelen."
+      },
+      {
+        "key": "home_text_014",
+        "label": "Mit dem Laden der Karte stimmen Sie zu, dass Daten an Google übertragen werden. Weitere In",
+        "de": "Mit dem Laden der Karte stimmen Sie zu, dass Daten an Google übertragen werden. Weitere Informationen finden Sie in unserer Datenschutzerklärung.",
+        "en": "By loading the map, you agree that data will be transmitted to Google. More information is available in our privacy policy.",
+        "nl": "Door de kaart te laden, stemt u ermee in dat gegevens aan Google worden doorgegeven. Meer informatie vindt u in ons privacybeleid."
+      },
+      {
+        "key": "home_text_015",
+        "label": "Google Maps laden",
+        "de": "Google Maps laden",
+        "en": "Load Google Maps",
+        "nl": "Google Maps laden"
+      },
+      {
+        "key": "home_text_016",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "home_text_017",
+        "label": "Gut vorbereitet ankommen",
+        "de": "Gut vorbereitet ankommen",
+        "en": "Arrive well prepared",
+        "nl": "Goed voorbereid aankomen"
+      },
+      {
+        "key": "home_text_018",
+        "label": "Die wichtigsten Antworten für Ihren Aufenthalt, direkt auf der Startseite. Weitere Details",
+        "de": "Die wichtigsten Antworten für Ihren Aufenthalt, direkt auf der Startseite. Weitere Details finden Sie auf der FAQ-Seite.",
+        "en": "The most important answers for your stay, directly on the homepage. More details are available on the FAQ page.",
+        "nl": "De belangrijkste antwoorden voor uw verblijf, direct op de startpagina. Meer details vindt u op de FAQ-pagina."
+      },
+      {
+        "key": "home_text_019",
+        "label": "Check-in",
+        "de": "Check-in",
+        "en": "Check-in",
+        "nl": "Inchecken"
+      },
+      {
+        "key": "home_text_020",
+        "label": "Der Check-in ist ab 15:00 Uhr möglich. Bei später Anreise informieren Sie bitte rechtzeiti",
+        "de": "Der Check-in ist ab 15:00 Uhr möglich. Bei später Anreise informieren Sie bitte rechtzeitig die Rezeption.",
+        "en": "Check-in is possible from 3:00 PM. For late arrival, please inform reception in good time.",
+        "nl": "Inchecken kan vanaf 15:00 uur. Bij late aankomst informeert u de receptie tijdig."
+      },
+      {
+        "key": "home_text_021",
+        "label": "Sauna & Kamin",
+        "de": "Sauna & Kamin",
+        "en": "Sauna & fireplace",
+        "nl": "Sauna & open haard"
+      },
+      {
+        "key": "home_text_022",
+        "label": "Jedes Chalet verfügt über eine private Sauna, Kamin und eine voll ausgestattete Küche.",
+        "de": "Jedes Chalet verfügt über eine private Sauna, Kamin und eine voll ausgestattete Küche.",
+        "en": "Every chalet has a private sauna, fireplace and a fully equipped kitchen.",
+        "nl": "Elk chalet heeft een privésauna, open haard en een volledig uitgeruste keuken."
+      },
+      {
+        "key": "home_text_023",
+        "label": "Buchung",
+        "de": "Buchung",
+        "en": "Booking",
+        "nl": "Boeken"
+      },
+      {
+        "key": "home_text_024",
+        "label": "Sommeranfragen laufen direkt über Alpenchalets. Winteraufenthalte werden ausschließlich üb",
+        "de": "Sommeranfragen laufen direkt über Alpenchalets. Winteraufenthalte werden ausschließlich über Sunweb gebucht.",
+        "en": "Summer enquiries are handled directly by Alpenchalets. Winter stays are booked exclusively through Sunweb.",
+        "nl": "Zomeraanvragen lopen direct via Alpenchalets. Winterverblijven worden uitsluitend via Sunweb geboekt."
+      },
+      {
+        "key": "home_text_025",
+        "label": "Alle Fragen ansehen",
+        "de": "Alle Fragen ansehen",
+        "en": "View all questions",
+        "nl": "Alle vragen bekijken"
+      },
+      {
+        "key": "home_text_026",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "home_text_027",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "home_text_028",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "home_text_029",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      },
+      {
+        "key": "home_text_030",
+        "label": "ALPENCHALETS",
+        "de": "ALPENCHALETS",
+        "en": "ALPENCHALETS",
+        "nl": "ALPENCHALETS"
+      },
+      {
+        "key": "home_text_031",
+        "label": "Virtuelle Rezeption",
+        "de": "Virtuelle Rezeption",
+        "en": "Virtuelle Rezeption",
+        "nl": "Virtuelle Rezeption"
+      },
+      {
+        "key": "home_text_032",
+        "label": "Hallo, ich bin Ihre virtuelle Rezeption. Wie kann ich Ihnen heute helfen",
+        "de": "Hallo, ich bin Ihre virtuelle Rezeption. Wie kann ich Ihnen heute helfen",
+        "en": "Hello, I am your virtual reception. How can I help you today",
+        "nl": "Hallo, ik ben uw virtuele receptie. Waarmee kan ik u vandaag helpen"
+      },
+      {
+        "key": "home_text_033",
+        "label": "Mit dem Chat stimmen Sie der",
+        "de": "Mit dem Chat stimmen Sie der",
+        "en": "By using the chat, you agree to the",
+        "nl": "Met de chat gaat u akkoord met het"
+      },
+      {
+        "key": "home_text_034",
+        "label": "Datenschutzerkl rung",
+        "de": "Datenschutzerkl&auml;rung",
+        "en": "privacy policy",
+        "nl": "privacybeleid"
+      },
+      {
+        "key": "home_text_035",
+        "label": "zu.",
+        "de": "zu.",
+        "en": ".",
+        "nl": "."
+      }
+    ],
+    "chalet-4-zimmer": [
+      {
+        "key": "chalet-4-zimmer_text_001",
+        "label": "Zum Inhalt",
+        "de": "Zum Inhalt",
+        "en": "Skip to content",
+        "nl": "Naar inhoud"
+      },
+      {
+        "key": "chalet-4-zimmer_text_002",
+        "label": "Lage Anfahrt",
+        "de": "Lage &amp; Anfahrt",
+        "en": "Location &amp; Directions",
+        "nl": "Ligging &amp; Route"
+      },
+      {
+        "key": "chalet-4-zimmer_text_003",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "chalet-4-zimmer_text_004",
+        "label": "Auch interessant",
+        "de": "Auch interessant",
+        "en": "You may also like",
+        "nl": "Ook interessant"
+      },
+      {
+        "key": "chalet-4-zimmer_text_005",
+        "label": "Mehr Privatsphäre in vier separaten Schlafzimmern",
+        "de": "Mehr Privatsphäre in vier separaten Schlafzimmern",
+        "en": "More privacy with four separate bedrooms",
+        "nl": "Meer privacy met vier aparte slaapkamers"
+      },
+      {
+        "key": "chalet-4-zimmer_text_006",
+        "label": "5-Zimmer-Chalet ansehen →",
+        "de": "5-Zimmer-Chalet ansehen →",
+        "en": "View the 5-room chalet →",
+        "nl": "Bekijk het 5-kamerchalet →"
+      },
+      {
+        "key": "chalet-4-zimmer_text_007",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "chalet-4-zimmer_text_008",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "chalet-4-zimmer_text_009",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "chalet-4-zimmer_text_010",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      },
+      {
+        "key": "chalet-4-zimmer_text_011",
+        "label": "Newsletter",
+        "de": "Newsletter",
+        "en": "Newsletter",
+        "nl": "Nieuwsbrief"
+      }
+    ],
+    "chalet-5-zimmer": [
+      {
+        "key": "chalet-5-zimmer_text_001",
+        "label": "Zum Inhalt",
+        "de": "Zum Inhalt",
+        "en": "Skip to content",
+        "nl": "Naar inhoud"
+      },
+      {
+        "key": "chalet-5-zimmer_text_002",
+        "label": "Lage Anfahrt",
+        "de": "Lage &amp; Anfahrt",
+        "en": "Location &amp; Directions",
+        "nl": "Ligging &amp; Route"
+      },
+      {
+        "key": "chalet-5-zimmer_text_003",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "chalet-5-zimmer_text_004",
+        "label": "Auch interessant",
+        "de": "Auch interessant",
+        "en": "You may also like",
+        "nl": "Ook interessant"
+      },
+      {
+        "key": "chalet-5-zimmer_text_005",
+        "label": "Viel Platz für Familien und gemeinsame Urlaubstage",
+        "de": "Viel Platz für Familien und gemeinsame Urlaubstage",
+        "en": "Plenty of space for families and holidays together",
+        "nl": "Veel ruimte voor families en een vakantie samen"
+      },
+      {
+        "key": "chalet-5-zimmer_text_006",
+        "label": "4-Zimmer-Chalet ansehen →",
+        "de": "4-Zimmer-Chalet ansehen →",
+        "en": "View the 4-room chalet →",
+        "nl": "Bekijk het 4-kamerchalet →"
+      },
+      {
+        "key": "chalet-5-zimmer_text_007",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "chalet-5-zimmer_text_008",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "chalet-5-zimmer_text_009",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "chalet-5-zimmer_text_010",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      },
+      {
+        "key": "chalet-5-zimmer_text_011",
+        "label": "Newsletter",
+        "de": "Newsletter",
+        "en": "Newsletter",
+        "nl": "Nieuwsbrief"
+      }
+    ],
+    "sommer": [
+      {
+        "key": "sommer_text_001",
+        "label": "Home",
+        "de": "Home",
+        "en": "Home",
+        "nl": "Home"
+      },
+      {
+        "key": "sommer_text_002",
+        "label": "Unsere Chalets",
+        "de": "Unsere Chalets",
+        "en": "Our chalets",
+        "nl": "Onze chalets"
+      },
+      {
+        "key": "sommer_text_003",
+        "label": "Sommer",
+        "de": "Sommer",
+        "en": "Summer",
+        "nl": "Zomer"
+      },
+      {
+        "key": "sommer_text_004",
+        "label": "Winter",
+        "de": "Winter",
+        "en": "Winter",
+        "nl": "Winter"
+      },
+      {
+        "key": "sommer_text_005",
+        "label": "Komfort",
+        "de": "Komfort",
+        "en": "Comfort",
+        "nl": "Comfort"
+      },
+      {
+        "key": "sommer_text_006",
+        "label": "Restaurant",
+        "de": "Restaurant",
+        "en": "Restaurant",
+        "nl": "Restaurant"
+      },
+      {
+        "key": "sommer_text_007",
+        "label": "Galerie",
+        "de": "Galerie",
+        "en": "Gallery",
+        "nl": "Galerij"
+      },
+      {
+        "key": "sommer_text_008",
+        "label": "Lage Anfahrt",
+        "de": "Lage &amp; Anfahrt",
+        "en": "Location &amp; Directions",
+        "nl": "Ligging &amp; Route"
+      },
+      {
+        "key": "sommer_text_009",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "sommer_text_010",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "sommer_text_011",
+        "label": "Kontakt",
+        "de": "Kontakt",
+        "en": "Contact",
+        "nl": "Contact"
+      },
+      {
+        "key": "sommer_text_012",
+        "label": "Sommer in Flachau",
+        "de": "Sommer in Flachau",
+        "en": "Summer in Flachau",
+        "nl": "Zomer in Flachau"
+      },
+      {
+        "key": "sommer_text_013",
+        "label": "Draußen zuhause",
+        "de": "Draußen zuhause",
+        "en": "At home outdoors",
+        "nl": "Buiten thuis"
+      },
+      {
+        "key": "sommer_text_014",
+        "label": "Bergluft, gemeinsame Erlebnisse und gemütliche Abende im eigenen Chalet.",
+        "de": "Bergluft, gemeinsame Erlebnisse und gemütliche Abende im eigenen Chalet.",
+        "en": "Mountain air, shared adventures and cozy evenings in your own chalet.",
+        "nl": "Berglucht, samen op avontuur en gezellige avonden in uw eigen chalet."
+      },
+      {
+        "key": "sommer_text_015",
+        "label": "Sommerurlaub",
+        "de": "Sommerurlaub",
+        "en": "Summer holiday",
+        "nl": "Zomervakantie"
+      },
+      {
+        "key": "sommer_text_016",
+        "label": "Viel Platz für aktive und entspannte Tage",
+        "de": "Viel Platz für aktive und entspannte Tage",
+        "en": "Plenty of room for active and relaxed days",
+        "nl": "Veel ruimte voor actieve en ontspannen dagen"
+      },
+      {
+        "key": "sommer_text_017",
+        "label": "Unsere Chalets sind ein ruhiger Ausgangspunkt für Urlaubstage in und rund um Flachau. Nach",
+        "de": "Unsere Chalets sind ein ruhiger Ausgangspunkt für Urlaubstage in und rund um Flachau. Nach einem Tag draußen warten Terrasse, Küche, Kamin und private Sauna.",
+        "en": "Our chalets are a comfortable base for days in and around Flachau. After a day outdoors, the terrace, kitchen, fireplace and private sauna await.",
+        "nl": "Onze chalets zijn een comfortabele uitvalsbasis voor dagen in en rond Flachau. Na een dag buiten wachten terras, keuken, open haard en privésauna."
+      },
+      {
+        "key": "sommer_text_018",
+        "label": "Sommeraufenthalte können Sie direkt über unser Anfrageformular anfragen.",
+        "de": "Sommeraufenthalte können Sie direkt über unser Anfrageformular anfragen.",
+        "en": "You can enquire about summer stays directly through our enquiry form.",
+        "nl": "U kunt zomerverblijven rechtstreeks aanvragen via ons aanvraagformulier."
+      },
+      {
+        "key": "sommer_text_019",
+        "label": "Sommer buchen",
+        "de": "Sommer buchen &#8594;",
+        "en": "Book Summer &#8594;",
+        "nl": "Zomer boeken &#8594;"
+      },
+      {
+        "key": "sommer_text_020",
+        "label": "Wandern",
+        "de": "Wandern",
+        "en": "Hiking",
+        "nl": "Wandelen"
+      },
+      {
+        "key": "sommer_text_021",
+        "label": "Direkt von Flachau aus die Bergwelt entdecken – vom gemütlichen Spaziergang bis zur länger",
+        "de": "Direkt von Flachau aus die Bergwelt entdecken – vom gemütlichen Spaziergang bis zur längeren Tour.",
+        "en": "Discover the mountains from Flachau, from relaxed walks to longer tours.",
+        "nl": "Ontdek de bergen vanuit Flachau, van rustige wandelingen tot langere tochten."
+      },
+      {
+        "key": "sommer_text_022",
+        "label": "Rad & Natur",
+        "de": "Rad & Natur",
+        "en": "Cycling & nature",
+        "nl": "Fietsen & natuur"
+      },
+      {
+        "key": "sommer_text_023",
+        "label": "Aktive Urlaubstage mit viel Zeit draußen und einem gemütlichen Zuhause für den Abend.",
+        "de": "Aktive Urlaubstage mit viel Zeit draußen und einem gemütlichen Zuhause für den Abend.",
+        "en": "Active days outdoors and a cozy home to return to in the evening.",
+        "nl": "Actieve dagen buiten en een gezellig thuis voor de avond."
+      },
+      {
+        "key": "sommer_text_024",
+        "label": "Gemeinsame Zeit",
+        "de": "Gemeinsame Zeit",
+        "en": "Time together",
+        "nl": "Tijd samen"
+      },
+      {
+        "key": "sommer_text_025",
+        "label": "Große Wohnbereiche und eigene Küchen machen gemeinsame Mahlzeiten und Abende besonders unk",
+        "de": "Große Wohnbereiche und eigene Küchen machen gemeinsame Mahlzeiten und Abende besonders unkompliziert.",
+        "en": "Spacious living areas and private kitchens make shared meals and evenings easy.",
+        "nl": "Ruime woonruimtes en eigen keukens maken gezamenlijke maaltijden en avonden eenvoudig."
+      },
+      {
+        "key": "sommer_text_026",
+        "label": "FLACHAU SOMMER CARD",
+        "de": "FLACHAU SOMMER CARD",
+        "en": "FLACHAU SUMMER CARD",
+        "nl": "FLACHAU SUMMER CARD"
+      },
+      {
+        "key": "sommer_text_027",
+        "label": "Mehr Sommer inklusive",
+        "de": "Mehr Sommer inklusive",
+        "en": "More summer included",
+        "nl": "Meer zomer inbegrepen"
+      },
+      {
+        "key": "sommer_text_028",
+        "label": "Die Flachau Sommer Card ist bei Ihrem Sommeraufenthalt inklusive und bietet gef hrte Aktiv",
+        "de": "Die Flachau Sommer Card ist bei Ihrem Sommeraufenthalt inklusive und bietet gef&uuml;hrte Aktivit&auml;ten, Familienprogramme sowie attraktive Erm&auml;&szlig;igungen bei zahlreichen Ausflugszielen und Freizeiteinrichtungen in und rund um Flachau.",
+        "en": "The Flachau Summer Card is included with your summer stay and offers guided activities, family programmes and attractive discounts at numerous attractions and leisure facilities in and around Flachau.",
+        "nl": "De Flachau Summer Card is inbegrepen bij uw zomerverblijf en biedt begeleide activiteiten, familieprogramma&rsquo;s en aantrekkelijke kortingen bij talrijke attracties en recreatievoorzieningen in en rond Flachau."
+      },
+      {
+        "key": "sommer_text_029",
+        "label": "Ihre digitale Flachau Sommer Card erhalten Sie nach dem Check-in.",
+        "de": "Ihre digitale Flachau Sommer Card erhalten Sie nach dem Check-in.",
+        "en": "You will receive your digital Flachau Summer Card after check-in.",
+        "nl": "Na het inchecken ontvangt u uw digitale Flachau Summer Card."
+      },
+      {
+        "key": "sommer_text_030",
+        "label": "Sommer Card Aktivitäten ansehen (PDF) ↗",
+        "de": "Sommer Card Aktivitäten ansehen (PDF) ↗",
+        "en": "View Summer Card activities (PDF) ↗",
+        "nl": "Bekijk Summer Card-activiteiten (PDF) ↗"
+      },
+      {
+        "key": "sommer_text_031",
+        "label": "wohlfühlen | genießen",
+        "de": "wohlfühlen | genießen",
+        "en": "feel good | enjoy",
+        "nl": "ontspannen | genieten"
+      },
+      {
+        "key": "sommer_text_032",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "sommer_text_033",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "sommer_text_034",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "sommer_text_035",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      }
+    ],
+    "winter": [
+      {
+        "key": "winter_text_001",
+        "label": "Home",
+        "de": "Home",
+        "en": "Home",
+        "nl": "Home"
+      },
+      {
+        "key": "winter_text_002",
+        "label": "Unsere Chalets",
+        "de": "Unsere Chalets",
+        "en": "Our chalets",
+        "nl": "Onze chalets"
+      },
+      {
+        "key": "winter_text_003",
+        "label": "Sommer",
+        "de": "Sommer",
+        "en": "Summer",
+        "nl": "Zomer"
+      },
+      {
+        "key": "winter_text_004",
+        "label": "Winter",
+        "de": "Winter",
+        "en": "Winter",
+        "nl": "Winter"
+      },
+      {
+        "key": "winter_text_005",
+        "label": "Komfort",
+        "de": "Komfort",
+        "en": "Comfort",
+        "nl": "Comfort"
+      },
+      {
+        "key": "winter_text_006",
+        "label": "Restaurant",
+        "de": "Restaurant",
+        "en": "Restaurant",
+        "nl": "Restaurant"
+      },
+      {
+        "key": "winter_text_007",
+        "label": "Galerie",
+        "de": "Galerie",
+        "en": "Gallery",
+        "nl": "Galerij"
+      },
+      {
+        "key": "winter_text_008",
+        "label": "Lage Anfahrt",
+        "de": "Lage &amp; Anfahrt",
+        "en": "Location &amp; Directions",
+        "nl": "Ligging &amp; Route"
+      },
+      {
+        "key": "winter_text_009",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "winter_text_010",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "winter_text_011",
+        "label": "Kontakt",
+        "de": "Kontakt",
+        "en": "Contact",
+        "nl": "Contact"
+      },
+      {
+        "key": "winter_text_012",
+        "label": "Winter in Flachau",
+        "de": "Winter in Flachau",
+        "en": "Winter in Flachau",
+        "nl": "Winter in Flachau"
+      },
+      {
+        "key": "winter_text_013",
+        "label": "Schneetage. Kaminabende",
+        "de": "Schneetage. Kaminabende",
+        "en": "Snowy days. Fireside evenings",
+        "nl": "Sneeuwdagen. Avonden bij de haard"
+      },
+      {
+        "key": "winter_text_014",
+        "label": "Ein gemütliches Chalet als Zuhause nach einem Tag im Schnee.",
+        "de": "Ein gemütliches Chalet als Zuhause nach einem Tag im Schnee.",
+        "en": "A cozy chalet to come home to after a day in the snow.",
+        "nl": "Een gezellig chalet om thuis te komen na een dag in de sneeuw."
+      },
+      {
+        "key": "winter_text_015",
+        "label": "Winterurlaub",
+        "de": "Winterurlaub",
+        "en": "Winter holiday",
+        "nl": "Wintervakantie"
+      },
+      {
+        "key": "winter_text_016",
+        "label": "Kurze Wege und Wärme, wenn Sie zurückkommen",
+        "de": "Kurze Wege und Wärme, wenn Sie zurückkommen",
+        "en": "Short distances and warmth when you return",
+        "nl": "Korte afstanden en warmte bij thuiskomst"
+      },
+      {
+        "key": "winter_text_017",
+        "label": "Der Lageplan zeigt den Fußweg zum 8er-Jet, die Langlaufloipe sowie die Wege zu Rezeption u",
+        "de": "Der Lageplan zeigt den Fußweg zum 8er-Jet, die Langlaufloipe sowie die Wege zu Rezeption und Flachauer Gutshof. Im Chalet sorgen Sauna und Kamin für einen entspannten Abend.",
+        "en": "The site map shows the footpath to the 8er-Jet, the cross-country trail and the routes to reception and Flachauer Gutshof. Back at the chalet, the sauna and fireplace make for a relaxed evening.",
+        "nl": "De plattegrond toont het wandelpad naar de 8er-Jet, de langlaufloipe en de routes naar receptie en Flachauer Gutshof. In het chalet zorgen sauna en open haard voor een ontspannen avond."
+      },
+      {
+        "key": "winter_text_018",
+        "label": "Winteraufenthalte werden ausschließlich über Sunweb gebucht.",
+        "de": "Winteraufenthalte werden ausschließlich über Sunweb gebucht.",
+        "en": "Winter stays are booked exclusively through Sunweb.",
+        "nl": "Winterverblijven worden uitsluitend via Sunweb geboekt."
+      },
+      {
+        "key": "winter_text_019",
+        "label": "Winter buchen",
+        "de": "Winter buchen &#8599;",
+        "en": "Book Winter &#8599;",
+        "nl": "Winter boeken &#8599;"
+      },
+      {
+        "key": "winter_text_020",
+        "label": "wohlfühlen | genießen",
+        "de": "wohlfühlen | genießen",
+        "en": "feel good | enjoy",
+        "nl": "ontspannen | genieten"
+      },
+      {
+        "key": "winter_text_021",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "winter_text_022",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "winter_text_023",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "winter_text_024",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      }
+    ],
+    "restaurant": [
+      {
+        "key": "restaurant_text_001",
+        "label": "Home",
+        "de": "Home",
+        "en": "Home",
+        "nl": "Home"
+      },
+      {
+        "key": "restaurant_text_002",
+        "label": "Unsere Chalets",
+        "de": "Unsere Chalets",
+        "en": "Our chalets",
+        "nl": "Onze chalets"
+      },
+      {
+        "key": "restaurant_text_003",
+        "label": "Sommer",
+        "de": "Sommer",
+        "en": "Summer",
+        "nl": "Zomer"
+      },
+      {
+        "key": "restaurant_text_004",
+        "label": "Winter",
+        "de": "Winter",
+        "en": "Winter",
+        "nl": "Winter"
+      },
+      {
+        "key": "restaurant_text_005",
+        "label": "Komfort",
+        "de": "Komfort",
+        "en": "Comfort",
+        "nl": "Comfort"
+      },
+      {
+        "key": "restaurant_text_006",
+        "label": "Restaurant",
+        "de": "Restaurant",
+        "en": "Restaurant",
+        "nl": "Restaurant"
+      },
+      {
+        "key": "restaurant_text_007",
+        "label": "Galerie",
+        "de": "Galerie",
+        "en": "Gallery",
+        "nl": "Galerij"
+      },
+      {
+        "key": "restaurant_text_008",
+        "label": "Lage Anfahrt",
+        "de": "Lage &amp; Anfahrt",
+        "en": "Location &amp; Directions",
+        "nl": "Ligging &amp; Route"
+      },
+      {
+        "key": "restaurant_text_009",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "restaurant_text_010",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "restaurant_text_011",
+        "label": "Kontakt",
+        "de": "Kontakt",
+        "en": "Contact",
+        "nl": "Contact"
+      },
+      {
+        "key": "restaurant_text_012",
+        "label": "Flachauer Gutshof",
+        "de": "Flachauer Gutshof",
+        "en": "Flachauer Gutshof",
+        "nl": "Flachauer Gutshof"
+      },
+      {
+        "key": "restaurant_text_013",
+        "label": "Nur wenige Schritte entfernt",
+        "de": "Nur wenige Schritte entfernt",
+        "en": "Only a few steps away",
+        "nl": "Op slechts een paar stappen"
+      },
+      {
+        "key": "restaurant_text_014",
+        "label": "Restaurant, Bar und Live-Musik liegen direkt beim Chaletdorf.",
+        "de": "Restaurant, Bar und Live-Musik liegen direkt beim Chaletdorf.",
+        "en": "Restaurant, bar and live music are located right by the chalet village.",
+        "nl": "Restaurant, bar en livemuziek liggen direct bij het chaletpark."
+      },
+      {
+        "key": "restaurant_text_015",
+        "label": "Gemeinsam essen und den Abend genießen",
+        "de": "Gemeinsam essen und den Abend genießen",
+        "en": "Dine together and enjoy the evening",
+        "nl": "Samen eten en van de avond genieten"
+      },
+      {
+        "key": "restaurant_text_016",
+        "label": "Der Flachauer Gutshof ist auf dem Lageplan direkt neben den Alpenchalets eingezeichnet. Ad",
+        "de": "Der Flachauer Gutshof ist auf dem Lageplan direkt neben den Alpenchalets eingezeichnet. Adresse Restaurant: Pichlgasse 15, 5542 Flachau. Für aktuelle Öffnungszeiten, Veranstaltungen und Reservierungen wenden Sie sich bitte direkt an den Betrieb.",
+        "en": "Flachauer Gutshof is shown on the site map right next to the Alpenchalets. Restaurant address: Pichlgasse 15, 5542 Flachau. For current opening times, events and reservations, please contact the venue directly.",
+        "nl": "Flachauer Gutshof staat op de plattegrond direct naast de Alpenchalets. Adres restaurant: Pichlgasse 15, 5542 Flachau. Neem voor actuele openingstijden, evenementen en reserveringen rechtstreeks contact op met het bedrijf."
+      },
+      {
+        "key": "restaurant_text_017",
+        "label": "Website des Restaurants ffnen",
+        "de": "Website des Restaurants &ouml;ffnen &#8599;",
+        "en": "Open restaurant website &#8599;",
+        "nl": "Restaurantwebsite openen &#8599;"
+      },
+      {
+        "key": "restaurant_text_018",
+        "label": "Familienfreundlich genießen",
+        "de": "Familienfreundlich genießen",
+        "en": "Family-friendly dining",
+        "nl": "Gezinsvriendelijk genieten"
+      },
+      {
+        "key": "restaurant_text_019",
+        "label": "Direkt vor dem Flachauer Gutshof liegt ein großer Spielplatz mit verschiedenen Aktivitäten",
+        "de": "Direkt vor dem Flachauer Gutshof liegt ein großer Spielplatz mit verschiedenen Aktivitäten für Kinder. Von der Restaurantterrasse aus haben Eltern den Spielplatz gut im Blick.",
+        "en": "A large playground with varied activities for children is located directly in front of Flachauer Gutshof. Parents have a good view of the playground from the restaurant terrace.",
+        "nl": "Direct voor de Flachauer Gutshof ligt een grote speeltuin met verschillende activiteiten voor kinderen. Vanaf het restaurantterras hebben ouders goed zicht op de speeltuin."
+      },
+      {
+        "key": "restaurant_text_020",
+        "label": "wohlfühlen | genießen",
+        "de": "wohlfühlen | genießen",
+        "en": "feel good | enjoy",
+        "nl": "ontspannen | genieten"
+      },
+      {
+        "key": "restaurant_text_021",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "restaurant_text_022",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "restaurant_text_023",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "restaurant_text_024",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      }
+    ],
+    "galerie": [
+      {
+        "key": "galerie_text_001",
+        "label": "Home",
+        "de": "Home",
+        "en": "Home",
+        "nl": "Home"
+      },
+      {
+        "key": "galerie_text_002",
+        "label": "Unsere Chalets",
+        "de": "Unsere Chalets",
+        "en": "Our chalets",
+        "nl": "Onze chalets"
+      },
+      {
+        "key": "galerie_text_003",
+        "label": "Sommer",
+        "de": "Sommer",
+        "en": "Summer",
+        "nl": "Zomer"
+      },
+      {
+        "key": "galerie_text_004",
+        "label": "Winter",
+        "de": "Winter",
+        "en": "Winter",
+        "nl": "Winter"
+      },
+      {
+        "key": "galerie_text_005",
+        "label": "Komfort",
+        "de": "Komfort",
+        "en": "Comfort",
+        "nl": "Comfort"
+      },
+      {
+        "key": "galerie_text_006",
+        "label": "Restaurant",
+        "de": "Restaurant",
+        "en": "Restaurant",
+        "nl": "Restaurant"
+      },
+      {
+        "key": "galerie_text_007",
+        "label": "Galerie",
+        "de": "Galerie",
+        "en": "Gallery",
+        "nl": "Galerij"
+      },
+      {
+        "key": "galerie_text_008",
+        "label": "Lage Anfahrt",
+        "de": "Lage &amp; Anfahrt",
+        "en": "Location &amp; Directions",
+        "nl": "Ligging &amp; Route"
+      },
+      {
+        "key": "galerie_text_009",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "galerie_text_010",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "galerie_text_011",
+        "label": "Kontakt",
+        "de": "Kontakt",
+        "en": "Contact",
+        "nl": "Contact"
+      },
+      {
+        "key": "galerie_text_012",
+        "label": "Galerie",
+        "de": "Galerie",
+        "en": "Gallery",
+        "nl": "Galerij"
+      },
+      {
+        "key": "galerie_text_013",
+        "label": "Einblicke in Ihr Urlaubszuhause",
+        "de": "Einblicke in Ihr Urlaubszuhause",
+        "en": "A look inside your holiday home",
+        "nl": "Een kijkje in uw vakantiehuis"
+      },
+      {
+        "key": "galerie_text_014",
+        "label": "Innen. Außen. Sommer. Winter",
+        "de": "Innen. Außen. Sommer. Winter",
+        "en": "Inside. Outside. Summer. Winter",
+        "nl": "Binnen. Buiten. Zomer. Winter"
+      },
+      {
+        "key": "galerie_text_015",
+        "label": "wohlfühlen | genießen",
+        "de": "wohlfühlen | genießen",
+        "en": "feel good | enjoy",
+        "nl": "ontspannen | genieten"
+      },
+      {
+        "key": "galerie_text_016",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "galerie_text_017",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "galerie_text_018",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "galerie_text_019",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      }
+    ],
+    "faq": [
+      {
+        "key": "faq_text_001",
+        "label": "Home",
+        "de": "Home",
+        "en": "Home",
+        "nl": "Home"
+      },
+      {
+        "key": "faq_text_002",
+        "label": "Unsere Chalets",
+        "de": "Unsere Chalets",
+        "en": "Our chalets",
+        "nl": "Onze chalets"
+      },
+      {
+        "key": "faq_text_003",
+        "label": "Sommer",
+        "de": "Sommer",
+        "en": "Summer",
+        "nl": "Zomer"
+      },
+      {
+        "key": "faq_text_004",
+        "label": "Winter",
+        "de": "Winter",
+        "en": "Winter",
+        "nl": "Winter"
+      },
+      {
+        "key": "faq_text_005",
+        "label": "Komfort",
+        "de": "Komfort",
+        "en": "Comfort",
+        "nl": "Comfort"
+      },
+      {
+        "key": "faq_text_006",
+        "label": "Restaurant",
+        "de": "Restaurant",
+        "en": "Restaurant",
+        "nl": "Restaurant"
+      },
+      {
+        "key": "faq_text_007",
+        "label": "Galerie",
+        "de": "Galerie",
+        "en": "Gallery",
+        "nl": "Galerij"
+      },
+      {
+        "key": "faq_text_008",
+        "label": "Lage Anfahrt",
+        "de": "Lage &amp; Anfahrt",
+        "en": "Location &amp; Directions",
+        "nl": "Ligging &amp; Route"
+      },
+      {
+        "key": "faq_text_009",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "faq_text_010",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "faq_text_011",
+        "label": "Kontakt",
+        "de": "Kontakt",
+        "en": "Contact",
+        "nl": "Contact"
+      },
+      {
+        "key": "faq_text_012",
+        "label": "Gut vorbereitet ankommen",
+        "de": "Gut vorbereitet ankommen",
+        "en": "Arrive well prepared",
+        "nl": "Goed voorbereid aankomen"
+      },
+      {
+        "key": "faq_text_013",
+        "label": "Häufige Fragen",
+        "de": "Häufige Fragen",
+        "en": "Frequently asked questions",
+        "nl": "Veelgestelde vragen"
+      },
+      {
+        "key": "faq_text_014",
+        "label": "Wie buche ich einen Winterurlaub",
+        "de": "Wie buche ich einen Winterurlaub",
+        "en": "How do I book a winter stay",
+        "nl": "Hoe boek ik een winterverblijf"
+      },
+      {
+        "key": "faq_text_015",
+        "label": "Winteraufenthalte werden über Sunweb gebucht. Der Buchungsbutton führt direkt zur Angebots",
+        "de": "Winteraufenthalte werden über Sunweb gebucht. Der Buchungsbutton führt direkt zur Angebotsseite.",
+        "en": "Winter stays are booked through Sunweb. The booking button takes you directly to the offer page.",
+        "nl": "Winterverblijven worden via Sunweb geboekt. De boekingsknop leidt rechtstreeks naar de aanbiedingspagina."
+      },
+      {
+        "key": "faq_text_016",
+        "label": "Wie buche ich einen Sommerurlaub",
+        "de": "Wie buche ich einen Sommerurlaub",
+        "en": "How do I book a summer stay",
+        "nl": "Hoe boek ik een zomerverblijf"
+      },
+      {
+        "key": "faq_text_017",
+        "label": "Sommeraufenthalte fragen Sie direkt über unser Anfrageformular an.",
+        "de": "Sommeraufenthalte fragen Sie direkt über unser Anfrageformular an.",
+        "en": "Use our enquiry form to request a summer stay directly.",
+        "nl": "Vraag een zomerverblijf rechtstreeks aan via ons aanvraagformulier."
+      },
+      {
+        "key": "faq_text_018",
+        "label": "Gibt es eine Sauna und einen Kamin",
+        "de": "Gibt es eine Sauna und einen Kamin",
+        "en": "Is there a sauna and fireplace",
+        "nl": "Is er een sauna en open haard"
+      },
+      {
+        "key": "faq_text_019",
+        "label": "Ja. Beide Chalet-Typen verfügen über eine private Sauna und einen Kamin.",
+        "de": "Ja. Beide Chalet-Typen verfügen über eine private Sauna und einen Kamin.",
+        "en": "Yes. Both chalet types have a private sauna and fireplace.",
+        "nl": "Ja. Beide chalettypes hebben een privésauna en open haard."
+      },
+      {
+        "key": "faq_text_020",
+        "label": "Welche Betten haben die 4- und 5-Zimmer-Chalets",
+        "de": "Welche Betten haben die 4- und 5-Zimmer-Chalets",
+        "en": "What beds do the 4- and 5-room chalets have",
+        "nl": "Welke bedden hebben de 4- en 5-kamerchalets"
+      },
+      {
+        "key": "faq_text_021",
+        "label": "Das 4-Zimmer-Chalet bietet in Schlafzimmer 1 ein Doppelbett sowie in Schlafzimmer 2 und 3 ",
+        "de": "Das 4-Zimmer-Chalet bietet in Schlafzimmer 1 ein Doppelbett sowie in Schlafzimmer 2 und 3 jeweils ein Doppelbett und Stockbett. Zusätzlich gibt es ein Schlafsofa für zwei Personen. Im 5-Zimmer-Chalet bietet jedes der vier separaten Schlafzimmer zwei Schlafplätze; zusammen mit dem Schlafsofa für zwei Personen ist Platz für bis zu zehn Gäste.",
+        "en": "In the 4-room chalet, bedroom 1 has a double bed, while bedrooms 2 and 3 each have a double bed and bunk bed. There is also a sofa bed for two. In the 5-room chalet, each of the four separate bedrooms sleeps two; together with the sofa bed for two, it accommodates up to ten guests.",
+        "nl": "In het 4-kamerchalet heeft slaapkamer 1 een tweepersoonsbed en hebben slaapkamers 2 en 3 elk een tweepersoonsbed en stapelbed. Er is ook een slaapbank voor twee. In het 5-kamerchalet biedt elk van de vier aparte slaapkamers twee slaapplaatsen; samen met de slaapbank voor twee is er plaats voor maximaal tien gasten."
+      },
+      {
+        "key": "faq_text_022",
+        "label": "Wie viele Personen können übernachten",
+        "de": "Wie viele Personen können übernachten",
+        "en": "How many guests can stay",
+        "nl": "Hoeveel gasten kunnen verblijven"
+      },
+      {
+        "key": "faq_text_023",
+        "label": "Das 4-Zimmer-Chalet bietet Platz für bis zu 12 Personen, das 5-Zimmer-Chalet für bis zu 10",
+        "de": "Das 4-Zimmer-Chalet bietet Platz für bis zu 12 Personen, das 5-Zimmer-Chalet für bis zu 10 Personen. Zwei gekoppelte 5-Zimmer-Chalets eignen sich für bis zu 20 Personen.",
+        "en": "The 4-room chalet accommodates up to 12 guests and the 5-room chalet up to 10. Two connected 5-room chalets are suitable for up to 20 guests.",
+        "nl": "Het 4-kamerchalet biedt plaats aan maximaal 12 gasten en het 5-kamerchalet aan maximaal 10. Twee gekoppelde 5-kamerchalets zijn geschikt voor maximaal 20 gasten."
+      },
+      {
+        "key": "faq_text_024",
+        "label": "Wann ist Check-in und Check-out",
+        "de": "Wann ist Check-in und Check-out",
+        "en": "When are check-in and check-out",
+        "nl": "Wanneer zijn check-in en check-out"
+      },
+      {
+        "key": "faq_text_025",
+        "label": "Der Check-in ist ab 15:00 Uhr möglich. Der Check-out erfolgt am Abreisetag bis 10:00 Uhr. ",
+        "de": "Der Check-in ist ab 15:00 Uhr möglich. Der Check-out erfolgt am Abreisetag bis 10:00 Uhr. Wenn Sie früher ankommen, können Sie gerne an der Rezeption nachfragen, ob Ihr Chalet bereits bereit ist.",
+        "en": "Check-in is possible from 3:00 PM. Check-out is until 10:00 AM on departure day. If you arrive earlier, you are welcome to ask at reception whether your chalet is already ready.",
+        "nl": "Inchecken kan vanaf 15:00 uur. Uitchecken is op de vertrekdag tot 10:00 uur. Als u eerder aankomt, kunt u bij de receptie vragen of uw chalet al klaar is."
+      },
+      {
+        "key": "faq_text_026",
+        "label": "Was passiert bei einer späten Anreise",
+        "de": "Was passiert bei einer späten Anreise",
+        "en": "What happens if we arrive late",
+        "nl": "Wat gebeurt er als we laat aankomen"
+      },
+      {
+        "key": "faq_text_027",
+        "label": "Unsere Rezeption ist täglich bis 20:00 Uhr besetzt. Wenn Sie später anreisen, bitten wir u",
+        "de": "Unsere Rezeption ist täglich bis 20:00 Uhr besetzt. Wenn Sie später anreisen, bitten wir um eine kurze Information bis spätestens 18:00 Uhr, damit wir die Schlüsselübergabe vorbereiten können. Bei später Anreise kann der Schlüssel im benachbarten Flachauer Gutshof Musistadl hinterlegt werden.",
+        "en": "Reception is staffed daily until 8:00 PM. If you arrive later, please let us know by 6:00 PM so we can prepare the key handover. For late arrivals, the key can be deposited at the neighbouring Flachauer Gutshof Musistadl.",
+        "nl": "De receptie is dagelijks tot 20:00 uur bemand. Als u later aankomt, vragen wij u ons uiterlijk om 18:00 uur te informeren, zodat wij de sleuteloverdracht kunnen voorbereiden. Bij late aankomst kan de sleutel worden achtergelaten bij de naastgelegen Flachauer Gutshof Musistadl."
+      },
+      {
+        "key": "faq_text_028",
+        "label": "Wann kann die Sauna genutzt werden",
+        "de": "Wann kann die Sauna genutzt werden",
+        "en": "When can the sauna be used",
+        "nl": "Wanneer kan de sauna worden gebruikt"
+      },
+      {
+        "key": "faq_text_029",
+        "label": "Die private Sauna im Chalet kann täglich von 10:00 bis 22:00 Uhr genutzt werden.",
+        "de": "Die private Sauna im Chalet kann täglich von 10:00 bis 22:00 Uhr genutzt werden.",
+        "en": "The private sauna in the chalet can be used daily from 10:00 AM to 10:00 PM.",
+        "nl": "De privé sauna in het chalet kan dagelijks van 10:00 tot 22:00 uur worden gebruikt."
+      },
+      {
+        "key": "faq_text_030",
+        "label": "Sind Bettwäsche und Handtücher inkludiert",
+        "de": "Sind Bettwäsche und Handtücher inkludiert",
+        "en": "Are bed linen and towels included",
+        "nl": "Zijn beddengoed en handdoeken inbegrepen"
+      },
+      {
+        "key": "faq_text_031",
+        "label": "Ja. Pro Person sind ein Set Bettwäsche sowie ein Handtuchset mit Duschtuch und Handtuch in",
+        "de": "Ja. Pro Person sind ein Set Bettwäsche sowie ein Handtuchset mit Duschtuch und Handtuch inkludiert. Frische Handtücher können bei Bedarf an der Rezeption ausgeliehen werden.",
+        "en": "Yes. One set of bed linen and one towel set with a bath towel and hand towel per person are included. Fresh towels can be rented at reception if needed.",
+        "nl": "Ja. Per persoon zijn een set beddengoed en een handdoekenset met badhanddoek en handdoek inbegrepen. Verse handdoeken kunnen indien nodig bij de receptie worden gehuurd."
+      },
+      {
+        "key": "faq_text_032",
+        "label": "Gibt es Babybetten und Hochstühle",
+        "de": "Gibt es Babybetten und Hochstühle",
+        "en": "Are baby beds and high chairs available",
+        "nl": "Zijn babybedden en kinderstoelen beschikbaar"
+      },
+      {
+        "key": "faq_text_033",
+        "label": "Ein Babybett stellen wir auf Anfrage gerne kostenlos im Chalet bereit. In jedem Chalet bef",
+        "de": "Ein Babybett stellen wir auf Anfrage gerne kostenlos im Chalet bereit. In jedem Chalet befindet sich außerdem ein Kinderstuhl.",
+        "en": "A baby bed can be provided in the chalet free of charge on request. Each chalet also includes a high chair.",
+        "nl": "Een babybed plaatsen wij op aanvraag graag gratis in het chalet. In elk chalet is ook een kinderstoel aanwezig."
+      },
+      {
+        "key": "faq_text_034",
+        "label": "Sind Haustiere erlaubt",
+        "de": "Sind Haustiere erlaubt",
+        "en": "Are pets allowed",
+        "nl": "Zijn huisdieren toegestaan"
+      },
+      {
+        "key": "faq_text_035",
+        "label": "Haustiere sind willkommen. Die Gebühr beträgt 20 Euro pro Haustier und Nacht.",
+        "de": "Haustiere sind willkommen. Die Gebühr beträgt 20 Euro pro Haustier und Nacht.",
+        "en": "Pets are welcome. The fee is 20 euros per pet per night.",
+        "nl": "Huisdieren zijn welkom. De toeslag bedraagt 20 euro per huisdier per nacht."
+      },
+      {
+        "key": "faq_text_036",
+        "label": "Gibt es eine Waschmaschine oder einen Trockner",
+        "de": "Gibt es eine Waschmaschine oder einen Trockner",
+        "en": "Is there a washing machine or dryer",
+        "nl": "Is er een wasmachine of droger"
+      },
+      {
+        "key": "faq_text_037",
+        "label": "Ja. An unserer Rezeption gibt es eine Wäscheküche mit einer Waschmaschine und einem Trockn",
+        "de": "Ja. An unserer Rezeption gibt es eine Wäscheküche mit einer Waschmaschine und einem Trockner.",
+        "en": "Yes. At reception there is a laundry room with one washing machine and one dryer.",
+        "nl": "Ja. Bij de receptie is er een wasruimte met een wasmachine en een droger."
+      },
+      {
+        "key": "faq_text_038",
+        "label": "Gibt es Parkplätze, Tiefgarage und Ladestationen",
+        "de": "Gibt es Parkplätze, Tiefgarage und Ladestationen",
+        "en": "Is there parking, an underground garage and EV charging",
+        "nl": "Zijn er parkeerplaatsen, een parkeergarage en laadstations"
+      },
+      {
+        "key": "faq_text_039",
+        "label": "In der Chalet-Anlage stehen Parkmöglichkeiten und eine Tiefgarage zur Verfügung. Öffentlic",
+        "de": "In der Chalet-Anlage stehen Parkmöglichkeiten und eine Tiefgarage zur Verfügung. Öffentliche E-Ladestationen befinden sich in Flachau, unter anderem an der Reitdorfer Straße, Wagrainer Straße, Flachauer Straße und Unterberggasse.",
+        "en": "Parking and an underground garage are available in the chalet resort. Public EV charging stations are located in Flachau, including Reitdorfer Strasse, Wagrainer Strasse, Flachauer Strasse and Unterberggasse.",
+        "nl": "In het chaletpark zijn parkeerplaatsen en een ondergrondse garage beschikbaar. Openbare laadstations voor elektrische autos bevinden zich in Flachau, onder andere aan de Reitdorfer Strasse, Wagrainer Strasse, Flachauer Strasse en Unterberggasse."
+      },
+      {
+        "key": "faq_text_040",
+        "label": "Ist die Flachau Sommer Card inkludiert",
+        "de": "Ist die Flachau Sommer Card inkludiert",
+        "en": "Is the Flachau Sommer Card included",
+        "nl": "Is de Flachau Sommer Card inbegrepen"
+      },
+      {
+        "key": "faq_text_041",
+        "label": "Ja. Die Flachau Sommer Card ist im Sommer inkludiert und wird beim Check-in ausgegeben. Da",
+        "de": "Ja. Die Flachau Sommer Card ist im Sommer inkludiert und wird beim Check-in ausgegeben. Damit können Gäste an verschiedenen kostenfreien Aktivitäten teilnehmen.",
+        "en": "Yes. The Flachau Sommer Card is included in summer and is handed out at check-in. It allows guests to take part in various free activities.",
+        "nl": "Ja. De Flachau Sommer Card is in de zomer inbegrepen en wordt bij het inchecken verstrekt. Hiermee kunnen gasten deelnemen aan verschillende gratis activiteiten."
+      },
+      {
+        "key": "faq_text_042",
+        "label": "Kann ich bei früher Anreise schon etwas nutzen",
+        "de": "Kann ich bei früher Anreise schon etwas nutzen",
+        "en": "Can I use anything if I arrive early",
+        "nl": "Kan ik iets gebruiken als ik vroeg aankom"
+      },
+      {
+        "key": "faq_text_043",
+        "label": "Wenn Sie vor 15:00 Uhr ankommen, können Sie gerne an der Rezeption vorbeikommen. Wir prüfe",
+        "de": "Wenn Sie vor 15:00 Uhr ankommen, können Sie gerne an der Rezeption vorbeikommen. Wir prüfen den Status Ihres Chalets und Sie können das Badezimmer sowie den Umkleideraum an der Rezeption nutzen.",
+        "en": "If you arrive before 3:00 PM, you are welcome to come to reception. We will check the status of your chalet, and you may use the bathroom and changing room at reception.",
+        "nl": "Als u voor 15:00 uur aankomt, kunt u gerust langskomen bij de receptie. Wij controleren de status van uw chalet en u kunt de badkamer en kleedruimte bij de receptie gebruiken."
+      },
+      {
+        "key": "faq_text_044",
+        "label": "Kann ich ein bestimmtes Chalet reservieren",
+        "de": "Kann ich ein bestimmtes Chalet reservieren",
+        "en": "Can I reserve a specific chalet",
+        "nl": "Kan ik een specifiek chalet reserveren"
+      },
+      {
+        "key": "faq_text_045",
+        "label": "Ein bestimmtes Chalet kann nicht verbindlich zugesagt werden. Wünsche werden gerne notiert",
+        "de": "Ein bestimmtes Chalet kann nicht verbindlich zugesagt werden. Wünsche werden gerne notiert und nach Möglichkeit berücksichtigt.",
+        "en": "A specific chalet cannot be guaranteed. Preferences are gladly noted and considered whenever possible.",
+        "nl": "Een specifiek chalet kan niet bindend worden gegarandeerd. Voorkeuren worden graag genoteerd en indien mogelijk meegenomen."
+      },
+      {
+        "key": "faq_text_046",
+        "label": "Gibt es einen Grill im Chalet",
+        "de": "Gibt es einen Grill im Chalet",
+        "en": "Is there a barbecue in the chalet",
+        "nl": "Is er een barbecue in het chalet"
+      },
+      {
+        "key": "faq_text_047",
+        "label": "Die Chalets sind nicht mit einem Grill ausgestattet. Sie können gerne einen eigenen Grill ",
+        "de": "Die Chalets sind nicht mit einem Grill ausgestattet. Sie können gerne einen eigenen Grill im Garten verwenden, sofern andere Gäste dadurch nicht gestört werden.",
+        "en": "The chalets are not equipped with a barbecue. You are welcome to use your own barbecue in the garden as long as it does not disturb other guests.",
+        "nl": "De chalets zijn niet uitgerust met een barbecue. U kunt uw eigen barbecue in de tuin gebruiken, zolang andere gasten daar geen hinder van ondervinden."
+      },
+      {
+        "key": "faq_text_048",
+        "label": "Wie nah sind Piste und 8er-Jet",
+        "de": "Wie nah sind Piste und 8er-Jet",
+        "en": "How close are the slope and 8er-Jet",
+        "nl": "Hoe dichtbij zijn de piste en de 8er-Jet"
+      },
+      {
+        "key": "faq_text_049",
+        "label": "Die Alpenchalets liegen direkt an der Skipiste. Die Achterjet-Gondelbahn ist nur wenige Mi",
+        "de": "Die Alpenchalets liegen direkt an der Skipiste. Die Achterjet-Gondelbahn ist nur wenige Minuten vom Chaletdorf entfernt.",
+        "en": "The Alpenchalets are located directly by the ski slope. The Achterjet gondola is only a few minutes from the chalet village.",
+        "nl": "De Alpenchalets liggen direct aan de skipiste. De Achterjet-gondel ligt op slechts een paar minuten van het chaletdorp."
+      },
+      {
+        "key": "faq_text_050",
+        "label": "Gibt es Taxi- oder Transferkontakte",
+        "de": "Gibt es Taxi- oder Transferkontakte",
+        "en": "Are there taxi or transfer contacts",
+        "nl": "Zijn er taxi- of transfercontacten"
+      },
+      {
+        "key": "faq_text_051",
+        "label": "Für Transfers können Gäste unter anderem Taxi Reiter unter +43 6457 2900 oder Taxi 3000 un",
+        "de": "Für Transfers können Gäste unter anderem Taxi Reiter unter +43 6457 2900 oder Taxi 3000 unter +43 6457 3000 kontaktieren.",
+        "en": "For transfers, guests can contact Taxi Reiter at +43 6457 2900 or Taxi 3000 at +43 6457 3000.",
+        "nl": "Voor transfers kunnen gasten onder andere Taxi Reiter bereiken via +43 6457 2900 of Taxi 3000 via +43 6457 3000."
+      },
+      {
+        "key": "faq_text_052",
+        "label": "Welche Notrufnummern gelten in Österreich",
+        "de": "Welche Notrufnummern gelten in Österreich",
+        "en": "Which emergency numbers apply in Austria",
+        "nl": "Welke noodnummers gelden in Oostenrijk"
+      },
+      {
+        "key": "faq_text_053",
+        "label": "In Österreich gelten unter anderem 144 für Rettung, 122 für Feuerwehr, 133 für Polizei, 14",
+        "de": "In Österreich gelten unter anderem 144 für Rettung, 122 für Feuerwehr, 133 für Polizei, 141 für Ärztenotdienst und 112 als Euronotruf.",
+        "en": "In Austria, key emergency numbers include 144 for ambulance, 122 for fire brigade, 133 for police, 141 for out-of-hours medical service and 112 as the European emergency number.",
+        "nl": "In Oostenrijk gelden onder andere 144 voor ambulance, 122 voor brandweer, 133 voor politie, 141 voor medische wachtdienst en 112 als Europees noodnummer."
+      },
+      {
+        "key": "faq_text_054",
+        "label": "wohlfühlen | genießen",
+        "de": "wohlfühlen | genießen",
+        "en": "feel good | enjoy",
+        "nl": "ontspannen | genieten"
+      },
+      {
+        "key": "faq_text_055",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "faq_text_056",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "faq_text_057",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "faq_text_058",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      }
+    ],
+    "urlaubsanfrage": [
+      {
+        "key": "urlaubsanfrage_text_001",
+        "label": "Home",
+        "de": "Home",
+        "en": "Home",
+        "nl": "Home"
+      },
+      {
+        "key": "urlaubsanfrage_text_002",
+        "label": "Unsere Chalets",
+        "de": "Unsere Chalets",
+        "en": "Our chalets",
+        "nl": "Onze chalets"
+      },
+      {
+        "key": "urlaubsanfrage_text_003",
+        "label": "Sommer",
+        "de": "Sommer",
+        "en": "Summer",
+        "nl": "Zomer"
+      },
+      {
+        "key": "urlaubsanfrage_text_004",
+        "label": "Winter",
+        "de": "Winter",
+        "en": "Winter",
+        "nl": "Winter"
+      },
+      {
+        "key": "urlaubsanfrage_text_005",
+        "label": "Komfort",
+        "de": "Komfort",
+        "en": "Comfort",
+        "nl": "Comfort"
+      },
+      {
+        "key": "urlaubsanfrage_text_006",
+        "label": "Restaurant",
+        "de": "Restaurant",
+        "en": "Restaurant",
+        "nl": "Restaurant"
+      },
+      {
+        "key": "urlaubsanfrage_text_007",
+        "label": "Galerie",
+        "de": "Galerie",
+        "en": "Gallery",
+        "nl": "Galerij"
+      },
+      {
+        "key": "urlaubsanfrage_text_008",
+        "label": "Lage Anfahrt",
+        "de": "Lage &amp; Anfahrt",
+        "en": "Location &amp; Directions",
+        "nl": "Ligging &amp; Route"
+      },
+      {
+        "key": "urlaubsanfrage_text_009",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "urlaubsanfrage_text_010",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "urlaubsanfrage_text_011",
+        "label": "Kontakt",
+        "de": "Kontakt",
+        "en": "Contact",
+        "nl": "Contact"
+      },
+      {
+        "key": "urlaubsanfrage_text_012",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "urlaubsanfrage_text_013",
+        "label": "Ihr Chalet in Flachau anfragen",
+        "de": "Ihr Chalet in Flachau anfragen",
+        "en": "Enquire about your chalet in Flachau",
+        "nl": "Vraag uw chalet in Flachau aan"
+      },
+      {
+        "key": "urlaubsanfrage_text_014",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "urlaubsanfrage_text_015",
+        "label": "Wählen Sie Chalettyp, Reisedaten und Personenzahl. Wir melden uns mit den passenden Inform",
+        "de": "Wählen Sie Chalettyp, Reisedaten und Personenzahl. Wir melden uns mit den passenden Informationen zu Ihrem Sommeraufenthalt.",
+        "en": "Select the chalet type, travel dates and number of guests. We will reply with the relevant information for your summer stay.",
+        "nl": "Kies het chalettype, de reisdata en het aantal gasten. Wij nemen contact met u op met passende informatie voor uw zomerverblijf."
+      },
+      {
+        "key": "urlaubsanfrage_text_016",
+        "label": "Vor- und Nachname",
+        "de": "Vor- und Nachname",
+        "en": "First and last name",
+        "nl": "Voor- en achternaam"
+      },
+      {
+        "key": "urlaubsanfrage_text_017",
+        "label": "E-Mail",
+        "de": "E-Mail",
+        "en": "Email",
+        "nl": "E-mail"
+      },
+      {
+        "key": "urlaubsanfrage_text_018",
+        "label": "Telefon",
+        "de": "Telefon",
+        "en": "Phone",
+        "nl": "Telefoon"
+      },
+      {
+        "key": "urlaubsanfrage_text_019",
+        "label": "Saison",
+        "de": "Saison",
+        "en": "Season",
+        "nl": "Seizoen"
+      },
+      {
+        "key": "urlaubsanfrage_text_020",
+        "label": "Sommer",
+        "de": "Sommer",
+        "en": "Summer",
+        "nl": "Zomer"
+      },
+      {
+        "key": "urlaubsanfrage_text_021",
+        "label": "Winter",
+        "de": "Winter",
+        "en": "Winter",
+        "nl": "Winter"
+      },
+      {
+        "key": "urlaubsanfrage_text_022",
+        "label": "Chalettyp",
+        "de": "Chalettyp",
+        "en": "Chalet type",
+        "nl": "Chalettype"
+      },
+      {
+        "key": "urlaubsanfrage_text_023",
+        "label": "Bitte wählen",
+        "de": "Bitte wählen",
+        "en": "Please select",
+        "nl": "Maak een keuze"
+      },
+      {
+        "key": "urlaubsanfrage_text_024",
+        "label": "4-Zimmer-Chalet",
+        "de": "4-Zimmer-Chalet",
+        "en": "4-room chalet",
+        "nl": "Chalet met 4 kamers"
+      },
+      {
+        "key": "urlaubsanfrage_text_025",
+        "label": "5-Zimmer-Chalet",
+        "de": "5-Zimmer-Chalet",
+        "en": "5-room chalet",
+        "nl": "Chalet met 5 kamers"
+      },
+      {
+        "key": "urlaubsanfrage_text_026",
+        "label": "Aufenthalt / Zeitraum",
+        "de": "Aufenthalt / Zeitraum",
+        "en": "Stay / dates",
+        "nl": "Verblijf / periode"
+      },
+      {
+        "key": "urlaubsanfrage_text_027",
+        "label": "Anreise",
+        "de": "Anreise",
+        "en": "Arrival",
+        "nl": "Aankomst"
+      },
+      {
+        "key": "urlaubsanfrage_text_028",
+        "label": "Abreise",
+        "de": "Abreise",
+        "en": "Departure",
+        "nl": "Vertrek"
+      },
+      {
+        "key": "urlaubsanfrage_text_029",
+        "label": "Anzahl Personen",
+        "de": "Anzahl Personen",
+        "en": "Number of guests",
+        "nl": "Aantal gasten"
+      },
+      {
+        "key": "urlaubsanfrage_text_030",
+        "label": "Nachricht",
+        "de": "Nachricht",
+        "en": "Message",
+        "nl": "Bericht"
+      },
+      {
+        "key": "urlaubsanfrage_text_031",
+        "label": "Anfrage senden",
+        "de": "Anfrage senden &rarr;",
+        "en": "Send enquiry &rarr;",
+        "nl": "Aanvraag verzenden &rarr;"
+      },
+      {
+        "key": "urlaubsanfrage_text_032",
+        "label": "wohlfühlen | genießen",
+        "de": "wohlfühlen | genießen",
+        "en": "feel good | enjoy",
+        "nl": "ontspannen | genieten"
+      },
+      {
+        "key": "urlaubsanfrage_text_033",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "urlaubsanfrage_text_034",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "urlaubsanfrage_text_035",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "urlaubsanfrage_text_036",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      }
+    ],
+    "kontakt": [
+      {
+        "key": "kontakt_text_001",
+        "label": "Home",
+        "de": "Home",
+        "en": "Home",
+        "nl": "Home"
+      },
+      {
+        "key": "kontakt_text_002",
+        "label": "Unsere Chalets",
+        "de": "Unsere Chalets",
+        "en": "Our chalets",
+        "nl": "Onze chalets"
+      },
+      {
+        "key": "kontakt_text_003",
+        "label": "Sommer",
+        "de": "Sommer",
+        "en": "Summer",
+        "nl": "Zomer"
+      },
+      {
+        "key": "kontakt_text_004",
+        "label": "Winter",
+        "de": "Winter",
+        "en": "Winter",
+        "nl": "Winter"
+      },
+      {
+        "key": "kontakt_text_005",
+        "label": "Komfort",
+        "de": "Komfort",
+        "en": "Comfort",
+        "nl": "Comfort"
+      },
+      {
+        "key": "kontakt_text_006",
+        "label": "Restaurant",
+        "de": "Restaurant",
+        "en": "Restaurant",
+        "nl": "Restaurant"
+      },
+      {
+        "key": "kontakt_text_007",
+        "label": "Galerie",
+        "de": "Galerie",
+        "en": "Gallery",
+        "nl": "Galerij"
+      },
+      {
+        "key": "kontakt_text_008",
+        "label": "Lage Anfahrt",
+        "de": "Lage &amp; Anfahrt",
+        "en": "Location &amp; Directions",
+        "nl": "Ligging &amp; Route"
+      },
+      {
+        "key": "kontakt_text_009",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "kontakt_text_010",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "kontakt_text_011",
+        "label": "Kontakt",
+        "de": "Kontakt",
+        "en": "Contact",
+        "nl": "Contact"
+      },
+      {
+        "key": "kontakt_text_012",
+        "label": "Kontakt",
+        "de": "Kontakt",
+        "en": "Contact",
+        "nl": "Contact"
+      },
+      {
+        "key": "kontakt_text_013",
+        "label": "Wir freuen uns auf Ihre Anfrage",
+        "de": "Wir freuen uns auf Ihre Anfrage",
+        "en": "We look forward to hearing from you",
+        "nl": "We horen graag van u"
+      },
+      {
+        "key": "kontakt_text_014",
+        "label": "Direkt erreichbar",
+        "de": "Direkt erreichbar",
+        "en": "Contact us directly",
+        "nl": "Direct bereikbaar"
+      },
+      {
+        "key": "kontakt_text_015",
+        "label": "Rezeption: täglich 08:00-12:00 und 15:00-20:00 Uhr. Bei Anreise nach 20:00 Uhr bitte bis s",
+        "de": "Rezeption: täglich 08:00-12:00 und 15:00-20:00 Uhr. Bei Anreise nach 20:00 Uhr bitte bis spätestens 18:00 Uhr Bescheid geben.",
+        "en": "Reception: daily 08:00-12:00 and 15:00-20:00. For arrival after 20:00, please let us know by 18:00 at the latest.",
+        "nl": "Receptie: dagelijks 08:00-12:00 en 15:00-20:00. Bij aankomst na 20:00 graag uiterlijk om 18:00 informeren."
+      },
+      {
+        "key": "kontakt_text_016",
+        "label": "Winterbuchungen erfolgen über Sunweb. Sommeranfragen senden Sie direkt über unser Anfragef",
+        "de": "Winterbuchungen erfolgen über Sunweb. Sommeranfragen senden Sie direkt über unser Anfrageformular.",
+        "en": "Winter bookings are made through Sunweb. Send summer enquiries directly through our enquiry form.",
+        "nl": "Winterboekingen verlopen via Sunweb. Stuur zomeraanvragen rechtstreeks via ons aanvraagformulier."
+      },
+      {
+        "key": "kontakt_text_017",
+        "label": "Zur Urlaubsanfrage",
+        "de": "Zur Urlaubsanfrage &rarr;",
+        "en": "Open holiday enquiry &rarr;",
+        "nl": "Open vakantieaanvraag &rarr;"
+      },
+      {
+        "key": "kontakt_text_018",
+        "label": "wohlfühlen | genießen",
+        "de": "wohlfühlen | genießen",
+        "en": "feel good | enjoy",
+        "nl": "ontspannen | genieten"
+      },
+      {
+        "key": "kontakt_text_019",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "kontakt_text_020",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "kontakt_text_021",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "kontakt_text_022",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      }
+    ],
+    "lage": [
+      {
+        "key": "lage_text_001",
+        "label": "Home",
+        "de": "Home",
+        "en": "Home",
+        "nl": "Home"
+      },
+      {
+        "key": "lage_text_002",
+        "label": "Unsere Chalets",
+        "de": "Unsere Chalets",
+        "en": "Our chalets",
+        "nl": "Onze chalets"
+      },
+      {
+        "key": "lage_text_003",
+        "label": "Sommer",
+        "de": "Sommer",
+        "en": "Summer",
+        "nl": "Zomer"
+      },
+      {
+        "key": "lage_text_004",
+        "label": "Winter",
+        "de": "Winter",
+        "en": "Winter",
+        "nl": "Winter"
+      },
+      {
+        "key": "lage_text_005",
+        "label": "Komfort",
+        "de": "Komfort",
+        "en": "Comfort",
+        "nl": "Comfort"
+      },
+      {
+        "key": "lage_text_006",
+        "label": "Restaurant",
+        "de": "Restaurant",
+        "en": "Restaurant",
+        "nl": "Restaurant"
+      },
+      {
+        "key": "lage_text_007",
+        "label": "Galerie",
+        "de": "Galerie",
+        "en": "Gallery",
+        "nl": "Galerij"
+      },
+      {
+        "key": "lage_text_008",
+        "label": "Lage Anfahrt",
+        "de": "Lage &amp; Anfahrt",
+        "en": "Location &amp; Directions",
+        "nl": "Ligging &amp; Route"
+      },
+      {
+        "key": "lage_text_009",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "lage_text_010",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "lage_text_011",
+        "label": "Kontakt",
+        "de": "Kontakt",
+        "en": "Contact",
+        "nl": "Contact"
+      },
+      {
+        "key": "lage_text_012",
+        "label": "Lage",
+        "de": "Lage",
+        "en": "Location",
+        "nl": "Ligging"
+      },
+      {
+        "key": "lage_text_013",
+        "label": "Mitten in Flachau",
+        "de": "Mitten in Flachau",
+        "en": "In the heart of Flachau",
+        "nl": "Midden in Flachau"
+      },
+      {
+        "key": "lage_text_014",
+        "label": "Chalets, Rezeption, Parkflächen und wichtige Wege auf einen Blick.",
+        "de": "Chalets, Rezeption, Parkflächen und wichtige Wege auf einen Blick.",
+        "en": "Chalets, reception, parking and key routes at a glance.",
+        "nl": "Chalets, receptie, parkeerplaatsen en belangrijke routes in één oogopslag."
+      },
+      {
+        "key": "lage_text_015",
+        "label": "Alles übersichtlich",
+        "de": "Alles übersichtlich",
+        "en": "Everything clearly laid out",
+        "nl": "Alles overzichtelijk"
+      },
+      {
+        "key": "lage_text_016",
+        "label": "Der Lageplan zeigt die 4- und 5-Zimmer-Chalets, Parkflächen, Rezeption, Tiefgarage, Kinder",
+        "de": "Der Lageplan zeigt die 4- und 5-Zimmer-Chalets, Parkflächen, Rezeption, Tiefgarage, Kinderspielplatz, Streichelzoo, Langlaufloipe sowie den Gehweg zum 8er-Jet und zum Flachauer Gutshof.",
+        "en": "The site map shows the 4- and 5-room chalets, parking, reception, underground parking, playground, petting zoo, cross-country trail and walking routes to the 8er-Jet and Flachauer Gutshof.",
+        "nl": "De plattegrond toont de 4- en 5-kamerchalets, parkeerplaatsen, receptie, parkeergarage, speeltuin, kinderboerderij, langlaufloipe en wandelroutes naar de 8er-Jet en Flachauer Gutshof."
+      },
+      {
+        "key": "lage_text_017",
+        "label": "Anfahrt",
+        "de": "Anfahrt",
+        "en": "Directions",
+        "nl": "Route"
+      },
+      {
+        "key": "lage_text_018",
+        "label": "So erreichen Sie die Alpenchalets",
+        "de": "So erreichen Sie die Alpenchalets",
+        "en": "How to reach the Alpenchalets",
+        "nl": "Zo bereikt u de Alpenchalets"
+      },
+      {
+        "key": "lage_text_019",
+        "label": "Ihre Zieladresse für die Navigation",
+        "de": "Ihre Zieladresse für die Navigation",
+        "en": "Your final navigation destination",
+        "nl": "Uw eindbestemming voor navigatie"
+      },
+      {
+        "key": "lage_text_020",
+        "label": "Route öffnen ↗",
+        "de": "Route öffnen ↗",
+        "en": "Open directions ↗",
+        "nl": "Route openen ↗"
+      },
+      {
+        "key": "lage_text_021",
+        "label": "Anreise mit dem Auto",
+        "de": "Anreise mit dem Auto",
+        "en": "Arriving by car",
+        "nl": "Aankomst met de auto"
+      },
+      {
+        "key": "lage_text_022",
+        "label": "Flachau liegt direkt an der Tauernautobahn A10. Verlassen Sie die Autobahn bei der Ausfahr",
+        "de": "Flachau liegt direkt an der Tauernautobahn A10. Verlassen Sie die Autobahn bei der Ausfahrt 66 Flachau und folgen Sie anschließend der Beschilderung in Richtung Flachau beziehungsweise Grießenkarweg. Aus Richtung Salzburg sind es ungefähr 70 Kilometer, aus Richtung Villach rund 100 Kilometer. Bitte geben Sie im Navigationsgerät als endgültiges Ziel immer Grießenkarweg 417 ein. Beachten Sie die geltenden Vignetten- und Mautbestimmungen auf österreichischen Autobahnen.",
+        "en": "Flachau is located directly on the A10 Tauern motorway. Leave the motorway at exit 66 Flachau, then follow the signs towards Flachau and Grießenkarweg. The distance is approximately 70 kilometres from Salzburg and around 100 kilometres from Villach. Always enter Grießenkarweg 417 as the final destination in your navigation system. Please observe the applicable vignette and toll requirements on Austrian motorways.",
+        "nl": "Flachau ligt direct aan de Tauernautobahn A10. Neem afrit 66 Flachau en volg daarna de borden richting Flachau en Grießenkarweg. Vanaf Salzburg is het ongeveer 70 kilometer en vanaf Villach ongeveer 100 kilometer. Voer in uw navigatiesysteem altijd Grießenkarweg 417 als eindbestemming in. Houd rekening met de geldende vignet- en tolregels op Oostenrijkse snelwegen."
+      },
+      {
+        "key": "lage_text_023",
+        "label": "Anreise mit der Bahn",
+        "de": "Anreise mit der Bahn",
+        "en": "Arriving by train",
+        "nl": "Aankomst met de trein"
+      },
+      {
+        "key": "lage_text_024",
+        "label": "Für die Anreise mit der Bahn eignen sich insbesondere die Bahnhöfe Altenmarkt im Pongau un",
+        "de": "Für die Anreise mit der Bahn eignen sich insbesondere die Bahnhöfe Altenmarkt im Pongau und Radstadt. Von dort erreichen Sie Flachau mit einem Regionalbus oder Taxi. Prüfen Sie die passende Verbindung und den letzten Abschnitt bis Grießenkarweg 417 bitte vor Reisebeginn im aktuellen Fahrplan.",
+        "en": "Altenmarkt im Pongau and Radstadt are the most convenient railway stations for travelling to the chalets. From either station, continue to Flachau by regional bus or taxi. Please check the current timetable and the final connection to Grießenkarweg 417 before travelling.",
+        "nl": "De stations Altenmarkt im Pongau en Radstadt zijn het meest geschikt voor uw reis naar de chalets. Vanaf beide stations reist u verder naar Flachau met de regionale bus of taxi. Controleer vóór vertrek de actuele dienstregeling en de laatste verbinding naar Grießenkarweg 417."
+      },
+      {
+        "key": "lage_text_025",
+        "label": "Anreise mit dem Flugzeug",
+        "de": "Anreise mit dem Flugzeug",
+        "en": "Arriving by plane",
+        "nl": "Aankomst met het vliegtuig"
+      },
+      {
+        "key": "lage_text_026",
+        "label": "Der nächstgelegene Flughafen ist Salzburg Airport W. A. Mozart, etwa 70 Kilometer von Flac",
+        "de": "Der nächstgelegene Flughafen ist Salzburg Airport W. A. Mozart, etwa 70 Kilometer von Flachau entfernt. Für die Weiterfahrt stehen Mietwagen, Taxi- und Shuttleangebote zur Verfügung. Sammeltransfers sollten Sie vor der Anreise reservieren und dabei als Zieladresse Grießenkarweg 417, 5542 Flachau angeben.",
+        "en": "The nearest airport is Salzburg Airport W. A. Mozart, approximately 70 kilometres from Flachau. Rental cars, taxis and shuttle services are available for the onward journey. Shared transfers should be booked in advance using Grießenkarweg 417, 5542 Flachau as the destination address.",
+        "nl": "De dichtstbijzijnde luchthaven is Salzburg Airport W. A. Mozart, op ongeveer 70 kilometer van Flachau. Voor de verdere reis zijn huurauto's, taxi's en shuttlediensten beschikbaar. Reserveer gedeelde transfers vooraf en vermeld Grießenkarweg 417, 5542 Flachau als bestemmingsadres."
+      },
+      {
+        "key": "lage_text_027",
+        "label": "Mit dem Laden der Karte stimmen Sie zu, dass Daten an Google übertragen werden. Weitere In",
+        "de": "Mit dem Laden der Karte stimmen Sie zu, dass Daten an Google übertragen werden. Weitere Informationen finden Sie in unserer Datenschutzerklärung.",
+        "en": "By loading the map, you agree that data will be transmitted to Google. More information is available in our privacy policy.",
+        "nl": "Door de kaart te laden, stemt u ermee in dat gegevens aan Google worden doorgegeven. Meer informatie vindt u in ons privacybeleid."
+      },
+      {
+        "key": "lage_text_028",
+        "label": "Google Maps laden",
+        "de": "Google Maps laden",
+        "en": "Load Google Maps",
+        "nl": "Google Maps laden"
+      },
+      {
+        "key": "lage_text_029",
+        "label": "Parken & Tiefgarage",
+        "de": "Parken & Tiefgarage",
+        "en": "Parking & underground garage",
+        "nl": "Parkeren & ondergrondse garage"
+      },
+      {
+        "key": "lage_text_030",
+        "label": "In der Chalet-Anlage stehen Parkmöglichkeiten sowie eine Tiefgarage zur Verfügung. Die Rez",
+        "de": "In der Chalet-Anlage stehen Parkmöglichkeiten sowie eine Tiefgarage zur Verfügung. Die Rezeption befindet sich am Grießenkarweg 417.",
+        "en": "Parking spaces and an underground garage are available in the chalet resort. Reception is located at Grießenkarweg 417.",
+        "nl": "In het chaletpark zijn parkeerplaatsen en een ondergrondse garage beschikbaar. De receptie bevindt zich aan Grießenkarweg 417."
+      },
+      {
+        "key": "lage_text_031",
+        "label": "E-Ladestationen in Flachau",
+        "de": "E-Ladestationen in Flachau",
+        "en": "EV charging in Flachau",
+        "nl": "Laadstations in Flachau"
+      },
+      {
+        "key": "lage_text_032",
+        "label": "Öffentliche Ladestationen befinden sich unter anderem an der Reitdorfer Straße 319, Wagrai",
+        "de": "Öffentliche Ladestationen befinden sich unter anderem an der Reitdorfer Straße 319, Wagrainer Straße 373, Flachauer Straße 353, Unterberggasse 172 und Flachauer Straße 13.",
+        "en": "Public charging stations are located at Reitdorfer Strasse 319, Wagrainer Strasse 373, Flachauer Strasse 353, Unterberggasse 172 and Flachauer Strasse 13.",
+        "nl": "Openbare laadstations bevinden zich onder andere aan Reitdorfer Strasse 319, Wagrainer Strasse 373, Flachauer Strasse 353, Unterberggasse 172 en Flachauer Strasse 13."
+      },
+      {
+        "key": "lage_text_033",
+        "label": "wohlfühlen | genießen",
+        "de": "wohlfühlen | genießen",
+        "en": "feel good | enjoy",
+        "nl": "ontspannen | genieten"
+      },
+      {
+        "key": "lage_text_034",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "lage_text_035",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "lage_text_036",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "lage_text_037",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      }
+    ],
+    "impressum": [
+      {
+        "key": "impressum_text_001",
+        "label": "Home",
+        "de": "Home",
+        "en": "Home",
+        "nl": "Home"
+      },
+      {
+        "key": "impressum_text_002",
+        "label": "Unsere Chalets",
+        "de": "Unsere Chalets",
+        "en": "Our chalets",
+        "nl": "Onze chalets"
+      },
+      {
+        "key": "impressum_text_003",
+        "label": "Sommer",
+        "de": "Sommer",
+        "en": "Summer",
+        "nl": "Zomer"
+      },
+      {
+        "key": "impressum_text_004",
+        "label": "Winter",
+        "de": "Winter",
+        "en": "Winter",
+        "nl": "Winter"
+      },
+      {
+        "key": "impressum_text_005",
+        "label": "Komfort",
+        "de": "Komfort",
+        "en": "Comfort",
+        "nl": "Comfort"
+      },
+      {
+        "key": "impressum_text_006",
+        "label": "Restaurant",
+        "de": "Restaurant",
+        "en": "Restaurant",
+        "nl": "Restaurant"
+      },
+      {
+        "key": "impressum_text_007",
+        "label": "Galerie",
+        "de": "Galerie",
+        "en": "Gallery",
+        "nl": "Galerij"
+      },
+      {
+        "key": "impressum_text_008",
+        "label": "Lage Anfahrt",
+        "de": "Lage &amp; Anfahrt",
+        "en": "Location &amp; Directions",
+        "nl": "Ligging &amp; Route"
+      },
+      {
+        "key": "impressum_text_009",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "impressum_text_010",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "impressum_text_011",
+        "label": "Kontakt",
+        "de": "Kontakt",
+        "en": "Contact",
+        "nl": "Contact"
+      },
+      {
+        "key": "impressum_text_012",
+        "label": "Rechtliches",
+        "de": "Rechtliches",
+        "en": "Legal",
+        "nl": "Juridisch"
+      },
+      {
+        "key": "impressum_text_013",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "impressum_text_014",
+        "label": "Medieninhaber, Diensteanbieter und verantwortlich für den Inhalt",
+        "de": "Medieninhaber, Diensteanbieter und verantwortlich für den Inhalt",
+        "en": "Media owner, service provider and responsible for content",
+        "nl": "Media-eigenaar, dienstverlener en verantwoordelijk voor de inhoud"
+      },
+      {
+        "key": "impressum_text_015",
+        "label": "Telefon",
+        "de": "Telefon",
+        "en": "Phone",
+        "nl": "Telefoon"
+      },
+      {
+        "key": "impressum_text_016",
+        "label": "E-Mail",
+        "de": "E-Mail",
+        "en": "Email",
+        "nl": "E-mail"
+      },
+      {
+        "key": "impressum_text_017",
+        "label": "Unternehmensangaben",
+        "de": "Unternehmensangaben",
+        "en": "Company information",
+        "nl": "Bedrijfsgegevens"
+      },
+      {
+        "key": "impressum_text_018",
+        "label": "Geschäftsführer",
+        "de": "Geschäftsführer",
+        "en": "Managing director",
+        "nl": "Directeur"
+      },
+      {
+        "key": "impressum_text_019",
+        "label": "Firmenbuchnummer",
+        "de": "Firmenbuchnummer",
+        "en": "Company register number",
+        "nl": "Handelsregisternummer"
+      },
+      {
+        "key": "impressum_text_020",
+        "label": "Firmenbuchgericht",
+        "de": "Firmenbuchgericht",
+        "en": "Register court",
+        "nl": "Rechtbank van registratie"
+      },
+      {
+        "key": "impressum_text_021",
+        "label": "UID-Nummer",
+        "de": "UID-Nummer",
+        "en": "VAT identification number",
+        "nl": "Btw-identificatienummer"
+      },
+      {
+        "key": "impressum_text_022",
+        "label": "Sitz",
+        "de": "Sitz",
+        "en": "Registered office",
+        "nl": "Statutaire zetel"
+      },
+      {
+        "key": "impressum_text_023",
+        "label": "Mitgliedschaft",
+        "de": "Mitgliedschaft",
+        "en": "Membership",
+        "nl": "Lidmaatschap"
+      },
+      {
+        "key": "impressum_text_024",
+        "label": "Fachgruppe",
+        "de": "Fachgruppe",
+        "en": "Professional group",
+        "nl": "Vakgroep"
+      },
+      {
+        "key": "impressum_text_025",
+        "label": "Gewerbebehörde",
+        "de": "Gewerbebehörde",
+        "en": "Trade authority",
+        "nl": "Bevoegde handelsautoriteit"
+      },
+      {
+        "key": "impressum_text_026",
+        "label": "GISA-Zahl",
+        "de": "GISA-Zahl",
+        "en": "GISA number",
+        "nl": "GISA-nummer"
+      },
+      {
+        "key": "impressum_text_027",
+        "label": "Anwendbare gewerberechtliche Vorschriften: Gewerbeordnung 1994 (GewO), abrufbar über das R",
+        "de": "Anwendbare gewerberechtliche Vorschriften: Gewerbeordnung 1994 (GewO), abrufbar über das Rechtsinformationssystem des Bundes.",
+        "en": "Applicable trade regulations: Austrian Trade Regulation Act 1994 (GewO), available through the Federal Legal Information System.",
+        "nl": "Toepasselijke beroepsrechtelijke voorschriften: Oostenrijkse Gewerbeordnung 1994 (GewO), beschikbaar via het federale rechtsinformatiesysteem."
+      },
+      {
+        "key": "impressum_text_028",
+        "label": "Betriebsstätte und Kontakt der Alpenchalets",
+        "de": "Betriebsstätte und Kontakt der Alpenchalets",
+        "en": "Alpenchalets location and contact",
+        "nl": "Locatie en contact van de Alpenchalets"
+      },
+      {
+        "key": "impressum_text_029",
+        "label": "Telefon",
+        "de": "Telefon",
+        "en": "Phone",
+        "nl": "Telefoon"
+      },
+      {
+        "key": "impressum_text_030",
+        "label": "E-Mail",
+        "de": "E-Mail",
+        "en": "Email",
+        "nl": "E-mail"
+      },
+      {
+        "key": "impressum_text_031",
+        "label": "Unternehmensgegenstand und grundlegende Richtung",
+        "de": "Unternehmensgegenstand und grundlegende Richtung",
+        "en": "Business purpose and editorial purpose",
+        "nl": "Bedrijfsdoel en redactionele doelstelling"
+      },
+      {
+        "key": "impressum_text_032",
+        "label": "Unternehmensgegenstand ist insbesondere das Gastgewerbe mit Beherbergung sowie der Betrieb",
+        "de": "Unternehmensgegenstand ist insbesondere das Gastgewerbe mit Beherbergung sowie der Betrieb und die Vermietung der Flachauer Alpenchalets. Die Website dient der Präsentation der Unterkünfte und ihres Angebots sowie der Bereitstellung von Kontakt-, Anfrage- und Buchungsinformationen. Sie verfolgt keine darüber hinausgehende politische oder weltanschauliche Ausrichtung.",
+        "en": "The business purpose includes hospitality with accommodation and the operation and rental of Flachauer Alpenchalets. The website presents the accommodation and its services and provides contact, enquiry and booking information. It has no additional political or ideological editorial orientation.",
+        "nl": "Het bedrijfsdoel omvat met name horeca met accommodatie en de exploitatie en verhuur van de Flachauer Alpenchalets. De website presenteert de accommodaties en hun aanbod en biedt contact-, aanvraag- en boekingsinformatie. De website heeft geen verdere politieke of ideologische redactionele doelstelling."
+      },
+      {
+        "key": "impressum_text_033",
+        "label": "Urheberrecht und Bildnachweis",
+        "de": "Urheberrecht und Bildnachweis",
+        "en": "Copyright and image credits",
+        "nl": "Auteursrecht en beeldverantwoording"
+      },
+      {
+        "key": "impressum_text_034",
+        "label": "Die Inhalte, Texte, Fotografien und Grafiken dieser Website sind urheberrechtlich geschütz",
+        "de": "Die Inhalte, Texte, Fotografien und Grafiken dieser Website sind urheberrechtlich geschützt. Eine Vervielfältigung, Bearbeitung oder Verwendung außerhalb der gesetzlichen Schranken ist nur mit vorheriger Zustimmung des jeweiligen Rechteinhabers zulässig. Bildmaterial: Flachauer Alpenchalets und Flachauer Gutshof, sofern beim jeweiligen Inhalt nicht anders angegeben.",
+        "en": "The content, text, photographs and graphics on this website are protected by copyright. Reproduction, modification or use beyond statutory exceptions is permitted only with the prior consent of the respective rights holder. Images: Flachauer Alpenchalets and Flachauer Gutshof, unless otherwise stated with the relevant content.",
+        "nl": "De inhoud, teksten, foto's en afbeeldingen op deze website zijn auteursrechtelijk beschermd. Reproductie, bewerking of gebruik buiten de wettelijke uitzonderingen is alleen toegestaan met voorafgaande toestemming van de betreffende rechthebbende. Beeldmateriaal: Flachauer Alpenchalets en Flachauer Gutshof, tenzij bij de betreffende inhoud anders vermeld."
+      },
+      {
+        "key": "impressum_text_035",
+        "label": "Haftung für Inhalte und externe Links",
+        "de": "Haftung für Inhalte und externe Links",
+        "en": "Liability for content and external links",
+        "nl": "Aansprakelijkheid voor inhoud en externe links"
+      },
+      {
+        "key": "impressum_text_036",
+        "label": "Die Inhalte dieser Website werden mit Sorgfalt erstellt und regelmäßig überprüft. Eine Gew",
+        "de": "Die Inhalte dieser Website werden mit Sorgfalt erstellt und regelmäßig überprüft. Eine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität kann dennoch nicht übernommen werden. Diese Website enthält Links zu externen Websites, auf deren Inhalte und Gestaltung wir keinen Einfluss haben. Für rechtswidrige Inhalte verlinkter Seiten haften wir nur im Rahmen der gesetzlichen Bestimmungen. Bei Bekanntwerden konkreter Rechtsverletzungen werden betroffene Links nach Prüfung entfernt.",
+        "en": "The content of this website is prepared with care and reviewed regularly. Nevertheless, no guarantee can be given for its accuracy, completeness or timeliness. This website contains links to external websites whose content and design are beyond our control. We are liable for unlawful content on linked pages only within the limits of applicable law. If we become aware of specific legal infringements, the affected links will be reviewed and removed.",
+        "nl": "De inhoud van deze website wordt zorgvuldig samengesteld en regelmatig gecontroleerd. Toch kan geen garantie worden gegeven voor juistheid, volledigheid of actualiteit. Deze website bevat links naar externe websites waarop wij geen invloed hebben wat betreft inhoud en vormgeving. Voor onrechtmatige inhoud van gelinkte pagina's zijn wij uitsluitend aansprakelijk binnen de grenzen van de wettelijke bepalingen. Wanneer wij kennis krijgen van concrete overtredingen, worden de betreffende links gecontroleerd en verwijderd."
+      },
+      {
+        "key": "impressum_text_037",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy",
+        "nl": "Privacy"
+      },
+      {
+        "key": "impressum_text_038",
+        "label": "Informationen zur Verarbeitung personenbezogener Daten sowie zu Google Maps, Kontaktanfrag",
+        "de": "Informationen zur Verarbeitung personenbezogener Daten sowie zu Google Maps, Kontaktanfragen und externen Diensten finden Sie in unserer Datenschutzerklärung.",
+        "en": "Information about the processing of personal data, Google Maps, contact enquiries and external services is available in our privacy policy.",
+        "nl": "Informatie over de verwerking van persoonsgegevens, Google Maps, contactaanvragen en externe diensten vindt u in ons privacybeleid."
+      },
+      {
+        "key": "impressum_text_039",
+        "label": "Stand: Juli 2026",
+        "de": "Stand: Juli 2026",
+        "en": "Last updated: July 2026",
+        "nl": "Laatst bijgewerkt: juli 2026"
+      },
+      {
+        "key": "impressum_text_040",
+        "label": "wohlfühlen | genießen",
+        "de": "wohlfühlen | genießen",
+        "en": "feel good | enjoy",
+        "nl": "ontspannen | genieten"
+      },
+      {
+        "key": "impressum_text_041",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "impressum_text_042",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "impressum_text_043",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "impressum_text_044",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      }
+    ],
+    "datenschutz": [
+      {
+        "key": "datenschutz_text_001",
+        "label": "Home",
+        "de": "Home",
+        "en": "Home",
+        "nl": "Home"
+      },
+      {
+        "key": "datenschutz_text_002",
+        "label": "Unsere Chalets",
+        "de": "Unsere Chalets",
+        "en": "Our chalets",
+        "nl": "Onze chalets"
+      },
+      {
+        "key": "datenschutz_text_003",
+        "label": "Sommer",
+        "de": "Sommer",
+        "en": "Summer",
+        "nl": "Zomer"
+      },
+      {
+        "key": "datenschutz_text_004",
+        "label": "Winter",
+        "de": "Winter",
+        "en": "Winter",
+        "nl": "Winter"
+      },
+      {
+        "key": "datenschutz_text_005",
+        "label": "Komfort",
+        "de": "Komfort",
+        "en": "Comfort",
+        "nl": "Comfort"
+      },
+      {
+        "key": "datenschutz_text_006",
+        "label": "Restaurant",
+        "de": "Restaurant",
+        "en": "Restaurant",
+        "nl": "Restaurant"
+      },
+      {
+        "key": "datenschutz_text_007",
+        "label": "Galerie",
+        "de": "Galerie",
+        "en": "Gallery",
+        "nl": "Galerij"
+      },
+      {
+        "key": "datenschutz_text_008",
+        "label": "Lage Anfahrt",
+        "de": "Lage &amp; Anfahrt",
+        "en": "Location &amp; Directions",
+        "nl": "Ligging &amp; Route"
+      },
+      {
+        "key": "datenschutz_text_009",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "datenschutz_text_010",
+        "label": "Urlaubsanfrage",
+        "de": "Urlaubsanfrage",
+        "en": "Holiday enquiry",
+        "nl": "Vakantieaanvraag"
+      },
+      {
+        "key": "datenschutz_text_011",
+        "label": "Kontakt",
+        "de": "Kontakt",
+        "en": "Contact",
+        "nl": "Contact"
+      },
+      {
+        "key": "datenschutz_text_012",
+        "label": "Rechtliches",
+        "de": "Rechtliches",
+        "en": "Legal",
+        "nl": "Juridisch"
+      },
+      {
+        "key": "datenschutz_text_013",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      },
+      {
+        "key": "datenschutz_text_014",
+        "label": "Der Schutz Ihrer personenbezogenen Daten ist uns ein besonderes Anliegen. Wir verarbeiten ",
+        "de": "Der Schutz Ihrer personenbezogenen Daten ist uns ein besonderes Anliegen. Wir verarbeiten personenbezogene Daten ausschließlich im Rahmen der Datenschutz-Grundverordnung (DSGVO), des österreichischen Datenschutzgesetzes (DSG) und des Telekommunikationsgesetzes 2021 (TKG 2021). Diese Datenschutzerklärung informiert Sie über die Datenverarbeitung im Zusammenhang mit dieser Website.",
+        "en": "Protecting your personal data is very important to us. We process personal data exclusively in accordance with the General Data Protection Regulation (GDPR), the Austrian Data Protection Act (DSG) and the Austrian Telecommunications Act 2021 (TKG 2021). This privacy policy explains the processing of data in connection with this website.",
+        "nl": "De bescherming van uw persoonsgegevens is voor ons van groot belang. Wij verwerken persoonsgegevens uitsluitend in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG), de Oostenrijkse Datenschutzgesetz (DSG) en de Telekommunikationsgesetz 2021 (TKG 2021). Dit privacybeleid informeert u over de gegevensverwerking in verband met deze website."
+      },
+      {
+        "key": "datenschutz_text_015",
+        "label": "Verantwortlicher",
+        "de": "Verantwortlicher",
+        "en": "Controller",
+        "nl": "Verwerkingsverantwoordelijke"
+      },
+      {
+        "key": "datenschutz_text_016",
+        "label": "Aufruf der Website und Server-Logfiles",
+        "de": "Aufruf der Website und Server-Logfiles",
+        "en": "Website access and server log files",
+        "nl": "Websitebezoek en serverlogbestanden"
+      },
+      {
+        "key": "datenschutz_text_017",
+        "label": "Beim Aufruf der Website kann der Hosting-Anbieter technisch erforderliche Verbindungsdaten",
+        "de": "Beim Aufruf der Website kann der Hosting-Anbieter technisch erforderliche Verbindungsdaten verarbeiten. Dazu können IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Datei, übertragene Datenmenge, Referrer-URL, Browser, Betriebssystem und Zugriffsstatus gehören. Die Verarbeitung dient der sicheren und stabilen Bereitstellung der Website sowie der Abwehr von Missbrauch und erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Logdaten werden nur so lange gespeichert, wie dies für diese Zwecke oder aufgrund gesetzlicher Pflichten erforderlich ist.",
+        "en": "When you access the website, the hosting provider may process technically necessary connection data. This may include the IP address, date and time of access, requested file, amount of data transferred, referrer URL, browser, operating system and access status. Processing serves the secure and stable provision of the website and the prevention of misuse and is based on Art. 6(1)(f) GDPR. Log data is retained only for as long as necessary for these purposes or to comply with legal obligations.",
+        "nl": "Wanneer u de website bezoekt, kan de hostingprovider technisch noodzakelijke verbindingsgegevens verwerken. Dit kan het IP-adres, datum en tijd van toegang, opgevraagd bestand, hoeveelheid verzonden gegevens, referrer-URL, browser, besturingssysteem en toegangsstatus omvatten. De verwerking dient voor een veilige en stabiele beschikbaarstelling van de website en het voorkomen van misbruik en is gebaseerd op art. 6 lid 1 onder f AVG. Loggegevens worden alleen bewaard zolang dit voor deze doeleinden of op grond van wettelijke verplichtingen noodzakelijk is."
+      },
+      {
+        "key": "datenschutz_text_018",
+        "label": "Kontaktaufnahme und Urlaubsanfrage",
+        "de": "Kontaktaufnahme und Urlaubsanfrage",
+        "en": "Contact and holiday enquiries",
+        "nl": "Contact en vakantieaanvragen"
+      },
+      {
+        "key": "datenschutz_text_019",
+        "label": "Wenn Sie uns per E-Mail oder Telefon kontaktieren oder das Anfrageformular verwenden, vera",
+        "de": "Wenn Sie uns per E-Mail oder Telefon kontaktieren oder das Anfrageformular verwenden, verarbeiten wir die von Ihnen übermittelten Angaben zur Bearbeitung Ihrer Anfrage und für mögliche Anschlussfragen. Das Formular öffnet das E-Mail-Programm auf Ihrem Gerät; die Formulardaten werden nicht in einer eigenen Website-Datenbank gespeichert. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit es um vorvertragliche Maßnahmen oder die Durchführung eines Vertrags geht, andernfalls Art. 6 Abs. 1 lit. f DSGVO. Die Daten werden gelöscht, sobald die Anfrage abschließend bearbeitet wurde und keine gesetzlichen Aufbewahrungspflichten oder berechtigten Gründe für eine weitere Speicherung bestehen. Eine Weitergabe erfolgt nur, soweit sie zur Bearbeitung erforderlich oder gesetzlich vorgeschrieben ist.",
+        "en": "If you contact us by email or telephone or use the enquiry form, we process the information you provide in order to handle your enquiry and any follow-up questions. The form opens the email application on your device; form data is not stored in a separate website database. The legal basis is Art. 6(1)(b) GDPR where pre-contractual measures or performance of a contract are concerned, and otherwise Art. 6(1)(f) GDPR. Data is deleted once the enquiry has been fully dealt with and there are no statutory retention obligations or legitimate grounds for further storage. Data is shared only where necessary to process the enquiry or where required by law.",
+        "nl": "Als u per e-mail of telefoon contact met ons opneemt of het aanvraagformulier gebruikt, verwerken wij de door u verstrekte gegevens om uw aanvraag en eventuele vervolgvragen te behandelen. Het formulier opent het e-mailprogramma op uw apparaat; formuliergegevens worden niet in een afzonderlijke websitedatabase opgeslagen. De rechtsgrond is art. 6 lid 1 onder b AVG voor zover het gaat om precontractuele maatregelen of de uitvoering van een overeenkomst, en anders art. 6 lid 1 onder f AVG. De gegevens worden verwijderd zodra de aanvraag volledig is afgehandeld en er geen wettelijke bewaarplichten of gerechtvaardigde redenen voor verdere opslag bestaan. Gegevens worden alleen doorgegeven wanneer dit voor de behandeling noodzakelijk of wettelijk verplicht is."
+      },
+      {
+        "key": "datenschutz_text_020",
+        "label": "Lokale Spracheinstellung und Cookies",
+        "de": "Lokale Spracheinstellung und Cookies",
+        "en": "Local language setting and cookies",
+        "nl": "Lokale taalinstelling en cookies"
+      },
+      {
+        "key": "datenschutz_text_021",
+        "label": "Die gewählte Sprache wird ausschließlich lokal in Ihrem Browser gespeichert, damit die Web",
+        "de": "Die gewählte Sprache wird ausschließlich lokal in Ihrem Browser gespeichert, damit die Website bei einem späteren Besuch in derselben Sprache angezeigt werden kann. Diese Einstellung wird nicht an unseren Server übertragen und nicht zu Analyse- oder Werbezwecken verwendet. Die Website setzt selbst keine Analyse- oder Marketing-Cookies ein.",
+        "en": "Your selected language is stored only locally in your browser so that the website can be displayed in the same language on a later visit. This setting is not transmitted to our server and is not used for analytics or advertising. The website itself does not use analytics or marketing cookies.",
+        "nl": "De gekozen taal wordt uitsluitend lokaal in uw browser opgeslagen, zodat de website bij een later bezoek in dezelfde taal kan worden weergegeven. Deze instelling wordt niet naar onze server verzonden en wordt niet gebruikt voor analyse- of reclamedoeleinden. De website zelf gebruikt geen analyse- of marketingcookies."
+      },
+      {
+        "key": "datenschutz_text_022",
+        "label": "Google Maps",
+        "de": "Google Maps",
+        "en": "Google Maps",
+        "nl": "Google Maps"
+      },
+      {
+        "key": "datenschutz_text_023",
+        "label": "Auf der Website kann eine Karte von Google Maps geladen werden. Anbieter im Europäischen W",
+        "de": "Auf der Website kann eine Karte von Google Maps geladen werden. Anbieter im Europäischen Wirtschaftsraum ist Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Vor Ihrer ausdrücklichen Zustimmung wird keine Verbindung zu Google Maps hergestellt. Erst durch Anklicken der Schaltfläche „Google Maps laden“ wird die Karte aktiviert. Dabei können insbesondere Ihre IP-Adresse, Geräte- und Browserinformationen, Zeitpunkt des Aufrufs und die Herkunftsseite an Google übermittelt werden. Wenn Sie bei Google angemeldet sind, kann Google die Daten Ihrem Konto zuordnen. Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO und § 165 Abs. 3 TKG 2021. Eine Verarbeitung durch Google außerhalb des EWR kann nicht ausgeschlossen werden. Durch Neuladen der Seite wird die Karte wieder deaktiviert.",
+        "en": "A Google Maps map can be loaded on the website. The provider in the European Economic Area is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. No connection to Google Maps is established before your express consent. The map is activated only when you click the ‘Load Google Maps’ button. In particular, your IP address, device and browser information, time of access and referring page may then be transmitted to Google. If you are signed in to Google, Google may associate the data with your account. Processing is based on your consent pursuant to Art. 6(1)(a) GDPR and section 165(3) TKG 2021. Processing by Google outside the EEA cannot be ruled out. Reloading the page deactivates the map again.",
+        "nl": "Op de website kan een kaart van Google Maps worden geladen. De aanbieder in de Europese Economische Ruimte is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ierland. Vóór uw uitdrukkelijke toestemming wordt geen verbinding met Google Maps gemaakt. De kaart wordt pas geactiveerd wanneer u op de knop ‘Google Maps laden’ klikt. Daarbij kunnen met name uw IP-adres, apparaat- en browsergegevens, tijdstip van toegang en de verwijzende pagina aan Google worden doorgegeven. Als u bij Google bent ingelogd, kan Google de gegevens aan uw account koppelen. De verwerking is gebaseerd op uw toestemming overeenkomstig art. 6 lid 1 onder a AVG en § 165 lid 3 TKG 2021. Verwerking door Google buiten de EER kan niet worden uitgesloten. Door de pagina opnieuw te laden wordt de kaart weer gedeactiveerd."
+      },
+      {
+        "key": "datenschutz_text_024",
+        "label": "Datenschutzerklärung von Google",
+        "de": "Datenschutzerklärung von Google",
+        "en": "Google Privacy Policy",
+        "nl": "Privacybeleid van Google"
+      },
+      {
+        "key": "datenschutz_text_025",
+        "label": "Externe Links",
+        "de": "Externe Links",
+        "en": "External links",
+        "nl": "Externe links"
+      },
+      {
+        "key": "datenschutz_text_026",
+        "label": "Diese Website enthält gekennzeichnete Links zu externen Angeboten, insbesondere zur Buchun",
+        "de": "Diese Website enthält gekennzeichnete Links zu externen Angeboten, insbesondere zur Buchungsplattform Sunweb, zur Website des Flachauer Gutshofs sowie zu Informationsseiten von Flachau Tourismus, darunter die offizielle FUNSPACE-Flachau-Seite. Erst wenn Sie einen solchen Link anklicken, verlassen Sie diese Website. Ab diesem Zeitpunkt ist der jeweilige externe Anbieter für die Verarbeitung Ihrer Daten verantwortlich. Bitte beachten Sie die Datenschutzinformationen des jeweiligen Anbieters.",
+        "en": "This website contains identified links to external services, in particular the Sunweb booking platform, the Flachauer Gutshof website and information pages provided by Flachau Tourism, including the official FUNSPACE Flachau page. You leave this website only when you click such a link. From that point, the respective external provider is responsible for processing your data. Please refer to the privacy information of the respective provider.",
+        "nl": "Deze website bevat herkenbare links naar externe diensten, in het bijzonder het boekingsplatform Sunweb, de website van Flachauer Gutshof en informatiepagina's van Flachau Tourismus, waaronder de officiële FUNSPACE Flachau-pagina. Pas wanneer u op zo'n link klikt, verlaat u deze website. Vanaf dat moment is de betreffende externe aanbieder verantwoordelijk voor de verwerking van uw gegevens. Raadpleeg het privacybeleid van de betreffende aanbieder."
+      },
+      {
+        "key": "datenschutz_text_027",
+        "label": "Webfonts, Analyse und soziale Netzwerke",
+        "de": "Webfonts, Analyse und soziale Netzwerke",
+        "en": "Web fonts, analytics and social networks",
+        "nl": "Webfonts, analyse en sociale netwerken"
+      },
+      {
+        "key": "datenschutz_text_028",
+        "label": "Die Website verwendet lokale Systemschriftarten und lädt keine Schriften von externen Schr",
+        "de": "Die Website verwendet lokale Systemschriftarten und lädt keine Schriften von externen Schriftanbietern. Derzeit sind weder ein Webanalysedienst wie Google Analytics noch Social-Media-Plugins eingebunden. Sollte sich dies ändern, wird diese Datenschutzerklärung vor dem Einsatz entsprechend aktualisiert und, soweit erforderlich, eine Einwilligung eingeholt.",
+        "en": "The website uses local system fonts and does not load fonts from external font providers. No web analytics service such as Google Analytics or social media plugins are currently integrated. If this changes, this privacy policy will be updated before use and consent will be obtained where required.",
+        "nl": "De website gebruikt lokale systeemlettertypen en laadt geen lettertypen van externe aanbieders. Momenteel zijn er geen webanalysediensten zoals Google Analytics of socialemediaplugins geïntegreerd. Als dit verandert, wordt dit privacybeleid vóór het gebruik aangepast en wordt, waar nodig, toestemming gevraagd."
+      },
+      {
+        "key": "datenschutz_text_029",
+        "label": "Ihre Rechte",
+        "de": "Ihre Rechte",
+        "en": "Your rights",
+        "nl": "Uw rechten"
+      },
+      {
+        "key": "datenschutz_text_030",
+        "label": "Nach der DSGVO stehen Ihnen insbesondere die folgenden Rechte zu:",
+        "de": "Nach der DSGVO stehen Ihnen insbesondere die folgenden Rechte zu:",
+        "en": "Under the GDPR, you have in particular the following rights:",
+        "nl": "Op grond van de AVG hebt u in het bijzonder de volgende rechten:"
+      },
+      {
+        "key": "datenschutz_text_031",
+        "label": "Recht auf Information und Auskunft",
+        "de": "Recht auf Information und Auskunft",
+        "en": "Right to information and access",
+        "nl": "Recht op informatie en inzage"
+      },
+      {
+        "key": "datenschutz_text_032",
+        "label": "Recht auf Berichtigung und Löschung",
+        "de": "Recht auf Berichtigung und Löschung",
+        "en": "Right to rectification and erasure",
+        "nl": "Recht op rectificatie en verwijdering"
+      },
+      {
+        "key": "datenschutz_text_033",
+        "label": "Recht auf Einschränkung der Verarbeitung",
+        "de": "Recht auf Einschränkung der Verarbeitung",
+        "en": "Right to restriction of processing",
+        "nl": "Recht op beperking van de verwerking"
+      },
+      {
+        "key": "datenschutz_text_034",
+        "label": "Recht auf Datenübertragbarkeit",
+        "de": "Recht auf Datenübertragbarkeit",
+        "en": "Right to data portability",
+        "nl": "Recht op overdraagbaarheid van gegevens"
+      },
+      {
+        "key": "datenschutz_text_035",
+        "label": "Recht auf Widerspruch",
+        "de": "Recht auf Widerspruch",
+        "en": "Right to object",
+        "nl": "Recht van bezwaar"
+      },
+      {
+        "key": "datenschutz_text_036",
+        "label": "Recht, eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen",
+        "de": "Recht, eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen",
+        "en": "Right to withdraw consent at any time with effect for the future",
+        "nl": "Recht om toestemming te allen tijde met werking voor de toekomst in te trekken"
+      },
+      {
+        "key": "datenschutz_text_037",
+        "label": "Zur Ausübung Ihrer Rechte wenden Sie sich bitte an die oben genannte Kontaktadresse. Wenn ",
+        "de": "Zur Ausübung Ihrer Rechte wenden Sie sich bitte an die oben genannte Kontaktadresse. Wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt, können Sie sich bei der Österreichischen Datenschutzbehörde beschweren.",
+        "en": "To exercise your rights, please contact us using the details above. If you believe that the processing of your data infringes data protection law, you may lodge a complaint with the Austrian Data Protection Authority.",
+        "nl": "Neem contact met ons op via de bovenstaande gegevens om uw rechten uit te oefenen. Als u van mening bent dat de verwerking van uw gegevens in strijd is met het gegevensbeschermingsrecht, kunt u een klacht indienen bij de Oostenrijkse gegevensbeschermingsautoriteit."
+      },
+      {
+        "key": "datenschutz_text_038",
+        "label": "Stand: Juli 2026",
+        "de": "Stand: Juli 2026",
+        "en": "Last updated: July 2026",
+        "nl": "Laatst bijgewerkt: juli 2026"
+      },
+      {
+        "key": "datenschutz_text_039",
+        "label": "wohlfühlen | genießen",
+        "de": "wohlfühlen | genießen",
+        "en": "feel good | enjoy",
+        "nl": "ontspannen | genieten"
+      },
+      {
+        "key": "datenschutz_text_040",
+        "label": "Flachau Salzburger Land Österreich",
+        "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+        "en": "Flachau &middot; Salzburger Land &middot; Austria",
+        "nl": "Flachau &middot; Salzburger Land &middot; Oostenrijk"
+      },
+      {
+        "key": "datenschutz_text_041",
+        "label": "FAQ",
+        "de": "FAQ",
+        "en": "FAQ",
+        "nl": "FAQ"
+      },
+      {
+        "key": "datenschutz_text_042",
+        "label": "Impressum",
+        "de": "Impressum",
+        "en": "Legal notice",
+        "nl": "Colofon"
+      },
+      {
+        "key": "datenschutz_text_043",
+        "label": "Datenschutz",
+        "de": "Datenschutz",
+        "en": "Privacy policy",
+        "nl": "Privacybeleid"
+      }
+    ]
+  },
+  "translations": {
+    "nav.home": {
+      "label": "nav.home",
+      "de": "Home",
+      "en": "Home",
+      "nl": "Home"
+    },
+    "nav.chalets": {
+      "label": "nav.chalets",
+      "de": "Unsere Chalets",
+      "en": "Our chalets",
+      "nl": "Onze chalets"
+    },
+    "nav.seasons": {
+      "label": "nav.seasons",
+      "de": "Sommer & Winter",
+      "en": "Summer & winter",
+      "nl": "Zomer & winter"
+    },
+    "nav.summer": {
+      "label": "nav.summer",
+      "de": "Sommer",
+      "en": "Summer",
+      "nl": "Zomer"
+    },
+    "nav.winter": {
+      "label": "nav.winter",
+      "de": "Winter",
+      "en": "Winter",
+      "nl": "Winter"
+    },
+    "nav.gallery": {
+      "label": "nav.gallery",
+      "de": "Galerie",
+      "en": "Gallery",
+      "nl": "Galerij"
+    },
+    "nav.location": {
+      "label": "nav.location",
+      "de": "Lage &amp; Anfahrt",
+      "en": "Location &amp; Directions",
+      "nl": "Ligging &amp; Route"
+    },
+    "nav.enquiry": {
+      "label": "nav.enquiry",
+      "de": "Urlaubsanfrage",
+      "en": "Holiday enquiry",
+      "nl": "Vakantieaanvraag"
+    },
+    "nav.contact": {
+      "label": "nav.contact",
+      "de": "Kontakt",
+      "en": "Contact",
+      "nl": "Contact"
+    },
+    "nav.comfort": {
+      "label": "nav.comfort",
+      "de": "Komfort",
+      "en": "Comfort",
+      "nl": "Comfort"
+    },
+    "nav.restaurant": {
+      "label": "nav.restaurant",
+      "de": "Restaurant",
+      "en": "Restaurant",
+      "nl": "Restaurant"
+    },
+    "nav.faq": {
+      "label": "nav.faq",
+      "de": "FAQ",
+      "en": "FAQ",
+      "nl": "FAQ"
+    },
+    "nav.book": {
+      "label": "nav.book",
+      "de": "Winter buchen",
+      "en": "Book winter",
+      "nl": "Winter boeken"
+    },
+    "hero.title": {
+      "label": "hero.title",
+      "de": "Ankommen<br>Wohlf&uuml;hlen",
+      "en": "Arrive<br>Feel at home",
+      "nl": "Aankomen<br>Genieten"
+    },
+    "hero.text": {
+      "label": "hero.text",
+      "de": "Ein Ort f&uuml;r besondere Urlaubsmomente.",
+      "en": "A place for special holiday moments.",
+      "nl": "Een plek voor bijzondere vakantiemomenten."
+    },
+    "hero.summerBook": {
+      "label": "hero.summerBook",
+      "de": "Sommer anfragen",
+      "en": "Enquire for Summer",
+      "nl": "Zomer aanvragen"
+    },
+    "hero.winterBook": {
+      "label": "hero.winterBook",
+      "de": "Winter buchen",
+      "en": "Book Winter",
+      "nl": "Winter boeken"
+    },
+    "hero.bookingNote": {
+      "label": "hero.bookingNote",
+      "de": "Sommeranfragen direkt bei uns. Winterbuchungen sind ausschlie&szlig;lich &uuml;ber Sunweb m&ouml;glich.",
+      "en": "Summer enquiries directly with us. Winter bookings are available exclusively through Sunweb.",
+      "nl": "Zomeraanvragen direct bij ons. Winterboekingen zijn uitsluitend mogelijk via Sunweb."
+    },
+    "intro.kicker": {
+      "label": "intro.kicker",
+      "de": "Willkommen bei Alpenchalets",
+      "en": "Welcome to Alpenchalets",
+      "nl": "Welkom bij Alpenchalets"
+    },
+    "intro.title": {
+      "label": "intro.title",
+      "de": "Holz, W&auml;rme und viel Raum f&uuml;r gemeinsame Zeit",
+      "en": "Wood, warmth and plenty of space for time together",
+      "nl": "Hout, warmte en veel ruimte voor tijd samen"
+    },
+    "intro.text": {
+      "label": "intro.text",
+      "de": "Unsere gem&uuml;tlichen Chalets mit Sauna, Kamin und voll ausgestatteter K&uuml;che bieten den idealen Ort f&uuml;r entspannte Tage in Flachau.",
+      "en": "Our cozy chalets with sauna, fireplace and fully equipped kitchen offer the ideal place for relaxed days in Flachau.",
+      "nl": "Onze gezellige chalets met sauna, open haard en volledig uitgeruste keuken bieden de ideale plek voor ontspannen dagen in Flachau."
+    },
+    "intro.f1": {
+      "label": "intro.f1",
+      "de": "Private Sauna",
+      "en": "Private sauna",
+      "nl": "Prive sauna"
+    },
+    "intro.f2": {
+      "label": "intro.f2",
+      "de": "Kamin",
+      "en": "Cozy fireplace",
+      "nl": "Gezellige open haard"
+    },
+    "intro.f3": {
+      "label": "intro.f3",
+      "de": "Zentrale Lage",
+      "en": "Central location",
+      "nl": "Centrale ligging"
+    },
+    "chalets.kicker": {
+      "label": "chalets.kicker",
+      "de": "Unsere Unterk&uuml;nfte",
+      "en": "Our accommodation",
+      "nl": "Onze accommodaties"
+    },
+    "chalets.title": {
+      "label": "chalets.title",
+      "de": "Private Chalets f&uuml;r unvergessliche Urlaubstage",
+      "en": "Private chalets for unforgettable holidays",
+      "nl": "Private chalets voor onvergetelijke vakantiedagen"
+    },
+    "chalets.lead": {
+      "label": "chalets.lead",
+      "de": "Zwei Chalet-Typen, private R&uuml;ckzugsr&auml;ume und ein warmes Zuhause auf Zeit f&uuml;r kleine und gro&szlig;e Gruppen.",
+      "en": "Two chalet types, private spaces to retreat and a warm home for both small and larger groups.",
+      "nl": "Twee chalettypes, private plekken om u terug te trekken en een warm vakantiehuis voor kleine en grotere groepen."
+    },
+    "chalet4.kicker": {
+      "label": "chalet4.kicker",
+      "de": "F&uuml;r bis zu 12 Personen",
+      "en": "For up to 12 guests",
+      "nl": "Voor maximaal 12 personen"
+    },
+    "chalet4.title": {
+      "label": "chalet4.title",
+      "de": "4-Zimmer-Chalet",
+      "en": "4-room chalet",
+      "nl": "4-kamerchalet"
+    },
+    "chalet4.text": {
+      "label": "chalet4.text",
+      "de": "Gro&szlig;z&uuml;giges Chalet auf zwei Ebenen mit viel Raum f&uuml;r gemeinsame Abende, R&uuml;ckzug und entspannte Urlaubstage.",
+      "en": "A generous two-level chalet with plenty of room for shared evenings, privacy and relaxed holiday days.",
+      "nl": "Een ruim chalet op twee verdiepingen met veel plaats voor avonden samen, rust en ontspannen vakantiedagen."
+    },
+    "chalet4.sleeping": {
+      "label": "chalet4.sleeping",
+      "de": "3 Schlafzimmer: 2x Doppelbett mit Bankbett, 1x Doppelbett sowie Schlafsofa f&uuml;r 2 Personen",
+      "en": "3 bedrooms: 2x double bed with bunk bed, 1x double bed, plus a sofa bed for 2 guests",
+      "nl": "3 slaapkamers: 2x tweepersoonsbed met stapelbed, 1x tweepersoonsbed en een slaapbank voor 2 personen"
+    },
+    "chalet4.bathrooms": {
+      "label": "chalet4.bathrooms",
+      "de": "3 Badezimmer, private Sauna und separates WC",
+      "en": "3 bathrooms, private sauna and a separate WC",
+      "nl": "3 badkamers, prive sauna en een apart toilet"
+    },
+    "chalet4.living": {
+      "label": "chalet4.living",
+      "de": "Gro&szlig;er Wohn- und Essbereich mit Kamin und voll ausgestatteter K&uuml;che",
+      "en": "Large living and dining area with fireplace and fully equipped kitchen",
+      "nl": "Grote woon- en eetruimte met open haard en volledig uitgeruste keuken"
+    },
+    "chalet4.outdoor": {
+      "label": "chalet4.outdoor",
+      "de": "Terrasse, Garderobe, eigener Abstellraum / Skiraum und Br&ouml;tchenservice auf Wunsch",
+      "en": "Terrace, cloakroom, private storage / ski room and bread roll service on request",
+      "nl": "Terras, garderobe, eigen berging / skiruimte en broodjesservice op aanvraag"
+    },
+    "chalet5.kicker": {
+      "label": "chalet5.kicker",
+      "de": "F&uuml;r bis zu 10 Personen",
+      "en": "For up to 10 guests",
+      "nl": "Voor maximaal 10 personen"
+    },
+    "chalet5.title": {
+      "label": "chalet5.title",
+      "de": "5-Zimmer-Chalet",
+      "en": "5-room chalet",
+      "nl": "5-kamerchalet"
+    },
+    "chalet5.text": {
+      "label": "chalet5.text",
+      "de": "Ein ruhiges, komfortables Chalet mit vier separaten Schlafzimmern, privater Sauna und erwachsenem Wohngef&uuml;hl.",
+      "en": "A calm, comfortable chalet with four separate bedrooms, a private sauna and a grown-up living feel.",
+      "nl": "Een rustig, comfortabel chalet met vier aparte slaapkamers, prive sauna en een volwassen woongevoel."
+    },
+    "chalet5.sleeping": {
+      "label": "chalet5.sleeping",
+      "de": "4 separate Schlafzimmer sowie Schlafsofa f&uuml;r 2 Personen &ndash; keine Stockbetten",
+      "en": "4 separate bedrooms plus a sofa bed for 2 guests &ndash; no bunk beds",
+      "nl": "4 aparte slaapkamers en een slaapbank voor 2 personen &ndash; geen stapelbedden"
+    },
+    "chalet5.bathrooms": {
+      "label": "chalet5.bathrooms",
+      "de": "2 Badezimmer, private Sauna und 2 separate WCs",
+      "en": "2 bathrooms, private sauna and 2 separate WCs",
+      "nl": "2 badkamers, prive sauna en 2 aparte toiletten"
+    },
+    "chalet5.living": {
+      "label": "chalet5.living",
+      "de": "Gem&uuml;tlicher Wohn- und Essbereich mit Kamin und voll ausgestatteter K&uuml;che",
+      "en": "Cozy living and dining area with fireplace and fully equipped kitchen",
+      "nl": "Gezellige woon- en eetruimte met open haard en volledig uitgeruste keuken"
+    },
+    "chalet5.outdoor": {
+      "label": "chalet5.outdoor",
+      "de": "Terrasse, Garderobe, eigener Abstellraum / Skiraum und Br&ouml;tchenservice; zwei gekoppelte Chalets bis 20 Personen",
+      "en": "Terrace, cloakroom, private storage / ski room and bread roll service; two connected chalets for up to 20 guests",
+      "nl": "Terras, garderobe, eigen berging / skiruimte en broodjesservice; twee gekoppelde chalets voor maximaal 20 personen"
+    },
+    "common.sleeping": {
+      "label": "common.sleeping",
+      "de": "Schlafen",
+      "en": "Sleeping",
+      "nl": "Slapen"
+    },
+    "common.bathrooms": {
+      "label": "common.bathrooms",
+      "de": "Bad & Wellness",
+      "en": "Bath & wellness",
+      "nl": "Bad & wellness"
+    },
+    "common.living": {
+      "label": "common.living",
+      "de": "Wohnen",
+      "en": "Living",
+      "nl": "Wonen"
+    },
+    "common.outdoor": {
+      "label": "common.outdoor",
+      "de": "Au&szlig;en & praktisch",
+      "en": "Outdoor & practical",
+      "nl": "Buiten & praktisch"
+    },
+    "common.guests12": {
+      "label": "common.guests12",
+      "de": "Bis 12 Personen",
+      "en": "Up to 12 guests",
+      "nl": "Maximaal 12 personen"
+    },
+    "common.guests10": {
+      "label": "common.guests10",
+      "de": "Bis 10 Personen",
+      "en": "Up to 10 guests",
+      "nl": "Maximaal 10 personen"
+    },
+    "common.noBunks": {
+      "label": "common.noBunks",
+      "de": "Keine Stockbetten",
+      "en": "No bunk beds",
+      "nl": "Geen stapelbedden"
+    },
+    "common.connected": {
+      "label": "common.connected",
+      "de": "Gekoppelt bis 20 Personen",
+      "en": "Connected for up to 20",
+      "nl": "Gekoppeld tot 20 personen"
+    },
+    "common.sauna": {
+      "label": "common.sauna",
+      "de": "Private Sauna",
+      "en": "Private sauna",
+      "nl": "Prive sauna"
+    },
+    "common.fireplace": {
+      "label": "common.fireplace",
+      "de": "Kamin",
+      "en": "Fireplace",
+      "nl": "Open haard"
+    },
+    "common.kitchen": {
+      "label": "common.kitchen",
+      "de": "Eigene K&uuml;che",
+      "en": "Private kitchen",
+      "nl": "Eigen keuken"
+    },
+    "common.terrace": {
+      "label": "common.terrace",
+      "de": "Terrasse",
+      "en": "Terrace",
+      "nl": "Terras"
+    },
+    "common.groups": {
+      "label": "common.groups",
+      "de": "Ideal f&uuml;r Gruppen",
+      "en": "Ideal for groups",
+      "nl": "Ideaal voor groepen"
+    },
+    "common.floorplan": {
+      "label": "common.floorplan",
+      "de": "Grundriss ansehen",
+      "en": "View floor plan",
+      "nl": "Plattegrond bekijken"
+    },
+    "common.details": {
+      "label": "common.details",
+      "de": "Alle Details",
+      "en": "View all details",
+      "nl": "Alle details"
+    },
+    "common.breadService": {
+      "label": "common.breadService",
+      "de": "Br&ouml;tchenservice",
+      "en": "Bread roll service",
+      "nl": "Broodjesservice"
+    },
+    "common.skiRoom": {
+      "label": "common.skiRoom",
+      "de": "Eigener Skiraum",
+      "en": "Private ski room",
+      "nl": "Eigen skiruimte"
+    },
+    "summer.kicker": {
+      "label": "summer.kicker",
+      "de": "Sommer in Flachau",
+      "en": "Summer in Flachau",
+      "nl": "Zomer in Flachau"
+    },
+    "summer.title": {
+      "label": "summer.title",
+      "de": "Berge, Bewegung und viel Zeit drau&szlig;en",
+      "en": "Mountains, movement and plenty of time outdoors",
+      "nl": "Bergen, beweging en volop tijd buiten"
+    },
+    "summer.text": {
+      "label": "summer.text",
+      "de": "Wandern, Radfahren und Familienerlebnisse &ndash; direkt vor der Haust&uuml;r.",
+      "en": "Hiking, cycling and family adventures &ndash; right outside your door.",
+      "nl": "Wandelen, fietsen en familie-avonturen &ndash; direct voor de deur."
+    },
+    "summer.status": {
+      "label": "summer.status",
+      "de": "Direktbuchung ab September",
+      "en": "Direct booking from September",
+      "nl": "Direct boeken vanaf september"
+    },
+    "summer.inquiry": {
+      "label": "summer.inquiry",
+      "de": "Sommerurlaub anfragen",
+      "en": "Enquire about summer",
+      "nl": "Zomerverblijf aanvragen"
+    },
+    "summer.cardCta": {
+      "label": "summer.cardCta",
+      "de": "Vorteile entdecken",
+      "en": "Discover the benefits",
+      "nl": "Ontdek de voordelen"
+    },
+    "winter.kicker": {
+      "label": "winter.kicker",
+      "de": "Winter in Flachau",
+      "en": "Winter in Flachau",
+      "nl": "Winter in Flachau"
+    },
+    "winter.title": {
+      "label": "winter.title",
+      "de": "Schneetage, Skivergn&uuml;gen und W&auml;rme am Kamin",
+      "en": "Snowy days, skiing and warmth by the fire",
+      "nl": "Sneeuwdagen, skiplezier en warmte bij de haard"
+    },
+    "winter.text": {
+      "label": "winter.text",
+      "de": "Kurze Wege ins Skigebiet und ein gem&uuml;tliches Chalet f&uuml;r den Abend.",
+      "en": "Short distances to the ski area and a cozy chalet to return to in the evening.",
+      "nl": "Dicht bij het skigebied en een gezellig chalet om s avonds thuis te komen."
+    },
+    "winter.book": {
+      "label": "winter.book",
+      "de": "Winterurlaub buchen",
+      "en": "Book your winter stay",
+      "nl": "Boek uw winterverblijf"
+    },
+    "atmosphere.kicker": {
+      "label": "atmosphere.kicker",
+      "de": "Gemeinsam genie&szlig;en",
+      "en": "Enjoy together",
+      "nl": "Samen genieten"
+    },
+    "atmosphere.title": {
+      "label": "atmosphere.title",
+      "de": "Abende, die nach Holz, W&auml;rme und gutem Essen klingen",
+      "en": "Evenings that feel like wood, warmth and good food",
+      "nl": "Avonden die voelen als hout, warmte en lekker eten"
+    },
+    "atmosphere.text": {
+      "label": "atmosphere.text",
+      "de": "Fr&uuml;hst&uuml;ck vor dem ersten Ausflug, gemeinsames Kochen am Abend oder ein Glas Wein am Kamin: Die Chalets sind gemacht f&uuml;r diese leisen, wertvollen Momente, die bleiben.",
+      "en": "Breakfast before the first adventure, cooking together in the evening or a glass of wine by the fire: the chalets are made for these quiet, valuable moments that stay with you.",
+      "nl": "Ontbijt voor het eerste avontuur, samen koken in de avond of een glas wijn bij de haard: de chalets zijn gemaakt voor deze stille, waardevolle momenten die bijblijven."
+    },
+    "services.kicker": {
+      "label": "services.kicker",
+      "de": "Mehr Komfort",
+      "en": "More comfort",
+      "nl": "Meer comfort"
+    },
+    "services.title": {
+      "label": "services.title",
+      "de": "Praktische Extras f&uuml;r entspannte Urlaubstage",
+      "en": "Practical extras for relaxed holiday days",
+      "nl": "Praktische extras voor ontspannen vakantiedagen"
+    },
+    "services.lead": {
+      "label": "services.lead",
+      "de": "Kleine Dinge machen den Aufenthalt leichter &ndash; vom frischen Fr&uuml;hst&uuml;cksgeb&auml;ck bis zum eigenen Raum f&uuml;r Ski und Ausr&uuml;stung.",
+      "en": "Small details make the stay easier &ndash; from fresh breakfast rolls to your own room for skis and equipment.",
+      "nl": "Kleine dingen maken het verblijf makkelijker &ndash; van verse broodjes tot een eigen ruimte voor skis en uitrusting."
+    },
+    "services.breadTitle": {
+      "label": "services.breadTitle",
+      "de": "Br&ouml;tchenservice",
+      "en": "Bread roll service",
+      "nl": "Broodjesservice"
+    },
+    "services.breadText": {
+      "label": "services.breadText",
+      "de": "G&auml;ste k&ouml;nnen t&auml;glich bis 17:00 Uhr Brot und Geb&auml;ck f&uuml;r den n&auml;chsten Morgen bestellen. Die Lieferung erfolgt zwischen 07:30 und 08:00 Uhr direkt vor das Chalet.",
+      "en": "Guests can order bread and pastries for the next morning every day until 17:00. Delivery is made between 07:30 and 08:00 directly in front of the chalet.",
+      "nl": "Gasten kunnen dagelijks tot 17:00 uur brood en gebak voor de volgende ochtend bestellen. De levering gebeurt tussen 07:30 en 08:00 uur direct voor het chalet."
+    },
+    "services.skiTitle": {
+      "label": "services.skiTitle",
+      "de": "Abstellraum / Skiraum",
+      "en": "Storage / ski room",
+      "nl": "Berging / skiruimte"
+    },
+    "services.skiText": {
+      "label": "services.skiText",
+      "de": "Jedes Chalet verf&uuml;gt &uuml;ber einen eigenen Abstellraum bzw. Skiraum &ndash; praktisch f&uuml;r Ski, Schuhe, Sportausr&uuml;stung und alles, was nach einem aktiven Tag gut verstaut sein soll.",
+      "en": "Each chalet has its own storage or ski room &ndash; practical for skis, boots, sports equipment and everything that should be neatly stored after an active day.",
+      "nl": "Elk chalet heeft een eigen berging of skiruimte &ndash; praktisch voor skis, schoenen, sportuitrusting en alles wat na een actieve dag netjes opgeborgen moet worden."
+    },
+    "services.laundryTitle": {
+      "label": "services.laundryTitle",
+      "de": "W&auml;schek&uuml;che",
+      "en": "Laundry room",
+      "nl": "Wasruimte"
+    },
+    "services.laundryText": {
+      "label": "services.laundryText",
+      "de": "An der Rezeption steht eine W&auml;schek&uuml;che mit Waschmaschine und Trockner zur Verf&uuml;gung.",
+      "en": "A laundry room with washing machine and dryer is available at reception.",
+      "nl": "Bij de receptie is een wasruimte met wasmachine en droger beschikbaar."
+    },
+    "services.garageTitle": {
+      "label": "services.garageTitle",
+      "de": "Tiefgarage",
+      "en": "Underground garage",
+      "nl": "Ondergrondse garage"
+    },
+    "services.garageText": {
+      "label": "services.garageText",
+      "de": "F&uuml;r eine entspannte Anreise stehen Parkm&ouml;glichkeiten in der Anlage sowie eine Tiefgarage zur Verf&uuml;gung.",
+      "en": "Parking spaces in the resort and an underground garage make arrival comfortable.",
+      "nl": "Parkeerplaatsen in het resort en een ondergrondse garage maken aankomen ontspannen."
+    },
+    "services.playgroundTitle": {
+      "label": "services.playgroundTitle",
+      "de": "Spielplatz beim Gutshof",
+      "en": "Playground by the Gutshof",
+      "nl": "Speeltuin bij de Gutshof"
+    },
+    "services.playgroundText": {
+      "label": "services.playgroundText",
+      "de": "Vor dem Flachauer Gutshof befindet sich ein gro&szlig;er Spielplatz mit verschiedenen Aktivit&auml;ten f&uuml;r Kinder. Von der Restaurantterrasse haben Eltern den Spielbereich direkt im Blick.",
+      "en": "A large playground with varied activities for children is located in front of Flachauer Gutshof. Parents have a direct view of the play area from the restaurant terrace.",
+      "nl": "Voor de Flachauer Gutshof ligt een grote speeltuin met verschillende activiteiten voor kinderen. Vanaf het restaurantterras hebben ouders direct zicht op de speelruimte."
+    },
+    "services.chargingTitle": {
+      "label": "services.chargingTitle",
+      "de": "E-Ladestationen in Flachau",
+      "en": "EV charging in Flachau",
+      "nl": "Laadstations in Flachau"
+    },
+    "services.chargingText": {
+      "label": "services.chargingText",
+      "de": "In Flachau befinden sich mehrere Ladestationen f&uuml;r Elektroautos, unter anderem an der Reitdorfer Stra&szlig;e, Wagrainer Stra&szlig;e, Flachauer Stra&szlig;e und Unterberggasse.",
+      "en": "Several electric car charging stations are located in Flachau, including Reitdorfer Strasse, Wagrainer Strasse, Flachauer Strasse and Unterberggasse.",
+      "nl": "In Flachau zijn meerdere laadstations voor elektrische autos, onder andere aan de Reitdorfer Strasse, Wagrainer Strasse, Flachauer Strasse en Unterberggasse."
+    },
+    "restaurant.kicker": {
+      "label": "restaurant.kicker",
+      "de": "Unser Restaurant",
+      "en": "Our restaurant",
+      "nl": "Ons restaurant"
+    },
+    "restaurant.title": {
+      "label": "restaurant.title",
+      "de": "Flachauer Gutshof &ndash; essen, tanzen, feiern",
+      "en": "Flachauer Gutshof &ndash; eat, dance, celebrate",
+      "nl": "Flachauer Gutshof &ndash; eten, dansen, vieren"
+    },
+    "restaurant.text": {
+      "label": "restaurant.text",
+      "de": "Direkt in Flachau erwartet Sie der Flachauer Gutshof mit regionalen und internationalen Spezialit&auml;ten, urigen R&auml;umlichkeiten im Altholz-Stil, gro&szlig;er Terrasse und Spielplatz.",
+      "en": "In Flachau, the Flachauer Gutshof welcomes you with regional and international specialties, rustic rooms in reclaimed-wood style, a large terrace and a playground.",
+      "nl": "In Flachau verwelkomt de Flachauer Gutshof u met regionale en internationale specialiteiten, gezellige ruimtes in oud-houtstijl, een groot terras en een speeltuin."
+    },
+    "restaurant.cta": {
+      "label": "restaurant.cta",
+      "de": "Restaurant Website &ouml;ffnen",
+      "en": "Open restaurant website",
+      "nl": "Open restaurantwebsite"
+    },
+    "restaurant.more": {
+      "label": "restaurant.more",
+      "de": "Mehr auf dieser Website",
+      "en": "More on this website",
+      "nl": "Meer op deze website"
+    },
+    "restaurant.fact1Title": {
+      "label": "restaurant.fact1Title",
+      "de": "K&uuml;che",
+      "en": "Cuisine",
+      "nl": "Keuken"
+    },
+    "restaurant.fact1Text": {
+      "label": "restaurant.fact1Text",
+      "de": "Regionale und internationale Spezialit&auml;ten",
+      "en": "Regional and international specialties",
+      "nl": "Regionale en internationale specialiteiten"
+    },
+    "restaurant.fact2Title": {
+      "label": "restaurant.fact2Title",
+      "de": "Atmosph&auml;re",
+      "en": "Atmosphere",
+      "nl": "Sfeer"
+    },
+    "restaurant.fact2Text": {
+      "label": "restaurant.fact2Text",
+      "de": "Gutshof Stubn, Musistadl und Heuboden",
+      "en": "Gutshof Stubn, Musistadl and Heuboden",
+      "nl": "Gutshof Stubn, Musistadl en Heuboden"
+    },
+    "restaurant.fact3Title": {
+      "label": "restaurant.fact3Title",
+      "de": "F&uuml;r Familien",
+      "en": "For families",
+      "nl": "Voor families"
+    },
+    "restaurant.fact3Text": {
+      "label": "restaurant.fact3Text",
+      "de": "Gro&szlig;e Terrasse und Spielplatz",
+      "en": "Large terrace and playground",
+      "nl": "Groot terras en speeltuin"
+    },
+    "restaurant.fact4Title": {
+      "label": "restaurant.fact4Title",
+      "de": "Adresse Restaurant",
+      "en": "Restaurant address",
+      "nl": "Adres restaurant"
+    },
+    "restaurant.fact4Text": {
+      "label": "restaurant.fact4Text",
+      "de": "Pichlgasse 15, 5542 Flachau",
+      "en": "Pichlgasse 15, 5542 Flachau",
+      "nl": "Pichlgasse 15, 5542 Flachau"
+    },
+    "gallery.kicker": {
+      "label": "gallery.kicker",
+      "de": "Einblicke",
+      "en": "A glimpse inside",
+      "nl": "Een kijkje binnen"
+    },
+    "gallery.title": {
+      "label": "gallery.title",
+      "de": "So f&uuml;hlt sich Urlaub bei uns an",
+      "en": "This is what a holiday with us feels like",
+      "nl": "Zo voelt een vakantie bij ons"
+    },
+    "gallery.all": {
+      "label": "gallery.all",
+      "de": "Alle Bilder ansehen",
+      "en": "View all photos",
+      "nl": "Alle fotos bekijken"
+    },
+    "location.kicker": {
+      "label": "location.kicker",
+      "de": "Alles in der N&auml;he",
+      "en": "Everything nearby",
+      "nl": "Alles dichtbij"
+    },
+    "location.title": {
+      "label": "location.title",
+      "de": "Mitten in Flachau &ndash; und schnell dort, wo der Urlaub beginnt",
+      "en": "In the heart of Flachau &ndash; close to everything your holiday needs",
+      "nl": "Midden in Flachau &ndash; dicht bij alles wat uw vakantie nodig heeft"
+    },
+    "location.text": {
+      "label": "location.text",
+      "de": "Der Lageplan zeigt Chalets, Rezeption, Parkfl&auml;chen, den Weg zum Flachauer Gutshof sowie den Fu&szlig;weg zum 8er-Jet. Darunter finden Sie die Google Karte f&uuml;r die Anreise.",
+      "en": "The site map shows the chalets, reception, parking, the route to Flachauer Gutshof and the footpath to the 8er-Jet lift. Below you will find the Google map for arrival.",
+      "nl": "De plattegrond toont de chalets, receptie, parkeerplaatsen, de route naar Flachauer Gutshof en het wandelpad naar de 8er-Jet. Hieronder vindt u de Google-kaart voor de aankomst."
+    },
+    "location.map": {
+      "label": "location.map",
+      "de": "Lageplan &ouml;ffnen",
+      "en": "Open site map",
+      "nl": "Plattegrond openen"
+    },
+    "location.enlarge": {
+      "label": "location.enlarge",
+      "de": "Plan vergr&ouml;&szlig;ern",
+      "en": "Enlarge map",
+      "nl": "Vergroot de kaart"
+    },
+    "finalBooking.kicker": {
+      "label": "finalBooking.kicker",
+      "de": "Urlaub buchen",
+      "en": "Book your holiday",
+      "nl": "Vakantie boeken"
+    },
+    "finalBooking.title": {
+      "label": "finalBooking.title",
+      "de": "Bereit f&uuml;r Ihren Urlaub in Flachau",
+      "en": "Ready for your holiday in Flachau",
+      "nl": "Klaar voor uw vakantie in Flachau"
+    },
+    "finalBooking.text": {
+      "label": "finalBooking.text",
+      "de": "W&auml;hlen Sie Ihre Saison und entdecken Sie Ihren Aufenthalt in den Alpenchalets Flachauer Gutshof.",
+      "en": "Choose your preferred season and enjoy your stay at Alpenchalets Flachauer Gutshof.",
+      "nl": "Kies uw seizoen en geniet van uw verblijf in Alpenchalets Flachauer Gutshof."
+    },
+    "finalBooking.summer": {
+      "label": "finalBooking.summer",
+      "de": "Sommer anfragen",
+      "en": "Enquire for Summer",
+      "nl": "Zomer aanvragen"
+    },
+    "finalBooking.winter": {
+      "label": "finalBooking.winter",
+      "de": "Winter buchen",
+      "en": "Book Winter",
+      "nl": "Winter boeken"
+    },
+    "booking.kicker": {
+      "label": "booking.kicker",
+      "de": "Urlaub buchen",
+      "en": "Book your holiday",
+      "nl": "Vakantie boeken"
+    },
+    "booking.title": {
+      "label": "booking.title",
+      "de": "Sommer direkt bei uns. Winter ausschlie&szlig;lich &uuml;ber Sunweb.",
+      "en": "Summer directly with us. Winter exclusively through Sunweb.",
+      "nl": "Zomer rechtstreeks bij ons. Winter uitsluitend via Sunweb."
+    },
+    "booking.lead": {
+      "label": "booking.lead",
+      "de": "Je nach Saison f&uuml;hrt der passende Weg schnell und &uuml;bersichtlich zu Ihrem Aufenthalt.",
+      "en": "The booking route is clear and simple for each season.",
+      "nl": "Voor elk seizoen is de boekingsroute duidelijk en eenvoudig."
+    },
+    "booking.summerLabel": {
+      "label": "booking.summerLabel",
+      "de": "Sommerurlaub",
+      "en": "Summer holiday",
+      "nl": "Zomervakantie"
+    },
+    "booking.summerTitle": {
+      "label": "booking.summerTitle",
+      "de": "Sommeranfragen direkt bei uns.",
+      "en": "Summer enquiries directly with us.",
+      "nl": "Zomeraanvragen direct bij ons."
+    },
+    "booking.summerText": {
+      "label": "booking.summerText",
+      "de": "Sommeraufenthalte k&ouml;nnen k&uuml;nftig direkt &uuml;ber Alpenchalets Flachau gebucht werden. Bis zur Freischaltung nehmen wir Ihre Anfrage gerne per E-Mail entgegen.",
+      "en": "Summer stays will soon be bookable directly with Alpenchalets Flachau. Until booking opens, we are happy to receive your enquiry by email.",
+      "nl": "Zomerverblijven zijn binnenkort rechtstreeks bij Alpenchalets Flachau te boeken. Tot de boeking opent, ontvangen wij uw aanvraag graag per e-mail."
+    },
+    "booking.summerCta": {
+      "label": "booking.summerCta",
+      "de": "Sommer anfragen",
+      "en": "Enquire about summer",
+      "nl": "Zomer aanvragen"
+    },
+    "booking.winterLabel": {
+      "label": "booking.winterLabel",
+      "de": "Winterurlaub",
+      "en": "Winter holiday",
+      "nl": "Wintervakantie"
+    },
+    "booking.winterTitle": {
+      "label": "booking.winterTitle",
+      "de": "Winterreisen buchen Sie ausschlie&szlig;lich &uuml;ber Sunweb.",
+      "en": "Book winter stays exclusively through Sunweb.",
+      "nl": "Boek winterverblijven uitsluitend via Sunweb."
+    },
+    "booking.winterText": {
+      "label": "booking.winterText",
+      "de": "F&uuml;r die Wintersaison sind Reservierungen ausschlie&szlig;lich &uuml;ber unseren Partner Sunweb m&ouml;glich. Verf&uuml;gbarkeit, Reisedaten und Buchung werden dort vollst&auml;ndig abgewickelt.",
+      "en": "For the winter season, reservations are available exclusively through our partner Sunweb. Availability, travel dates and booking are handled there in full.",
+      "nl": "Voor het winterseizoen zijn reserveringen uitsluitend mogelijk via onze partner Sunweb. Beschikbaarheid, reisdata en boeking worden daar volledig afgehandeld."
+    },
+    "booking.winterCta": {
+      "label": "booking.winterCta",
+      "de": "Bei Sunweb buchen",
+      "en": "Book with Sunweb",
+      "nl": "Boek bij Sunweb"
+    },
+    "contact.kicker": {
+      "label": "contact.kicker",
+      "de": "Bereit f&uuml;r Flachau",
+      "en": "Ready for Flachau",
+      "nl": "Klaar voor Flachau"
+    },
+    "contact.title": {
+      "label": "contact.title",
+      "de": "Wir freuen uns auf Ihre Anfrage",
+      "en": "We look forward to hearing from you",
+      "nl": "We horen graag van u"
+    },
+    "contact.text": {
+      "label": "contact.text",
+      "de": "F&uuml;r Fragen zu den Chalets und Ihrem Aufenthalt erreichen Sie uns telefonisch oder per E-Mail.",
+      "en": "For questions about the chalets and your stay, contact us by phone or email.",
+      "nl": "Voor vragen over de chalets en uw verblijf kunt u ons telefonisch of per e-mail bereiken."
+    },
+    "contact.phone": {
+      "label": "contact.phone",
+      "de": "Telefon",
+      "en": "Phone",
+      "nl": "Telefoon"
+    },
+    "contact.book": {
+      "label": "contact.book",
+      "de": "Winterurlaub buchen",
+      "en": "Book your winter stay",
+      "nl": "Boek uw winterverblijf"
+    },
+    "footer.tagline": {
+      "label": "footer.tagline",
+      "de": "wohlf&uuml;hlen | genie&szlig;en",
+      "en": "feel good | enjoy",
+      "nl": "ontspannen | genieten"
+    }
+  },
+  "media": {
+    "home": [
+      {
+        "key": "home_image_001",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "home_image_002",
+        "label": "award-sunweb-2017.webp",
+        "type": "image",
+        "default": "assets/images/award-sunweb-2017.webp"
+      },
+      {
+        "key": "home_image_003",
+        "label": "membership-top-of-the-mountains.webp",
+        "type": "image",
+        "default": "assets/images/membership-top-of-the-mountains.webp"
+      },
+      {
+        "key": "home_image_004",
+        "label": "chalet-4-bedroom-bunk.webp",
+        "type": "image",
+        "default": "assets/images/chalet-4-bedroom-bunk.webp"
+      },
+      {
+        "key": "home_image_005",
+        "label": "chalet-5-bedroom-roses.webp",
+        "type": "image",
+        "default": "assets/images/chalet-5-bedroom-roses.webp"
+      },
+      {
+        "key": "home_image_006",
+        "label": "kitchen.webp",
+        "type": "image",
+        "default": "assets/images/kitchen.webp"
+      },
+      {
+        "key": "home_image_007",
+        "label": "restaurant-gutshof-sommer.webp",
+        "type": "image",
+        "default": "assets/images/restaurant-gutshof-sommer.webp"
+      },
+      {
+        "key": "home_image_008",
+        "label": "restaurant-musistadl-eingang.webp",
+        "type": "image",
+        "default": "assets/images/restaurant-musistadl-eingang.webp"
+      },
+      {
+        "key": "home_image_009",
+        "label": "restaurant-dining-detail.webp",
+        "type": "image",
+        "default": "assets/images/restaurant-dining-detail.webp"
+      },
+      {
+        "key": "home_image_010",
+        "label": "exterior-wide.webp",
+        "type": "image",
+        "default": "assets/images/exterior-wide.webp"
+      },
+      {
+        "key": "home_image_011",
+        "label": "bathroom-sauna.webp",
+        "type": "image",
+        "default": "assets/images/bathroom-sauna.webp"
+      },
+      {
+        "key": "home_image_012",
+        "label": "bedroom-family.webp",
+        "type": "image",
+        "default": "assets/images/bedroom-family.webp"
+      },
+      {
+        "key": "home_image_013",
+        "label": "hero-winter.webp",
+        "type": "image",
+        "default": "assets/images/hero-winter.webp"
+      },
+      {
+        "key": "home_image_014",
+        "label": "bathroom.webp",
+        "type": "image",
+        "default": "assets/images/bathroom.webp"
+      },
+      {
+        "key": "home_image_015",
+        "label": "resort-map.webp",
+        "type": "image",
+        "default": "assets/images/resort-map.webp"
+      },
+      {
+        "key": "home_image_016",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "home_image_017",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      },
+      {
+        "key": "home_background_018",
+        "label": "chalets-header-real-room.webp",
+        "type": "image",
+        "default": "assets/images/chalets-header-real-room.webp"
+      },
+      {
+        "key": "home_background_019",
+        "label": "winter-card.jpg",
+        "type": "image",
+        "default": "assets/images/winter-card.jpg"
+      },
+      {
+        "key": "home_background_020",
+        "label": "comfort-header-chalet.webp",
+        "type": "image",
+        "default": "assets/images/comfort-header-chalet.webp"
+      },
+      {
+        "key": "home_sunweb_021",
+        "label": "Sunweb booking URL",
+        "type": "url",
+        "default": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
+      },
+      {
+        "key": "home_sunweb_022",
+        "label": "Sunweb booking URL",
+        "type": "url",
+        "default": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
+      }
+    ],
+    "chalet-4-zimmer": [
+      {
+        "key": "chalet-4-zimmer_image_001",
+        "label": "living.webp",
+        "type": "image",
+        "default": "assets/images/living.webp"
+      },
+      {
+        "key": "chalet-4-zimmer_image_002",
+        "label": "bedroom-family.webp",
+        "type": "image",
+        "default": "assets/images/bedroom-family.webp"
+      },
+      {
+        "key": "chalet-4-zimmer_image_003",
+        "label": "bathroom-sauna.webp",
+        "type": "image",
+        "default": "assets/images/bathroom-sauna.webp"
+      },
+      {
+        "key": "chalet-4-zimmer_image_004",
+        "label": "kitchen.webp",
+        "type": "image",
+        "default": "assets/images/kitchen.webp"
+      },
+      {
+        "key": "chalet-4-zimmer_image_005",
+        "label": "bathroom.webp",
+        "type": "image",
+        "default": "assets/images/bathroom.webp"
+      },
+      {
+        "key": "chalet-4-zimmer_image_006",
+        "label": "floorplan-type1-half.webp",
+        "type": "image",
+        "default": "assets/images/floorplan-type1-half.webp"
+      },
+      {
+        "key": "chalet-4-zimmer_image_007",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "chalet-4-zimmer_image_008",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      },
+      {
+        "key": "chalet-4-zimmer_background_009",
+        "label": "living.webp",
+        "type": "image",
+        "default": "assets/images/living.webp"
+      },
+      {
+        "key": "chalet-4-zimmer_sunweb_010",
+        "label": "Sunweb booking URL",
+        "type": "url",
+        "default": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
+      }
+    ],
+    "chalet-5-zimmer": [
+      {
+        "key": "chalet-5-zimmer_image_001",
+        "label": "exterior-main.webp",
+        "type": "image",
+        "default": "assets/images/exterior-main.webp"
+      },
+      {
+        "key": "chalet-5-zimmer_image_002",
+        "label": "bedroom-main.webp",
+        "type": "image",
+        "default": "assets/images/bedroom-main.webp"
+      },
+      {
+        "key": "chalet-5-zimmer_image_003",
+        "label": "bathroom-sauna.webp",
+        "type": "image",
+        "default": "assets/images/bathroom-sauna.webp"
+      },
+      {
+        "key": "chalet-5-zimmer_image_004",
+        "label": "living.webp",
+        "type": "image",
+        "default": "assets/images/living.webp"
+      },
+      {
+        "key": "chalet-5-zimmer_image_005",
+        "label": "kitchen.webp",
+        "type": "image",
+        "default": "assets/images/kitchen.webp"
+      },
+      {
+        "key": "chalet-5-zimmer_image_006",
+        "label": "floorplan-type2-half.webp",
+        "type": "image",
+        "default": "assets/images/floorplan-type2-half.webp"
+      },
+      {
+        "key": "chalet-5-zimmer_image_007",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "chalet-5-zimmer_image_008",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      },
+      {
+        "key": "chalet-5-zimmer_background_009",
+        "label": "exterior-main.webp",
+        "type": "image",
+        "default": "assets/images/exterior-main.webp"
+      },
+      {
+        "key": "chalet-5-zimmer_sunweb_010",
+        "label": "Sunweb booking URL",
+        "type": "url",
+        "default": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
+      }
+    ],
+    "sommer": [
+      {
+        "key": "sommer_image_001",
+        "label": "exterior-wide.webp",
+        "type": "image",
+        "default": "assets/images/exterior-wide.webp"
+      },
+      {
+        "key": "sommer_image_002",
+        "label": "hero-summer.webp",
+        "type": "image",
+        "default": "assets/images/hero-summer.webp"
+      },
+      {
+        "key": "sommer_image_003",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "sommer_image_004",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      },
+      {
+        "key": "sommer_background_005",
+        "label": "hero-summer.webp",
+        "type": "image",
+        "default": "assets/images/hero-summer.webp"
+      },
+      {
+        "key": "sommer_document_006",
+        "label": "flachau-sommer-card-aktivitaeten-2026.pdf",
+        "type": "document",
+        "default": "assets/docs/flachau-sommer-card-aktivitaeten-2026.pdf"
+      }
+    ],
+    "winter": [
+      {
+        "key": "winter_image_001",
+        "label": "IMG_20210315_113003.webp",
+        "type": "image",
+        "default": "assets/images/IMG_20210315_113003.webp"
+      },
+      {
+        "key": "winter_image_002",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "winter_image_003",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      },
+      {
+        "key": "winter_background_004",
+        "label": "winter-page-hero.jpg",
+        "type": "image",
+        "default": "assets/images/winter-page-hero.jpg"
+      },
+      {
+        "key": "winter_sunweb_005",
+        "label": "Sunweb booking URL",
+        "type": "url",
+        "default": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
+      }
+    ],
+    "restaurant": [
+      {
+        "key": "restaurant_image_001",
+        "label": "restaurant-dining-plate.webp",
+        "type": "image",
+        "default": "assets/images/restaurant-dining-plate.webp"
+      },
+      {
+        "key": "restaurant_image_002",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "restaurant_image_003",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      },
+      {
+        "key": "restaurant_background_004",
+        "label": "restaurant-gutshof-sommer.webp",
+        "type": "image",
+        "default": "assets/images/restaurant-gutshof-sommer.webp"
+      }
+    ],
+    "galerie": [
+      {
+        "key": "galerie_image_001",
+        "label": "exterior-wide.webp",
+        "type": "image",
+        "default": "assets/images/exterior-wide.webp"
+      },
+      {
+        "key": "galerie_image_002",
+        "label": "exterior-main.webp",
+        "type": "image",
+        "default": "assets/images/exterior-main.webp"
+      },
+      {
+        "key": "galerie_image_003",
+        "label": "hero-winter.webp",
+        "type": "image",
+        "default": "assets/images/hero-winter.webp"
+      },
+      {
+        "key": "galerie_image_004",
+        "label": "living.webp",
+        "type": "image",
+        "default": "assets/images/living.webp"
+      },
+      {
+        "key": "galerie_image_005",
+        "label": "kitchen.webp",
+        "type": "image",
+        "default": "assets/images/kitchen.webp"
+      },
+      {
+        "key": "galerie_image_006",
+        "label": "bedroom-main.webp",
+        "type": "image",
+        "default": "assets/images/bedroom-main.webp"
+      },
+      {
+        "key": "galerie_image_007",
+        "label": "bedroom-family.webp",
+        "type": "image",
+        "default": "assets/images/bedroom-family.webp"
+      },
+      {
+        "key": "galerie_image_008",
+        "label": "bathroom.webp",
+        "type": "image",
+        "default": "assets/images/bathroom.webp"
+      },
+      {
+        "key": "galerie_image_009",
+        "label": "bathroom-sauna.webp",
+        "type": "image",
+        "default": "assets/images/bathroom-sauna.webp"
+      },
+      {
+        "key": "galerie_image_010",
+        "label": "hero-summer.webp",
+        "type": "image",
+        "default": "assets/images/hero-summer.webp"
+      },
+      {
+        "key": "galerie_image_011",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "galerie_image_012",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      },
+      {
+        "key": "galerie_background_013",
+        "label": "gallery-hero-collage.png",
+        "type": "image",
+        "default": "assets/images/gallery-hero-collage.png"
+      }
+    ],
+    "faq": [
+      {
+        "key": "faq_image_001",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "faq_image_002",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      },
+      {
+        "key": "faq_background_003",
+        "label": "exterior-main.webp",
+        "type": "image",
+        "default": "assets/images/exterior-main.webp"
+      }
+    ],
+    "urlaubsanfrage": [
+      {
+        "key": "urlaubsanfrage_image_001",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "urlaubsanfrage_image_002",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      },
+      {
+        "key": "urlaubsanfrage_background_003",
+        "label": "exterior-wide.webp",
+        "type": "image",
+        "default": "assets/images/exterior-wide.webp"
+      }
+    ],
+    "kontakt": [
+      {
+        "key": "kontakt_image_001",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "kontakt_image_002",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      },
+      {
+        "key": "kontakt_background_003",
+        "label": "exterior-wide.webp",
+        "type": "image",
+        "default": "assets/images/exterior-wide.webp"
+      }
+    ],
+    "lage": [
+      {
+        "key": "lage_image_001",
+        "label": "resort-map.webp",
+        "type": "image",
+        "default": "assets/images/resort-map.webp"
+      },
+      {
+        "key": "lage_image_002",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "lage_image_003",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      },
+      {
+        "key": "lage_background_004",
+        "label": "hero-alpenchalets-flugbild.webp",
+        "type": "image",
+        "default": "assets/images/hero-alpenchalets-flugbild.webp"
+      },
+      {
+        "key": "lage_document_005",
+        "label": "lageplan-2026-alpenchalets.pdf",
+        "type": "document",
+        "default": "assets/docs/lageplan-2026-alpenchalets.pdf"
+      }
+    ],
+    "impressum": [
+      {
+        "key": "impressum_image_001",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "impressum_image_002",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      }
+    ],
+    "datenschutz": [
+      {
+        "key": "datenschutz_image_001",
+        "label": "logo.jpg",
+        "type": "image",
+        "default": "assets/images/logo.jpg"
+      },
+      {
+        "key": "datenschutz_image_002",
+        "label": "panta-digital-transparent.webp",
+        "type": "image",
+        "default": "assets/images/panta-digital-transparent.webp"
+      }
+    ]
+  }
+}

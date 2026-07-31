@@ -1,0 +1,1 @@
+Add a 1200x900 screenshot.png later if you want a visual preview in WordPress Themes.

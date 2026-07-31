@@ -1,0 +1,65 @@
+.detail-body{background:#faf8f3;color:#2e2e2e}.detail-header{position:absolute}.detail-header .brand img{filter:none}.detail-hero{min-height:78vh;position:relative;display:flex;align-items:flex-end;background-size:cover;background-position:center}.detail-hero:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,18,12,.18),rgba(15,18,12,.72))}.detail-hero-content{position:relative;z-index:2;color:#fff;padding:10rem 0 5rem}.detail-hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.9;margin:.5rem 0 1.25rem}.detail-hero p{max-width:720px;font-size:1.15rem}.detail-facts{display:grid;grid-template-columns:repeat(5,1fr);background:#fff;border-radius:1rem;box-shadow:0 18px 55px rgba(41,44,31,.12);margin-top:-2.3rem;position:relative;z-index:3}.detail-fact{padding:1.5rem;border-right:1px solid #e6e0d5}.detail-fact:last-child{border:0}.detail-fact strong{display:block;font-family:Corbel,'Trebuchet MS',Arial,sans-serif;font-size:2rem;color:#596141}.detail-fact span{font-size:.85rem;color:#6f7169}.detail-intro{display:grid;grid-template-columns:.9fr 1.1fr;gap:6rem;align-items:start}.detail-intro h2,.detail-section h2{font-size:clamp(2.5rem,5vw,4.5rem);line-height:1}.detail-lead{font-size:1.12rem;line-height:1.9}.room-plan{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}.room-card{background:#fff;padding:1.6rem;border:1px solid #e6e0d5;border-radius:.8rem}.room-card span{display:block;color:#777b69;font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;margin-bottom:.5rem}.room-card h3{font-size:1.5rem;margin:.2rem 0 .5rem}.room-card p{color:#666;line-height:1.65}.amenity-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#ddd7ca;border:1px solid #ddd7ca}.amenity{background:#faf8f3;padding:1.6rem;min-height:130px}.amenity b{display:block;margin-bottom:.5rem;color:#596141}.detail-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:260px 260px;gap:.75rem}.detail-gallery button{border:0;padding:0;overflow:hidden;cursor:pointer}.detail-gallery button:first-child{grid-row:1/3}.detail-gallery img{width:100%;height:100%;object-fit:cover;transition:transform .6s}.detail-gallery button:hover img{transform:scale(1.04)}.floorplan-wrap{display:grid;grid-template-columns:1fr .85fr;gap:4rem;align-items:center}.floorplan-card{background:#fff;padding:1rem;border-radius:1rem;box-shadow:0 16px 50px rgba(40,43,30,.1)}.floorplan-card img{width:100%;display:block}.booking-banner{background:#596141;color:#fff;border-radius:1rem;padding:3rem;display:flex;justify-content:space-between;align-items:center;gap:2rem}.booking-banner h2{margin:0 0 .5rem;font-size:clamp(2rem,4vw,3.5rem)}.back-link{display:inline-flex;gap:.5rem;align-items:center;margin-bottom:1.5rem;color:#fff}.detail-note{background:#ede8dc;border-left:4px solid #727a55;padding:1.2rem 1.4rem;margin-top:1.5rem}.detail-footer{margin-top:0}@media(max-width:900px){.detail-facts{grid-template-columns:repeat(2,1fr)}.detail-fact{border-bottom:1px solid #e6e0d5}.detail-intro,.floorplan-wrap{grid-template-columns:1fr;gap:2rem}.room-plan{grid-template-columns:1fr}.amenity-grid{grid-template-columns:repeat(2,1fr)}.detail-gallery{grid-template-columns:1fr 1fr;grid-template-rows:240px 180px 180px}.detail-gallery button:first-child{grid-column:1/3;grid-row:auto}.booking-banner{align-items:flex-start;flex-direction:column}}@media(max-width:600px){.detail-hero{min-height:70vh}.detail-hero-content{padding:8rem 0 3rem}.detail-facts{margin-top:0;border-radius:0;grid-template-columns:1fr 1fr}.detail-fact{padding:1rem}.amenity-grid{grid-template-columns:1fr}.detail-gallery{display:grid;grid-template-columns:1fr;grid-template-rows:repeat(5,220px)}.detail-gallery button:first-child{grid-column:auto}.booking-banner{border-radius:0;margin-inline:-1.25rem}.detail-header .header-actions{display:none}}.detail-hero h1,.detail-intro h2,.detail-section h2,.booking-banner h2{font-style:italic}
+
+/* Global consistency system */
+.detail-header{position:fixed!important;top:0!important}.detail-hero{min-height:62vh;margin-top:78px;background-position:center}.detail-hero-content{padding:72px 0}.detail-hero h1{font-family:Corbel,'Trebuchet MS',Arial,sans-serif;font-size:clamp(56px,7vw,108px);font-style:italic;font-weight:600;letter-spacing:-.035em;line-height:.92}.detail-intro h2,.detail-section h2,.booking-banner h2{font-family:Corbel,'Trebuchet MS',Arial,sans-serif;font-style:italic;line-height:1}.room-card,.floorplan-card,.booking-banner{border-radius:6px}
+@media(max-width:780px){.detail-hero{min-height:520px;margin-top:68px}.detail-hero-content{padding:56px 0 42px}.detail-hero h1{font-size:clamp(44px,13vw,68px);line-height:.96}}
+
+/* Final mobile layout pass for chalet detail pages. */
+@media(max-width:780px){
+  .detail-body{width:100%;max-width:100%;overflow-x:clip}
+  .detail-hero{min-height:0!important;height:auto;aspect-ratio:4/5;margin-top:0!important;background-position:center}
+  .detail-hero-content{width:calc(100% - 36px)!important;padding:120px 0 34px!important}
+  .detail-hero h1{font-size:clamp(38px,11.5vw,54px)!important;line-height:1.04!important;overflow-wrap:anywhere}
+  .detail-hero p{font-size:15px;line-height:1.5}
+  .detail-facts{width:calc(100% - 36px);margin:0 auto!important;grid-template-columns:1fr 1fr!important;border-radius:0;box-shadow:none}
+  .detail-fact{min-width:0;padding:14px!important}
+  .detail-fact strong{font-size:1.55rem;overflow-wrap:anywhere}
+  .detail-intro,.floorplan-wrap{grid-template-columns:minmax(0,1fr)!important;gap:28px!important}
+  .detail-intro h2,.detail-section h2,.booking-banner h2{font-size:clamp(34px,10vw,48px)!important;line-height:1.05!important;overflow-wrap:anywhere}
+  .detail-lead{font-size:16px;line-height:1.75}
+  .room-plan,.amenity-grid{grid-template-columns:1fr!important}
+  .room-card,.amenity{padding:20px}
+  .detail-gallery{grid-template-columns:1fr!important;grid-template-rows:none!important;gap:12px}
+  .detail-gallery button,.detail-gallery button:first-child{grid-column:auto!important;grid-row:auto!important;width:100%;height:auto;aspect-ratio:4/3}
+  .floorplan-card{padding:8px}
+  .booking-banner{width:100%!important;margin:0!important;padding:28px 22px!important;border-radius:0!important}
+  .booking-banner .btn{width:100%}
+}
+@media(max-width:390px){
+  .detail-hero-content,.detail-facts{width:calc(100% - 28px)!important}
+  .detail-hero h1{font-size:clamp(35px,11vw,45px)!important}
+  .detail-facts{grid-template-columns:1fr!important}
+}
+
+/* Prevent chalet headers from becoming oversized on tall desktop screens. */
+@media(min-width:901px){
+  .detail-hero{
+    height:clamp(560px,calc(62vh + 78px),760px)!important;
+    min-height:0!important;
+  }
+}
+
+.fact-icon{
+  display:block;
+  width:34px;
+  height:34px;
+  margin-bottom:12px;
+  color:#596141;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.65;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.svg-sprite{position:absolute;width:0;height:0;overflow:hidden}
+.detail-back-to-top{position:fixed;right:15px;bottom:18px;z-index:59;width:40px;height:40px;border-radius:50%;display:none;place-items:center;background:rgba(63,70,48,.74);color:#fff;border:1px solid rgba(255,255,255,.42);box-shadow:0 10px 26px rgba(12,15,10,.17);font-size:18px;line-height:1;opacity:0;pointer-events:none;transform:translateY(7px);transition:transform .22s ease,background .22s ease,opacity .22s ease}
+.image-modal p{display:none!important}
+.detail-back-to-top.is-visible{display:grid;opacity:.82;pointer-events:auto;transform:none}
+.detail-back-to-top:hover,.detail-back-to-top:focus-visible{opacity:1;transform:translateY(-3px);background:#3f4630;outline:2px solid #fff;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.detail-back-to-top{transition:none}}
+.modal-nav{display:none;position:fixed;top:50%;z-index:10001;width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.5);background:rgba(63,70,48,.78);color:#fff;place-items:center;font-size:28px;line-height:1;cursor:pointer;transform:translateY(-50%);transition:background .2s ease,transform .2s ease}
+.image-modal.has-gallery-nav .modal-nav{display:grid}
+.modal-prev{left:22px}.modal-next{right:22px}
+.modal-nav:hover,.modal-nav:focus-visible{background:#596141;transform:translateY(-50%) scale(1.06);outline:2px solid #fff;outline-offset:2px}
+@media(max-width:600px){.modal-nav{width:40px;height:40px;font-size:22px}.modal-prev{left:8px}.modal-next{right:8px}}
+.booking-banner .section-kicker{color:#f1eadb!important;opacity:1}.detail-footer .footer-contact a{text-decoration:none}.detail-footer .footer-contact a:hover,.detail-footer .footer-contact a:focus-visible{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}

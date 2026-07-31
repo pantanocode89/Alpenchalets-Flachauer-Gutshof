@@ -1,0 +1,395 @@
+<?php defined('ABSPATH') || exit; ?>
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Details zum 4-Zimmer-Chalet der Flachauer Alpenchalets." data-content-de="Details zum 4-Zimmer-Chalet der Flachauer Alpenchalets." data-content-en="Details about the 4-room chalet at Flachauer Alpenchalets." data-content-nl="Details over het 4-kamerchalet van Flachauer Alpenchalets.">
+<title data-page-title-de="4-Zimmer-Chalet | Flachauer Alpenchalets" data-page-title-en="4-room chalet | Flachauer Alpenchalets" data-page-title-nl="4-kamerchalet | Flachauer Alpenchalets">4-Zimmer-Chalet | Flachauer Alpenchalets</title>
+  <link rel="canonical" href="https://www.alpenchalets.at/chalet-4-zimmer.html">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Flachauer Alpenchalets">
+  <meta property="og:locale" content="de_AT">
+  <meta property="og:title" content="4-Zimmer-Chalet | Flachauer Alpenchalets">
+  <meta property="og:description" content="Details zum 4-Zimmer-Chalet der Flachauer Alpenchalets.">
+  <meta property="og:url" content="https://www.alpenchalets.at/chalet-4-zimmer.html">
+  <meta property="og:image" content="https://www.alpenchalets.at/assets/images/chalet-4-bedroom-bunk.webp">
+  <meta property="og:image:alt" content="Flachauer Alpenchalets in Flachau">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="4-Zimmer-Chalet | Flachauer Alpenchalets">
+  <meta name="twitter:description" content="Details zum 4-Zimmer-Chalet der Flachauer Alpenchalets.">
+  <meta name="twitter:image" content="https://www.alpenchalets.at/assets/images/chalet-4-bedroom-bunk.webp">
+<link rel="icon" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/logo.jpg">
+
+
+<?php wp_head(); ?>
+</head>
+<body <?php body_class('detail-body'); ?>><?php wp_body_open(); ?>
+<svg class="svg-sprite" aria-hidden="true">
+<symbol id="icon-guests" viewBox="0 0 32 32">
+<circle cx="11" cy="10" r="4"/>
+<circle cx="22" cy="11" r="3.5"/>
+<path d="M3.5 26c.5-6 3-9 7.5-9s7 3 7.5 9M17 19c1.2-1.5 2.9-2.2 5-2.2 4 0 6.1 3 6.5 8"/>
+</symbol>
+<symbol id="icon-bed" viewBox="0 0 32 32">
+<path d="M4 25V8M4 19h24v6M8 18v-5h8c3 0 5 2 5 5M4 12h4v6M28 25v3M4 25v3"/>
+</symbol>
+<symbol id="icon-bath" viewBox="0 0 32 32">
+<path d="M4 16h24v3c0 5-4 8-9 8h-6c-5 0-9-3-9-8v-3ZM8 16V8c0-2 1.5-3.5 3.5-3.5S15 6 15 8M4 16H2M28 16h2M9 27l-1 2M23 27l1 2"/>
+</symbol>
+<symbol id="icon-sauna" viewBox="0 0 32 32">
+<path d="M5 28h22V13H5v15ZM11 13v15M17 13v15M23 13v15M8 8c-2-2 2-3 0-5M16 8c-2-2 2-3 0-5M24 8c-2-2 2-3 0-5"/>
+</symbol>
+<symbol id="icon-floors" viewBox="0 0 32 32">
+<path d="M4 27h24M6 23h8v-5h6v-5h6V8M22 8h4v4"/>
+</symbol>
+</svg>
+<a class="skip-link" href="#main" data-cms-key="chalet-4-zimmer_text_001" data-de="Zum Inhalt" data-en="Skip to content" data-nl="Naar inhoud">Zum Inhalt</a>
+<header class="site-header detail-header scrolled" id="siteHeader">
+<button class="menu-toggle" id="menuToggle" aria-label="Menü öffnen" aria-expanded="false">
+<span>
+</span>
+<span>
+</span>
+</button>
+<nav class="main-nav" id="mainNav" aria-label="Hauptnavigation">
+      <a href="<?php echo esc_url(home_url('/#home')); ?>" data-i18n="nav.home">Home</a>
+      <a href="<?php echo esc_url(home_url('/#chalets')); ?>" data-i18n="nav.chalets">Unsere Chalets</a>
+      <a href="<?php echo esc_url(home_url('/sommer/')); ?>" data-i18n="nav.summer">Sommer</a>
+      <a href="<?php echo esc_url(home_url('/winter/')); ?>" data-i18n="nav.winter">Winter</a>
+      <a href="<?php echo esc_url(home_url('/#services')); ?>" data-i18n="nav.comfort">Komfort</a>
+<a href="<?php echo esc_url(home_url('/restaurant/')); ?>" data-i18n="nav.restaurant">Restaurant</a>
+<a href="<?php echo esc_url(home_url('/galerie/')); ?>" data-i18n="nav.gallery">Galerie</a>
+      <a href="<?php echo esc_url(home_url('/lage/')); ?>" data-cms-key="chalet-4-zimmer_text_002" data-de="Lage &amp; Anfahrt" data-en="Location &amp; Directions" data-nl="Ligging &amp; Route">Lage &amp; Anfahrt</a>
+<a href="<?php echo esc_url(home_url('/faq/')); ?>" data-i18n="nav.faq">FAQ</a>
+      <a href="<?php echo esc_url(home_url('/urlaubsanfrage/')); ?>" data-i18n="nav.enquiry" data-cms-key="chalet-4-zimmer_text_003" data-de="Urlaubsanfrage" data-en="Holiday enquiry" data-nl="Vakantieaanvraag">Urlaubsanfrage</a>
+      <a href="<?php echo esc_url(home_url('/kontakt/')); ?>" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+<div class="header-actions">
+<div class="language-switcher">
+<button class="lang-btn active" data-lang="de">DE</button>
+<button class="lang-btn" data-lang="en">EN</button>
+<button class="lang-btn" data-lang="nl">NL</button>
+</div>
+</div>
+</header>
+<main id="main">
+<section class="detail-hero" data-cms-bg-key="chalet-4-zimmer_background_009" style="background-image:url('<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/living.webp')">
+<div class="container detail-hero-content">
+<p class="eyebrow" data-i18n="c4.kicker">
+</p>
+<h1>4-Zimmer-Chalet</h1>
+<p data-i18n="c4.lead">
+</p>
+</div>
+</section>
+<div class="container">
+<div class="detail-facts">
+<div class="detail-fact">
+<svg class="fact-icon" aria-hidden="true">
+<use href="#icon-guests"/>
+</svg>
+<span data-i18n="c4.fact1">
+</span>
+</div>
+<div class="detail-fact">
+<svg class="fact-icon" aria-hidden="true">
+<use href="#icon-bed"/>
+</svg>
+<span data-i18n="c4.fact2">
+</span>
+</div>
+<div class="detail-fact">
+<svg class="fact-icon" aria-hidden="true">
+<use href="#icon-bath"/>
+</svg>
+<span data-i18n="c4.fact3">
+</span>
+</div>
+<div class="detail-fact">
+<svg class="fact-icon" aria-hidden="true">
+<use href="#icon-sauna"/>
+</svg>
+<span data-i18n="c4.fact4">
+</span>
+</div>
+<div class="detail-fact">
+<svg class="fact-icon" aria-hidden="true">
+<use href="#icon-floors"/>
+</svg>
+<span data-i18n="c4.fact5">
+</span>
+</div>
+</div>
+</div>
+<section class="section">
+<div class="container detail-intro">
+<div>
+<p class="section-kicker" data-i18n="c4.introKicker">
+</p>
+<h2 data-i18n="c4.introTitle">
+</h2>
+</div>
+<div>
+<p class="detail-lead" data-i18n="c4.introText">
+</p>
+<div class="detail-note" data-i18n="c4.note">
+</div>
+</div>
+</div>
+</section>
+<section class="section detail-section">
+<div class="container">
+<p class="section-kicker" data-i18n="common.rooms">
+</p>
+<h2 data-i18n="common.rooms">
+</h2>
+<div class="room-plan">
+<article class="room-card">
+<span data-i18n="c4.room1">
+</span>
+<h3 data-i18n="c4.room1t">
+</h3>
+<p data-i18n="c4.room1d">
+</p>
+</article>
+<article class="room-card">
+<span data-i18n="c4.room2">
+</span>
+<h3 data-i18n="c4.room2t">
+</h3>
+<p data-i18n="c4.room2d">
+</p>
+</article>
+<article class="room-card">
+<span data-i18n="c4.room3">
+</span>
+<h3 data-i18n="c4.room3t">
+</h3>
+<p data-i18n="c4.room3d">
+</p>
+</article>
+<article class="room-card">
+<span data-i18n="c4.room4">
+</span>
+<h3 data-i18n="c4.room4t">
+</h3>
+<p data-i18n="c4.room4d">
+</p>
+</article>
+<article class="room-card">
+<span data-i18n="c4.room5">
+</span>
+<h3 data-i18n="c4.room5t">
+</h3>
+<p data-i18n="c4.room5d">
+</p>
+</article>
+<article class="room-card">
+<span data-i18n="c4.room6">
+</span>
+<h3 data-i18n="c4.room6t">
+</h3>
+<p data-i18n="c4.room6d">
+</p>
+</article>
+</div>
+</div>
+</section>
+<section class="section detail-section">
+<div class="container">
+<p class="section-kicker" data-i18n="common.amenities">
+</p>
+<h2 data-i18n="common.amenities">
+</h2>
+<div class="amenity-grid">
+<div class="amenity">
+<b data-i18n="amenity.kitchen">
+</b>
+<span data-i18n="amenity.kitchenD">
+</span>
+</div>
+<div class="amenity">
+<b data-i18n="amenity.fire">
+</b>
+<span data-i18n="amenity.fireD">
+</span>
+</div>
+<div class="amenity">
+<b data-i18n="amenity.sauna">
+</b>
+<span data-i18n="amenity.saunaD">
+</span>
+</div>
+<div class="amenity">
+<b data-i18n="amenity.terrace">
+</b>
+<span data-i18n="amenity.terraceD">
+</span>
+</div>
+<div class="amenity">
+<b data-i18n="amenity.wifi">
+</b>
+<span data-i18n="amenity.wifiD">
+</span>
+</div>
+<div class="amenity">
+<b data-i18n="amenity.parking">
+</b>
+<span data-i18n="amenity.parkingD">
+</span>
+</div>
+<div class="amenity">
+<b data-i18n="amenity.storage">
+</b>
+<span data-i18n="amenity.storageD">
+</span>
+</div>
+<div class="amenity">
+<b data-i18n="amenity.laundry">
+</b>
+<span data-i18n="amenity.laundryD">
+</span>
+</div>
+<div class="amenity">
+<b data-i18n="amenity.kids">
+</b>
+<span data-i18n="amenity.kidsD">
+</span>
+</div>
+<div class="amenity">
+<b data-i18n="amenity.location">
+</b>
+<span data-i18n="amenity.locationD">
+</span>
+</div>
+<div class="amenity">
+<b data-i18n="amenity.bread">
+</b>
+<span data-i18n="amenity.breadD">
+</span>
+</div>
+<div class="amenity">
+<b data-i18n="amenity.takeaway">
+</b>
+<span data-i18n="amenity.takeawayD">
+</span>
+</div>
+</div>
+</div>
+</section>
+<section class="section detail-section" id="gallery">
+<div class="container">
+<p class="section-kicker" data-i18n="common.gallery">
+</p>
+<h2 data-i18n="common.gallery">
+</h2>
+<div class="detail-gallery">
+<button class="gallery-item" data-src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/living.webp">
+<img loading="lazy" decoding="async" data-cms-src-key="chalet-4-zimmer_image_001" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/living.webp" alt="4-Zimmer-Chalet">
+</button>
+<button class="gallery-item" data-src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/bedroom-family.webp">
+<img loading="lazy" decoding="async" data-cms-src-key="chalet-4-zimmer_image_002" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/bedroom-family.webp" alt="4-Zimmer-Chalet">
+</button>
+<button class="gallery-item" data-src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/bathroom-sauna.webp">
+<img loading="lazy" decoding="async" data-cms-src-key="chalet-4-zimmer_image_003" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/bathroom-sauna.webp" alt="4-Zimmer-Chalet">
+</button>
+<button class="gallery-item" data-src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/kitchen.webp">
+<img loading="lazy" decoding="async" data-cms-src-key="chalet-4-zimmer_image_004" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/kitchen.webp" alt="4-Zimmer-Chalet">
+</button>
+<button class="gallery-item" data-src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/bathroom.webp">
+<img loading="lazy" decoding="async" data-cms-src-key="chalet-4-zimmer_image_005" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/bathroom.webp" alt="4-Zimmer-Chalet">
+</button>
+</div>
+</div>
+</section>
+<section class="section detail-section">
+<div class="container floorplan-wrap">
+<div>
+<p class="section-kicker" data-i18n="common.goodToKnow">
+</p>
+<h2 data-i18n="common.goodToKnow">
+</h2>
+<p class="detail-lead" data-i18n="c4.good">
+</p>
+<button class="btn btn-outline open-floorplan" data-image="assets/images/floorplan-type1-half.webp" data-title="4-Zimmer-Chalet">
+<span data-i18n="common.floor">
+</span>
+<span>&#8599;</span>
+</button>
+</div>
+<button class="floorplan-card open-floorplan" data-image="assets/images/floorplan-type1-half.webp" data-title="4-Zimmer-Chalet">
+<img loading="lazy" decoding="async" data-cms-src-key="chalet-4-zimmer_image_006" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/floorplan-type1-half.webp" alt="Grundriss 4-Zimmer-Chalet">
+</button>
+</div>
+</section>
+<section class="section" id="contact">
+<div class="container booking-banner">
+<div>
+<p class="section-kicker" data-i18n="common.contactKicker">
+</p>
+<h2 data-i18n="common.contact">
+</h2>
+<p data-i18n="common.contactText">
+</p>
+</div>
+<div class="hero-buttons">
+<a class="btn btn-ghost" href="<?php echo esc_url(home_url('/urlaubsanfrage/?season=summer&amp;chalet=4-zimmer')); ?>" data-i18n="common.summer">
+</a>
+<a class="btn btn-ghost" target="_blank" rel="noopener" data-cms-href-key="chalet-4-zimmer_sunweb_010" href="https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen">
+<span data-i18n="common.winter">
+</span>
+<span>&#8599;</span>
+</a>
+</div>
+</div>
+</section>
+<section class="section cross-chalet-section" aria-labelledby="crossChaletTitle">
+<div class="container cross-chalet-card">
+<div>
+<p class="section-kicker" data-cms-key="chalet-4-zimmer_text_004" data-de="Auch interessant" data-en="You may also like" data-nl="Ook interessant">Auch interessant</p>
+<h2 id="crossChaletTitle" data-cms-key="chalet-4-zimmer_text_005" data-de="Mehr Privatsphäre in vier separaten Schlafzimmern" data-en="More privacy with four separate bedrooms" data-nl="Meer privacy met vier aparte slaapkamers">Mehr Privatsphäre in vier separaten Schlafzimmern</h2>
+</div>
+<a class="btn btn-outline" href="<?php echo esc_url(home_url('/chalet-5-zimmer/')); ?>" data-cms-key="chalet-4-zimmer_text_006" data-de="5-Zimmer-Chalet ansehen →" data-en="View the 5-room chalet →" data-nl="Bekijk het 5-kamerchalet →">5-Zimmer-Chalet ansehen →</a>
+</div>
+</section>
+</main>
+<footer class="detail-footer">
+<div class="container footer-grid">
+<img loading="lazy" decoding="async" data-cms-src-key="chalet-4-zimmer_image_007" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/logo.jpg" alt="Flachauer Alpenchalets" class="footer-logo">
+<div>
+<strong data-i18n="footer.tagline">
+</strong>
+<p data-cms-key="chalet-4-zimmer_text_007" data-de="Flachau &middot; Salzburger Land &middot; Österreich" data-en="Flachau &middot; Salzburger Land &middot; Austria" data-nl="Flachau &middot; Salzburger Land &middot; Oostenrijk">Flachau &middot; Salzburger Land &middot; Österreich</p>
+<p class="footer-direct-contact">
+<a href="tel:+43645733971">+43 6457 33971</a>
+<a href="mailto:info@alpenchalets.at">info@alpenchalets.at</a>
+</p>
+</div>
+<div class="footer-contact">
+<a href="<?php echo esc_url(home_url('/faq/')); ?>" data-cms-key="chalet-4-zimmer_text_008" data-de="FAQ" data-en="FAQ" data-nl="FAQ">FAQ</a>
+<a href="<?php echo esc_url(home_url('/impressum/')); ?>" data-cms-key="chalet-4-zimmer_text_009" data-de="Impressum" data-en="Legal notice" data-nl="Colofon">Impressum</a>
+<a href="<?php echo esc_url(home_url('/datenschutz/')); ?>" data-cms-key="chalet-4-zimmer_text_010" data-de="Datenschutz" data-en="Privacy policy" data-nl="Privacybeleid">Datenschutz</a>
+<a href="<?php echo esc_url(home_url('/#newsletter')); ?>" data-cms-key="chalet-4-zimmer_text_011" data-de="Newsletter" data-en="Newsletter" data-nl="Nieuwsbrief">Newsletter</a>
+</div>
+</div>
+<div class="container footer-bottom">
+<span>&copy; <span id="year">
+</span> Flachauer Alpenchalets</span>
+<a class="footer-credit-logo" title="Panta Digital" href="<?php echo esc_url(ac_option('portfolio_url','#')); ?>" target="_blank" rel="noopener noreferrer">
+<img loading="lazy" decoding="async" data-cms-src-key="chalet-4-zimmer_image_008" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/panta-digital-transparent.webp" alt="Panta Digital" width="104" height="80">
+</a>
+</div>
+</footer>
+<dialog class="image-modal" id="imageModal">
+<button class="modal-close" aria-label="Schließen">&times;</button>
+<img loading="lazy" decoding="async" id="modalImage" alt="Vergrößerte Ansicht">
+<p id="modalTitle">
+</p>
+</dialog>
+<script src="chalet-detail.js?v=20260722-2">
+</script>
+<?php wp_footer(); ?>
+</body>
+</html>

@@ -1,0 +1,1 @@
+jQuery(function($){$(document).on('click','.ac-media',function(){var input=$(this).siblings('input');var frame=wp.media({title:'Izaberite fajl',button:{text:'Koristi ovaj fajl'},multiple:false});frame.on('select',function(){input.val(frame.state().get('selection').first().toJSON().url);});frame.open();});});

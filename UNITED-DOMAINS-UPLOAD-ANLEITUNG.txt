@@ -1,0 +1,29 @@
+UNITED DOMAINS - UPUTSTVO ZA OBJAVU
+
+Spreman sadržaj nalazi se u folderu:
+united-domains-upload
+
+Isti sadržaj je zapakovan u:
+alpenchalets-united-domains.zip
+
+PREPORUČENI NAČIN: UNITED DOMAINS WEBSPACE + SFTP
+
+1. U United Domains Portfolio otvorite Website & Hosting / Webspace.
+2. Aktivirajte Webspace ako već nije aktivan.
+3. Povežite domen www.alpenchalets.at sa glavnim direktorijumom ili direktorijumom koji želite da koristite.
+4. Otvorite SFTP podatke u United Domains Portfolio.
+5. Povežite se programom FileZilla ili drugim SFTP klijentom.
+6. U direktorijum povezan sa domenom prenesite SADRŽAJ foldera united-domains-upload.
+   Važno: index.html mora biti direktno u tom direktorijumu, a ne u dodatnom podfolderu.
+7. Proverite https://www.alpenchalets.at i nekoliko unutrašnjih stranica.
+8. Proverite da SSL/HTTPS radi pre javne promocije sajta.
+9. U Google Search Console pošaljite:
+   https://www.alpenchalets.at/sitemap.xml
+
+NAPOMENA O CMS/HOMEPAGE-BAUKASTEN EDITORU
+
+Ovo je kompletan višestranični statički sajt. Ne može se automatski pretvoriti u WordPress stranice ili United Domains drag-and-drop blokove bez posebne konverzije. Može se direktno objaviti na United Domains Webspace-u. Ako vlasnik želi vizuelno menjanje svakog teksta kroz CMS, potreban je zaseban WordPress/CMS projekat i migracija dizajna.
+
+NE UPLOADOVATI
+
+Ne postavljati ceo razvojni projekat. Folderi Archive, tmp, .git, .agents i lokalne Codex datoteke nisu potrebni. Za objavu koristiti isključivo united-domains-upload ili sadržaj ZIP paketa.

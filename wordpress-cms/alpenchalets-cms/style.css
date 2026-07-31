@@ -1,0 +1,9 @@
+/*
+Theme Name: Flachauer Alpenchalets CMS
+Theme URI: https://www.alpenchalets.at
+Author: Panta Digital
+Description: WordPress CMS theme matching the Flachauer Alpenchalets website.
+Version: 1.0.0
+Text Domain: alpenchalets
+*/
+body.admin-bar .site-header,body.admin-bar .page-header{top:32px}@media(max-width:782px){body.admin-bar .site-header,body.admin-bar .page-header{top:46px}}
