@@ -1,0 +1,252 @@
+/* Definitive shared navigation geometry. Loaded last on every page. */
+html { scrollbar-gutter: stable; }
+html.language-pending .site-header,
+html.language-pending .page-header{visibility:hidden!important}
+
+@media (min-width: 1101px) {
+  .site-header,
+  .site-header.scrolled,
+  .site-header:not(.scrolled),
+  .page-header,
+  .page-header.scrolled {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1050px) 84px !important;
+    column-gap: 32px !important;
+    justify-content: start !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 78px !important;
+    min-height: 78px !important;
+    padding: 0 48px !important;
+    box-sizing: border-box !important;
+  }
+
+  .main-nav,
+  .page-nav {
+    display: grid !important;
+    grid-template-columns: 45px 103px 61px 50px 60px 77px 52px 142px 118px 34px 58px !important;
+    column-gap: 0 !important;
+    gap: 0 !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 1050px !important;
+    min-width: 1050px !important;
+    max-width: 1050px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    flex: none !important;
+    transform: none !important;
+  }
+
+  .main-nav a,
+  .page-nav a,
+  html[lang="de"] .main-nav a,
+  html[lang="en"] .main-nav a,
+  html[lang="de"] .page-nav a,
+  html[lang="en"] .page-nav a {
+    display: block !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    font-family: Corbel, "Trebuchet MS", Arial, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    letter-spacing: .02em !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    transform: none !important;
+  }
+
+  .header-actions,
+  .page-lang,
+  .language-switcher {
+    justify-self: start !important;
+    width: 84px !important;
+    min-width: 84px !important;
+    max-width: 84px !important;
+    margin: 0 !important;
+    transform: none !important;
+  }
+}
+
+/* Identical restrained desktop navigation for German and English. */
+@media (min-width: 1101px) {
+  html[lang="de"] .site-header,
+  html[lang="en"] .site-header,
+  html[lang="de"] .site-header.scrolled,
+  html[lang="en"] .site-header.scrolled,
+  html[lang="de"] .site-header:not(.scrolled),
+  html[lang="en"] .site-header:not(.scrolled),
+  html[lang="de"] .page-header,
+  html[lang="en"] .page-header,
+  html[lang="de"] .page-header.scrolled,
+  html[lang="en"] .page-header.scrolled {
+    grid-template-columns:1050px 84px!important;
+    column-gap:32px!important;
+    height:78px!important;
+    min-height:78px!important;
+    padding-inline:32px!important;
+  }
+  html[lang="de"] .main-nav,html[lang="en"] .main-nav,
+  html[lang="de"] .page-nav,html[lang="en"] .page-nav {
+    width:1050px!important;
+    min-width:1050px!important;
+    max-width:1050px!important;
+    grid-template-columns:45px 103px 61px 50px 60px 77px 52px 104px 106px 34px 58px!important;
+    column-gap:24px!important;
+    gap:24px!important;
+    justify-content:start!important;
+  }
+  html[lang="de"] .main-nav a,html[lang="en"] .main-nav a,
+  html[lang="de"] .page-nav a,html[lang="en"] .page-nav a {
+    padding-block:10px!important;
+    font-size:13px!important;
+  }
+  html[lang="de"] .header-actions,html[lang="en"] .header-actions,
+  html[lang="de"] .page-lang,html[lang="en"] .page-lang,
+  html[lang="de"] .language-switcher,html[lang="en"] .language-switcher {
+    width:84px!important;min-width:84px!important;max-width:84px!important;
+  }
+  .language-switcher,.page-lang{
+    height:40px!important;
+    padding:3px!important;
+    border:1px solid rgba(255,255,255,.62)!important;
+    border-radius:999px!important;
+    gap:0!important;
+  }
+  .language-switcher .lang-btn,.page-lang button{
+    width:38px!important;
+    min-width:38px!important;
+    height:32px!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:999px!important;
+    font-size:12px!important;
+    text-decoration:none!important;
+  }
+  .language-switcher .lang-btn.active,.page-lang button.active{
+    background:#fff!important;
+    color:#3f4630!important;
+  }
+}
+
+/* German labels need compact, even tracks. English geometry stays unchanged. */
+@media (min-width: 1101px) {
+  html[lang="de"] .main-nav,
+  html[lang="de"] .page-nav {
+    grid-template-columns: 45px 103px 61px 50px 60px 77px 52px 104px 106px 34px 58px !important;
+    column-gap: 24px !important;
+    gap: 24px !important;
+    justify-content: start !important;
+  }
+}
+
+/* German desktop navigation scales from the approved 1240px reference. */
+@media (min-width: 1101px) {
+  html[lang="de"] .site-header,
+  html[lang="de"] .site-header.scrolled,
+  html[lang="de"] .site-header:not(.scrolled),
+  html[lang="de"] .page-header,
+  html[lang="de"] .page-header.scrolled {
+    grid-template-columns: 84.68vw 6.77vw !important;
+    column-gap: 2.58vw !important;
+    height: 6.29vw !important;
+    min-height: 6.29vw !important;
+    padding-inline: 2.58vw !important;
+  }
+  html[lang="de"] .main-nav,
+  html[lang="de"] .page-nav {
+    width: 84.68vw !important;
+    min-width: 84.68vw !important;
+    max-width: 84.68vw !important;
+    grid-template-columns: 3.63vw 8.31vw 4.92vw 4.03vw 4.84vw 6.21vw 4.19vw 8.39vw 8.55vw 2.74vw 4.68vw !important;
+    column-gap: 1.94vw !important;
+    gap: 1.94vw !important;
+  }
+  html[lang="de"] .main-nav a,
+  html[lang="de"] .page-nav a {
+    padding-block: .81vw !important;
+    font-size: 1.13vw !important;
+  }
+  html[lang="de"] .header-actions,
+  html[lang="de"] .page-lang,
+  html[lang="de"] .language-switcher {
+    width: 6.77vw !important;
+    min-width: 6.77vw !important;
+    max-width: 6.77vw !important;
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1261px) {
+  .site-header,
+  .site-header.scrolled,
+  .site-header:not(.scrolled),
+  .page-header,
+  .page-header.scrolled {
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+  }
+}
+
+/* Final authority: same compact geometry in DE and EN. */
+@media (min-width: 1101px) {
+  html[lang="de"] .site-header,html[lang="en"] .site-header,
+  html[lang="de"] .site-header.scrolled,html[lang="en"] .site-header.scrolled,
+  html[lang="de"] .site-header:not(.scrolled),html[lang="en"] .site-header:not(.scrolled),
+  html[lang="de"] .page-header,html[lang="en"] .page-header,
+  html[lang="de"] .page-header.scrolled,html[lang="en"] .page-header.scrolled{
+    grid-template-columns:1050px 84px!important;column-gap:32px!important;
+    height:78px!important;min-height:78px!important;padding-inline:32px!important;
+  }
+  html[lang="de"] .main-nav,html[lang="en"] .main-nav,
+  html[lang="de"] .page-nav,html[lang="en"] .page-nav{
+    width:1050px!important;min-width:1050px!important;max-width:1050px!important;
+    grid-template-columns:45px 103px 61px 50px 60px 77px 52px 104px 106px 34px 58px!important;
+    column-gap:24px!important;gap:24px!important;justify-content:start!important;
+  }
+  html[lang="de"] .main-nav a,html[lang="en"] .main-nav a,
+  html[lang="de"] .page-nav a,html[lang="en"] .page-nav a{
+    padding-block:10px!important;font-size:13px!important;
+  }
+  html[lang="de"] .header-actions,html[lang="en"] .header-actions,
+  html[lang="de"] .page-lang,html[lang="en"] .page-lang,
+  html[lang="de"] .language-switcher,html[lang="en"] .language-switcher{
+    width:84px!important;min-width:84px!important;max-width:84px!important;
+  }
+}
+
+/* v20260816-6 — final header-only correction; content below is untouched. */
+@media (min-width:1101px){
+  .site-header,.site-header.scrolled,.site-header:not(.scrolled),
+  .page-header,.page-header.scrolled{
+    grid-template-columns:1050px 84px!important;
+    column-gap:0!important;
+    justify-content:space-between!important;
+    height:78px!important;
+    min-height:78px!important;
+    padding:0 32px!important;
+  }
+  html[lang="de"] .main-nav,html[lang="de"] .page-nav{
+    width:1050px!important;min-width:1050px!important;max-width:1050px!important;
+    grid-template-columns:45px 103px 61px 50px 60px 77px 52px 104px 106px 34px 58px!important;
+    column-gap:24px!important;gap:24px!important;justify-content:start!important;
+  }
+  html[lang="en"] .main-nav,html[lang="en"] .page-nav{
+    width:1050px!important;min-width:1050px!important;max-width:1050px!important;
+    grid-template-columns:45px 103px 61px 50px 60px 77px 52px 142px 118px 34px 58px!important;
+    column-gap:0!important;gap:0!important;justify-content:space-between!important;
+  }
+  .main-nav a,.page-nav a,
+  html[lang="de"] .main-nav a,html[lang="en"] .main-nav a,
+  html[lang="de"] .page-nav a,html[lang="en"] .page-nav a{
+    padding:10px 0!important;font-size:13px!important;
+    line-height:1.2!important;text-align:center!important;white-space:nowrap!important;
+  }
+  .header-actions,.page-lang,.language-switcher{
+    justify-self:end!important;
+    width:84px!important;min-width:84px!important;max-width:84px!important;
+    margin:0!important;transform:none!important;
+  }
+}

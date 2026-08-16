@@ -1,3 +1,4 @@
+try{const introKey='alpenchaletsIntroSeenV2';sessionStorage.setItem(introKey,'true');if(!window.name.includes(introKey))window.name=((window.name||'')+' '+introKey).trim()}catch{}
 const h=document.querySelector('.page-header');
 const m=document.querySelector('.mobile-menu');
 m?.addEventListener('click',()=>h?.classList.toggle('open'));
@@ -68,11 +69,11 @@ if(location.pathname.endsWith('/sommer.html')||location.pathname.endsWith('somme
 }
 
 const langBtns=document.querySelectorAll('[data-lang]');
-const supportedLangs=['de','en','nl'];
+const supportedLangs=['de','en'];
 const languageStorageKey='alpenchalets-language';
 function readSavedLanguage(){
   try{const value=localStorage.getItem(languageStorageKey);if(value)return value}catch{}
-  const match=document.cookie.match(/(?:^|;\s*)alpenchalets-language=(de|en|nl)(?:;|$)/);
+  const match=document.cookie.match(/(?:^|;\s*)alpenchalets-language=(de|en)(?:;|$)/);
   return match?match[1]:'de';
 }
 function saveLanguage(value){
@@ -109,6 +110,7 @@ function lang(l){
   translateAttributes(active);
   langBtns.forEach(b=>b.classList.toggle('active',b.dataset.lang===active));
   saveLanguage(active);
+  document.documentElement.classList.remove('language-pending');
 }
 if(seasonalPage==='winter.html'){
   const winterHeading=document.querySelector('.page-hero h1');
@@ -363,3 +365,6 @@ function mountNewsletter(){
   lang(document.documentElement.lang);
 }
 mountNewsletter();
+
+/* Shared production polish for desktop and mobile. */
+if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260816-29';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}

@@ -564,3 +564,195 @@ html{scroll-behavior:auto}.page-header{backdrop-filter:none;-webkit-backdrop-fil
 .funspace-note{margin:18px 0 0!important;color:#77796f!important;font-size:12px!important;line-height:1.55!important}
 @media(max-width:900px){.funspace-shell{grid-template-columns:1fr}.funspace-visual{min-height:420px}.funspace-copy{padding:54px 46px}}
 @media(max-width:600px){.funspace-section{padding-top:18px}.funspace-shell{border-radius:13px}.funspace-visual{min-height:310px}.funspace-visual:after{inset:13px}.funspace-mark{font-size:68px}.funspace-place{margin-top:25px}.funspace-copy{padding:40px 24px}.funspace-copy h2{font-size:43px}.funspace-copy>p:not(.kicker):not(.funspace-note){font-size:15px}.funspace-benefit{align-items:flex-start;padding:16px}.funspace-tags{gap:7px}.funspace-tags span{font-size:9px}}
+
+/* Lage: white route button with a restrained hover inversion. */
+.arrival-address > .btn.primary{
+  background:#fffaf0!important;
+  border-color:#fffaf0!important;
+  color:var(--green-dark)!important;
+  box-shadow:0 8px 22px rgba(0,0,0,.12);
+}
+.arrival-address > .btn.primary:hover,
+.arrival-address > .btn.primary:focus-visible{
+  background:transparent!important;
+  border-color:#fff!important;
+  color:#fff!important;
+  box-shadow:0 12px 28px rgba(0,0,0,.18);
+  transform:translateY(-2px);
+}
+
+/* v20260812-29 — stable navigation geometry across page changes */
+html{scrollbar-gutter:stable}
+
+/* v20260812-29 — match the home/chalet desktop navigation exactly */
+@media(min-width:901px){.page-nav a{padding:10px 3px}}
+
+/* v20260812-30 — DE | EN premium language capsule */
+.language-switcher,.page-lang{
+  display:inline-flex;align-items:center;gap:0!important;padding:3px;border:1px solid rgba(255,255,255,.52);
+  border-radius:999px;background:rgba(255,255,255,.13);box-shadow:0 8px 24px rgba(12,15,10,.08);
+}
+.language-switcher .lang-btn,.page-lang button{
+  position:relative;min-width:38px;height:30px;padding:0 10px!important;border:0!important;border-radius:999px;
+  display:grid;place-items:center;color:inherit;font-size:11px!important;font-weight:700!important;letter-spacing:.08em;
+  line-height:1;text-decoration:none!important;opacity:.74;transition:background-color .25s ease,color .25s ease,opacity .25s ease,box-shadow .25s ease;
+}
+.language-switcher .lang-btn+ .lang-btn,.page-lang button+button{border-left:1px solid rgba(255,255,255,.34)!important;border-radius:0 999px 999px 0}
+.language-switcher .lang-btn.active,.page-lang button.active{
+  background:#fff!important;color:#465036!important;opacity:1!important;box-shadow:0 3px 12px rgba(20,24,16,.13);border-radius:999px!important;
+}
+.site-header.scrolled .language-switcher,.page-header.scrolled .page-lang,.page-header.open .page-lang{
+  border-color:rgba(89,97,65,.28);background:rgba(255,255,255,.72);
+}
+.site-header.scrolled .language-switcher .lang-btn+ .lang-btn,.page-header.scrolled .page-lang button+button,.page-header.open .page-lang button+button{border-left-color:rgba(89,97,65,.25)!important}
+@media(hover:hover) and (pointer:fine){.language-switcher .lang-btn:hover,.page-lang button:hover{opacity:1}}
+@media(max-width:900px){.language-switcher,.page-header.open .page-lang{padding:3px!important;border-radius:999px!important}.language-switcher .lang-btn,.page-header.open .page-lang button{min-width:38px!important;height:30px!important;padding:0 8px!important}}
+/* v20260812-31 — identical desktop navigation rhythm in DE and EN */
+@media(min-width:1101px){
+  .main-nav,.page-nav{
+    display:grid!important;
+    grid-template-columns:45px 103px 61px 50px 60px 77px 52px 104px 34px 106px 58px;
+    column-gap:24px!important;
+    align-items:center;
+    width:max-content;
+  }
+  .main-nav a,.page-nav a{
+    width:100%;
+    min-width:0;
+    display:block;
+    text-align:center;
+    white-space:nowrap;
+  }
+}
+/* v20260812-33 — clean bilingual switch and collision-safe navigation */
+.language-switcher .lang-btn+ .lang-btn,.page-lang button+button{
+  border-left:0!important;
+}
+@media(min-width:1101px){
+  .main-nav a,.page-nav a{overflow:visible;text-overflow:clip}
+}
+/* v20260812-40 — FINAL shared navigation system */
+@media(min-width:1101px){
+  .site-header,.site-header.scrolled,.site-header:not(.scrolled),.page-header,.page-header.scrolled{
+    height:78px!important;min-height:78px!important;padding:0 48px!important;
+  }
+  .main-nav,.page-nav{
+    display:flex!important;flex:1 1 auto!important;align-items:center!important;justify-content:space-between!important;
+    width:auto!important;max-width:1035px!important;gap:0!important;column-gap:0!important;
+    font-family:Corbel,'Trebuchet MS',Arial,sans-serif!important;font-size:14px!important;font-weight:500!important;
+    line-height:1.2!important;letter-spacing:.02em!important;
+  }
+  .main-nav a,.page-nav a,html[lang="en"] .site-header .main-nav a{
+    display:block!important;flex:0 0 auto!important;width:auto!important;min-width:0!important;
+    padding:10px 0!important;margin:0!important;text-align:center!important;white-space:nowrap!important;
+    font-family:Corbel,'Trebuchet MS',Arial,sans-serif!important;font-size:14px!important;font-weight:500!important;
+    line-height:1.2!important;letter-spacing:.02em!important;
+  }
+  .site-header{grid-template-columns:minmax(0,1035px) auto!important;justify-content:space-between!important;gap:24px!important}
+  .page-header{display:flex!important;justify-content:space-between!important;gap:24px!important}
+  .header-actions,.page-lang{flex:0 0 auto!important}
+}
+.language-switcher .lang-btn+ .lang-btn,.page-lang button+button{border-left:0!important}
+/* v20260812-41 — FINAL shared mobile navigation typography */
+@media(max-width:900px){
+  .main-nav a,.page-nav a,.page-header.open .page-nav a,body.menu-open .main-nav a{
+    font-family:Corbel,'Trebuchet MS',Arial,sans-serif!important;
+    font-size:21px!important;font-weight:500!important;line-height:1.2!important;letter-spacing:.02em!important;
+  }
+}
+/* v20260814-42 — language-independent desktop navigation tracks */
+@media(min-width:1101px){
+  .main-nav,.page-nav{
+    display:grid!important;
+    grid-template-columns:45px 103px 61px 50px 60px 77px 52px 104px 106px 34px 58px!important;
+    column-gap:24px!important;gap:24px!important;
+    justify-content:start!important;align-items:center!important;
+    width:990px!important;max-width:990px!important;flex:0 0 990px!important;
+  }
+  .main-nav a,.page-nav a,html[lang="en"] .site-header .main-nav a{
+    width:100%!important;min-width:0!important;padding:10px 0!important;
+    text-align:center!important;white-space:nowrap!important;font-size:14px!important;
+  }
+  .site-header{grid-template-columns:990px auto!important;justify-content:space-between!important}
+  .page-header{justify-content:space-between!important}
+}
+/* v20260814-45 — fluid desktop header with identical DE/EN positions */
+@media(min-width:1101px){
+  .site-header,.page-header{
+    display:grid!important;
+    grid-template-columns:minmax(0,1fr) 84px!important;
+    column-gap:32px!important;
+    justify-content:stretch!important;
+    align-items:center!important;
+  }
+  .main-nav,.page-nav{
+    width:100%!important;
+    max-width:none!important;
+    flex:none!important;
+    grid-template-columns:45px 103px 61px 50px 60px 77px 52px 104px 106px 34px 58px!important;
+    column-gap:0!important;
+    gap:0!important;
+    justify-content:space-between!important;
+  }
+}
+/* v20260814-46 — viewport-locked DE/EN navigation geometry */
+@media(min-width:1101px){
+  .site-header,.page-header{
+    grid-template-columns:calc(100vw - 229px) 84px!important;
+  }
+}
+/* v20260814-47 — full translated labels in identical DE/EN tracks */
+@media(min-width:1101px){
+  .main-nav,.page-nav{
+    grid-template-columns:45px 103px 61px 50px 60px 77px 52px 142px 118px 34px 58px!important;
+  }
+}
+/* v20260814-48 — compact centered desktop navigation on both languages */
+@media(min-width:1280px){
+  .site-header,.page-header{
+    grid-template-columns:1050px 84px!important;
+    column-gap:32px!important;
+    justify-content:center!important;
+  }
+}
+@media(min-width:1101px) and (max-width:1279px){
+  .site-header,.page-header{
+    grid-template-columns:calc(100vw - 229px) 84px!important;
+    justify-content:stretch!important;
+  }
+}
+/* v20260814-49 — pixel-stable compact navigation */
+@media(min-width:1280px){
+  .site-header,.page-header{
+    padding-left:48px!important;
+    padding-right:48px!important;
+    grid-template-columns:1050px 84px!important;
+    column-gap:32px!important;
+    justify-content:start!important;
+  }
+}
+/* v20260814-50 — reference navigation layout, identical in DE and EN */
+@media(min-width:1280px){
+  html[lang="de"] .site-header,html[lang="en"] .site-header,
+  html[lang="de"] .page-header,html[lang="en"] .page-header{
+    padding-inline:48px!important;
+    grid-template-columns:1050px 84px!important;
+    column-gap:32px!important;
+    justify-content:start!important;
+  }
+  html[lang="de"] .main-nav,html[lang="en"] .main-nav,
+  html[lang="de"] .page-nav,html[lang="en"] .page-nav{
+    width:1050px!important;
+    grid-template-columns:45px 103px 61px 50px 60px 77px 52px 142px 118px 34px 58px!important;
+    justify-content:space-between!important;
+    column-gap:0!important;
+  }
+  html[lang="de"] .main-nav a,html[lang="en"] .main-nav a,
+  html[lang="de"] .page-nav a,html[lang="en"] .page-nav a{
+    width:100%!important;
+    padding:10px 0!important;
+    font-size:14px!important;
+    text-align:center!important;
+    white-space:nowrap!important;
+  }
+}
