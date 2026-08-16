@@ -756,3 +756,85 @@ html{scrollbar-gutter:stable}
     white-space:nowrap!important;
   }
 }
+/* Compact image headers for the legal pages. */
+.legal-hero {
+  position: relative;
+  min-height: clamp(340px, 42vh, 400px);
+  display: flex;
+  align-items: flex-end;
+  padding: 132px max(48px, calc((100vw - 1240px) / 2)) 52px;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.legal-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(15, 20, 12, .66), rgba(15, 20, 12, .18) 64%, rgba(15, 20, 12, .28)),
+    linear-gradient(0deg, rgba(15, 20, 12, .38), transparent 64%);
+}
+
+.legal-hero > div {
+  position: relative;
+  z-index: 1;
+  width: min(1240px, 100%);
+}
+
+.legal-hero .kicker {
+  margin: 0 0 10px;
+  color: #fff;
+}
+
+.legal-hero h1 {
+  margin: 0;
+  color: #fff;
+  font-family: Corbel, "Trebuchet MS", sans-serif;
+  font-size: clamp(50px, 5vw, 72px);
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.025em;
+  text-shadow: 0 3px 20px rgba(0, 0, 0, .22);
+}
+
+.legal-hero-impressum {
+  background-image: url("assets/images/hero-chalet-close.webp");
+  background-position: center 54%;
+}
+
+.legal-hero-datenschutz {
+  background-image: url("assets/images/hero-valley-aerial.webp");
+  background-position: center 48%;
+}
+
+.legal-section {
+  padding-top: 76px;
+}
+
+@media (max-width: 780px) {
+  .legal-hero {
+    min-height: 360px;
+    padding: 116px 20px 38px;
+  }
+
+  .legal-hero h1 {
+    font-size: clamp(42px, 13vw, 58px);
+  }
+
+  .legal-hero-impressum {
+    background-position: 58% center;
+  }
+
+  .legal-hero-datenschutz {
+    background-position: center;
+  }
+
+  .legal-section {
+    padding-top: 52px !important;
+  }
+}
