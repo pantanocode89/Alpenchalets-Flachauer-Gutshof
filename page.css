@@ -838,3 +838,48 @@ html{scrollbar-gutter:stable}
     padding-top: 52px !important;
   }
 }
+/* Simplified phone layout for inner pages; no desktop declarations are changed. */
+@media (max-width: 600px) {
+  body { font-size: 15.5px; line-height: 1.6; }
+  .page-header { height: 64px !important; min-height: 64px !important; padding: 0 12px !important; }
+  .mobile-menu { width: 44px !important; height: 44px !important; border-radius: 50%; background: rgba(255,255,255,.9) !important; color: #3f4630 !important; }
+  .page-header.open .page-nav { top: 0 !important; padding: 76px 20px 24px !important; overflow-y: auto; }
+  .page-header.open .page-nav a { min-height: 44px; padding: 9px 4px !important; font-size: 18px !important; line-height: 1.2 !important; }
+
+  .page-hero { min-height: 360px !important; padding: 112px 16px 32px !important; }
+  .page-hero h1 { max-width: 100%; font-size: clamp(34px, 10.5vw, 44px) !important; line-height: 1.02 !important; }
+  .page-hero p { max-width: 32ch; font-size: 14px !important; }
+  .legal-hero { min-height: 320px; padding: 106px 16px 32px; }
+  .legal-hero h1 { font-size: clamp(38px, 11vw, 48px); }
+
+  .section { padding: 48px 0 !important; }
+  .container,
+  .footer-top,
+  .footer-bottom { width: calc(100% - 32px) !important; }
+  .section h2,
+  .legal h2 { font-size: clamp(30px, 9vw, 38px) !important; line-height: 1.06 !important; }
+  .section h3,
+  .legal h3 { font-size: clamp(24px, 7vw, 30px); line-height: 1.1; }
+
+  .card,
+  .contact-card,
+  .inquiry-wrap .form,
+  .arrival-card { padding: 18px !important; }
+  .photo { aspect-ratio: 4 / 3; }
+  .gallery-full { grid-template-columns: repeat(2, minmax(0,1fr)) !important; gap: 8px !important; }
+  .gallery-full button { aspect-ratio: 1 / 1 !important; }
+  .faq details { padding: 14px; }
+  .faq summary { font-size: 16px; }
+
+  .arrival-address { padding: 18px !important; }
+  .form { gap: 16px; }
+  .form input,
+  .form textarea,
+  .form select { min-height: 48px; }
+
+  .site-footer { padding: 48px 0 18px; }
+  .footer-top { gap: 20px !important; }
+  .footer-top > div:first-child img { width: 140px; }
+  .footer-top > div:nth-child(2) strong { font-size: 24px; }
+  .footer-bottom { margin-top: 26px; gap: 12px; }
+}
