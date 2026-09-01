@@ -858,6 +858,57 @@ footer{padding:70px 0 22px;background:#e9e3d7;color:var(--ink)}
   html[lang="en"] .site-header,
   html[lang="nl"] .site-header{padding-inline:30px!important;gap:22px!important}
 }
+
+/* Side-by-side chalet comparison with image carousels below the information. */
+.chalet-compare-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;align-items:stretch}
+.chalet-compare-card{min-width:0;display:flex;flex-direction:column;overflow:hidden;background:#fffaf1;border:1px solid rgba(36,37,31,.1);border-radius:8px;box-shadow:var(--soft-shadow)}
+.chalet-compare-card .chalet-content{flex:1;justify-content:flex-start;padding:42px 38px 34px}
+.chalet-compare-card .chalet-content h3{font-size:44px;margin-bottom:20px}
+.chalet-compare-card .compact-list{grid-template-columns:1fr 1fr}
+.chalet-compare-card .card-actions{margin-top:auto}
+.chalet-compare-card .card-actions .btn{min-width:0;flex:1 1 210px;padding-inline:16px}
+.chalet-carousel{position:relative;aspect-ratio:16/10;overflow:hidden;background:#d9d6ce;border-top:1px solid rgba(36,37,31,.1)}
+.chalet-carousel-slides,.chalet-carousel-slides figure{position:absolute;inset:0;margin:0}
+.chalet-carousel-slides figure{opacity:0;visibility:hidden;transition:opacity .55s ease,visibility .55s ease}
+.chalet-carousel-slides figure.is-active{opacity:1;visibility:visible}
+.chalet-carousel img{width:100%;height:100%;object-fit:cover}
+.chalet-carousel-arrow{position:absolute;z-index:2;top:50%;width:46px;height:46px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.75);border-radius:50%;background:rgba(28,33,23,.62);color:#fff;font-size:20px;cursor:pointer;transform:translateY(-50%);backdrop-filter:blur(8px);transition:background .25s ease,transform .25s ease}
+.chalet-carousel-arrow:hover{background:rgba(28,33,23,.86);transform:translateY(-50%) scale(1.04)}
+.chalet-carousel-arrow.is-prev{left:18px}.chalet-carousel-arrow.is-next{right:18px}
+.chalet-carousel-count{position:absolute;z-index:2;right:18px;bottom:16px;padding:5px 10px;border-radius:999px;background:rgba(28,33,23,.64);color:#fff;font-size:11px;letter-spacing:.08em;backdrop-filter:blur(8px)}
+@media(max-width:900px){.chalet-compare-grid{grid-template-columns:1fr;gap:28px}.chalet-compare-card .chalet-content{padding:34px 26px}.chalet-compare-card .chalet-content h3{font-size:40px}}
+@media(max-width:520px){.chalet-compare-card .spec-grid,.chalet-compare-card .compact-list{grid-template-columns:1fr}.chalet-carousel{aspect-ratio:4/3}.chalet-carousel-arrow{width:42px;height:42px}.chalet-carousel-arrow.is-prev{left:12px}.chalet-carousel-arrow.is-next{right:12px}}
+
+/* The property logo remains visible at the foot of the open mobile menu. */
+@media(max-width:900px){
+  body.menu-open .main-nav::after{
+    content:"";
+    position:fixed;
+    left:50%;
+    bottom:max(18px,env(safe-area-inset-bottom));
+    z-index:2;
+    width:104px;
+    height:76px;
+    transform:translateX(-50%);
+    background:url('assets/images/logo-transparent.png') center/contain no-repeat;
+    pointer-events:none;
+  }
+  body.menu-open .main-nav{padding-bottom:118px!important}
+}
+
+/* English desktop navigation typography is immutable during anchors and page loads. */
+@media(min-width:1101px){
+  html[lang="en"] body header.site-header nav.main-nav a{
+    font-family:Corbel,'Trebuchet MS',Arial,sans-serif!important;
+    font-size:13px!important;
+    font-weight:500!important;
+    font-style:normal!important;
+    font-synthesis:none!important;
+    letter-spacing:.02em!important;
+    line-height:1.2!important;
+    transform:none!important;
+  }
+}
 /* v20260812-27 — Alpine signature intro */
 .site-intro{
   overflow:hidden;
@@ -1237,4 +1288,81 @@ html{scrollbar-gutter:stable}
   .footer-grid { gap: 20px; }
   .footer-logo { width: 140px; }
   .footer-bottom { margin-top: 30px; }
+}
+/* Local floating-glass header concept. Keep unpublished until approved. */
+.header-brand-corner {
+  position: fixed;
+  z-index: 49;
+  top: 8px;
+  left: 14px;
+  width: 106px;
+  height: 92px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  background: rgba(255,255,255,.9);
+  box-shadow: 0 10px 28px rgba(13,17,11,.2);
+  transform: none;
+  transition: opacity .3s ease, visibility .3s ease, transform .25s ease, box-shadow .25s ease;
+}
+
+.header-brand-corner:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 26px rgba(13,17,11,.24);
+}
+
+.header-brand-corner img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.site-header .language-switcher {
+  margin-right: 0;
+  transform: none !important;
+}
+
+.site-header.scrolled .header-brand-corner {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media (max-width: 780px) {
+  body:not(.menu-open) .header-brand-corner { display: none; }
+  body.menu-open .header-brand-corner {
+    position: static;
+    width: 82px;
+    height: 72px;
+    margin-top: 10px;
+  }
+  .site-header .language-switcher {
+    margin-right: 0;
+    transform: none !important;
+  }
+}
+
+/* Large brand mark replacing the hero headline for this local concept. */
+.hero h1.hero-logo-title {
+  width: clamp(290px,25vw,350px)!important;
+  margin: 0 auto 26px!important;
+  padding: 14px!important;
+  line-height: 0!important;
+  border: 1px solid rgba(255,255,255,.58);
+  border-radius: 8px;
+  background: rgba(255,255,255,.72);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  box-shadow: 0 18px 42px rgba(8,12,7,.2);
+}
+.hero h1.hero-logo-title img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
+@media (max-width:780px){
+  .hero h1.hero-logo-title{width:min(285px,76vw)!important;margin-bottom:20px!important;padding:11px!important}
 }

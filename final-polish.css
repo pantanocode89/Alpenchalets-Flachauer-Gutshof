@@ -104,6 +104,17 @@ html.ac-navigation-settled .ac-reveal,
   .gallery-full button:hover,
   .detail-gallery button:hover{transform:translateY(-4px);box-shadow:0 16px 34px rgba(30,33,25,.16);z-index:2}
 }
+
+
+@media(min-width:1101px){
+  html[lang="de"] body header.site-header nav.main-nav a,
+  html[lang="en"] body header.site-header nav.main-nav a,
+  html[lang="de"] body header.page-header nav.page-nav a,
+  html[lang="en"] body header.page-header nav.page-nav a{
+    font-size:13px!important;
+    font-weight:500!important;
+  }
+}
 /* Alpine Journey premium postcards and synchronized line icons. */
 @media(min-width:901px){
   .journey-stop{height:245px!important;min-height:245px!important;padding:20px 22px!important}
@@ -203,17 +214,32 @@ html.ac-navigation-settled .ac-reveal,
   .header-actions,.page-lang,.language-switcher{justify-self:end!important;margin:0!important;transform:none!important}
 }
 
-/* English only: use the exact stable German navigation geometry. */
+/* English uses the exact same immutable geometry and typography as German. */
 @media(min-width:1101px){
   html[lang="en"] .main-nav,html[lang="en"] .page-nav{
     width:1050px!important;min-width:1050px!important;max-width:1050px!important;
-    grid-template-columns:45px 103px 61px 50px 60px 77px 52px 60px 60px 34px 58px!important;
+    grid-template-columns:45px 103px 61px 50px 60px 77px 52px 104px 106px 34px 58px!important;
     column-gap:24px!important;gap:24px!important;justify-content:start!important;
   }
   html[lang="en"] .main-nav a,html[lang="en"] .page-nav a{
-    font-size:14px!important;
+    display:block!important;
+    width:100%!important;
+    min-width:0!important;
+    font-size:13px!important;
     font-weight:500!important;
     line-height:1.2!important;
     padding:10px 0!important;
+  }
+}
+
+/* English-only proportional rhythm; German geometry remains untouched. */
+@media (min-width:1101px){
+  html[lang="en"] body header.site-header nav.main-nav,
+  html[lang="en"] body header.page-header nav.page-nav{
+    display:flex!important;align-items:center!important;justify-content:flex-start!important;gap:42px!important;
+  }
+  html[lang="en"] body header.site-header nav.main-nav a,
+  html[lang="en"] body header.page-header nav.page-nav a{
+    display:block!important;width:auto!important;min-width:0!important;flex:0 0 auto!important;font-size:13px!important;
   }
 }

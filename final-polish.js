@@ -1,6 +1,6 @@
 (()=>{
   'use strict';
-  if(!document.querySelector('link[data-ac-final-polish]')){const css=document.createElement('link');css.rel='stylesheet';css.href='final-polish.css?v=20260816-29';css.dataset.acFinalPolish='';document.head.append(css)}
+  if(!document.querySelector('link[data-ac-final-polish]')){const css=document.createElement('link');css.rel='stylesheet';css.href='final-polish.css?v=20260823-33';css.dataset.acFinalPolish='';document.head.append(css)}
   const settleInternalMotion=()=>document.documentElement.classList.add('ac-navigation-settled');
   document.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',settleInternalMotion,{capture:true}));
   window.addEventListener('popstate',settleInternalMotion);

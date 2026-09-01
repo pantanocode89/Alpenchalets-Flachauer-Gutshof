@@ -655,5 +655,19 @@ if(butlerForm&&butlerInput&&butlerMessages){
 }
 
 /* Shared production polish for desktop and mobile. */
-if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260816-29';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}
+document.querySelectorAll('[data-chalet-carousel]').forEach(carousel=>{
+  const slides=[...carousel.querySelectorAll('.chalet-carousel-slides figure')];
+  const counter=carousel.querySelector('.chalet-carousel-count');
+  let active=0;
+  const show=index=>{
+    active=(index+slides.length)%slides.length;
+    slides.forEach((slide,i)=>slide.classList.toggle('is-active',i===active));
+    if(counter)counter.textContent=`${active+1} / ${slides.length}`;
+  };
+  carousel.querySelector('.is-prev')?.addEventListener('click',()=>show(active-1));
+  carousel.querySelector('.is-next')?.addEventListener('click',()=>show(active+1));
+  show(0);
+});
+
+if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260823-33';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}
 

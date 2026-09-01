@@ -71,6 +71,8 @@ html.language-pending .page-header{visibility:hidden!important}
   }
 }
 
+
+
 /* Identical restrained desktop navigation for German and English. */
 @media (min-width: 1101px) {
   html[lang="de"] .site-header,
@@ -129,6 +131,16 @@ html.language-pending .page-header{visibility:hidden!important}
   .language-switcher .lang-btn.active,.page-lang button.active{
     background:#fff!important;
     color:#3f4630!important;
+  }
+}
+
+/* English-only proportional rhythm; German geometry remains untouched. */
+@media (min-width:1101px){
+  html[lang="en"] .main-nav,html[lang="en"] .page-nav{
+    display:flex!important;align-items:center!important;justify-content:flex-start!important;gap:42px!important;
+  }
+  html[lang="en"] .main-nav a,html[lang="en"] .page-nav a{
+    display:block!important;width:auto!important;min-width:0!important;flex:0 0 auto!important;
   }
 }
 
@@ -248,5 +260,33 @@ html.language-pending .page-header{visibility:hidden!important}
     justify-self:end!important;
     width:84px!important;min-width:84px!important;max-width:84px!important;
     margin:0!important;transform:none!important;
+  }
+}
+
+/* One immutable desktop navigation geometry for every page and both languages. */
+@media (min-width:1101px){
+  html[lang="de"] .main-nav,html[lang="en"] .main-nav,
+  html[lang="de"] .page-nav,html[lang="en"] .page-nav{
+    display:grid!important;
+    width:1050px!important;
+    min-width:1050px!important;
+    max-width:1050px!important;
+    grid-template-columns:45px 103px 61px 50px 60px 77px 52px 104px 106px 34px 58px!important;
+    column-gap:24px!important;
+    gap:24px!important;
+    justify-content:start!important;
+    margin:0!important;
+    transform:none!important;
+  }
+  html[lang="de"] .main-nav a,html[lang="en"] .main-nav a,
+  html[lang="de"] .page-nav a,html[lang="en"] .page-nav a{
+    display:block!important;
+    width:100%!important;
+    min-width:0!important;
+    padding:10px 0!important;
+    font-size:13px!important;
+    line-height:1.2!important;
+    text-align:center!important;
+    white-space:nowrap!important;
   }
 }
