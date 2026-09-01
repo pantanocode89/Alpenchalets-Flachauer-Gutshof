@@ -56,6 +56,10 @@ translations.de['chalet4.outdoor']='Terrasse, Schränke und Regale, eigener Abst
 translations.de['chalet5.outdoor']='Terrasse, Schränke und Regale, eigener Abstellraum / Skiraum und Brötchenservice; zwei gekoppelte Chalets bis 20 Personen';
 translations.en['chalet4.outdoor']='Terrace, wardrobes and shelves, private storage / ski room and bread roll service on request';
 translations.en['chalet5.outdoor']='Terrace, wardrobes and shelves, private storage / ski room and bread roll service; two connected chalets for up to 20 guests';
+translations.de['chalet4.bathrooms']='Jedes Schlafzimmer mit eigenem Bad und WC; private Sauna sowie zus&auml;tzliches WC im Eingangsbereich';
+translations.de['chalet5.bathrooms']='Ein Schlafzimmer mit eigenem Bad und WC; Wellnessbad mit 2 Duschen, 2 Waschbecken und Sauna sowie 2 zus&auml;tzliche WCs';
+translations.en['chalet4.bathrooms']='Each bedroom has its own bathroom and WC; private sauna plus an additional WC in the entrance area';
+translations.en['chalet5.bathrooms']='One bedroom has a private bathroom and WC; wellness bathroom with 2 showers, 2 washbasins and sauna, plus 2 additional WCs';
 translations.nl['chalet4.outdoor']='Terras, kasten en planken, eigen berging / skiruimte en broodjesservice op aanvraag';
 translations.nl['chalet5.outdoor']='Terras, kasten en planken, eigen berging / skiruimte en broodjesservice; twee gekoppelde chalets voor maximaal 20 personen';
 translations.de['common.kitchen']='Eigene Küche · Filterkaffeemaschine';
@@ -226,7 +230,7 @@ const conciergeAnswers={
     checkin:'Der Check-in ist an der Rezeption täglich von 08:00 bis 12:00 Uhr und von 15:00 bis 20:00 Uhr möglich. Bei Anreise nach 20:00 Uhr bitte bis spätestens 18:00 Uhr kurz Bescheid geben.',
     checkout:'Eine genaue Check-out-Zeit ist auf der Website nicht separat angegeben. Am besten kurz bei der Rezeption bestätigen lassen: +43 6457 33971 oder info@alpenchalets.at.',
     parking:'Parkmöglichkeiten befinden sich direkt in der Anlage. Zusätzlich steht eine Tiefgarage zur Verfügung.',
-    sauna:'Ja, jedes Chalet verfügt über eine private Sauna. Das 4-Zimmer-Chalet hat 3 Badezimmer und ein separates WC. Das 5-Zimmer-Chalet hat 2 Badezimmer und 2 separate WCs.',
+    sauna:'Ja, jedes Chalet verfügt über eine private Sauna. Im 4-Zimmer-Chalet hat jedes Schlafzimmer ein eigenes Bad mit WC; zusätzlich gibt es ein WC im Eingangsbereich. Im 5-Zimmer-Chalet hat ein Schlafzimmer ein eigenes Bad mit WC. Im Obergeschoss befinden sich ein Wellnessbad mit zwei Duschen, zwei Waschbecken und Sauna sowie ein separates WC für drei Schlafzimmer; ein weiteres WC liegt im Eingangsbereich.',
     restaurant:'Der Flachauer Gutshof liegt direkt beim Chaletdorf. Für Öffnungszeiten, Veranstaltungen und Reservierungen bitte die Restaurant-Website öffnen.',
     location:'Die Alpenchalets liegen zentral in Flachau am Grießenkarweg 417. Der Lageplan zeigt Rezeption, Parkflächen, den Weg zum Gutshof und den Fußweg zum 8er-Jet.',
     summerCard:'Die Flachau Sommer Card ist bei Ihrem Sommeraufenthalt inklusive. Ihre digitale Karte erhalten Sie nach dem Check-in.',
