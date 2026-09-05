@@ -1,0 +1,4723 @@
+media:
+  input: assets/images
+  output: /assets/images
+content:
+  - name: home
+    label: "Home page"
+    type: file
+    path: cms-content/home.json
+    format: json
+    fields:
+      - name: home_text_001_de
+        label: "Zum Inhalt — DE"
+        type: text
+        required: true
+      - name: home_text_001_en
+        label: "Zum Inhalt — EN"
+        type: text
+        required: true
+      - name: home_text_002_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: home_text_002_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: home_text_003_de
+        label: "Ihr Urlaub beginnt hier — DE"
+        type: text
+        required: true
+      - name: home_text_003_en
+        label: "Ihr Urlaub beginnt hier — EN"
+        type: text
+        required: true
+      - name: home_text_004_de
+        label: "Momente, die bleiben — DE"
+        type: text
+        required: true
+      - name: home_text_004_en
+        label: "Momente, die bleiben — EN"
+        type: text
+        required: true
+      - name: home_text_005_de
+        label: "So fühlt sich Urlaub in den Bergen an. — DE"
+        type: text
+        required: true
+      - name: home_text_005_en
+        label: "So fühlt sich Urlaub in den Bergen an. — EN"
+        type: text
+        required: true
+      - name: home_text_006_de
+        label: "Ankommen, aufatmen, die Berge erleben und den Abend genießen – — DE"
+        type: text
+        required: true
+      - name: home_text_006_en
+        label: "Ankommen, aufatmen, die Berge erleben und den Abend genießen – — EN"
+        type: text
+        required: true
+      - name: home_text_007_de
+        label: "Ankommen — DE"
+        type: text
+        required: true
+      - name: home_text_007_en
+        label: "Ankommen — EN"
+        type: text
+        required: true
+      - name: home_text_008_de
+        label: "Chalet — DE"
+        type: text
+        required: true
+      - name: home_text_008_en
+        label: "Chalet — EN"
+        type: text
+        required: true
+      - name: home_text_009_de
+        label: "Großzügig wohnen, warmes Holz spüren und sofort zuhause sein. — DE"
+        type: text
+        required: true
+      - name: home_text_009_en
+        label: "Großzügig wohnen, warmes Holz spüren und sofort zuhause sein. — EN"
+        type: text
+        required: true
+      - name: home_text_010_de
+        label: "Loslassen — DE"
+        type: text
+        required: true
+      - name: home_text_010_en
+        label: "Loslassen — EN"
+        type: text
+        required: true
+      - name: home_text_011_de
+        label: "Private Sauna — DE"
+        type: text
+        required: true
+      - name: home_text_011_en
+        label: "Private Sauna — EN"
+        type: text
+        required: true
+      - name: home_text_012_de
+        label: "Private Wärme und wohltuende Ruhe nach einem Tag in den Bergen — DE"
+        type: text
+        required: true
+      - name: home_text_012_en
+        label: "Private Wärme und wohltuende Ruhe nach einem Tag in den Bergen — EN"
+        type: text
+        required: true
+      - name: home_text_013_de
+        label: "Aufbrechen — DE"
+        type: text
+        required: true
+      - name: home_text_013_en
+        label: "Aufbrechen — EN"
+        type: text
+        required: true
+      - name: home_text_014_de
+        label: "Berge — DE"
+        type: text
+        required: true
+      - name: home_text_014_en
+        label: "Berge — EN"
+        type: text
+        required: true
+      - name: home_text_015_de
+        label: "Sommerwege und Winterpisten beginnen direkt vor der Tür. — DE"
+        type: text
+        required: true
+      - name: home_text_015_en
+        label: "Sommerwege und Winterpisten beginnen direkt vor der Tür. — EN"
+        type: text
+        required: true
+      - name: home_text_016_de
+        label: "Genießen — DE"
+        type: text
+        required: true
+      - name: home_text_016_en
+        label: "Genießen — EN"
+        type: text
+        required: true
+      - name: home_text_017_de
+        label: "Gutshof — DE"
+        type: text
+        required: true
+      - name: home_text_017_en
+        label: "Gutshof — EN"
+        type: text
+        required: true
+      - name: home_text_018_de
+        label: "Regionale Küche und stimmungsvolle Abende gleich nebenan. — DE"
+        type: text
+        required: true
+      - name: home_text_018_en
+        label: "Regionale Küche und stimmungsvolle Abende gleich nebenan. — EN"
+        type: text
+        required: true
+      - name: home_text_019_de
+        label: "Anerkennung Partnerschaft — DE"
+        type: text
+        required: true
+      - name: home_text_019_en
+        label: "Anerkennung Partnerschaft — EN"
+        type: text
+        required: true
+      - name: home_text_020_de
+        label: "Ausgezeichnete Gastfreundschaft — DE"
+        type: text
+        required: true
+      - name: home_text_020_en
+        label: "Ausgezeichnete Gastfreundschaft — EN"
+        type: text
+        required: true
+      - name: home_text_021_de
+        label: "Eine besondere Anerkennung unserer G ste und eine langj hrige  — DE"
+        type: text
+        required: true
+      - name: home_text_021_en
+        label: "Eine besondere Anerkennung unserer G ste und eine langj hrige  — EN"
+        type: text
+        required: true
+      - name: home_text_022_de
+        label: "Sunweb Certificate of Excellence — DE"
+        type: text
+        required: true
+      - name: home_text_022_en
+        label: "Sunweb Certificate of Excellence — EN"
+        type: text
+        required: true
+      - name: home_text_023_de
+        label: "Von Sunweb-G sten als bevorzugte Unterkunft ausgezeichnet. — DE"
+        type: text
+        required: true
+      - name: home_text_023_en
+        label: "Von Sunweb-G sten als bevorzugte Unterkunft ausgezeichnet. — EN"
+        type: text
+        required: true
+      - name: home_text_024_de
+        label: "Top of the Mountains — DE"
+        type: text
+        required: true
+      - name: home_text_024_en
+        label: "Top of the Mountains — EN"
+        type: text
+        required: true
+      - name: home_text_025_de
+        label: "VIP-Mitgliedschaft im Netzwerk Die Besten der Berge . — DE"
+        type: text
+        required: true
+      - name: home_text_025_en
+        label: "VIP-Mitgliedschaft im Netzwerk Die Besten der Berge . — EN"
+        type: text
+        required: true
+      - name: home_text_026_de
+        label: "Unsere Unterkünfte — DE"
+        type: text
+        required: true
+      - name: home_text_026_en
+        label: "Unsere Unterkünfte — EN"
+        type: text
+        required: true
+      - name: home_text_027_de
+        label: "Unsere Chalets — DE"
+        type: text
+        required: true
+      - name: home_text_027_en
+        label: "Unsere Chalets — EN"
+        type: text
+        required: true
+      - name: home_text_028_de
+        label: "Gemütliche Rückzugsorte für kleine und große Gruppen – mit vie — DE"
+        type: text
+        required: true
+      - name: home_text_028_en
+        label: "Gemütliche Rückzugsorte für kleine und große Gruppen – mit vie — EN"
+        type: text
+        required: true
+      - name: home_text_029_de
+        label: "Mit dem Laden der Karte stimmen Sie zu, dass Daten an Google ü — DE"
+        type: text
+        required: true
+      - name: home_text_029_en
+        label: "Mit dem Laden der Karte stimmen Sie zu, dass Daten an Google ü — EN"
+        type: text
+        required: true
+      - name: home_text_030_de
+        label: "Google Maps laden — DE"
+        type: text
+        required: true
+      - name: home_text_030_en
+        label: "Google Maps laden — EN"
+        type: text
+        required: true
+      - name: home_text_031_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: home_text_031_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: home_text_032_de
+        label: "Gut vorbereitet ankommen — DE"
+        type: text
+        required: true
+      - name: home_text_032_en
+        label: "Gut vorbereitet ankommen — EN"
+        type: text
+        required: true
+      - name: home_text_033_de
+        label: "Die wichtigsten Antworten für Ihren Aufenthalt, direkt auf der — DE"
+        type: text
+        required: true
+      - name: home_text_033_en
+        label: "Die wichtigsten Antworten für Ihren Aufenthalt, direkt auf der — EN"
+        type: text
+        required: true
+      - name: home_text_034_de
+        label: "Check-in — DE"
+        type: text
+        required: true
+      - name: home_text_034_en
+        label: "Check-in — EN"
+        type: text
+        required: true
+      - name: home_text_035_de
+        label: "Der Check-in ist ab 15:00 Uhr möglich. Bei später Anreise info — DE"
+        type: text
+        required: true
+      - name: home_text_035_en
+        label: "Der Check-in ist ab 15:00 Uhr möglich. Bei später Anreise info — EN"
+        type: text
+        required: true
+      - name: home_text_036_de
+        label: "Sauna & Kamin — DE"
+        type: text
+        required: true
+      - name: home_text_036_en
+        label: "Sauna & Kamin — EN"
+        type: text
+        required: true
+      - name: home_text_037_de
+        label: "Jedes Chalet verfügt über eine private Sauna, Kamin und eine v — DE"
+        type: text
+        required: true
+      - name: home_text_037_en
+        label: "Jedes Chalet verfügt über eine private Sauna, Kamin und eine v — EN"
+        type: text
+        required: true
+      - name: home_text_038_de
+        label: "Buchung — DE"
+        type: text
+        required: true
+      - name: home_text_038_en
+        label: "Buchung — EN"
+        type: text
+        required: true
+      - name: home_text_039_de
+        label: "Sommeranfragen laufen direkt über Alpenchalets. Winteraufentha — DE"
+        type: text
+        required: true
+      - name: home_text_039_en
+        label: "Sommeranfragen laufen direkt über Alpenchalets. Winteraufentha — EN"
+        type: text
+        required: true
+      - name: home_text_040_de
+        label: "Alle Fragen ansehen — DE"
+        type: text
+        required: true
+      - name: home_text_040_en
+        label: "Alle Fragen ansehen — EN"
+        type: text
+        required: true
+      - name: home_text_041_de
+        label: "Echte Gästestimmen — DE"
+        type: text
+        required: true
+      - name: home_text_041_en
+        label: "Echte Gästestimmen — EN"
+        type: text
+        required: true
+      - name: home_text_042_de
+        label: "Was unsere Gäste besonders schätzen — DE"
+        type: text
+        required: true
+      - name: home_text_042_en
+        label: "Was unsere Gäste besonders schätzen — EN"
+        type: text
+        required: true
+      - name: home_text_043_de
+        label: "Hervorragend · Lage 9,6 — DE"
+        type: text
+        required: true
+      - name: home_text_043_en
+        label: "Hervorragend · Lage 9,6 — EN"
+        type: text
+        required: true
+      - name: home_text_044_de
+        label: "„Wir kommen bestimmt wieder.“ — DE"
+        type: text
+        required: true
+      - name: home_text_044_en
+        label: "„Wir kommen bestimmt wieder.“ — EN"
+        type: text
+        required: true
+      - name: home_text_045_de
+        label: "Deutschland · Juni 2026 — DE"
+        type: text
+        required: true
+      - name: home_text_045_en
+        label: "Deutschland · Juni 2026 — EN"
+        type: text
+        required: true
+      - name: home_text_046_de
+        label: "„Großzügiges Haus mit allem ausgestattet …“ — DE"
+        type: text
+        required: true
+      - name: home_text_046_en
+        label: "„Großzügiges Haus mit allem ausgestattet …“ — EN"
+        type: text
+        required: true
+      - name: home_text_047_de
+        label: "Deutschland · Juni 2026 — DE"
+        type: text
+        required: true
+      - name: home_text_047_en
+        label: "Deutschland · Juni 2026 — EN"
+        type: text
+        required: true
+      - name: home_text_048_de
+        label: "„Sehr gepflegt und sauber innen und auch außen …“ — DE"
+        type: text
+        required: true
+      - name: home_text_048_en
+        label: "„Sehr gepflegt und sauber innen und auch außen …“ — EN"
+        type: text
+        required: true
+      - name: home_text_049_de
+        label: "Deutschland · Juli 2024 — DE"
+        type: text
+        required: true
+      - name: home_text_049_en
+        label: "Deutschland · Juli 2024 — EN"
+        type: text
+        required: true
+      - name: home_text_050_de
+        label: "Alle echten Bewertungen auf Booking.com — DE"
+        type: text
+        required: true
+      - name: home_text_050_en
+        label: "Alle echten Bewertungen auf Booking.com — EN"
+        type: text
+        required: true
+      - name: home_text_051_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: home_text_051_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: home_text_052_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: home_text_052_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: home_text_053_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: home_text_053_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: home_text_054_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: home_text_054_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: home_text_055_de
+        label: "ALPENCHALETS — DE"
+        type: text
+        required: true
+      - name: home_text_055_en
+        label: "ALPENCHALETS — EN"
+        type: text
+        required: true
+      - name: home_text_056_de
+        label: "Virtuelle Rezeption — DE"
+        type: text
+        required: true
+      - name: home_text_056_en
+        label: "Virtuelle Rezeption — EN"
+        type: text
+        required: true
+      - name: home_text_057_de
+        label: "Hallo, ich bin Ihre virtuelle Rezeption. Wie kann ich Ihnen he — DE"
+        type: text
+        required: true
+      - name: home_text_057_en
+        label: "Hallo, ich bin Ihre virtuelle Rezeption. Wie kann ich Ihnen he — EN"
+        type: text
+        required: true
+      - name: home_text_058_de
+        label: "Mit dem Chat stimmen Sie der — DE"
+        type: text
+        required: true
+      - name: home_text_058_en
+        label: "Mit dem Chat stimmen Sie der — EN"
+        type: text
+        required: true
+      - name: home_text_059_de
+        label: "Datenschutzerkl rung — DE"
+        type: text
+        required: true
+      - name: home_text_059_en
+        label: "Datenschutzerkl rung — EN"
+        type: text
+        required: true
+      - name: home_text_060_de
+        label: "zu. — DE"
+        type: text
+        required: true
+      - name: home_text_060_en
+        label: "zu. — EN"
+        type: text
+        required: true
+      - name: home_image_001
+        label: "Image — logo.jpg"
+        type: image
+      - name: home_image_002
+        label: "Image — logo-transparent.png"
+        type: image
+      - name: home_image_003
+        label: "Image — award-sunweb-2017.webp"
+        type: image
+      - name: home_image_004
+        label: "Image — membership-top-of-the-mountains.webp"
+        type: image
+      - name: home_image_005
+        label: "Image — chalet-4-bedroom-bunk.webp"
+        type: image
+      - name: home_image_006
+        label: "Image — bedroom-family.webp"
+        type: image
+      - name: home_image_007
+        label: "Image — bathroom-sauna.webp"
+        type: image
+      - name: home_image_008
+        label: "Image — chalet-5-bedroom-roses.webp"
+        type: image
+      - name: home_image_009
+        label: "Image — bedroom-main.webp"
+        type: image
+      - name: home_image_010
+        label: "Image — bathroom.webp"
+        type: image
+      - name: home_image_011
+        label: "Image — kitchen.webp"
+        type: image
+      - name: home_image_012
+        label: "Image — restaurant-gutshof-sommer.webp"
+        type: image
+      - name: home_image_013
+        label: "Image — restaurant-musistadl-eingang.webp"
+        type: image
+      - name: home_image_014
+        label: "Image — restaurant-dining-detail.webp"
+        type: image
+      - name: home_image_015
+        label: "Image — exterior-wide.webp"
+        type: image
+      - name: home_image_016
+        label: "Image — bathroom-sauna.webp"
+        type: image
+      - name: home_image_017
+        label: "Image — bedroom-family.webp"
+        type: image
+      - name: home_image_018
+        label: "Image — hero-winter.webp"
+        type: image
+      - name: home_image_019
+        label: "Image — bathroom.webp"
+        type: image
+      - name: home_image_020
+        label: "Image — resort-map.webp"
+        type: image
+      - name: home_image_021
+        label: "Image — logo.jpg"
+        type: image
+      - name: home_background_022
+        label: "Image — chalets-header-real-room.webp"
+        type: image
+      - name: home_background_023
+        label: "Image — winter-card.jpg"
+        type: image
+      - name: home_background_024
+        label: "Image — comfort-header-chalet.webp"
+        type: image
+      - name: home_sunweb_025
+        label: "Image — Sunweb booking URL"
+        type: image
+      - name: home_sunweb_026
+        label: "Image — Sunweb booking URL"
+        type: image
+  - name: chalet_4_zimmer
+    label: "chalet 4 zimmer"
+    type: file
+    path: cms-content/chalet-4-zimmer.json
+    format: json
+    fields:
+      - name: chalet-4-zimmer_text_001_de
+        label: "Zum Inhalt — DE"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_001_en
+        label: "Zum Inhalt — EN"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_002_de
+        label: "Lage Anfahrt — DE"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_002_en
+        label: "Lage Anfahrt — EN"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_003_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_003_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_004_de
+        label: "Auch interessant — DE"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_004_en
+        label: "Auch interessant — EN"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_005_de
+        label: "Mehr Privatsphäre in vier separaten Schlafzimmern — DE"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_005_en
+        label: "Mehr Privatsphäre in vier separaten Schlafzimmern — EN"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_006_de
+        label: "5-Zimmer-Chalet ansehen → — DE"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_006_en
+        label: "5-Zimmer-Chalet ansehen → — EN"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_007_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_007_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_008_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_008_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_009_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_009_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_010_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_010_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_011_de
+        label: "Newsletter — DE"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_text_011_en
+        label: "Newsletter — EN"
+        type: text
+        required: true
+      - name: chalet-4-zimmer_image_001
+        label: "Image — living.webp"
+        type: image
+      - name: chalet-4-zimmer_image_002
+        label: "Image — bedroom-family.webp"
+        type: image
+      - name: chalet-4-zimmer_image_003
+        label: "Image — bathroom-sauna.webp"
+        type: image
+      - name: chalet-4-zimmer_image_004
+        label: "Image — kitchen.webp"
+        type: image
+      - name: chalet-4-zimmer_image_005
+        label: "Image — bathroom.webp"
+        type: image
+      - name: chalet-4-zimmer_image_006
+        label: "Image — floorplan-type1-half.webp"
+        type: image
+      - name: chalet-4-zimmer_image_007
+        label: "Image — logo.jpg"
+        type: image
+      - name: chalet-4-zimmer_background_008
+        label: "Image — living.webp"
+        type: image
+      - name: chalet-4-zimmer_sunweb_009
+        label: "Image — Sunweb booking URL"
+        type: image
+  - name: chalet_5_zimmer
+    label: "chalet 5 zimmer"
+    type: file
+    path: cms-content/chalet-5-zimmer.json
+    format: json
+    fields:
+      - name: chalet-5-zimmer_text_001_de
+        label: "Zum Inhalt — DE"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_001_en
+        label: "Zum Inhalt — EN"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_002_de
+        label: "Lage Anfahrt — DE"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_002_en
+        label: "Lage Anfahrt — EN"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_003_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_003_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_004_de
+        label: "Auch interessant — DE"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_004_en
+        label: "Auch interessant — EN"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_005_de
+        label: "Viel Platz für Familien und gemeinsame Urlaubstage — DE"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_005_en
+        label: "Viel Platz für Familien und gemeinsame Urlaubstage — EN"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_006_de
+        label: "4-Zimmer-Chalet ansehen → — DE"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_006_en
+        label: "4-Zimmer-Chalet ansehen → — EN"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_007_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_007_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_008_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_008_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_009_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_009_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_010_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_010_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_011_de
+        label: "Newsletter — DE"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_text_011_en
+        label: "Newsletter — EN"
+        type: text
+        required: true
+      - name: chalet-5-zimmer_image_001
+        label: "Image — exterior-main.webp"
+        type: image
+      - name: chalet-5-zimmer_image_002
+        label: "Image — bedroom-main.webp"
+        type: image
+      - name: chalet-5-zimmer_image_003
+        label: "Image — bathroom-sauna.webp"
+        type: image
+      - name: chalet-5-zimmer_image_004
+        label: "Image — living.webp"
+        type: image
+      - name: chalet-5-zimmer_image_005
+        label: "Image — kitchen.webp"
+        type: image
+      - name: chalet-5-zimmer_image_006
+        label: "Image — floorplan-type2-half.webp"
+        type: image
+      - name: chalet-5-zimmer_image_007
+        label: "Image — logo.jpg"
+        type: image
+      - name: chalet-5-zimmer_background_008
+        label: "Image — exterior-main.webp"
+        type: image
+      - name: chalet-5-zimmer_sunweb_009
+        label: "Image — Sunweb booking URL"
+        type: image
+  - name: sommer
+    label: "sommer"
+    type: file
+    path: cms-content/sommer.json
+    format: json
+    fields:
+      - name: sommer_text_001_de
+        label: "Home — DE"
+        type: text
+        required: true
+      - name: sommer_text_001_en
+        label: "Home — EN"
+        type: text
+        required: true
+      - name: sommer_text_002_de
+        label: "Unsere Chalets — DE"
+        type: text
+        required: true
+      - name: sommer_text_002_en
+        label: "Unsere Chalets — EN"
+        type: text
+        required: true
+      - name: sommer_text_003_de
+        label: "Sommer — DE"
+        type: text
+        required: true
+      - name: sommer_text_003_en
+        label: "Sommer — EN"
+        type: text
+        required: true
+      - name: sommer_text_004_de
+        label: "Winter — DE"
+        type: text
+        required: true
+      - name: sommer_text_004_en
+        label: "Winter — EN"
+        type: text
+        required: true
+      - name: sommer_text_005_de
+        label: "Komfort — DE"
+        type: text
+        required: true
+      - name: sommer_text_005_en
+        label: "Komfort — EN"
+        type: text
+        required: true
+      - name: sommer_text_006_de
+        label: "Restaurant — DE"
+        type: text
+        required: true
+      - name: sommer_text_006_en
+        label: "Restaurant — EN"
+        type: text
+        required: true
+      - name: sommer_text_007_de
+        label: "Galerie — DE"
+        type: text
+        required: true
+      - name: sommer_text_007_en
+        label: "Galerie — EN"
+        type: text
+        required: true
+      - name: sommer_text_008_de
+        label: "Lage Anfahrt — DE"
+        type: text
+        required: true
+      - name: sommer_text_008_en
+        label: "Lage Anfahrt — EN"
+        type: text
+        required: true
+      - name: sommer_text_009_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: sommer_text_009_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: sommer_text_010_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: sommer_text_010_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: sommer_text_011_de
+        label: "Kontakt — DE"
+        type: text
+        required: true
+      - name: sommer_text_011_en
+        label: "Kontakt — EN"
+        type: text
+        required: true
+      - name: sommer_text_012_de
+        label: "Sommer in Flachau — DE"
+        type: text
+        required: true
+      - name: sommer_text_012_en
+        label: "Sommer in Flachau — EN"
+        type: text
+        required: true
+      - name: sommer_text_013_de
+        label: "Draußen zuhause — DE"
+        type: text
+        required: true
+      - name: sommer_text_013_en
+        label: "Draußen zuhause — EN"
+        type: text
+        required: true
+      - name: sommer_text_014_de
+        label: "Bergluft, gemeinsame Erlebnisse und gemütliche Abende im eigen — DE"
+        type: text
+        required: true
+      - name: sommer_text_014_en
+        label: "Bergluft, gemeinsame Erlebnisse und gemütliche Abende im eigen — EN"
+        type: text
+        required: true
+      - name: sommer_text_015_de
+        label: "Sommerurlaub — DE"
+        type: text
+        required: true
+      - name: sommer_text_015_en
+        label: "Sommerurlaub — EN"
+        type: text
+        required: true
+      - name: sommer_text_016_de
+        label: "Viel Platz für aktive und entspannte Tage — DE"
+        type: text
+        required: true
+      - name: sommer_text_016_en
+        label: "Viel Platz für aktive und entspannte Tage — EN"
+        type: text
+        required: true
+      - name: sommer_text_017_de
+        label: "Unsere Chalets sind ein ruhiger Ausgangspunkt für Urlaubstage  — DE"
+        type: text
+        required: true
+      - name: sommer_text_017_en
+        label: "Unsere Chalets sind ein ruhiger Ausgangspunkt für Urlaubstage  — EN"
+        type: text
+        required: true
+      - name: sommer_text_018_de
+        label: "Sommeraufenthalte können Sie direkt über unser Anfrageformular — DE"
+        type: text
+        required: true
+      - name: sommer_text_018_en
+        label: "Sommeraufenthalte können Sie direkt über unser Anfrageformular — EN"
+        type: text
+        required: true
+      - name: sommer_text_019_de
+        label: "Sommer buchen — DE"
+        type: text
+        required: true
+      - name: sommer_text_019_en
+        label: "Sommer buchen — EN"
+        type: text
+        required: true
+      - name: sommer_text_020_de
+        label: "Wandern — DE"
+        type: text
+        required: true
+      - name: sommer_text_020_en
+        label: "Wandern — EN"
+        type: text
+        required: true
+      - name: sommer_text_021_de
+        label: "Direkt von Flachau aus die Bergwelt entdecken – vom gemütliche — DE"
+        type: text
+        required: true
+      - name: sommer_text_021_en
+        label: "Direkt von Flachau aus die Bergwelt entdecken – vom gemütliche — EN"
+        type: text
+        required: true
+      - name: sommer_text_022_de
+        label: "Rad & Natur — DE"
+        type: text
+        required: true
+      - name: sommer_text_022_en
+        label: "Rad & Natur — EN"
+        type: text
+        required: true
+      - name: sommer_text_023_de
+        label: "Aktive Urlaubstage mit viel Zeit draußen und einem gemütlichen — DE"
+        type: text
+        required: true
+      - name: sommer_text_023_en
+        label: "Aktive Urlaubstage mit viel Zeit draußen und einem gemütlichen — EN"
+        type: text
+        required: true
+      - name: sommer_text_024_de
+        label: "Gemeinsame Zeit — DE"
+        type: text
+        required: true
+      - name: sommer_text_024_en
+        label: "Gemeinsame Zeit — EN"
+        type: text
+        required: true
+      - name: sommer_text_025_de
+        label: "Große Wohnbereiche und eigene Küchen machen gemeinsame Mahlzei — DE"
+        type: text
+        required: true
+      - name: sommer_text_025_en
+        label: "Große Wohnbereiche und eigene Küchen machen gemeinsame Mahlzei — EN"
+        type: text
+        required: true
+      - name: sommer_text_026_de
+        label: "FLACHAU SOMMER CARD — DE"
+        type: text
+        required: true
+      - name: sommer_text_026_en
+        label: "FLACHAU SOMMER CARD — EN"
+        type: text
+        required: true
+      - name: sommer_text_027_de
+        label: "Mehr Sommer inklusive — DE"
+        type: text
+        required: true
+      - name: sommer_text_027_en
+        label: "Mehr Sommer inklusive — EN"
+        type: text
+        required: true
+      - name: sommer_text_028_de
+        label: "Die Flachau Sommer Card ist bei Ihrem Sommeraufenthalt inklusi — DE"
+        type: text
+        required: true
+      - name: sommer_text_028_en
+        label: "Die Flachau Sommer Card ist bei Ihrem Sommeraufenthalt inklusi — EN"
+        type: text
+        required: true
+      - name: sommer_text_029_de
+        label: "Ihre digitale Flachau Sommer Card erhalten Sie nach dem Check- — DE"
+        type: text
+        required: true
+      - name: sommer_text_029_en
+        label: "Ihre digitale Flachau Sommer Card erhalten Sie nach dem Check- — EN"
+        type: text
+        required: true
+      - name: sommer_text_030_de
+        label: "Sommer Card Aktivitäten ansehen (PDF) ↗ — DE"
+        type: text
+        required: true
+      - name: sommer_text_030_en
+        label: "Sommer Card Aktivitäten ansehen (PDF) ↗ — EN"
+        type: text
+        required: true
+      - name: sommer_text_031_de
+        label: "wohlfühlen | genießen — DE"
+        type: text
+        required: true
+      - name: sommer_text_031_en
+        label: "wohlfühlen | genießen — EN"
+        type: text
+        required: true
+      - name: sommer_text_032_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: sommer_text_032_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: sommer_text_033_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: sommer_text_033_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: sommer_text_034_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: sommer_text_034_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: sommer_text_035_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: sommer_text_035_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: sommer_image_001
+        label: "Image — exterior-wide.webp"
+        type: image
+      - name: sommer_image_002
+        label: "Image — hero-summer.webp"
+        type: image
+      - name: sommer_image_003
+        label: "Image — logo.jpg"
+        type: image
+      - name: sommer_background_004
+        label: "Image — hero-summer.webp"
+        type: image
+      - name: sommer_document_005
+        label: "Image — flachau-sommer-card-aktivitaeten-2026.pdf"
+        type: image
+  - name: winter
+    label: "winter"
+    type: file
+    path: cms-content/winter.json
+    format: json
+    fields:
+      - name: winter_text_001_de
+        label: "Home — DE"
+        type: text
+        required: true
+      - name: winter_text_001_en
+        label: "Home — EN"
+        type: text
+        required: true
+      - name: winter_text_002_de
+        label: "Unsere Chalets — DE"
+        type: text
+        required: true
+      - name: winter_text_002_en
+        label: "Unsere Chalets — EN"
+        type: text
+        required: true
+      - name: winter_text_003_de
+        label: "Sommer — DE"
+        type: text
+        required: true
+      - name: winter_text_003_en
+        label: "Sommer — EN"
+        type: text
+        required: true
+      - name: winter_text_004_de
+        label: "Winter — DE"
+        type: text
+        required: true
+      - name: winter_text_004_en
+        label: "Winter — EN"
+        type: text
+        required: true
+      - name: winter_text_005_de
+        label: "Komfort — DE"
+        type: text
+        required: true
+      - name: winter_text_005_en
+        label: "Komfort — EN"
+        type: text
+        required: true
+      - name: winter_text_006_de
+        label: "Restaurant — DE"
+        type: text
+        required: true
+      - name: winter_text_006_en
+        label: "Restaurant — EN"
+        type: text
+        required: true
+      - name: winter_text_007_de
+        label: "Galerie — DE"
+        type: text
+        required: true
+      - name: winter_text_007_en
+        label: "Galerie — EN"
+        type: text
+        required: true
+      - name: winter_text_008_de
+        label: "Lage Anfahrt — DE"
+        type: text
+        required: true
+      - name: winter_text_008_en
+        label: "Lage Anfahrt — EN"
+        type: text
+        required: true
+      - name: winter_text_009_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: winter_text_009_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: winter_text_010_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: winter_text_010_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: winter_text_011_de
+        label: "Kontakt — DE"
+        type: text
+        required: true
+      - name: winter_text_011_en
+        label: "Kontakt — EN"
+        type: text
+        required: true
+      - name: winter_text_012_de
+        label: "Winter in Flachau — DE"
+        type: text
+        required: true
+      - name: winter_text_012_en
+        label: "Winter in Flachau — EN"
+        type: text
+        required: true
+      - name: winter_text_013_de
+        label: "Schneetage. Kaminabende — DE"
+        type: text
+        required: true
+      - name: winter_text_013_en
+        label: "Schneetage. Kaminabende — EN"
+        type: text
+        required: true
+      - name: winter_text_014_de
+        label: "Ein gemütliches Chalet als Zuhause nach einem Tag im Schnee. — DE"
+        type: text
+        required: true
+      - name: winter_text_014_en
+        label: "Ein gemütliches Chalet als Zuhause nach einem Tag im Schnee. — EN"
+        type: text
+        required: true
+      - name: winter_text_015_de
+        label: "Winterurlaub — DE"
+        type: text
+        required: true
+      - name: winter_text_015_en
+        label: "Winterurlaub — EN"
+        type: text
+        required: true
+      - name: winter_text_016_de
+        label: "Kurze Wege und Wärme, wenn Sie zurückkommen — DE"
+        type: text
+        required: true
+      - name: winter_text_016_en
+        label: "Kurze Wege und Wärme, wenn Sie zurückkommen — EN"
+        type: text
+        required: true
+      - name: winter_text_017_de
+        label: "Der Lageplan zeigt den Fußweg zum 8er-Jet, die Langlaufloipe s — DE"
+        type: text
+        required: true
+      - name: winter_text_017_en
+        label: "Der Lageplan zeigt den Fußweg zum 8er-Jet, die Langlaufloipe s — EN"
+        type: text
+        required: true
+      - name: winter_text_018_de
+        label: "Winteraufenthalte werden ausschließlich über Sunweb gebucht. — DE"
+        type: text
+        required: true
+      - name: winter_text_018_en
+        label: "Winteraufenthalte werden ausschließlich über Sunweb gebucht. — EN"
+        type: text
+        required: true
+      - name: winter_text_019_de
+        label: "Winter buchen — DE"
+        type: text
+        required: true
+      - name: winter_text_019_en
+        label: "Winter buchen — EN"
+        type: text
+        required: true
+      - name: winter_text_020_de
+        label: "wohlfühlen | genießen — DE"
+        type: text
+        required: true
+      - name: winter_text_020_en
+        label: "wohlfühlen | genießen — EN"
+        type: text
+        required: true
+      - name: winter_text_021_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: winter_text_021_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: winter_text_022_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: winter_text_022_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: winter_text_023_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: winter_text_023_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: winter_text_024_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: winter_text_024_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: winter_image_001
+        label: "Image — IMG_20210315_113003.webp"
+        type: image
+      - name: winter_image_002
+        label: "Image — logo.jpg"
+        type: image
+      - name: winter_background_003
+        label: "Image — winter-page-hero.jpg"
+        type: image
+      - name: winter_sunweb_004
+        label: "Image — Sunweb booking URL"
+        type: image
+  - name: restaurant
+    label: "restaurant"
+    type: file
+    path: cms-content/restaurant.json
+    format: json
+    fields:
+      - name: restaurant_text_001_de
+        label: "Home — DE"
+        type: text
+        required: true
+      - name: restaurant_text_001_en
+        label: "Home — EN"
+        type: text
+        required: true
+      - name: restaurant_text_002_de
+        label: "Unsere Chalets — DE"
+        type: text
+        required: true
+      - name: restaurant_text_002_en
+        label: "Unsere Chalets — EN"
+        type: text
+        required: true
+      - name: restaurant_text_003_de
+        label: "Sommer — DE"
+        type: text
+        required: true
+      - name: restaurant_text_003_en
+        label: "Sommer — EN"
+        type: text
+        required: true
+      - name: restaurant_text_004_de
+        label: "Winter — DE"
+        type: text
+        required: true
+      - name: restaurant_text_004_en
+        label: "Winter — EN"
+        type: text
+        required: true
+      - name: restaurant_text_005_de
+        label: "Komfort — DE"
+        type: text
+        required: true
+      - name: restaurant_text_005_en
+        label: "Komfort — EN"
+        type: text
+        required: true
+      - name: restaurant_text_006_de
+        label: "Restaurant — DE"
+        type: text
+        required: true
+      - name: restaurant_text_006_en
+        label: "Restaurant — EN"
+        type: text
+        required: true
+      - name: restaurant_text_007_de
+        label: "Galerie — DE"
+        type: text
+        required: true
+      - name: restaurant_text_007_en
+        label: "Galerie — EN"
+        type: text
+        required: true
+      - name: restaurant_text_008_de
+        label: "Lage Anfahrt — DE"
+        type: text
+        required: true
+      - name: restaurant_text_008_en
+        label: "Lage Anfahrt — EN"
+        type: text
+        required: true
+      - name: restaurant_text_009_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: restaurant_text_009_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: restaurant_text_010_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: restaurant_text_010_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: restaurant_text_011_de
+        label: "Kontakt — DE"
+        type: text
+        required: true
+      - name: restaurant_text_011_en
+        label: "Kontakt — EN"
+        type: text
+        required: true
+      - name: restaurant_text_012_de
+        label: "Flachauer Gutshof — DE"
+        type: text
+        required: true
+      - name: restaurant_text_012_en
+        label: "Flachauer Gutshof — EN"
+        type: text
+        required: true
+      - name: restaurant_text_013_de
+        label: "Nur wenige Schritte entfernt — DE"
+        type: text
+        required: true
+      - name: restaurant_text_013_en
+        label: "Nur wenige Schritte entfernt — EN"
+        type: text
+        required: true
+      - name: restaurant_text_014_de
+        label: "Restaurant, Bar und Live-Musik liegen direkt beim Chaletdorf. — DE"
+        type: text
+        required: true
+      - name: restaurant_text_014_en
+        label: "Restaurant, Bar und Live-Musik liegen direkt beim Chaletdorf. — EN"
+        type: text
+        required: true
+      - name: restaurant_text_015_de
+        label: "Gemeinsam essen und den Abend genießen — DE"
+        type: text
+        required: true
+      - name: restaurant_text_015_en
+        label: "Gemeinsam essen und den Abend genießen — EN"
+        type: text
+        required: true
+      - name: restaurant_text_016_de
+        label: "Der Flachauer Gutshof ist auf dem Lageplan direkt neben den Al — DE"
+        type: text
+        required: true
+      - name: restaurant_text_016_en
+        label: "Der Flachauer Gutshof ist auf dem Lageplan direkt neben den Al — EN"
+        type: text
+        required: true
+      - name: restaurant_text_017_de
+        label: "Website des Restaurants ffnen — DE"
+        type: text
+        required: true
+      - name: restaurant_text_017_en
+        label: "Website des Restaurants ffnen — EN"
+        type: text
+        required: true
+      - name: restaurant_text_018_de
+        label: "Familienfreundlich genießen — DE"
+        type: text
+        required: true
+      - name: restaurant_text_018_en
+        label: "Familienfreundlich genießen — EN"
+        type: text
+        required: true
+      - name: restaurant_text_019_de
+        label: "Direkt vor dem Flachauer Gutshof liegt ein großer Spielplatz m — DE"
+        type: text
+        required: true
+      - name: restaurant_text_019_en
+        label: "Direkt vor dem Flachauer Gutshof liegt ein großer Spielplatz m — EN"
+        type: text
+        required: true
+      - name: restaurant_text_020_de
+        label: "wohlfühlen | genießen — DE"
+        type: text
+        required: true
+      - name: restaurant_text_020_en
+        label: "wohlfühlen | genießen — EN"
+        type: text
+        required: true
+      - name: restaurant_text_021_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: restaurant_text_021_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: restaurant_text_022_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: restaurant_text_022_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: restaurant_text_023_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: restaurant_text_023_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: restaurant_text_024_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: restaurant_text_024_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: restaurant_image_001
+        label: "Image — restaurant-dining-plate.webp"
+        type: image
+      - name: restaurant_image_002
+        label: "Image — logo.jpg"
+        type: image
+      - name: restaurant_background_003
+        label: "Image — restaurant-gutshof-sommer.webp"
+        type: image
+  - name: galerie
+    label: "galerie"
+    type: file
+    path: cms-content/galerie.json
+    format: json
+    fields:
+      - name: galerie_text_001_de
+        label: "Home — DE"
+        type: text
+        required: true
+      - name: galerie_text_001_en
+        label: "Home — EN"
+        type: text
+        required: true
+      - name: galerie_text_002_de
+        label: "Unsere Chalets — DE"
+        type: text
+        required: true
+      - name: galerie_text_002_en
+        label: "Unsere Chalets — EN"
+        type: text
+        required: true
+      - name: galerie_text_003_de
+        label: "Sommer — DE"
+        type: text
+        required: true
+      - name: galerie_text_003_en
+        label: "Sommer — EN"
+        type: text
+        required: true
+      - name: galerie_text_004_de
+        label: "Winter — DE"
+        type: text
+        required: true
+      - name: galerie_text_004_en
+        label: "Winter — EN"
+        type: text
+        required: true
+      - name: galerie_text_005_de
+        label: "Komfort — DE"
+        type: text
+        required: true
+      - name: galerie_text_005_en
+        label: "Komfort — EN"
+        type: text
+        required: true
+      - name: galerie_text_006_de
+        label: "Restaurant — DE"
+        type: text
+        required: true
+      - name: galerie_text_006_en
+        label: "Restaurant — EN"
+        type: text
+        required: true
+      - name: galerie_text_007_de
+        label: "Galerie — DE"
+        type: text
+        required: true
+      - name: galerie_text_007_en
+        label: "Galerie — EN"
+        type: text
+        required: true
+      - name: galerie_text_008_de
+        label: "Lage Anfahrt — DE"
+        type: text
+        required: true
+      - name: galerie_text_008_en
+        label: "Lage Anfahrt — EN"
+        type: text
+        required: true
+      - name: galerie_text_009_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: galerie_text_009_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: galerie_text_010_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: galerie_text_010_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: galerie_text_011_de
+        label: "Kontakt — DE"
+        type: text
+        required: true
+      - name: galerie_text_011_en
+        label: "Kontakt — EN"
+        type: text
+        required: true
+      - name: galerie_text_012_de
+        label: "Galerie — DE"
+        type: text
+        required: true
+      - name: galerie_text_012_en
+        label: "Galerie — EN"
+        type: text
+        required: true
+      - name: galerie_text_013_de
+        label: "Einblicke in Ihr Urlaubszuhause — DE"
+        type: text
+        required: true
+      - name: galerie_text_013_en
+        label: "Einblicke in Ihr Urlaubszuhause — EN"
+        type: text
+        required: true
+      - name: galerie_text_014_de
+        label: "Innen. Außen. Sommer. Winter — DE"
+        type: text
+        required: true
+      - name: galerie_text_014_en
+        label: "Innen. Außen. Sommer. Winter — EN"
+        type: text
+        required: true
+      - name: galerie_text_015_de
+        label: "wohlfühlen | genießen — DE"
+        type: text
+        required: true
+      - name: galerie_text_015_en
+        label: "wohlfühlen | genießen — EN"
+        type: text
+        required: true
+      - name: galerie_text_016_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: galerie_text_016_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: galerie_text_017_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: galerie_text_017_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: galerie_text_018_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: galerie_text_018_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: galerie_text_019_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: galerie_text_019_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: galerie_image_001
+        label: "Image — exterior-wide.webp"
+        type: image
+      - name: galerie_image_002
+        label: "Image — exterior-main.webp"
+        type: image
+      - name: galerie_image_003
+        label: "Image — hero-winter.webp"
+        type: image
+      - name: galerie_image_004
+        label: "Image — living.webp"
+        type: image
+      - name: galerie_image_005
+        label: "Image — kitchen.webp"
+        type: image
+      - name: galerie_image_006
+        label: "Image — bedroom-main.webp"
+        type: image
+      - name: galerie_image_007
+        label: "Image — bedroom-family.webp"
+        type: image
+      - name: galerie_image_008
+        label: "Image — bathroom.webp"
+        type: image
+      - name: galerie_image_009
+        label: "Image — bathroom-sauna.webp"
+        type: image
+      - name: galerie_image_010
+        label: "Image — hero-summer.webp"
+        type: image
+      - name: galerie_image_011
+        label: "Image — logo.jpg"
+        type: image
+      - name: galerie_background_012
+        label: "Image — gallery-hero-collage.png"
+        type: image
+  - name: faq
+    label: "faq"
+    type: file
+    path: cms-content/faq.json
+    format: json
+    fields:
+      - name: faq_text_001_de
+        label: "Home — DE"
+        type: text
+        required: true
+      - name: faq_text_001_en
+        label: "Home — EN"
+        type: text
+        required: true
+      - name: faq_text_002_de
+        label: "Unsere Chalets — DE"
+        type: text
+        required: true
+      - name: faq_text_002_en
+        label: "Unsere Chalets — EN"
+        type: text
+        required: true
+      - name: faq_text_003_de
+        label: "Sommer — DE"
+        type: text
+        required: true
+      - name: faq_text_003_en
+        label: "Sommer — EN"
+        type: text
+        required: true
+      - name: faq_text_004_de
+        label: "Winter — DE"
+        type: text
+        required: true
+      - name: faq_text_004_en
+        label: "Winter — EN"
+        type: text
+        required: true
+      - name: faq_text_005_de
+        label: "Komfort — DE"
+        type: text
+        required: true
+      - name: faq_text_005_en
+        label: "Komfort — EN"
+        type: text
+        required: true
+      - name: faq_text_006_de
+        label: "Restaurant — DE"
+        type: text
+        required: true
+      - name: faq_text_006_en
+        label: "Restaurant — EN"
+        type: text
+        required: true
+      - name: faq_text_007_de
+        label: "Galerie — DE"
+        type: text
+        required: true
+      - name: faq_text_007_en
+        label: "Galerie — EN"
+        type: text
+        required: true
+      - name: faq_text_008_de
+        label: "Lage Anfahrt — DE"
+        type: text
+        required: true
+      - name: faq_text_008_en
+        label: "Lage Anfahrt — EN"
+        type: text
+        required: true
+      - name: faq_text_009_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: faq_text_009_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: faq_text_010_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: faq_text_010_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: faq_text_011_de
+        label: "Kontakt — DE"
+        type: text
+        required: true
+      - name: faq_text_011_en
+        label: "Kontakt — EN"
+        type: text
+        required: true
+      - name: faq_text_012_de
+        label: "Gut vorbereitet ankommen — DE"
+        type: text
+        required: true
+      - name: faq_text_012_en
+        label: "Gut vorbereitet ankommen — EN"
+        type: text
+        required: true
+      - name: faq_text_013_de
+        label: "Häufige Fragen — DE"
+        type: text
+        required: true
+      - name: faq_text_013_en
+        label: "Häufige Fragen — EN"
+        type: text
+        required: true
+      - name: faq_text_014_de
+        label: "Wie buche ich einen Winterurlaub — DE"
+        type: text
+        required: true
+      - name: faq_text_014_en
+        label: "Wie buche ich einen Winterurlaub — EN"
+        type: text
+        required: true
+      - name: faq_text_015_de
+        label: "Winteraufenthalte werden über Sunweb gebucht. Der Buchungsbutt — DE"
+        type: text
+        required: true
+      - name: faq_text_015_en
+        label: "Winteraufenthalte werden über Sunweb gebucht. Der Buchungsbutt — EN"
+        type: text
+        required: true
+      - name: faq_text_016_de
+        label: "Wie buche ich einen Sommerurlaub — DE"
+        type: text
+        required: true
+      - name: faq_text_016_en
+        label: "Wie buche ich einen Sommerurlaub — EN"
+        type: text
+        required: true
+      - name: faq_text_017_de
+        label: "Sommeraufenthalte fragen Sie direkt über unser Anfrageformular — DE"
+        type: text
+        required: true
+      - name: faq_text_017_en
+        label: "Sommeraufenthalte fragen Sie direkt über unser Anfrageformular — EN"
+        type: text
+        required: true
+      - name: faq_text_018_de
+        label: "Gibt es eine Sauna und einen Kamin — DE"
+        type: text
+        required: true
+      - name: faq_text_018_en
+        label: "Gibt es eine Sauna und einen Kamin — EN"
+        type: text
+        required: true
+      - name: faq_text_019_de
+        label: "Ja. Beide Chalet-Typen verfügen über eine private Sauna und ei — DE"
+        type: text
+        required: true
+      - name: faq_text_019_en
+        label: "Ja. Beide Chalet-Typen verfügen über eine private Sauna und ei — EN"
+        type: text
+        required: true
+      - name: faq_text_020_de
+        label: "Welche Betten haben die 4- und 5-Zimmer-Chalets — DE"
+        type: text
+        required: true
+      - name: faq_text_020_en
+        label: "Welche Betten haben die 4- und 5-Zimmer-Chalets — EN"
+        type: text
+        required: true
+      - name: faq_text_021_de
+        label: "Das 4-Zimmer-Chalet bietet in Schlafzimmer 1 ein Doppelbett so — DE"
+        type: text
+        required: true
+      - name: faq_text_021_en
+        label: "Das 4-Zimmer-Chalet bietet in Schlafzimmer 1 ein Doppelbett so — EN"
+        type: text
+        required: true
+      - name: faq_text_022_de
+        label: "Wie viele Personen können übernachten — DE"
+        type: text
+        required: true
+      - name: faq_text_022_en
+        label: "Wie viele Personen können übernachten — EN"
+        type: text
+        required: true
+      - name: faq_text_023_de
+        label: "Das 4-Zimmer-Chalet bietet Platz für bis zu 12 Personen, das 5 — DE"
+        type: text
+        required: true
+      - name: faq_text_023_en
+        label: "Das 4-Zimmer-Chalet bietet Platz für bis zu 12 Personen, das 5 — EN"
+        type: text
+        required: true
+      - name: faq_text_024_de
+        label: "Wann ist Check-in und Check-out — DE"
+        type: text
+        required: true
+      - name: faq_text_024_en
+        label: "Wann ist Check-in und Check-out — EN"
+        type: text
+        required: true
+      - name: faq_text_025_de
+        label: "Der Check-in ist ab 15:00 Uhr möglich. Der Check-out erfolgt a — DE"
+        type: text
+        required: true
+      - name: faq_text_025_en
+        label: "Der Check-in ist ab 15:00 Uhr möglich. Der Check-out erfolgt a — EN"
+        type: text
+        required: true
+      - name: faq_text_026_de
+        label: "Was passiert bei einer späten Anreise — DE"
+        type: text
+        required: true
+      - name: faq_text_026_en
+        label: "Was passiert bei einer späten Anreise — EN"
+        type: text
+        required: true
+      - name: faq_text_027_de
+        label: "Unsere Rezeption ist täglich bis 20:00 Uhr besetzt. Wenn Sie s — DE"
+        type: text
+        required: true
+      - name: faq_text_027_en
+        label: "Unsere Rezeption ist täglich bis 20:00 Uhr besetzt. Wenn Sie s — EN"
+        type: text
+        required: true
+      - name: faq_text_028_de
+        label: "Wann kann die Sauna genutzt werden — DE"
+        type: text
+        required: true
+      - name: faq_text_028_en
+        label: "Wann kann die Sauna genutzt werden — EN"
+        type: text
+        required: true
+      - name: faq_text_029_de
+        label: "Die private Sauna im Chalet kann täglich von 10:00 bis 22:00 U — DE"
+        type: text
+        required: true
+      - name: faq_text_029_en
+        label: "Die private Sauna im Chalet kann täglich von 10:00 bis 22:00 U — EN"
+        type: text
+        required: true
+      - name: faq_text_030_de
+        label: "Sind Bettwäsche und Handtücher inkludiert — DE"
+        type: text
+        required: true
+      - name: faq_text_030_en
+        label: "Sind Bettwäsche und Handtücher inkludiert — EN"
+        type: text
+        required: true
+      - name: faq_text_031_de
+        label: "Ja. Pro Person sind ein Set Bettwäsche sowie ein Handtuchset m — DE"
+        type: text
+        required: true
+      - name: faq_text_031_en
+        label: "Ja. Pro Person sind ein Set Bettwäsche sowie ein Handtuchset m — EN"
+        type: text
+        required: true
+      - name: faq_text_032_de
+        label: "Gibt es Babybetten und Hochstühle — DE"
+        type: text
+        required: true
+      - name: faq_text_032_en
+        label: "Gibt es Babybetten und Hochstühle — EN"
+        type: text
+        required: true
+      - name: faq_text_033_de
+        label: "Ein Babybett stellen wir auf Anfrage gerne kostenlos im Chalet — DE"
+        type: text
+        required: true
+      - name: faq_text_033_en
+        label: "Ein Babybett stellen wir auf Anfrage gerne kostenlos im Chalet — EN"
+        type: text
+        required: true
+      - name: faq_text_034_de
+        label: "Sind Haustiere erlaubt — DE"
+        type: text
+        required: true
+      - name: faq_text_034_en
+        label: "Sind Haustiere erlaubt — EN"
+        type: text
+        required: true
+      - name: faq_text_035_de
+        label: "Haustiere sind willkommen. Die Gebühr beträgt 20 Euro pro Haus — DE"
+        type: text
+        required: true
+      - name: faq_text_035_en
+        label: "Haustiere sind willkommen. Die Gebühr beträgt 20 Euro pro Haus — EN"
+        type: text
+        required: true
+      - name: faq_text_036_de
+        label: "Gibt es eine Waschmaschine oder einen Trockner — DE"
+        type: text
+        required: true
+      - name: faq_text_036_en
+        label: "Gibt es eine Waschmaschine oder einen Trockner — EN"
+        type: text
+        required: true
+      - name: faq_text_037_de
+        label: "Ja. An unserer Rezeption gibt es eine Wäscheküche mit einer Wa — DE"
+        type: text
+        required: true
+      - name: faq_text_037_en
+        label: "Ja. An unserer Rezeption gibt es eine Wäscheküche mit einer Wa — EN"
+        type: text
+        required: true
+      - name: faq_text_038_de
+        label: "Gibt es Parkplätze, Tiefgarage und Ladestationen — DE"
+        type: text
+        required: true
+      - name: faq_text_038_en
+        label: "Gibt es Parkplätze, Tiefgarage und Ladestationen — EN"
+        type: text
+        required: true
+      - name: faq_text_039_de
+        label: "In der Chalet-Anlage stehen Parkmöglichkeiten und eine Tiefgar — DE"
+        type: text
+        required: true
+      - name: faq_text_039_en
+        label: "In der Chalet-Anlage stehen Parkmöglichkeiten und eine Tiefgar — EN"
+        type: text
+        required: true
+      - name: faq_text_040_de
+        label: "Ist die Flachau Sommer Card inkludiert — DE"
+        type: text
+        required: true
+      - name: faq_text_040_en
+        label: "Ist die Flachau Sommer Card inkludiert — EN"
+        type: text
+        required: true
+      - name: faq_text_041_de
+        label: "Ja. Die Flachau Sommer Card ist im Sommer inkludiert und wird  — DE"
+        type: text
+        required: true
+      - name: faq_text_041_en
+        label: "Ja. Die Flachau Sommer Card ist im Sommer inkludiert und wird  — EN"
+        type: text
+        required: true
+      - name: faq_text_042_de
+        label: "Kann ich bei früher Anreise schon etwas nutzen — DE"
+        type: text
+        required: true
+      - name: faq_text_042_en
+        label: "Kann ich bei früher Anreise schon etwas nutzen — EN"
+        type: text
+        required: true
+      - name: faq_text_043_de
+        label: "Wenn Sie vor 15:00 Uhr ankommen, können Sie gerne an der Rezep — DE"
+        type: text
+        required: true
+      - name: faq_text_043_en
+        label: "Wenn Sie vor 15:00 Uhr ankommen, können Sie gerne an der Rezep — EN"
+        type: text
+        required: true
+      - name: faq_text_044_de
+        label: "Kann ich ein bestimmtes Chalet reservieren — DE"
+        type: text
+        required: true
+      - name: faq_text_044_en
+        label: "Kann ich ein bestimmtes Chalet reservieren — EN"
+        type: text
+        required: true
+      - name: faq_text_045_de
+        label: "Ein bestimmtes Chalet kann nicht verbindlich zugesagt werden.  — DE"
+        type: text
+        required: true
+      - name: faq_text_045_en
+        label: "Ein bestimmtes Chalet kann nicht verbindlich zugesagt werden.  — EN"
+        type: text
+        required: true
+      - name: faq_text_046_de
+        label: "Gibt es einen Grill im Chalet — DE"
+        type: text
+        required: true
+      - name: faq_text_046_en
+        label: "Gibt es einen Grill im Chalet — EN"
+        type: text
+        required: true
+      - name: faq_text_047_de
+        label: "Die Chalets sind nicht mit einem Grill ausgestattet. Sie könne — DE"
+        type: text
+        required: true
+      - name: faq_text_047_en
+        label: "Die Chalets sind nicht mit einem Grill ausgestattet. Sie könne — EN"
+        type: text
+        required: true
+      - name: faq_text_048_de
+        label: "Wie nah sind Piste und 8er-Jet — DE"
+        type: text
+        required: true
+      - name: faq_text_048_en
+        label: "Wie nah sind Piste und 8er-Jet — EN"
+        type: text
+        required: true
+      - name: faq_text_049_de
+        label: "Die Alpenchalets liegen direkt an der Skipiste. Die Achterjet- — DE"
+        type: text
+        required: true
+      - name: faq_text_049_en
+        label: "Die Alpenchalets liegen direkt an der Skipiste. Die Achterjet- — EN"
+        type: text
+        required: true
+      - name: faq_text_050_de
+        label: "Gibt es Taxi- oder Transferkontakte — DE"
+        type: text
+        required: true
+      - name: faq_text_050_en
+        label: "Gibt es Taxi- oder Transferkontakte — EN"
+        type: text
+        required: true
+      - name: faq_text_051_de
+        label: "Für Transfers können Gäste unter anderem Taxi Reiter unter +43 — DE"
+        type: text
+        required: true
+      - name: faq_text_051_en
+        label: "Für Transfers können Gäste unter anderem Taxi Reiter unter +43 — EN"
+        type: text
+        required: true
+      - name: faq_text_052_de
+        label: "Welche Notrufnummern gelten in Österreich — DE"
+        type: text
+        required: true
+      - name: faq_text_052_en
+        label: "Welche Notrufnummern gelten in Österreich — EN"
+        type: text
+        required: true
+      - name: faq_text_053_de
+        label: "In Österreich gelten unter anderem 144 für Rettung, 122 für Fe — DE"
+        type: text
+        required: true
+      - name: faq_text_053_en
+        label: "In Österreich gelten unter anderem 144 für Rettung, 122 für Fe — EN"
+        type: text
+        required: true
+      - name: faq_text_054_de
+        label: "wohlfühlen | genießen — DE"
+        type: text
+        required: true
+      - name: faq_text_054_en
+        label: "wohlfühlen | genießen — EN"
+        type: text
+        required: true
+      - name: faq_text_055_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: faq_text_055_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: faq_text_056_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: faq_text_056_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: faq_text_057_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: faq_text_057_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: faq_text_058_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: faq_text_058_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: faq_image_001
+        label: "Image — logo.jpg"
+        type: image
+      - name: faq_background_002
+        label: "Image — exterior-main.webp"
+        type: image
+  - name: urlaubsanfrage
+    label: "urlaubsanfrage"
+    type: file
+    path: cms-content/urlaubsanfrage.json
+    format: json
+    fields:
+      - name: urlaubsanfrage_text_001_de
+        label: "Home — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_001_en
+        label: "Home — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_002_de
+        label: "Unsere Chalets — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_002_en
+        label: "Unsere Chalets — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_003_de
+        label: "Sommer — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_003_en
+        label: "Sommer — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_004_de
+        label: "Winter — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_004_en
+        label: "Winter — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_005_de
+        label: "Komfort — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_005_en
+        label: "Komfort — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_006_de
+        label: "Restaurant — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_006_en
+        label: "Restaurant — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_007_de
+        label: "Galerie — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_007_en
+        label: "Galerie — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_008_de
+        label: "Lage Anfahrt — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_008_en
+        label: "Lage Anfahrt — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_009_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_009_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_010_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_010_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_011_de
+        label: "Kontakt — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_011_en
+        label: "Kontakt — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_012_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_012_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_013_de
+        label: "Ihr Chalet in Flachau anfragen — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_013_en
+        label: "Ihr Chalet in Flachau anfragen — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_014_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_014_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_015_de
+        label: "Wählen Sie Chalettyp, Reisedaten und Personenzahl. Wir melden  — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_015_en
+        label: "Wählen Sie Chalettyp, Reisedaten und Personenzahl. Wir melden  — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_016_de
+        label: "Vor- und Nachname — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_016_en
+        label: "Vor- und Nachname — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_017_de
+        label: "E-Mail — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_017_en
+        label: "E-Mail — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_018_de
+        label: "Telefon — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_018_en
+        label: "Telefon — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_019_de
+        label: "Saison — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_019_en
+        label: "Saison — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_020_de
+        label: "Sommer — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_020_en
+        label: "Sommer — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_021_de
+        label: "Winter — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_021_en
+        label: "Winter — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_022_de
+        label: "Chalettyp — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_022_en
+        label: "Chalettyp — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_023_de
+        label: "Bitte wählen — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_023_en
+        label: "Bitte wählen — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_024_de
+        label: "4-Zimmer-Chalet — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_024_en
+        label: "4-Zimmer-Chalet — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_025_de
+        label: "5-Zimmer-Chalet — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_025_en
+        label: "5-Zimmer-Chalet — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_026_de
+        label: "Aufenthalt / Zeitraum — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_026_en
+        label: "Aufenthalt / Zeitraum — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_027_de
+        label: "Anreise — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_027_en
+        label: "Anreise — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_028_de
+        label: "Abreise — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_028_en
+        label: "Abreise — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_029_de
+        label: "Anzahl Personen — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_029_en
+        label: "Anzahl Personen — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_030_de
+        label: "Nachricht — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_030_en
+        label: "Nachricht — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_031_de
+        label: "Anfrage senden — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_031_en
+        label: "Anfrage senden — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_032_de
+        label: "wohlfühlen | genießen — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_032_en
+        label: "wohlfühlen | genießen — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_033_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_033_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_034_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_034_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_035_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_035_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_036_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: urlaubsanfrage_text_036_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: urlaubsanfrage_image_001
+        label: "Image — logo.jpg"
+        type: image
+      - name: urlaubsanfrage_background_002
+        label: "Image — exterior-wide.webp"
+        type: image
+  - name: kontakt
+    label: "kontakt"
+    type: file
+    path: cms-content/kontakt.json
+    format: json
+    fields:
+      - name: kontakt_text_001_de
+        label: "Home — DE"
+        type: text
+        required: true
+      - name: kontakt_text_001_en
+        label: "Home — EN"
+        type: text
+        required: true
+      - name: kontakt_text_002_de
+        label: "Unsere Chalets — DE"
+        type: text
+        required: true
+      - name: kontakt_text_002_en
+        label: "Unsere Chalets — EN"
+        type: text
+        required: true
+      - name: kontakt_text_003_de
+        label: "Sommer — DE"
+        type: text
+        required: true
+      - name: kontakt_text_003_en
+        label: "Sommer — EN"
+        type: text
+        required: true
+      - name: kontakt_text_004_de
+        label: "Winter — DE"
+        type: text
+        required: true
+      - name: kontakt_text_004_en
+        label: "Winter — EN"
+        type: text
+        required: true
+      - name: kontakt_text_005_de
+        label: "Komfort — DE"
+        type: text
+        required: true
+      - name: kontakt_text_005_en
+        label: "Komfort — EN"
+        type: text
+        required: true
+      - name: kontakt_text_006_de
+        label: "Restaurant — DE"
+        type: text
+        required: true
+      - name: kontakt_text_006_en
+        label: "Restaurant — EN"
+        type: text
+        required: true
+      - name: kontakt_text_007_de
+        label: "Galerie — DE"
+        type: text
+        required: true
+      - name: kontakt_text_007_en
+        label: "Galerie — EN"
+        type: text
+        required: true
+      - name: kontakt_text_008_de
+        label: "Lage Anfahrt — DE"
+        type: text
+        required: true
+      - name: kontakt_text_008_en
+        label: "Lage Anfahrt — EN"
+        type: text
+        required: true
+      - name: kontakt_text_009_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: kontakt_text_009_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: kontakt_text_010_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: kontakt_text_010_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: kontakt_text_011_de
+        label: "Kontakt — DE"
+        type: text
+        required: true
+      - name: kontakt_text_011_en
+        label: "Kontakt — EN"
+        type: text
+        required: true
+      - name: kontakt_text_012_de
+        label: "Kontakt — DE"
+        type: text
+        required: true
+      - name: kontakt_text_012_en
+        label: "Kontakt — EN"
+        type: text
+        required: true
+      - name: kontakt_text_013_de
+        label: "Wir freuen uns auf Ihre Anfrage — DE"
+        type: text
+        required: true
+      - name: kontakt_text_013_en
+        label: "Wir freuen uns auf Ihre Anfrage — EN"
+        type: text
+        required: true
+      - name: kontakt_text_014_de
+        label: "Direkt erreichbar — DE"
+        type: text
+        required: true
+      - name: kontakt_text_014_en
+        label: "Direkt erreichbar — EN"
+        type: text
+        required: true
+      - name: kontakt_text_015_de
+        label: "Rezeption: täglich 08:00-12:00 und 15:00-20:00 Uhr. Bei Anreis — DE"
+        type: text
+        required: true
+      - name: kontakt_text_015_en
+        label: "Rezeption: täglich 08:00-12:00 und 15:00-20:00 Uhr. Bei Anreis — EN"
+        type: text
+        required: true
+      - name: kontakt_text_016_de
+        label: "Winterbuchungen erfolgen über Sunweb. Sommeranfragen senden Si — DE"
+        type: text
+        required: true
+      - name: kontakt_text_016_en
+        label: "Winterbuchungen erfolgen über Sunweb. Sommeranfragen senden Si — EN"
+        type: text
+        required: true
+      - name: kontakt_text_017_de
+        label: "Zur Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: kontakt_text_017_en
+        label: "Zur Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: kontakt_text_018_de
+        label: "wohlfühlen | genießen — DE"
+        type: text
+        required: true
+      - name: kontakt_text_018_en
+        label: "wohlfühlen | genießen — EN"
+        type: text
+        required: true
+      - name: kontakt_text_019_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: kontakt_text_019_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: kontakt_text_020_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: kontakt_text_020_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: kontakt_text_021_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: kontakt_text_021_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: kontakt_text_022_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: kontakt_text_022_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: kontakt_image_001
+        label: "Image — logo.jpg"
+        type: image
+      - name: kontakt_background_002
+        label: "Image — exterior-wide.webp"
+        type: image
+  - name: lage
+    label: "lage"
+    type: file
+    path: cms-content/lage.json
+    format: json
+    fields:
+      - name: lage_text_001_de
+        label: "Home — DE"
+        type: text
+        required: true
+      - name: lage_text_001_en
+        label: "Home — EN"
+        type: text
+        required: true
+      - name: lage_text_002_de
+        label: "Unsere Chalets — DE"
+        type: text
+        required: true
+      - name: lage_text_002_en
+        label: "Unsere Chalets — EN"
+        type: text
+        required: true
+      - name: lage_text_003_de
+        label: "Sommer — DE"
+        type: text
+        required: true
+      - name: lage_text_003_en
+        label: "Sommer — EN"
+        type: text
+        required: true
+      - name: lage_text_004_de
+        label: "Winter — DE"
+        type: text
+        required: true
+      - name: lage_text_004_en
+        label: "Winter — EN"
+        type: text
+        required: true
+      - name: lage_text_005_de
+        label: "Komfort — DE"
+        type: text
+        required: true
+      - name: lage_text_005_en
+        label: "Komfort — EN"
+        type: text
+        required: true
+      - name: lage_text_006_de
+        label: "Restaurant — DE"
+        type: text
+        required: true
+      - name: lage_text_006_en
+        label: "Restaurant — EN"
+        type: text
+        required: true
+      - name: lage_text_007_de
+        label: "Galerie — DE"
+        type: text
+        required: true
+      - name: lage_text_007_en
+        label: "Galerie — EN"
+        type: text
+        required: true
+      - name: lage_text_008_de
+        label: "Lage Anfahrt — DE"
+        type: text
+        required: true
+      - name: lage_text_008_en
+        label: "Lage Anfahrt — EN"
+        type: text
+        required: true
+      - name: lage_text_009_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: lage_text_009_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: lage_text_010_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: lage_text_010_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: lage_text_011_de
+        label: "Kontakt — DE"
+        type: text
+        required: true
+      - name: lage_text_011_en
+        label: "Kontakt — EN"
+        type: text
+        required: true
+      - name: lage_text_012_de
+        label: "Lage — DE"
+        type: text
+        required: true
+      - name: lage_text_012_en
+        label: "Lage — EN"
+        type: text
+        required: true
+      - name: lage_text_013_de
+        label: "Mitten in Flachau — DE"
+        type: text
+        required: true
+      - name: lage_text_013_en
+        label: "Mitten in Flachau — EN"
+        type: text
+        required: true
+      - name: lage_text_014_de
+        label: "Chalets, Rezeption, Parkflächen und wichtige Wege auf einen Bl — DE"
+        type: text
+        required: true
+      - name: lage_text_014_en
+        label: "Chalets, Rezeption, Parkflächen und wichtige Wege auf einen Bl — EN"
+        type: text
+        required: true
+      - name: lage_text_015_de
+        label: "Alles übersichtlich — DE"
+        type: text
+        required: true
+      - name: lage_text_015_en
+        label: "Alles übersichtlich — EN"
+        type: text
+        required: true
+      - name: lage_text_016_de
+        label: "Der Lageplan zeigt die 4- und 5-Zimmer-Chalets, Parkflächen, R — DE"
+        type: text
+        required: true
+      - name: lage_text_016_en
+        label: "Der Lageplan zeigt die 4- und 5-Zimmer-Chalets, Parkflächen, R — EN"
+        type: text
+        required: true
+      - name: lage_text_017_de
+        label: "Anfahrt — DE"
+        type: text
+        required: true
+      - name: lage_text_017_en
+        label: "Anfahrt — EN"
+        type: text
+        required: true
+      - name: lage_text_018_de
+        label: "So erreichen Sie die Alpenchalets — DE"
+        type: text
+        required: true
+      - name: lage_text_018_en
+        label: "So erreichen Sie die Alpenchalets — EN"
+        type: text
+        required: true
+      - name: lage_text_019_de
+        label: "Ihre Zieladresse für die Navigation — DE"
+        type: text
+        required: true
+      - name: lage_text_019_en
+        label: "Ihre Zieladresse für die Navigation — EN"
+        type: text
+        required: true
+      - name: lage_text_020_de
+        label: "Route öffnen ↗ — DE"
+        type: text
+        required: true
+      - name: lage_text_020_en
+        label: "Route öffnen ↗ — EN"
+        type: text
+        required: true
+      - name: lage_text_021_de
+        label: "Anreise mit dem Auto — DE"
+        type: text
+        required: true
+      - name: lage_text_021_en
+        label: "Anreise mit dem Auto — EN"
+        type: text
+        required: true
+      - name: lage_text_022_de
+        label: "Flachau liegt direkt an der Tauernautobahn A10. Verlassen Sie  — DE"
+        type: text
+        required: true
+      - name: lage_text_022_en
+        label: "Flachau liegt direkt an der Tauernautobahn A10. Verlassen Sie  — EN"
+        type: text
+        required: true
+      - name: lage_text_023_de
+        label: "Anreise mit der Bahn — DE"
+        type: text
+        required: true
+      - name: lage_text_023_en
+        label: "Anreise mit der Bahn — EN"
+        type: text
+        required: true
+      - name: lage_text_024_de
+        label: "Für die Anreise mit der Bahn eignen sich insbesondere die Bahn — DE"
+        type: text
+        required: true
+      - name: lage_text_024_en
+        label: "Für die Anreise mit der Bahn eignen sich insbesondere die Bahn — EN"
+        type: text
+        required: true
+      - name: lage_text_025_de
+        label: "Anreise mit dem Flugzeug — DE"
+        type: text
+        required: true
+      - name: lage_text_025_en
+        label: "Anreise mit dem Flugzeug — EN"
+        type: text
+        required: true
+      - name: lage_text_026_de
+        label: "Der nächstgelegene Flughafen ist Salzburg Airport W. A. Mozart — DE"
+        type: text
+        required: true
+      - name: lage_text_026_en
+        label: "Der nächstgelegene Flughafen ist Salzburg Airport W. A. Mozart — EN"
+        type: text
+        required: true
+      - name: lage_text_027_de
+        label: "Mit dem Laden der Karte stimmen Sie zu, dass Daten an Google ü — DE"
+        type: text
+        required: true
+      - name: lage_text_027_en
+        label: "Mit dem Laden der Karte stimmen Sie zu, dass Daten an Google ü — EN"
+        type: text
+        required: true
+      - name: lage_text_028_de
+        label: "Google Maps laden — DE"
+        type: text
+        required: true
+      - name: lage_text_028_en
+        label: "Google Maps laden — EN"
+        type: text
+        required: true
+      - name: lage_text_029_de
+        label: "Parken & Tiefgarage — DE"
+        type: text
+        required: true
+      - name: lage_text_029_en
+        label: "Parken & Tiefgarage — EN"
+        type: text
+        required: true
+      - name: lage_text_030_de
+        label: "In der Chalet-Anlage stehen Parkmöglichkeiten sowie eine Tiefg — DE"
+        type: text
+        required: true
+      - name: lage_text_030_en
+        label: "In der Chalet-Anlage stehen Parkmöglichkeiten sowie eine Tiefg — EN"
+        type: text
+        required: true
+      - name: lage_text_031_de
+        label: "E-Ladestationen in Flachau — DE"
+        type: text
+        required: true
+      - name: lage_text_031_en
+        label: "E-Ladestationen in Flachau — EN"
+        type: text
+        required: true
+      - name: lage_text_032_de
+        label: "Öffentliche Ladestationen befinden sich unter anderem an der R — DE"
+        type: text
+        required: true
+      - name: lage_text_032_en
+        label: "Öffentliche Ladestationen befinden sich unter anderem an der R — EN"
+        type: text
+        required: true
+      - name: lage_text_033_de
+        label: "wohlfühlen | genießen — DE"
+        type: text
+        required: true
+      - name: lage_text_033_en
+        label: "wohlfühlen | genießen — EN"
+        type: text
+        required: true
+      - name: lage_text_034_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: lage_text_034_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: lage_text_035_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: lage_text_035_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: lage_text_036_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: lage_text_036_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: lage_text_037_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: lage_text_037_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: lage_image_001
+        label: "Image — resort-map.webp"
+        type: image
+      - name: lage_image_002
+        label: "Image — logo.jpg"
+        type: image
+      - name: lage_background_003
+        label: "Image — hero-alpenchalets-flugbild.webp"
+        type: image
+      - name: lage_document_004
+        label: "Image — lageplan-2026-alpenchalets.pdf"
+        type: image
+  - name: impressum
+    label: "impressum"
+    type: file
+    path: cms-content/impressum.json
+    format: json
+    fields:
+      - name: impressum_text_001_de
+        label: "Home — DE"
+        type: text
+        required: true
+      - name: impressum_text_001_en
+        label: "Home — EN"
+        type: text
+        required: true
+      - name: impressum_text_002_de
+        label: "Unsere Chalets — DE"
+        type: text
+        required: true
+      - name: impressum_text_002_en
+        label: "Unsere Chalets — EN"
+        type: text
+        required: true
+      - name: impressum_text_003_de
+        label: "Sommer — DE"
+        type: text
+        required: true
+      - name: impressum_text_003_en
+        label: "Sommer — EN"
+        type: text
+        required: true
+      - name: impressum_text_004_de
+        label: "Winter — DE"
+        type: text
+        required: true
+      - name: impressum_text_004_en
+        label: "Winter — EN"
+        type: text
+        required: true
+      - name: impressum_text_005_de
+        label: "Komfort — DE"
+        type: text
+        required: true
+      - name: impressum_text_005_en
+        label: "Komfort — EN"
+        type: text
+        required: true
+      - name: impressum_text_006_de
+        label: "Restaurant — DE"
+        type: text
+        required: true
+      - name: impressum_text_006_en
+        label: "Restaurant — EN"
+        type: text
+        required: true
+      - name: impressum_text_007_de
+        label: "Galerie — DE"
+        type: text
+        required: true
+      - name: impressum_text_007_en
+        label: "Galerie — EN"
+        type: text
+        required: true
+      - name: impressum_text_008_de
+        label: "Lage Anfahrt — DE"
+        type: text
+        required: true
+      - name: impressum_text_008_en
+        label: "Lage Anfahrt — EN"
+        type: text
+        required: true
+      - name: impressum_text_009_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: impressum_text_009_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: impressum_text_010_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: impressum_text_010_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: impressum_text_011_de
+        label: "Kontakt — DE"
+        type: text
+        required: true
+      - name: impressum_text_011_en
+        label: "Kontakt — EN"
+        type: text
+        required: true
+      - name: impressum_text_012_de
+        label: "Rechtliches — DE"
+        type: text
+        required: true
+      - name: impressum_text_012_en
+        label: "Rechtliches — EN"
+        type: text
+        required: true
+      - name: impressum_text_013_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: impressum_text_013_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: impressum_text_014_de
+        label: "Medieninhaber, Diensteanbieter und verantwortlich für den Inha — DE"
+        type: text
+        required: true
+      - name: impressum_text_014_en
+        label: "Medieninhaber, Diensteanbieter und verantwortlich für den Inha — EN"
+        type: text
+        required: true
+      - name: impressum_text_015_de
+        label: "Telefon — DE"
+        type: text
+        required: true
+      - name: impressum_text_015_en
+        label: "Telefon — EN"
+        type: text
+        required: true
+      - name: impressum_text_016_de
+        label: "E-Mail — DE"
+        type: text
+        required: true
+      - name: impressum_text_016_en
+        label: "E-Mail — EN"
+        type: text
+        required: true
+      - name: impressum_text_017_de
+        label: "Unternehmensangaben — DE"
+        type: text
+        required: true
+      - name: impressum_text_017_en
+        label: "Unternehmensangaben — EN"
+        type: text
+        required: true
+      - name: impressum_text_018_de
+        label: "Geschäftsführer — DE"
+        type: text
+        required: true
+      - name: impressum_text_018_en
+        label: "Geschäftsführer — EN"
+        type: text
+        required: true
+      - name: impressum_text_019_de
+        label: "Firmenbuchnummer — DE"
+        type: text
+        required: true
+      - name: impressum_text_019_en
+        label: "Firmenbuchnummer — EN"
+        type: text
+        required: true
+      - name: impressum_text_020_de
+        label: "Firmenbuchgericht — DE"
+        type: text
+        required: true
+      - name: impressum_text_020_en
+        label: "Firmenbuchgericht — EN"
+        type: text
+        required: true
+      - name: impressum_text_021_de
+        label: "UID-Nummer — DE"
+        type: text
+        required: true
+      - name: impressum_text_021_en
+        label: "UID-Nummer — EN"
+        type: text
+        required: true
+      - name: impressum_text_022_de
+        label: "Sitz — DE"
+        type: text
+        required: true
+      - name: impressum_text_022_en
+        label: "Sitz — EN"
+        type: text
+        required: true
+      - name: impressum_text_023_de
+        label: "Mitgliedschaft — DE"
+        type: text
+        required: true
+      - name: impressum_text_023_en
+        label: "Mitgliedschaft — EN"
+        type: text
+        required: true
+      - name: impressum_text_024_de
+        label: "Fachgruppe — DE"
+        type: text
+        required: true
+      - name: impressum_text_024_en
+        label: "Fachgruppe — EN"
+        type: text
+        required: true
+      - name: impressum_text_025_de
+        label: "Gewerbebehörde — DE"
+        type: text
+        required: true
+      - name: impressum_text_025_en
+        label: "Gewerbebehörde — EN"
+        type: text
+        required: true
+      - name: impressum_text_026_de
+        label: "GISA-Zahl — DE"
+        type: text
+        required: true
+      - name: impressum_text_026_en
+        label: "GISA-Zahl — EN"
+        type: text
+        required: true
+      - name: impressum_text_027_de
+        label: "Anwendbare gewerberechtliche Vorschriften: Gewerbeordnung 1994 — DE"
+        type: text
+        required: true
+      - name: impressum_text_027_en
+        label: "Anwendbare gewerberechtliche Vorschriften: Gewerbeordnung 1994 — EN"
+        type: text
+        required: true
+      - name: impressum_text_028_de
+        label: "Betriebsstätte und Kontakt der Alpenchalets — DE"
+        type: text
+        required: true
+      - name: impressum_text_028_en
+        label: "Betriebsstätte und Kontakt der Alpenchalets — EN"
+        type: text
+        required: true
+      - name: impressum_text_029_de
+        label: "Telefon — DE"
+        type: text
+        required: true
+      - name: impressum_text_029_en
+        label: "Telefon — EN"
+        type: text
+        required: true
+      - name: impressum_text_030_de
+        label: "E-Mail — DE"
+        type: text
+        required: true
+      - name: impressum_text_030_en
+        label: "E-Mail — EN"
+        type: text
+        required: true
+      - name: impressum_text_031_de
+        label: "Unternehmensgegenstand und grundlegende Richtung — DE"
+        type: text
+        required: true
+      - name: impressum_text_031_en
+        label: "Unternehmensgegenstand und grundlegende Richtung — EN"
+        type: text
+        required: true
+      - name: impressum_text_032_de
+        label: "Unternehmensgegenstand ist insbesondere das Gastgewerbe mit Be — DE"
+        type: text
+        required: true
+      - name: impressum_text_032_en
+        label: "Unternehmensgegenstand ist insbesondere das Gastgewerbe mit Be — EN"
+        type: text
+        required: true
+      - name: impressum_text_039_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: impressum_text_039_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: impressum_text_040_de
+        label: "Informationen zur Verarbeitung personenbezogener Daten sowie z — DE"
+        type: text
+        required: true
+      - name: impressum_text_040_en
+        label: "Informationen zur Verarbeitung personenbezogener Daten sowie z — EN"
+        type: text
+        required: true
+      - name: impressum_text_041_de
+        label: "Stand: August 2026 — DE"
+        type: text
+        required: true
+      - name: impressum_text_041_en
+        label: "Stand: August 2026 — EN"
+        type: text
+        required: true
+      - name: impressum_text_042_de
+        label: "wohlfühlen | genießen — DE"
+        type: text
+        required: true
+      - name: impressum_text_042_en
+        label: "wohlfühlen | genießen — EN"
+        type: text
+        required: true
+      - name: impressum_text_043_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: impressum_text_043_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: impressum_text_044_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: impressum_text_044_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: impressum_text_045_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: impressum_text_045_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: impressum_text_046_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: impressum_text_046_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: impressum_image_001
+        label: "Image — logo.jpg"
+        type: image
+  - name: datenschutz
+    label: "datenschutz"
+    type: file
+    path: cms-content/datenschutz.json
+    format: json
+    fields:
+      - name: datenschutz_text_001_de
+        label: "Home — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_001_en
+        label: "Home — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_002_de
+        label: "Unsere Chalets — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_002_en
+        label: "Unsere Chalets — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_003_de
+        label: "Sommer — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_003_en
+        label: "Sommer — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_004_de
+        label: "Winter — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_004_en
+        label: "Winter — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_005_de
+        label: "Komfort — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_005_en
+        label: "Komfort — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_006_de
+        label: "Restaurant — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_006_en
+        label: "Restaurant — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_007_de
+        label: "Galerie — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_007_en
+        label: "Galerie — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_008_de
+        label: "Lage Anfahrt — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_008_en
+        label: "Lage Anfahrt — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_009_de
+        label: "Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_009_en
+        label: "Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_010_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_010_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_011_de
+        label: "Kontakt — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_011_en
+        label: "Kontakt — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_012_de
+        label: "Rechtliches — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_012_en
+        label: "Rechtliches — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_013_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_013_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_014_de
+        label: "Der Schutz Ihrer personenbezogenen Daten ist uns ein besondere — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_014_en
+        label: "Der Schutz Ihrer personenbezogenen Daten ist uns ein besondere — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_015_de
+        label: "Verantwortlicher — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_015_en
+        label: "Verantwortlicher — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_016_de
+        label: "Aufruf der Website und Server-Logfiles — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_016_en
+        label: "Aufruf der Website und Server-Logfiles — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_017_de
+        label: "Beim Aufruf der Website kann der Hosting-Anbieter technisch er — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_017_en
+        label: "Beim Aufruf der Website kann der Hosting-Anbieter technisch er — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_018_de
+        label: "Kontaktaufnahme und Urlaubsanfrage — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_018_en
+        label: "Kontaktaufnahme und Urlaubsanfrage — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_019_de
+        label: "Wenn Sie uns per E-Mail oder Telefon kontaktieren oder das Anf — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_019_en
+        label: "Wenn Sie uns per E-Mail oder Telefon kontaktieren oder das Anf — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_020_de
+        label: "Lokale Spracheinstellung und Cookies — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_020_en
+        label: "Lokale Spracheinstellung und Cookies — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_021_de
+        label: "Die gewählte Sprache wird ausschließlich lokal in Ihrem Browse — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_021_en
+        label: "Die gewählte Sprache wird ausschließlich lokal in Ihrem Browse — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_022_de
+        label: "Google Maps — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_022_en
+        label: "Google Maps — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_023_de
+        label: "Auf der Website kann eine Karte von Google Maps geladen werden — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_023_en
+        label: "Auf der Website kann eine Karte von Google Maps geladen werden — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_024_de
+        label: "Datenschutzerklärung von Google — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_024_en
+        label: "Datenschutzerklärung von Google — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_025_de
+        label: "Externe Links — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_025_en
+        label: "Externe Links — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_026_de
+        label: "Diese Website enthält gekennzeichnete Links zu externen Angebo — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_026_en
+        label: "Diese Website enthält gekennzeichnete Links zu externen Angebo — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_027_de
+        label: "Webfonts, Analyse und soziale Netzwerke — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_027_en
+        label: "Webfonts, Analyse und soziale Netzwerke — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_028_de
+        label: "Die Website verwendet lokale Systemschriftarten und lädt keine — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_028_en
+        label: "Die Website verwendet lokale Systemschriftarten und lädt keine — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_029_de
+        label: "Ihre Rechte — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_029_en
+        label: "Ihre Rechte — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_030_de
+        label: "Nach der DSGVO stehen Ihnen insbesondere die folgenden Rechte  — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_030_en
+        label: "Nach der DSGVO stehen Ihnen insbesondere die folgenden Rechte  — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_031_de
+        label: "Recht auf Information und Auskunft — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_031_en
+        label: "Recht auf Information und Auskunft — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_032_de
+        label: "Recht auf Berichtigung und Löschung — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_032_en
+        label: "Recht auf Berichtigung und Löschung — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_033_de
+        label: "Recht auf Einschränkung der Verarbeitung — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_033_en
+        label: "Recht auf Einschränkung der Verarbeitung — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_034_de
+        label: "Recht auf Datenübertragbarkeit — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_034_en
+        label: "Recht auf Datenübertragbarkeit — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_035_de
+        label: "Recht auf Widerspruch — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_035_en
+        label: "Recht auf Widerspruch — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_036_de
+        label: "Recht, eine erteilte Einwilligung jederzeit mit Wirkung für di — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_036_en
+        label: "Recht, eine erteilte Einwilligung jederzeit mit Wirkung für di — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_037_de
+        label: "Zur Ausübung Ihrer Rechte wenden Sie sich bitte an die oben ge — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_037_en
+        label: "Zur Ausübung Ihrer Rechte wenden Sie sich bitte an die oben ge — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_038_de
+        label: "Stand: Juli 2026 — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_038_en
+        label: "Stand: Juli 2026 — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_039_de
+        label: "wohlfühlen | genießen — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_039_en
+        label: "wohlfühlen | genießen — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_040_de
+        label: "Flachau Salzburger Land Österreich — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_040_en
+        label: "Flachau Salzburger Land Österreich — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_041_de
+        label: "FAQ — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_041_en
+        label: "FAQ — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_042_de
+        label: "Impressum — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_042_en
+        label: "Impressum — EN"
+        type: text
+        required: true
+      - name: datenschutz_text_043_de
+        label: "Datenschutz — DE"
+        type: text
+        required: true
+      - name: datenschutz_text_043_en
+        label: "Datenschutz — EN"
+        type: text
+        required: true
+      - name: datenschutz_image_001
+        label: "Image — logo.jpg"
+        type: image
+  - name: home_interface
+    label: "Home navigation and interface"
+    type: file
+    path: cms-content/home-interface.json
+    format: json
+    fields:
+      - name: ui_nav_home_de
+        label: "nav.home — DE"
+        type: text
+        required: true
+      - name: ui_nav_home_en
+        label: "nav.home — EN"
+        type: text
+        required: true
+      - name: ui_nav_chalets_de
+        label: "nav.chalets — DE"
+        type: text
+        required: true
+      - name: ui_nav_chalets_en
+        label: "nav.chalets — EN"
+        type: text
+        required: true
+      - name: ui_nav_seasons_de
+        label: "nav.seasons — DE"
+        type: text
+        required: true
+      - name: ui_nav_seasons_en
+        label: "nav.seasons — EN"
+        type: text
+        required: true
+      - name: ui_nav_summer_de
+        label: "nav.summer — DE"
+        type: text
+        required: true
+      - name: ui_nav_summer_en
+        label: "nav.summer — EN"
+        type: text
+        required: true
+      - name: ui_nav_winter_de
+        label: "nav.winter — DE"
+        type: text
+        required: true
+      - name: ui_nav_winter_en
+        label: "nav.winter — EN"
+        type: text
+        required: true
+      - name: ui_nav_gallery_de
+        label: "nav.gallery — DE"
+        type: text
+        required: true
+      - name: ui_nav_gallery_en
+        label: "nav.gallery — EN"
+        type: text
+        required: true
+      - name: ui_nav_location_de
+        label: "nav.location — DE"
+        type: text
+        required: true
+      - name: ui_nav_location_en
+        label: "nav.location — EN"
+        type: text
+        required: true
+      - name: ui_nav_enquiry_de
+        label: "nav.enquiry — DE"
+        type: text
+        required: true
+      - name: ui_nav_enquiry_en
+        label: "nav.enquiry — EN"
+        type: text
+        required: true
+      - name: ui_nav_contact_de
+        label: "nav.contact — DE"
+        type: text
+        required: true
+      - name: ui_nav_contact_en
+        label: "nav.contact — EN"
+        type: text
+        required: true
+      - name: ui_nav_comfort_de
+        label: "nav.comfort — DE"
+        type: text
+        required: true
+      - name: ui_nav_comfort_en
+        label: "nav.comfort — EN"
+        type: text
+        required: true
+      - name: ui_nav_restaurant_de
+        label: "nav.restaurant — DE"
+        type: text
+        required: true
+      - name: ui_nav_restaurant_en
+        label: "nav.restaurant — EN"
+        type: text
+        required: true
+      - name: ui_nav_faq_de
+        label: "nav.faq — DE"
+        type: text
+        required: true
+      - name: ui_nav_faq_en
+        label: "nav.faq — EN"
+        type: text
+        required: true
+      - name: ui_nav_book_de
+        label: "nav.book — DE"
+        type: text
+        required: true
+      - name: ui_nav_book_en
+        label: "nav.book — EN"
+        type: text
+        required: true
+      - name: ui_hero_title_de
+        label: "hero.title — DE"
+        type: text
+        required: true
+      - name: ui_hero_title_en
+        label: "hero.title — EN"
+        type: text
+        required: true
+      - name: ui_hero_text_de
+        label: "hero.text — DE"
+        type: text
+        required: true
+      - name: ui_hero_text_en
+        label: "hero.text — EN"
+        type: text
+        required: true
+      - name: ui_hero_summerBook_de
+        label: "hero.summerBook — DE"
+        type: text
+        required: true
+      - name: ui_hero_summerBook_en
+        label: "hero.summerBook — EN"
+        type: text
+        required: true
+      - name: ui_hero_winterBook_de
+        label: "hero.winterBook — DE"
+        type: text
+        required: true
+      - name: ui_hero_winterBook_en
+        label: "hero.winterBook — EN"
+        type: text
+        required: true
+      - name: ui_hero_bookingNote_de
+        label: "hero.bookingNote — DE"
+        type: text
+        required: true
+      - name: ui_hero_bookingNote_en
+        label: "hero.bookingNote — EN"
+        type: text
+        required: true
+      - name: ui_intro_kicker_de
+        label: "intro.kicker — DE"
+        type: text
+        required: true
+      - name: ui_intro_kicker_en
+        label: "intro.kicker — EN"
+        type: text
+        required: true
+      - name: ui_intro_title_de
+        label: "intro.title — DE"
+        type: text
+        required: true
+      - name: ui_intro_title_en
+        label: "intro.title — EN"
+        type: text
+        required: true
+      - name: ui_intro_text_de
+        label: "intro.text — DE"
+        type: text
+        required: true
+      - name: ui_intro_text_en
+        label: "intro.text — EN"
+        type: text
+        required: true
+      - name: ui_intro_f1_de
+        label: "intro.f1 — DE"
+        type: text
+        required: true
+      - name: ui_intro_f1_en
+        label: "intro.f1 — EN"
+        type: text
+        required: true
+      - name: ui_intro_f2_de
+        label: "intro.f2 — DE"
+        type: text
+        required: true
+      - name: ui_intro_f2_en
+        label: "intro.f2 — EN"
+        type: text
+        required: true
+      - name: ui_intro_f3_de
+        label: "intro.f3 — DE"
+        type: text
+        required: true
+      - name: ui_intro_f3_en
+        label: "intro.f3 — EN"
+        type: text
+        required: true
+      - name: ui_chalets_kicker_de
+        label: "chalets.kicker — DE"
+        type: text
+        required: true
+      - name: ui_chalets_kicker_en
+        label: "chalets.kicker — EN"
+        type: text
+        required: true
+      - name: ui_chalets_title_de
+        label: "chalets.title — DE"
+        type: text
+        required: true
+      - name: ui_chalets_title_en
+        label: "chalets.title — EN"
+        type: text
+        required: true
+      - name: ui_chalets_lead_de
+        label: "chalets.lead — DE"
+        type: text
+        required: true
+      - name: ui_chalets_lead_en
+        label: "chalets.lead — EN"
+        type: text
+        required: true
+      - name: ui_chalet4_kicker_de
+        label: "chalet4.kicker — DE"
+        type: text
+        required: true
+      - name: ui_chalet4_kicker_en
+        label: "chalet4.kicker — EN"
+        type: text
+        required: true
+      - name: ui_chalet4_title_de
+        label: "chalet4.title — DE"
+        type: text
+        required: true
+      - name: ui_chalet4_title_en
+        label: "chalet4.title — EN"
+        type: text
+        required: true
+      - name: ui_chalet4_text_de
+        label: "chalet4.text — DE"
+        type: text
+        required: true
+      - name: ui_chalet4_text_en
+        label: "chalet4.text — EN"
+        type: text
+        required: true
+      - name: ui_chalet4_sleeping_de
+        label: "chalet4.sleeping — DE"
+        type: text
+        required: true
+      - name: ui_chalet4_sleeping_en
+        label: "chalet4.sleeping — EN"
+        type: text
+        required: true
+      - name: ui_chalet4_bathrooms_de
+        label: "chalet4.bathrooms — DE"
+        type: text
+        required: true
+      - name: ui_chalet4_bathrooms_en
+        label: "chalet4.bathrooms — EN"
+        type: text
+        required: true
+      - name: ui_chalet4_living_de
+        label: "chalet4.living — DE"
+        type: text
+        required: true
+      - name: ui_chalet4_living_en
+        label: "chalet4.living — EN"
+        type: text
+        required: true
+      - name: ui_chalet4_outdoor_de
+        label: "chalet4.outdoor — DE"
+        type: text
+        required: true
+      - name: ui_chalet4_outdoor_en
+        label: "chalet4.outdoor — EN"
+        type: text
+        required: true
+      - name: ui_chalet5_kicker_de
+        label: "chalet5.kicker — DE"
+        type: text
+        required: true
+      - name: ui_chalet5_kicker_en
+        label: "chalet5.kicker — EN"
+        type: text
+        required: true
+      - name: ui_chalet5_title_de
+        label: "chalet5.title — DE"
+        type: text
+        required: true
+      - name: ui_chalet5_title_en
+        label: "chalet5.title — EN"
+        type: text
+        required: true
+      - name: ui_chalet5_text_de
+        label: "chalet5.text — DE"
+        type: text
+        required: true
+      - name: ui_chalet5_text_en
+        label: "chalet5.text — EN"
+        type: text
+        required: true
+      - name: ui_chalet5_sleeping_de
+        label: "chalet5.sleeping — DE"
+        type: text
+        required: true
+      - name: ui_chalet5_sleeping_en
+        label: "chalet5.sleeping — EN"
+        type: text
+        required: true
+      - name: ui_chalet5_bathrooms_de
+        label: "chalet5.bathrooms — DE"
+        type: text
+        required: true
+      - name: ui_chalet5_bathrooms_en
+        label: "chalet5.bathrooms — EN"
+        type: text
+        required: true
+      - name: ui_chalet5_living_de
+        label: "chalet5.living — DE"
+        type: text
+        required: true
+      - name: ui_chalet5_living_en
+        label: "chalet5.living — EN"
+        type: text
+        required: true
+      - name: ui_chalet5_outdoor_de
+        label: "chalet5.outdoor — DE"
+        type: text
+        required: true
+      - name: ui_chalet5_outdoor_en
+        label: "chalet5.outdoor — EN"
+        type: text
+        required: true
+      - name: ui_common_sleeping_de
+        label: "common.sleeping — DE"
+        type: text
+        required: true
+      - name: ui_common_sleeping_en
+        label: "common.sleeping — EN"
+        type: text
+        required: true
+      - name: ui_common_bathrooms_de
+        label: "common.bathrooms — DE"
+        type: text
+        required: true
+      - name: ui_common_bathrooms_en
+        label: "common.bathrooms — EN"
+        type: text
+        required: true
+      - name: ui_common_living_de
+        label: "common.living — DE"
+        type: text
+        required: true
+      - name: ui_common_living_en
+        label: "common.living — EN"
+        type: text
+        required: true
+      - name: ui_common_outdoor_de
+        label: "common.outdoor — DE"
+        type: text
+        required: true
+      - name: ui_common_outdoor_en
+        label: "common.outdoor — EN"
+        type: text
+        required: true
+      - name: ui_common_guests12_de
+        label: "common.guests12 — DE"
+        type: text
+        required: true
+      - name: ui_common_guests12_en
+        label: "common.guests12 — EN"
+        type: text
+        required: true
+      - name: ui_common_guests10_de
+        label: "common.guests10 — DE"
+        type: text
+        required: true
+      - name: ui_common_guests10_en
+        label: "common.guests10 — EN"
+        type: text
+        required: true
+      - name: ui_common_noBunks_de
+        label: "common.noBunks — DE"
+        type: text
+        required: true
+      - name: ui_common_noBunks_en
+        label: "common.noBunks — EN"
+        type: text
+        required: true
+      - name: ui_common_connected_de
+        label: "common.connected — DE"
+        type: text
+        required: true
+      - name: ui_common_connected_en
+        label: "common.connected — EN"
+        type: text
+        required: true
+      - name: ui_common_sauna_de
+        label: "common.sauna — DE"
+        type: text
+        required: true
+      - name: ui_common_sauna_en
+        label: "common.sauna — EN"
+        type: text
+        required: true
+      - name: ui_common_fireplace_de
+        label: "common.fireplace — DE"
+        type: text
+        required: true
+      - name: ui_common_fireplace_en
+        label: "common.fireplace — EN"
+        type: text
+        required: true
+      - name: ui_common_kitchen_de
+        label: "common.kitchen — DE"
+        type: text
+        required: true
+      - name: ui_common_kitchen_en
+        label: "common.kitchen — EN"
+        type: text
+        required: true
+      - name: ui_common_terrace_de
+        label: "common.terrace — DE"
+        type: text
+        required: true
+      - name: ui_common_terrace_en
+        label: "common.terrace — EN"
+        type: text
+        required: true
+      - name: ui_common_groups_de
+        label: "common.groups — DE"
+        type: text
+        required: true
+      - name: ui_common_groups_en
+        label: "common.groups — EN"
+        type: text
+        required: true
+      - name: ui_common_floorplan_de
+        label: "common.floorplan — DE"
+        type: text
+        required: true
+      - name: ui_common_floorplan_en
+        label: "common.floorplan — EN"
+        type: text
+        required: true
+      - name: ui_common_details_de
+        label: "common.details — DE"
+        type: text
+        required: true
+      - name: ui_common_details_en
+        label: "common.details — EN"
+        type: text
+        required: true
+      - name: ui_common_breadService_de
+        label: "common.breadService — DE"
+        type: text
+        required: true
+      - name: ui_common_breadService_en
+        label: "common.breadService — EN"
+        type: text
+        required: true
+      - name: ui_common_skiRoom_de
+        label: "common.skiRoom — DE"
+        type: text
+        required: true
+      - name: ui_common_skiRoom_en
+        label: "common.skiRoom — EN"
+        type: text
+        required: true
+      - name: ui_summer_kicker_de
+        label: "summer.kicker — DE"
+        type: text
+        required: true
+      - name: ui_summer_kicker_en
+        label: "summer.kicker — EN"
+        type: text
+        required: true
+      - name: ui_summer_title_de
+        label: "summer.title — DE"
+        type: text
+        required: true
+      - name: ui_summer_title_en
+        label: "summer.title — EN"
+        type: text
+        required: true
+      - name: ui_summer_text_de
+        label: "summer.text — DE"
+        type: text
+        required: true
+      - name: ui_summer_text_en
+        label: "summer.text — EN"
+        type: text
+        required: true
+      - name: ui_summer_status_de
+        label: "summer.status — DE"
+        type: text
+        required: true
+      - name: ui_summer_status_en
+        label: "summer.status — EN"
+        type: text
+        required: true
+      - name: ui_summer_inquiry_de
+        label: "summer.inquiry — DE"
+        type: text
+        required: true
+      - name: ui_summer_inquiry_en
+        label: "summer.inquiry — EN"
+        type: text
+        required: true
+      - name: ui_summer_cardCta_de
+        label: "summer.cardCta — DE"
+        type: text
+        required: true
+      - name: ui_summer_cardCta_en
+        label: "summer.cardCta — EN"
+        type: text
+        required: true
+      - name: ui_winter_kicker_de
+        label: "winter.kicker — DE"
+        type: text
+        required: true
+      - name: ui_winter_kicker_en
+        label: "winter.kicker — EN"
+        type: text
+        required: true
+      - name: ui_winter_title_de
+        label: "winter.title — DE"
+        type: text
+        required: true
+      - name: ui_winter_title_en
+        label: "winter.title — EN"
+        type: text
+        required: true
+      - name: ui_winter_text_de
+        label: "winter.text — DE"
+        type: text
+        required: true
+      - name: ui_winter_text_en
+        label: "winter.text — EN"
+        type: text
+        required: true
+      - name: ui_winter_book_de
+        label: "winter.book — DE"
+        type: text
+        required: true
+      - name: ui_winter_book_en
+        label: "winter.book — EN"
+        type: text
+        required: true
+      - name: ui_atmosphere_kicker_de
+        label: "atmosphere.kicker — DE"
+        type: text
+        required: true
+      - name: ui_atmosphere_kicker_en
+        label: "atmosphere.kicker — EN"
+        type: text
+        required: true
+      - name: ui_atmosphere_title_de
+        label: "atmosphere.title — DE"
+        type: text
+        required: true
+      - name: ui_atmosphere_title_en
+        label: "atmosphere.title — EN"
+        type: text
+        required: true
+      - name: ui_atmosphere_text_de
+        label: "atmosphere.text — DE"
+        type: text
+        required: true
+      - name: ui_atmosphere_text_en
+        label: "atmosphere.text — EN"
+        type: text
+        required: true
+      - name: ui_services_kicker_de
+        label: "services.kicker — DE"
+        type: text
+        required: true
+      - name: ui_services_kicker_en
+        label: "services.kicker — EN"
+        type: text
+        required: true
+      - name: ui_services_title_de
+        label: "services.title — DE"
+        type: text
+        required: true
+      - name: ui_services_title_en
+        label: "services.title — EN"
+        type: text
+        required: true
+      - name: ui_services_lead_de
+        label: "services.lead — DE"
+        type: text
+        required: true
+      - name: ui_services_lead_en
+        label: "services.lead — EN"
+        type: text
+        required: true
+      - name: ui_services_breadTitle_de
+        label: "services.breadTitle — DE"
+        type: text
+        required: true
+      - name: ui_services_breadTitle_en
+        label: "services.breadTitle — EN"
+        type: text
+        required: true
+      - name: ui_services_breadText_de
+        label: "services.breadText — DE"
+        type: text
+        required: true
+      - name: ui_services_breadText_en
+        label: "services.breadText — EN"
+        type: text
+        required: true
+      - name: ui_services_skiTitle_de
+        label: "services.skiTitle — DE"
+        type: text
+        required: true
+      - name: ui_services_skiTitle_en
+        label: "services.skiTitle — EN"
+        type: text
+        required: true
+      - name: ui_services_skiText_de
+        label: "services.skiText — DE"
+        type: text
+        required: true
+      - name: ui_services_skiText_en
+        label: "services.skiText — EN"
+        type: text
+        required: true
+      - name: ui_services_laundryTitle_de
+        label: "services.laundryTitle — DE"
+        type: text
+        required: true
+      - name: ui_services_laundryTitle_en
+        label: "services.laundryTitle — EN"
+        type: text
+        required: true
+      - name: ui_services_laundryText_de
+        label: "services.laundryText — DE"
+        type: text
+        required: true
+      - name: ui_services_laundryText_en
+        label: "services.laundryText — EN"
+        type: text
+        required: true
+      - name: ui_services_garageTitle_de
+        label: "services.garageTitle — DE"
+        type: text
+        required: true
+      - name: ui_services_garageTitle_en
+        label: "services.garageTitle — EN"
+        type: text
+        required: true
+      - name: ui_services_garageText_de
+        label: "services.garageText — DE"
+        type: text
+        required: true
+      - name: ui_services_garageText_en
+        label: "services.garageText — EN"
+        type: text
+        required: true
+      - name: ui_services_playgroundTitle_de
+        label: "services.playgroundTitle — DE"
+        type: text
+        required: true
+      - name: ui_services_playgroundTitle_en
+        label: "services.playgroundTitle — EN"
+        type: text
+        required: true
+      - name: ui_services_playgroundText_de
+        label: "services.playgroundText — DE"
+        type: text
+        required: true
+      - name: ui_services_playgroundText_en
+        label: "services.playgroundText — EN"
+        type: text
+        required: true
+      - name: ui_services_chargingTitle_de
+        label: "services.chargingTitle — DE"
+        type: text
+        required: true
+      - name: ui_services_chargingTitle_en
+        label: "services.chargingTitle — EN"
+        type: text
+        required: true
+      - name: ui_services_chargingText_de
+        label: "services.chargingText — DE"
+        type: text
+        required: true
+      - name: ui_services_chargingText_en
+        label: "services.chargingText — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_kicker_de
+        label: "restaurant.kicker — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_kicker_en
+        label: "restaurant.kicker — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_title_de
+        label: "restaurant.title — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_title_en
+        label: "restaurant.title — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_text_de
+        label: "restaurant.text — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_text_en
+        label: "restaurant.text — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_cta_de
+        label: "restaurant.cta — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_cta_en
+        label: "restaurant.cta — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_more_de
+        label: "restaurant.more — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_more_en
+        label: "restaurant.more — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_fact1Title_de
+        label: "restaurant.fact1Title — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_fact1Title_en
+        label: "restaurant.fact1Title — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_fact1Text_de
+        label: "restaurant.fact1Text — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_fact1Text_en
+        label: "restaurant.fact1Text — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_fact2Title_de
+        label: "restaurant.fact2Title — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_fact2Title_en
+        label: "restaurant.fact2Title — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_fact2Text_de
+        label: "restaurant.fact2Text — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_fact2Text_en
+        label: "restaurant.fact2Text — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_fact3Title_de
+        label: "restaurant.fact3Title — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_fact3Title_en
+        label: "restaurant.fact3Title — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_fact3Text_de
+        label: "restaurant.fact3Text — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_fact3Text_en
+        label: "restaurant.fact3Text — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_fact4Title_de
+        label: "restaurant.fact4Title — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_fact4Title_en
+        label: "restaurant.fact4Title — EN"
+        type: text
+        required: true
+      - name: ui_restaurant_fact4Text_de
+        label: "restaurant.fact4Text — DE"
+        type: text
+        required: true
+      - name: ui_restaurant_fact4Text_en
+        label: "restaurant.fact4Text — EN"
+        type: text
+        required: true
+      - name: ui_gallery_kicker_de
+        label: "gallery.kicker — DE"
+        type: text
+        required: true
+      - name: ui_gallery_kicker_en
+        label: "gallery.kicker — EN"
+        type: text
+        required: true
+      - name: ui_gallery_title_de
+        label: "gallery.title — DE"
+        type: text
+        required: true
+      - name: ui_gallery_title_en
+        label: "gallery.title — EN"
+        type: text
+        required: true
+      - name: ui_gallery_all_de
+        label: "gallery.all — DE"
+        type: text
+        required: true
+      - name: ui_gallery_all_en
+        label: "gallery.all — EN"
+        type: text
+        required: true
+      - name: ui_location_kicker_de
+        label: "location.kicker — DE"
+        type: text
+        required: true
+      - name: ui_location_kicker_en
+        label: "location.kicker — EN"
+        type: text
+        required: true
+      - name: ui_location_title_de
+        label: "location.title — DE"
+        type: text
+        required: true
+      - name: ui_location_title_en
+        label: "location.title — EN"
+        type: text
+        required: true
+      - name: ui_location_text_de
+        label: "location.text — DE"
+        type: text
+        required: true
+      - name: ui_location_text_en
+        label: "location.text — EN"
+        type: text
+        required: true
+      - name: ui_location_map_de
+        label: "location.map — DE"
+        type: text
+        required: true
+      - name: ui_location_map_en
+        label: "location.map — EN"
+        type: text
+        required: true
+      - name: ui_location_enlarge_de
+        label: "location.enlarge — DE"
+        type: text
+        required: true
+      - name: ui_location_enlarge_en
+        label: "location.enlarge — EN"
+        type: text
+        required: true
+      - name: ui_finalBooking_kicker_de
+        label: "finalBooking.kicker — DE"
+        type: text
+        required: true
+      - name: ui_finalBooking_kicker_en
+        label: "finalBooking.kicker — EN"
+        type: text
+        required: true
+      - name: ui_finalBooking_title_de
+        label: "finalBooking.title — DE"
+        type: text
+        required: true
+      - name: ui_finalBooking_title_en
+        label: "finalBooking.title — EN"
+        type: text
+        required: true
+      - name: ui_finalBooking_text_de
+        label: "finalBooking.text — DE"
+        type: text
+        required: true
+      - name: ui_finalBooking_text_en
+        label: "finalBooking.text — EN"
+        type: text
+        required: true
+      - name: ui_finalBooking_summer_de
+        label: "finalBooking.summer — DE"
+        type: text
+        required: true
+      - name: ui_finalBooking_summer_en
+        label: "finalBooking.summer — EN"
+        type: text
+        required: true
+      - name: ui_finalBooking_winter_de
+        label: "finalBooking.winter — DE"
+        type: text
+        required: true
+      - name: ui_finalBooking_winter_en
+        label: "finalBooking.winter — EN"
+        type: text
+        required: true
+      - name: ui_booking_kicker_de
+        label: "booking.kicker — DE"
+        type: text
+        required: true
+      - name: ui_booking_kicker_en
+        label: "booking.kicker — EN"
+        type: text
+        required: true
+      - name: ui_booking_title_de
+        label: "booking.title — DE"
+        type: text
+        required: true
+      - name: ui_booking_title_en
+        label: "booking.title — EN"
+        type: text
+        required: true
+      - name: ui_booking_lead_de
+        label: "booking.lead — DE"
+        type: text
+        required: true
+      - name: ui_booking_lead_en
+        label: "booking.lead — EN"
+        type: text
+        required: true
+      - name: ui_booking_summerLabel_de
+        label: "booking.summerLabel — DE"
+        type: text
+        required: true
+      - name: ui_booking_summerLabel_en
+        label: "booking.summerLabel — EN"
+        type: text
+        required: true
+      - name: ui_booking_summerTitle_de
+        label: "booking.summerTitle — DE"
+        type: text
+        required: true
+      - name: ui_booking_summerTitle_en
+        label: "booking.summerTitle — EN"
+        type: text
+        required: true
+      - name: ui_booking_summerText_de
+        label: "booking.summerText — DE"
+        type: text
+        required: true
+      - name: ui_booking_summerText_en
+        label: "booking.summerText — EN"
+        type: text
+        required: true
+      - name: ui_booking_summerCta_de
+        label: "booking.summerCta — DE"
+        type: text
+        required: true
+      - name: ui_booking_summerCta_en
+        label: "booking.summerCta — EN"
+        type: text
+        required: true
+      - name: ui_booking_winterLabel_de
+        label: "booking.winterLabel — DE"
+        type: text
+        required: true
+      - name: ui_booking_winterLabel_en
+        label: "booking.winterLabel — EN"
+        type: text
+        required: true
+      - name: ui_booking_winterTitle_de
+        label: "booking.winterTitle — DE"
+        type: text
+        required: true
+      - name: ui_booking_winterTitle_en
+        label: "booking.winterTitle — EN"
+        type: text
+        required: true
+      - name: ui_booking_winterText_de
+        label: "booking.winterText — DE"
+        type: text
+        required: true
+      - name: ui_booking_winterText_en
+        label: "booking.winterText — EN"
+        type: text
+        required: true
+      - name: ui_booking_winterCta_de
+        label: "booking.winterCta — DE"
+        type: text
+        required: true
+      - name: ui_booking_winterCta_en
+        label: "booking.winterCta — EN"
+        type: text
+        required: true
+      - name: ui_contact_kicker_de
+        label: "contact.kicker — DE"
+        type: text
+        required: true
+      - name: ui_contact_kicker_en
+        label: "contact.kicker — EN"
+        type: text
+        required: true
+      - name: ui_contact_title_de
+        label: "contact.title — DE"
+        type: text
+        required: true
+      - name: ui_contact_title_en
+        label: "contact.title — EN"
+        type: text
+        required: true
+      - name: ui_contact_text_de
+        label: "contact.text — DE"
+        type: text
+        required: true
+      - name: ui_contact_text_en
+        label: "contact.text — EN"
+        type: text
+        required: true
+      - name: ui_contact_phone_de
+        label: "contact.phone — DE"
+        type: text
+        required: true
+      - name: ui_contact_phone_en
+        label: "contact.phone — EN"
+        type: text
+        required: true
+      - name: ui_contact_book_de
+        label: "contact.book — DE"
+        type: text
+        required: true
+      - name: ui_contact_book_en
+        label: "contact.book — EN"
+        type: text
+        required: true
+      - name: ui_footer_tagline_de
+        label: "footer.tagline — DE"
+        type: text
+        required: true
+      - name: ui_footer_tagline_en
+        label: "footer.tagline — EN"
+        type: text
+        required: true
+settings:
+  content:
+    merge: false
