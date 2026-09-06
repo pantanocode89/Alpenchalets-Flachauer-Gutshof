@@ -192,3 +192,6 @@ detailBackToTop.addEventListener('click',event=>{event.preventDefault();window.s
 
 /* Shared production polish for desktop and mobile. */
 if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260812-24';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}
+
+// Match the shared navigation scroll state on chalet detail pages.
+(()=>{const header=document.querySelector('.detail-header');if(!header)return;const update=()=>header.classList.toggle('scrolled',window.scrollY>30);window.addEventListener('scroll',update,{passive:true});update();})();

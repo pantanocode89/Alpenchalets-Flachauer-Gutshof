@@ -1367,3 +1367,10 @@ html{scrollbar-gutter:stable}
 @media (max-width:780px){
   .hero h1.hero-logo-title{width:min(285px,76vw)!important;margin-bottom:20px!important;padding:11px!important}
 }
+
+/* Home brand positioned below the language selector. */
+.home-corner-logo{position:absolute;top:calc(100% + 14px);right:32px;display:block;width:112px;padding:8px;border-radius:6px;background:rgba(255,255,255,.88);box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.home-corner-logo img{display:block;width:100%;height:auto}
+.site-header.scrolled .home-corner-logo{opacity:0;visibility:hidden;pointer-events:none}
+@media(max-width:1100px){.home-corner-logo{right:20px;width:92px}}
+@media(max-width:600px){.home-corner-logo{right:15px;width:78px;top:calc(100% + 10px)}.menu-open .home-corner-logo{display:none}}
