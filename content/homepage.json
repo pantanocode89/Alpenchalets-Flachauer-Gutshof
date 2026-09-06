@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "title_de": "Wohlfühlen · Genießen",
+    "title_en": "Feel good · Enjoy",
+    "text_de": "Ein Ort für besondere Urlaubsmomente.",
+    "text_en": "A place for special holiday moments.",
+    "summer_image": "/assets/images/hero-option-summer.webp",
+    "winter_image": "/assets/images/hero-option-winter.webp"
+  },
+  "introduction": {
+    "title_de": "Ankommen. Aufatmen. Wohlfühlen.",
+    "title_en": "Arrive. Breathe. Feel at home.",
+    "text_de": "Urlaub in den Bergen mit viel Raum für gemeinsame Zeit.",
+    "text_en": "A mountain holiday with plenty of room for time together."
+  }
+}

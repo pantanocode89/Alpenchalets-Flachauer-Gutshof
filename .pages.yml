@@ -1,0 +1,144 @@
+media:
+  - name: website_images
+    label: Fotografije sajta
+    input: assets/images
+    output: /assets/images
+    categories: [image]
+    rename: safe
+
+settings:
+  content:
+    merge: true
+
+content:
+  - name: website_pages
+    label: Tekstovi i fotografije
+    type: group
+    items:
+      - name: homepage
+        label: Početna stranica
+        type: file
+        path: content/homepage.json
+        format: json
+        operations:
+          create: false
+          rename: false
+          delete: false
+        fields:
+          - name: hero
+            label: Hero naslov
+            type: object
+            fields:
+              - { name: title_de, label: Naslov – nemački, type: string, required: true }
+              - { name: title_en, label: Naslov – engleski, type: string, required: true }
+              - { name: text_de, label: Podnaslov – nemački, type: text, required: true }
+              - { name: text_en, label: Podnaslov – engleski, type: text, required: true }
+              - name: summer_image
+                label: Letnja hero fotografija
+                type: image
+                options: { media: website_images }
+              - name: winter_image
+                label: Zimska hero fotografija
+                type: image
+                options: { media: website_images }
+          - name: introduction
+            label: Uvodni sadržaj
+            type: object
+            fields:
+              - { name: title_de, label: Naslov – nemački, type: string }
+              - { name: title_en, label: Naslov – engleski, type: string }
+              - { name: text_de, label: Tekst – nemački, type: text }
+              - { name: text_en, label: Tekst – engleski, type: text }
+
+      - name: chalet_4
+        label: 4-Zimmer Chalet
+        type: file
+        path: content/chalet-4.json
+        format: json
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - { name: title_de, label: Naslov – nemački, type: string }
+          - { name: title_en, label: Naslov – engleski, type: string }
+          - { name: description_de, label: Opis – nemački, type: text }
+          - { name: description_en, label: Opis – engleski, type: text }
+          - name: gallery
+            label: Fotografije
+            type: image
+            list: true
+            options: { media: website_images }
+
+      - name: chalet_5
+        label: 5-Zimmer Chalet
+        type: file
+        path: content/chalet-5.json
+        format: json
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - { name: title_de, label: Naslov – nemački, type: string }
+          - { name: title_en, label: Naslov – engleski, type: string }
+          - { name: description_de, label: Opis – nemački, type: text }
+          - { name: description_en, label: Opis – engleski, type: text }
+          - name: gallery
+            label: Fotografije
+            type: image
+            list: true
+            options: { media: website_images }
+
+      - name: location
+        label: Lage & Anfahrt
+        type: file
+        path: content/location.json
+        format: json
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - { name: title_de, label: Naslov – nemački, type: string }
+          - { name: title_en, label: Naslov – engleski, type: string }
+          - { name: intro_de, label: Uvod – nemački, type: text }
+          - { name: intro_en, label: Uvod – engleski, type: text }
+          - { name: slope_title_de, label: Pista naslov – nemački, type: string }
+          - { name: slope_title_en, label: Pista naslov – engleski, type: string }
+          - { name: slope_text_de, label: Pista tekst – nemački, type: text }
+          - { name: slope_text_en, label: Pista tekst – engleski, type: text }
+          - name: slope_image
+            label: Fotografija pored piste
+            type: image
+            options: { media: website_images }
+
+      - name: contact
+        label: Kontakt
+        type: file
+        path: content/contact.json
+        format: json
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - { name: title_de, label: Naslov – nemački, type: string }
+          - { name: title_en, label: Naslov – engleski, type: string }
+          - { name: text_de, label: Tekst – nemački, type: text }
+          - { name: text_en, label: Tekst – engleski, type: text }
+          - { name: phone, label: Telefon, type: string }
+          - { name: email, label: E-mail, type: string }
+
+  - name: legal_pages
+    label: Pravni tekstovi
+    type: group
+    items:
+      - name: impressum_content
+        label: Impressum – izmenjivi deo
+        type: file
+        path: content/impressum.json
+        format: json
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - { name: business_information, label: Podaci firme, type: rich-text }
+          - { name: contact_information, label: Kontakt podaci, type: rich-text }
+          - { name: legal_information, label: Pravni podaci, type: rich-text }
+      - name: privacy_content
+        label: Datenschutz – izmenjivi deo
+        type: file
+        path: content/datenschutz.json
+        format: json
+        operations: { create: false, rename: false, delete: false }
+        fields:
+          - { name: controller, label: Verantwortlicher, type: rich-text }
+          - { name: privacy_text, label: Tekst zaštite podataka, type: rich-text }
+          - { name: ai_notice, label: Napomena o AI fotografijama, type: rich-text }
