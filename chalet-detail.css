@@ -82,6 +82,44 @@
 @media(max-width:900px){.booking-banner .hero-buttons{width:100%;justify-content:flex-start}.booking-banner .btn{width:auto}}
 @media(max-width:600px){.booking-banner .hero-buttons{gap:10px}.booking-banner .btn{width:100%;min-width:0}}
 
+/* Keep both booking choices balanced and prevent the longer Sunweb label from overlapping. */
+@media(min-width:901px){
+  .booking-banner{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) 600px;
+    gap:32px;
+  }
+  .booking-banner .hero-buttons{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    width:600px;
+    gap:12px;
+  }
+  .booking-banner .btn{
+    width:100%;
+    min-width:0;
+    padding-inline:16px;
+    white-space:nowrap;
+    font-size:10px;
+    gap:8px;
+  }
+}
+@media(min-width:901px) and (max-width:1180px){
+  .booking-banner{grid-template-columns:1fr;align-items:start}
+  .booking-banner .hero-buttons{width:min(100%,600px);justify-self:start}
+}
+
+.booking-banner .btn{position:relative}
+.booking-banner .btn span:first-child{min-width:0;width:100%;text-align:center}
+.booking-banner .btn span:first-child{line-height:1.12}
+.booking-banner .btn span:last-child{flex:0 0 auto}
+.booking-banner .btn span+span{position:absolute;right:14px;top:50%;transform:translateY(-50%)}
+@media(max-width:600px){
+  .booking-banner .btn{white-space:normal!important;line-height:1.25!important;padding:10px 16px!important}
+}
+.booking-banner .winter-sunweb-btn{height:52px;min-height:52px;padding:6px 38px 6px 16px!important;white-space:normal!important}
+.booking-banner .winter-sunweb-btn span:first-child{display:block;line-height:1.15!important;text-align:center;white-space:nowrap!important}
+
 /* Premium amenities cards shared by both chalet categories */
 .amenity-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;background:transparent;border:0;margin-top:34px}
 .amenity{position:relative;min-height:220px;padding:30px 28px 28px;overflow:hidden;background:linear-gradient(145deg,#fff 0%,#faf7f0 100%);border:1px solid rgba(89,97,65,.16);border-radius:14px;box-shadow:0 10px 32px rgba(44,47,34,.055);transition:transform .32s ease,border-color .32s ease,box-shadow .32s ease,background-color .32s ease}
