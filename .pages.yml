@@ -1,144 +1,80 @@
 media:
   - name: website_images
-    label: Website-Bilder
+    label: Website-Fotos
     input: assets/images
     output: /assets/images
     categories: [image]
+    extensions: [jpg, jpeg, png, webp]
     rename: safe
 
 settings:
+  hide: true
   content:
     merge: true
 
 content:
-  - name: website_pages
-    label: Inhalte und Bilder
+  - name: photos
+    label: Fotos ändern
     type: group
     items:
-      - name: homepage
+      - name: homepage_photos
         label: Startseite
         type: file
         path: content/homepage.json
         format: json
-        operations:
-          create: false
-          rename: false
-          delete: false
+        operations: { create: false, rename: false, delete: false }
         fields:
           - name: hero
-            label: Startbereich
+            label: Titelbilder
             type: object
             fields:
-              - { name: title_de, label: Überschrift – Deutsch, type: string, required: true }
-              - { name: title_en, label: Überschrift – Englisch, type: string, required: true }
-              - { name: text_de, label: Unterzeile – Deutsch, type: text, required: true }
-              - { name: text_en, label: Unterzeile – Englisch, type: text, required: true }
               - name: summer_image
-                label: Sommerbild
+                label: Sommerfoto
                 type: image
                 options: { media: website_images }
               - name: winter_image
-                label: Winterbild
+                label: Winterfoto
                 type: image
                 options: { media: website_images }
-          - name: introduction
-            label: Einleitung
-            type: object
-            fields:
-              - { name: title_de, label: Überschrift – Deutsch, type: string }
-              - { name: title_en, label: Überschrift – Englisch, type: string }
-              - { name: text_de, label: Text – Deutsch, type: text }
-              - { name: text_en, label: Text – Englisch, type: text }
 
-      - name: chalet_4
+      - name: chalet_4_photos
         label: 4-Zimmer Chalet
         type: file
         path: content/chalet-4.json
         format: json
         operations: { create: false, rename: false, delete: false }
         fields:
-          - { name: title_de, label: Überschrift – Deutsch, type: string }
-          - { name: title_en, label: Überschrift – Englisch, type: string }
-          - { name: description_de, label: Beschreibung – Deutsch, type: text }
-          - { name: description_en, label: Beschreibung – Englisch, type: text }
           - name: gallery
-            label: Bildergalerie
+            label: Fotogalerie
             type: image
-            list: true
-            options: { media: website_images }
+            options:
+              media: website_images
+              multiple: true
+              unique: true
 
-      - name: chalet_5
+      - name: chalet_5_photos
         label: 5-Zimmer Chalet
         type: file
         path: content/chalet-5.json
         format: json
         operations: { create: false, rename: false, delete: false }
         fields:
-          - { name: title_de, label: Überschrift – Deutsch, type: string }
-          - { name: title_en, label: Überschrift – Englisch, type: string }
-          - { name: description_de, label: Beschreibung – Deutsch, type: text }
-          - { name: description_en, label: Beschreibung – Englisch, type: text }
           - name: gallery
-            label: Bildergalerie
+            label: Fotogalerie
             type: image
-            list: true
-            options: { media: website_images }
+            options:
+              media: website_images
+              multiple: true
+              unique: true
 
-      - name: location
+      - name: location_photos
         label: Lage & Anfahrt
         type: file
         path: content/location.json
         format: json
         operations: { create: false, rename: false, delete: false }
         fields:
-          - { name: title_de, label: Überschrift – Deutsch, type: string }
-          - { name: title_en, label: Überschrift – Englisch, type: string }
-          - { name: intro_de, label: Einleitung – Deutsch, type: text }
-          - { name: intro_en, label: Einleitung – Englisch, type: text }
-          - { name: slope_title_de, label: Pistennähe – Überschrift Deutsch, type: string }
-          - { name: slope_title_en, label: Pistennähe – Überschrift Englisch, type: string }
-          - { name: slope_text_de, label: Pistennähe – Text Deutsch, type: text }
-          - { name: slope_text_en, label: Pistennähe – Text Englisch, type: text }
           - name: slope_image
-            label: Bild direkt an der Piste
+            label: Foto direkt an der Piste
             type: image
             options: { media: website_images }
-
-      - name: contact
-        label: Kontakt
-        type: file
-        path: content/contact.json
-        format: json
-        operations: { create: false, rename: false, delete: false }
-        fields:
-          - { name: title_de, label: Überschrift – Deutsch, type: string }
-          - { name: title_en, label: Überschrift – Englisch, type: string }
-          - { name: text_de, label: Text – Deutsch, type: text }
-          - { name: text_en, label: Text – Englisch, type: text }
-          - { name: phone, label: Telefon, type: string }
-          - { name: email, label: E-mail, type: string }
-
-  - name: legal_pages
-    label: Rechtliche Inhalte
-    type: group
-    items:
-      - name: impressum_content
-        label: Impressum – bearbeitbarer Bereich
-        type: file
-        path: content/impressum.json
-        format: json
-        operations: { create: false, rename: false, delete: false }
-        fields:
-          - { name: business_information, label: Unternehmensangaben, type: rich-text }
-          - { name: contact_information, label: Kontaktdaten, type: rich-text }
-          - { name: legal_information, label: Rechtliche Angaben, type: rich-text }
-      - name: privacy_content
-        label: Datenschutz – bearbeitbarer Bereich
-        type: file
-        path: content/datenschutz.json
-        format: json
-        operations: { create: false, rename: false, delete: false }
-        fields:
-          - { name: controller, label: Verantwortlicher, type: rich-text }
-          - { name: privacy_text, label: Datenschutztext, type: rich-text }
-          - { name: ai_notice, label: Hinweis zu KI-Bildern, type: rich-text }
