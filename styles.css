@@ -872,7 +872,11 @@ footer{padding:70px 0 22px;background:#e9e3d7;color:var(--ink)}
 .chalet-carousel-slides,.chalet-carousel-slides figure{position:absolute;inset:0;margin:0}
 .chalet-carousel-slides figure{opacity:0;visibility:hidden;transition:opacity .55s ease,visibility .55s ease}
 .chalet-carousel-slides figure.is-active{opacity:1;visibility:visible}
+.chalet-carousel-slides figure.is-active{cursor:zoom-in}
+.chalet-carousel-slides figure:focus-visible{outline:3px solid #596141;outline-offset:-5px}
 .chalet-carousel img{width:100%;height:100%;object-fit:cover}
+.chalet-carousel-slides figure.is-floorplan{background:#f7f4ed;padding:14px}
+.chalet-carousel-slides figure.is-floorplan img{object-fit:contain}
 .chalet-carousel-arrow{position:absolute;z-index:2;top:50%;width:46px;height:46px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.75);border-radius:50%;background:rgba(28,33,23,.62);color:#fff;font-size:20px;cursor:pointer;transform:translateY(-50%);backdrop-filter:blur(8px);transition:background .25s ease,transform .25s ease}
 .chalet-carousel-arrow:hover{background:rgba(28,33,23,.86);transform:translateY(-50%) scale(1.04)}
 .chalet-carousel-arrow.is-prev{left:18px}.chalet-carousel-arrow.is-next{right:18px}
@@ -1367,3 +1371,10 @@ html{scrollbar-gutter:stable}
 @media (max-width:780px){
   .hero h1.hero-logo-title{width:min(285px,76vw)!important;margin-bottom:20px!important;padding:11px!important}
 }
+
+/* Home brand positioned below the language selector. */
+.home-corner-logo{position:absolute;top:calc(100% + 14px);right:32px;display:block;width:112px;padding:8px;border-radius:6px;background:rgba(255,255,255,.88);box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.home-corner-logo img{display:block;width:100%;height:auto}
+.site-header.scrolled .home-corner-logo{opacity:0;visibility:hidden;pointer-events:none}
+@media(max-width:1100px){.home-corner-logo{right:20px;width:92px}}
+@media(max-width:600px){.home-corner-logo{right:15px;width:78px;top:calc(100% + 10px)}.menu-open .home-corner-logo{display:none}}

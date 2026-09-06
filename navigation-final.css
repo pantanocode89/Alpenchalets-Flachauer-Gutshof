@@ -290,3 +290,152 @@ html.language-pending .page-header{visibility:hidden!important}
     white-space:nowrap!important;
   }
 }
+
+/* Home: corner logo with language selection immediately to its left. */
+.site-header .home-corner-logo{top:8px;right:8px;width:96px}
+@media(min-width:1101px){
+  html .site-header:not(.scrolled),html .site-header.scrolled{grid-template-columns:minmax(0,1fr) 84px!important;padding:0 120px 0 32px!important;column-gap:24px!important}
+  html[lang] .site-header .main-nav{display:flex!important;width:100%!important;min-width:0!important;max-width:none!important;gap:clamp(10px,1.2vw,24px)!important;justify-content:space-between!important}
+  html[lang] .site-header .main-nav a{width:auto!important;font-size:12px!important}
+}
+@media(max-width:1100px){
+  .site-header .home-corner-logo{top:8px;right:8px;width:64px;padding:5px}
+  body:not(.menu-open) .site-header .header-actions{display:flex!important;position:absolute!important;top:16px!important;right:84px!important;bottom:auto!important;left:auto!important;transform:none!important}
+}@media(min-width:1101px){
+  html[lang] .site-header .header-actions{position:absolute!important;top:20px!important;right:120px!important;left:auto!important;bottom:auto!important}
+  html[lang] .site-header .main-nav{max-width:calc(100vw - 260px)!important}
+}
+/* Scrolling frees the right corner for the language selector. */
+@media(min-width:1101px){
+  html[lang] .site-header.scrolled .header-actions{right:8px!important}
+}
+@media(max-width:1100px){
+  body:not(.menu-open) .site-header.scrolled .header-actions{right:8px!important}
+}
+/* Shared corner branding and scroll behavior on every content page. */
+.page-header .home-corner-logo{position:absolute;top:8px;right:8px;display:block;width:96px;padding:8px;border-radius:6px;background:rgba(255,255,255,.88);box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.page-header .home-corner-logo img{display:block;width:100%;height:auto}
+.page-header.scrolled .home-corner-logo{opacity:0;visibility:hidden;pointer-events:none}
+@media(min-width:1101px){
+  html[lang] .page-header .page-nav{display:flex!important;width:100%!important;min-width:0!important;max-width:calc(100vw - 260px)!important;gap:clamp(10px,1.2vw,24px)!important;justify-content:space-between!important}
+  html[lang] .page-header .page-nav a{width:auto!important;font-size:12px!important}
+  html[lang] .page-header .page-lang{position:absolute!important;top:20px!important;right:120px!important;left:auto!important;bottom:auto!important}
+  html[lang] .page-header.scrolled .page-lang{right:8px!important}
+}
+@media(max-width:1100px){
+  .page-header .home-corner-logo{width:64px;padding:5px}
+  html[lang] .page-header:not(.open) .page-lang{display:flex!important;position:absolute!important;top:16px!important;right:84px!important;bottom:auto!important;left:auto!important;transform:none!important}
+  html[lang] .page-header.scrolled:not(.open) .page-lang{right:8px!important}
+  .page-header.open .home-corner-logo{display:none}
+}
+/* Mobile only: logo left, menu right. */
+@media(max-width:600px){
+  html body .site-header .home-corner-logo,html body .page-header .home-corner-logo{position:absolute!important;top:8px!important;left:8px!important;right:auto!important;width:64px!important;margin:0!important;transform:none!important}
+  html body .site-header .menu-toggle,html body .page-header .mobile-menu{position:absolute!important;top:14px!important;right:16px!important;left:auto!important;margin:0!important;transform:none!important}
+  html body:not(.menu-open) .site-header .header-actions,html body .page-header:not(.open) .page-lang{right:76px!important}
+}
+/* Fixed mobile menu toolbar; only the navigation list scrolls. */
+@media(max-width:900px){
+  html body.menu-open .site-header,html body .page-header.open{overflow:visible!important;transform:none!important}
+  html body.menu-open .site-header::before,html body .page-header.open::before{content:"";position:fixed;inset:0 0 auto;height:88px;background:#faf8f3;border-bottom:1px solid #ded8cc;z-index:110;pointer-events:none}
+  html body.menu-open .site-header .home-corner-logo,html body .page-header.open .home-corner-logo{display:block!important;position:fixed!important;top:8px!important;left:50%!important;right:auto!important;transform:translateX(-50%)!important;width:76px!important;height:66px!important;padding:3px!important;margin:0!important;z-index:112!important;opacity:1!important;visibility:visible!important;pointer-events:auto!important;background:transparent!important;box-shadow:none!important}
+  html body.menu-open .site-header .home-corner-logo img,html body .page-header.open .home-corner-logo img{width:100%;height:100%;object-fit:contain}
+  html body.menu-open .site-header .header-actions,html body .page-header.open .page-lang{position:fixed!important;top:24px!important;left:16px!important;right:auto!important;bottom:auto!important;z-index:112!important;display:flex!important;width:auto!important;margin:0!important;transform:none!important}
+  html body.menu-open .site-header .menu-toggle,html body .page-header.open .mobile-menu{position:fixed!important;top:24px!important;right:16px!important;left:auto!important;z-index:112!important;margin:0!important;transform:none!important}
+  html body.menu-open .site-header .main-nav,html body .page-header.open .page-nav{position:fixed!important;inset:88px 0 0!important;height:calc(100dvh - 88px)!important;max-height:calc(100dvh - 88px)!important;padding:12px 24px max(24px,env(safe-area-inset-bottom))!important;overflow-y:auto!important;overscroll-behavior:contain;justify-content:flex-start!important;z-index:100!important}
+  html body.menu-open .site-header .main-nav a,html body .page-header.open .page-nav a{flex-shrink:0!important}
+  html body.menu-open .main-nav::after,html body .page-header.open .page-nav::after{content:none!important;display:none!important}
+}
+/* Mobile navigation: brand and menu only, with a compact link list. */
+@media(max-width:900px){
+  html[lang] body .site-header .header-actions,
+  html[lang] body.menu-open .site-header .header-actions,
+  html[lang] body .site-header .language-switcher,
+  html[lang] body .page-header .page-lang,
+  html[lang] body .page-header.open .page-lang{display:none!important}
+  html[lang] body.menu-open .site-header .main-nav,
+  html[lang] body .page-header.open .page-nav{gap:0!important;padding-top:4px!important;padding-bottom:12px!important}
+  html[lang] body.menu-open .site-header .main-nav a,
+  html[lang] body .page-header.open .page-nav a{min-height:36px!important;height:auto!important;padding:6px 4px!important;font-size:18px!important;line-height:1.25!important;margin:0!important}
+}
+/* Keep the last mobile menu item clear of the viewport edge. */
+@media(max-width:900px){
+  html[lang] body.menu-open .site-header .main-nav,
+  html[lang] body .page-header.open .page-nav{padding-bottom:calc(48px + env(safe-area-inset-bottom, 0px))!important;scroll-padding-bottom:48px}
+}
+/* Language selection is available exclusively inside an open menu. */
+html[lang] body .site-header:not(.unused) .header-actions,
+html[lang] body .site-header:not(.unused) .language-switcher,
+html[lang] body .page-header:not(.unused) .page-lang{display:none!important}
+html[lang] body.menu-open .site-header:not(.unused) .header-actions,
+html[lang] body.menu-open .site-header:not(.unused) .language-switcher,
+html[lang] body .page-header.open:not(.unused) .page-lang{display:flex!important}
+
+/* Desktop: keep the language selector visible immediately left of the logo. */
+@media(min-width:901px){
+  html[lang] body .site-header:not(.unused) .header-actions,
+  html[lang] body .site-header:not(.unused) .language-switcher,
+  html[lang] body .page-header:not(.unused) .page-lang{
+    display:flex!important;
+  }
+}
+
+/* Phone only: a quiet two-line menu trigger without a persistent header bar. */
+@media(max-width:600px){
+  html body:not(.menu-open) .site-header,
+  html body .page-header:not(.open){
+    background:transparent!important;
+    border-color:transparent!important;
+    box-shadow:none!important;
+    backdrop-filter:none!important;
+    -webkit-backdrop-filter:none!important;
+  }
+  html body:not(.menu-open) .site-header .home-corner-logo,
+  html body .page-header:not(.open) .home-corner-logo{
+    display:none!important;
+  }
+  html body:not(.menu-open) .site-header .menu-toggle,
+  html body .page-header:not(.open) .mobile-menu{
+    opacity:.94!important;
+    transition:opacity .3s ease!important;
+  }
+  html body:not(.menu-open) .site-header .menu-toggle{
+    background:transparent!important;
+    border:0!important;
+    border-radius:0!important;
+    box-shadow:none!important;
+    backdrop-filter:none!important;
+    -webkit-backdrop-filter:none!important;
+  }
+  html body:not(.menu-open) .site-header.scrolled .menu-toggle,
+  html body .page-header.scrolled:not(.open) .mobile-menu{
+    opacity:.42!important;
+  }
+  html body:not(.menu-open) .site-header.scrolled .menu-toggle span{
+    background:#596141!important;
+  }
+  html body .page-header.scrolled:not(.open) .mobile-menu{
+    color:#596141!important;
+  }
+}
+
+/* Phone home hero: keep the brand visible in the upper-left corner only here. */
+@media(max-width:600px){
+  html body.mobile-hero-logo:not(.menu-open) .site-header .home-corner-logo{
+    display:block!important;
+    position:absolute!important;
+    top:8px!important;
+    left:8px!important;
+    right:auto!important;
+    width:64px!important;
+    padding:5px!important;
+    margin:0!important;
+    opacity:1!important;
+    visibility:visible!important;
+    pointer-events:auto!important;
+    transform:none!important;
+    background:rgba(255,255,255,.88)!important;
+    border-radius:6px!important;
+    box-shadow:0 8px 24px rgba(0,0,0,.15)!important;
+  }
+}
