@@ -21,6 +21,8 @@ function viennaSeason(){
   return month>=11||month<=4?'winter':'summer';
 }
 const seasonalPage=location.pathname.split('/').pop()||'index.html';
+// The location page must display all of its copy immediately, without scroll fade-ins.
+if(seasonalPage==='lage.html')document.documentElement.classList.add('ac-navigation-settled');
 const seasonalPreview=new URLSearchParams(location.search).get('season');
 const forcedSeason=seasonalPage==='sommer.html'?'summer':seasonalPage==='winter.html'?'winter':null;
 const activeSeason=forcedSeason||(['summer','winter'].includes(seasonalPreview)?seasonalPreview:viennaSeason());
