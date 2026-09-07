@@ -1,5 +1,17 @@
 const h=document.querySelector('.page-header');
 const m=document.querySelector('.mobile-menu');
+
+// Keep the chalet logo in the desktop header on every inner page.
+// Existing CSS hides it after scrolling and moves the language switcher
+// into the released top-right position. Phone behavior stays unchanged.
+if(h&&!h.querySelector('.home-corner-logo')){
+  const headerLogo=document.createElement('a');
+  headerLogo.className='home-corner-logo';
+  headerLogo.href='index.html?from=nav#home';
+  headerLogo.setAttribute('aria-label','Flachauer Alpenchalets');
+  headerLogo.innerHTML='<img src="assets/images/logo-transparent.png" alt="Flachauer Alpenchalets" width="400" height="348">';
+  h.appendChild(headerLogo);
+}
 m?.addEventListener('click',()=>h?.classList.toggle('open'));
 
 function viennaSeason(){
