@@ -63,6 +63,10 @@ html{scroll-behavior:auto}.page-header{backdrop-filter:none;-webkit-backdrop-fil
   .page-header.open .page-lang button:not(.active){color:#596141!important;background:#f7f3eb!important;border-color:rgba(89,97,65,.48)!important;opacity:1!important}
   .page-header.open .page-lang button.active{color:#fff!important;background:#596141!important;border-color:#596141!important;opacity:1!important}
 }
+
+/* Lage hero copy is visible immediately; no entrance/fade motion. */
+.page-hero[style*="hero-alpenchalets-flugbild"]>div,
+.page-hero[style*="hero-alpenchalets-flugbild"]>div>*{opacity:1!important;transform:none!important;animation:none!important;transition:none!important}
 @media(max-width:900px){
   .page-header.open .mobile-menu{width:32px!important;height:32px!important;top:15px!important;right:16px!important}
   .page-header.open .mobile-menu:before,.page-header.open .mobile-menu:after{

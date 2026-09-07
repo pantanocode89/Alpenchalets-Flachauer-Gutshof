@@ -1005,3 +1005,7 @@ html{scrollbar-gutter:stable}
 .slope-location-visual figcaption h2{margin:0 0 12px;color:#fff;font-size:clamp(2.6rem,5.4vw,5.6rem);font-style:italic;line-height:.95}
 .slope-location-visual figcaption p:last-child{max-width:430px;margin:0;font-size:clamp(1rem,1.3vw,1.2rem);line-height:1.55}
 @media(max-width:700px){.slope-location{padding:44px 0 8px}.slope-location-visual{min-height:540px;border-radius:12px}.slope-location-visual img{object-position:56% center}.slope-location-visual::after{background:linear-gradient(0deg,rgba(20,27,20,.78) 0%,rgba(20,27,20,.12) 66%)}.slope-location-visual figcaption{left:24px;right:24px;bottom:30px;width:auto}.slope-location-visual figcaption h2{font-size:2.9rem}}
+
+/* Lage hero copy is visible immediately; no entrance/fade motion. */
+.page-hero[style*="hero-alpenchalets-flugbild"]>div,
+.page-hero[style*="hero-alpenchalets-flugbild"]>div>*{opacity:1!important;transform:none!important;animation:none!important;transition:none!important}
