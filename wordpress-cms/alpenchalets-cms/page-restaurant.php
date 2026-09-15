@@ -76,7 +76,7 @@
 <footer class="site-footer">
 <div class="footer-top">
 <div>
-<img loading="lazy" decoding="async" data-cms-src-key="restaurant_image_002" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/logo.jpg" alt="Flachauer Alpenchalets">
+<img loading="lazy" decoding="async" data-cms-src-key="restaurant_image_002" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/logo.jpg" alt="Flachauer Alpenchalets" class="footer-logo">
 </div>
 <div>
 <strong data-cms-key="restaurant_text_020" data-de="wohlfühlen | genießen" data-en="feel good | enjoy" data-nl="ontspannen | genieten">wohlfühlen | genießen</strong>

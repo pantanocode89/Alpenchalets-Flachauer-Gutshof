@@ -564,3 +564,224 @@ html{scroll-behavior:auto}.page-header{backdrop-filter:none;-webkit-backdrop-fil
 .funspace-note{margin:18px 0 0!important;color:#77796f!important;font-size:12px!important;line-height:1.55!important}
 @media(max-width:900px){.funspace-shell{grid-template-columns:1fr}.funspace-visual{min-height:420px}.funspace-copy{padding:54px 46px}}
 @media(max-width:600px){.funspace-section{padding-top:18px}.funspace-shell{border-radius:13px}.funspace-visual{min-height:310px}.funspace-visual:after{inset:13px}.funspace-mark{font-size:68px}.funspace-place{margin-top:25px}.funspace-copy{padding:40px 24px}.funspace-copy h2{font-size:43px}.funspace-copy>p:not(.kicker):not(.funspace-note){font-size:15px}.funspace-benefit{align-items:flex-start;padding:16px}.funspace-tags{gap:7px}.funspace-tags span{font-size:9px}}
+
+/* Footer logo background — footer only */
+footer .footer-logo,
+.site-footer .footer-logo {
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.82);
+  padding: 16px;
+  border-radius: 16px;
+  display: block;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  footer .footer-logo,
+  .site-footer .footer-logo {
+    padding: 12px;
+    border-radius: 14px;
+    max-width: min(180px, 72vw);
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Header logo/layout restoration — language switch left, logo right */
+header .header-actions,
+.site-header .header-actions,
+header .nav-actions,
+.site-header .nav-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+header .lang-switch,
+.site-header .lang-switch,
+header .language-switcher,
+.site-header .language-switcher {
+  order: 1;
+  flex: 0 0 auto;
+}
+header .header-logo,
+.site-header .header-logo,
+header .logo,
+.site-header .logo {
+  order: 2;
+  flex: 0 0 auto;
+  margin-left: 0;
+  margin-right: 8px;
+  padding: 0 !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+@media (max-width: 768px) {
+  header .header-actions,
+  .site-header .header-actions,
+  header .nav-actions,
+  .site-header .nav-actions {
+    margin-left: auto;
+    gap: 8px;
+    justify-content: flex-end;
+  }
+  header .lang-switch,
+  .site-header .lang-switch,
+  header .language-switcher,
+  .site-header .language-switcher {
+    order: 1;
+  }
+  header .header-logo,
+  .site-header .header-logo,
+  header .logo,
+  .site-header .logo {
+    order: 2;
+    margin-left: 0;
+    margin-right: 6px;
+    padding: 0 !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+  }
+}
+
+
+/* FINAL header logo sizing/layout fix:
+   DE/EN stay fully visible to the LEFT; logo stays compact on the RIGHT. */
+header .header-actions,
+.site-header .header-actions,
+header .nav-actions,
+.site-header .nav-actions {
+  margin-left: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  flex-wrap: nowrap !important;
+  gap: 12px !important;
+}
+
+header .lang-switch,
+.site-header .lang-switch,
+header .language-switcher,
+.site-header .language-switcher {
+  order: 1 !important;
+  position: relative !important;
+  z-index: 20 !important;
+  flex: 0 0 auto !important;
+  margin: 0 !important;
+}
+
+header .header-logo,
+.site-header .header-logo,
+header .logo,
+.site-header .logo {
+  order: 2 !important;
+  position: relative !important;
+  z-index: 10 !important;
+  flex: 0 0 auto !important;
+  width: 78px !important;
+  max-width: 78px !important;
+  height: auto !important;
+  margin: 0 8px 0 0 !important;
+  padding: 5px !important;
+  box-sizing: border-box !important;
+  background: rgba(255,255,255,.82) !important;
+  border-radius: 9px !important;
+  object-fit: contain !important;
+}
+
+/* If the actual image is inside a logo wrapper, keep the image compact too. */
+header .header-logo img,
+.site-header .header-logo img,
+header .logo img,
+.site-header .logo img {
+  display: block !important;
+  width: 68px !important;
+  max-width: 68px !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+@media (max-width: 768px) {
+  header .header-actions,
+  .site-header .header-actions,
+  header .nav-actions,
+  .site-header .nav-actions {
+    gap: 8px !important;
+  }
+
+  header .header-logo,
+  .site-header .header-logo,
+  header .logo,
+  .site-header .logo {
+    width: 66px !important;
+    max-width: 66px !important;
+    padding: 4px !important;
+    border-radius: 8px !important;
+    margin-right: 6px !important;
+  }
+
+  header .header-logo img,
+  .site-header .header-logo img,
+  header .logo img,
+  .site-header .logo img {
+    width: 58px !important;
+    max-width: 58px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  header .header-actions,
+  .site-header .header-actions,
+  header .nav-actions,
+  .site-header .nav-actions {
+    gap: 6px !important;
+  }
+
+  header .header-logo,
+  .site-header .header-logo,
+  header .logo,
+  .site-header .logo {
+    width: 58px !important;
+    max-width: 58px !important;
+    padding: 3px !important;
+    margin-right: 4px !important;
+  }
+
+  header .header-logo img,
+  .site-header .header-logo img,
+  header .logo img,
+  .site-header .logo img {
+    width: 52px !important;
+    max-width: 52px !important;
+  }
+}
+
+
+/* Unified Flachauer Alpenchalets footer logo on every page/language */
+footer img.footer-logo,
+.site-footer img.footer-logo {
+  display:block !important;
+  width:175px !important;
+  max-width:100% !important;
+  height:auto !important;
+  box-sizing:border-box !important;
+  padding:12px !important;
+  background:rgba(255,255,255,.82) !important;
+  border-radius:16px !important;
+  object-fit:contain !important;
+}
+@media (max-width:768px){
+  footer img.footer-logo,
+  .site-footer img.footer-logo {
+    width:145px !important;
+    padding:10px !important;
+    border-radius:14px !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+  }
+}
+
