@@ -1381,3 +1381,12 @@ html{scrollbar-gutter:stable}
 @media(max-width:1100px){.home-corner-logo{right:20px;width:92px}}
 @media(max-width:600px){.home-corner-logo{right:15px;width:78px;top:calc(100% + 10px)}.menu-open .home-corner-logo{display:none}}
 .footer-logo{background:rgba(255,255,255,.08)!important;border-radius:8px!important}.chalets-header.ac-header-slideshow{isolation:isolate}.chalets-header .ac-header-slide{position:absolute;inset:0;z-index:0;background:center/cover no-repeat;opacity:0;transition:opacity 1.2s ease}.chalets-header .ac-header-slide.active{opacity:1}.chalets-header.ac-header-slideshow:before{z-index:1}.chalets-header.ac-header-slideshow>div{z-index:2}
+/* Mobile refinement for the new home photo, chalet slideshow and footer mark. */
+@media(max-width:780px){
+  .hero .hero-slide{background-position:center center!important}
+  .chalets-header.ac-header-slideshow{min-height:clamp(500px,82svh,588px)!important}
+  .chalets-header .ac-header-slide{background-position:center center!important;transition:opacity .9s ease!important}
+  .chalets-header.ac-header-slideshow>div{width:calc(100% - 36px)!important;padding-bottom:38px!important}
+  footer .footer-logo{width:min(140px,44vw)!important;padding:6px!important;border-radius:8px!important}
+}
+@media(prefers-reduced-motion:reduce){.chalets-header .ac-header-slide{transition:none!important}}
