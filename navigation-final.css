@@ -793,3 +793,40 @@ footer img.footer-logo,
   }
 }
 
+/* Mobile header and footer alignment. */
+@media (max-width: 768px) {
+  html body .site-header .home-corner-logo,
+  html body.mobile-hero-logo:not(.menu-open) .site-header .home-corner-logo,
+  html body .page-header .home-corner-logo {
+    position: absolute !important;
+    top: 7px !important;
+    left: 16px !important;
+    right: auto !important;
+    margin: 0 !important;
+    transform: none !important;
+  }
+  html body .site-header .menu-toggle {
+    position: absolute !important;
+    top: 12px !important;
+    right: 16px !important;
+    left: auto !important;
+  }
+  html body footer .footer-grid,
+  html body footer .footer-top {
+    grid-template-columns: minmax(0, 1fr) !important;
+    justify-items: start !important;
+    text-align: left !important;
+    gap: 24px !important;
+  }
+  html body footer img.footer-logo {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    justify-self: start !important;
+  }
+  html body footer .footer-contact,
+  html body footer .footer-direct-contact,
+  html body footer .footer-bottom {
+    align-items: flex-start !important;
+    text-align: left !important;
+  }
+}
