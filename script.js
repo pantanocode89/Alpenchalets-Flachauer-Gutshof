@@ -39,7 +39,7 @@ if(['summer','winter'].includes(seasonalPreview)){
     link.href=url.pathname+url.search+url.hash;
   });
 }
-const homeSlides=document.querySelectorAll('.hero-slide');
+const homeSlides=document.querySelectorAll('.hero-slide[data-rotating-hero]');
 if(activeSeason==='winter'&&homeSlides.length){
   homeSlides[0].style.setProperty('background-image',innerWidth<=700?"url('assets/images/hero-option-winter-mobile.webp')":"url('assets/images/hero-option-winter.webp')",'important');
   if(homeSlides[1])homeSlides[1].style.setProperty('background-image',innerWidth<=700?"url('assets/images/winter-generated-wide-final-mobile.webp')":"url('assets/images/winter-generated-wide-final.webp')",'important');
@@ -92,7 +92,7 @@ function saveLanguage(value){
   try{localStorage.setItem(languageStorageKey,value)}catch{}
   try{document.cookie=`alpenchalets-language=${value};path=/;max-age=31536000;SameSite=Lax`}catch{}
 }
-const slides=[...document.querySelectorAll('.hero-slide')];
+const slides=[...document.querySelectorAll('.hero-slide[data-rotating-hero]')];
 const slideNumber=document.getElementById('slideNumber');
 let slideIndex=0;
 function updateHeader(){
@@ -699,3 +699,4 @@ document.querySelectorAll('[data-chalet-carousel]').forEach(carousel=>{
 
 if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260823-33';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}
 
+(function(){var slides=['assets/images/35314193-1280w.jpg','assets/images/35314198-1280w.jpg','assets/images/234545578-480w.jpg'],hero=document.querySelector('.chalets-header');if(!hero)return;hero.classList.add('ac-header-slideshow');hero.style.backgroundImage='none';slides.forEach(function(url,index){var slide=document.createElement('span');slide.className='ac-header-slide'+(index===0?' active':'');slide.style.backgroundImage='url("'+url+'")';slide.setAttribute('aria-hidden','true');hero.prepend(slide);});var items=hero.querySelectorAll('.ac-header-slide'),current=0;window.setInterval(function(){items[current].classList.remove('active');current=(current+1)%items.length;items[current].classList.add('active');},6000);})();
