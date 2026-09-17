@@ -361,8 +361,9 @@ mountFunspace();
   };
   if(page==='sommer.html'){
     makeSlideshow(document.querySelector('.page-hero'),[
-      {src:'assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg',position:'center 52%'},{src:'assets/images/_WRO8237.jpg',position:'center 52%'},{src:'assets/images/_WRO8232.jpg',position:'center 52%'}
+      {src:'assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg',position:'center 62%'},{src:'assets/images/_WRO8237.jpg',position:'center 60%'},{src:'assets/images/_WRO8232.jpg',position:'center 60%'}
     ],'ac-page-hero-slideshow');
+    document.querySelector('.page-hero')?.classList.add('ac-summer-hero');
     const cards=[
       ['assets/images/25-flachau-sommer-wandern-berge-18.jpg','Wandern in Flachau','center 54%'],
       ['assets/images/20-flachau-sommer-e-mountainbike-7.jpg','Radfahren in Flachau','center 52%'],
