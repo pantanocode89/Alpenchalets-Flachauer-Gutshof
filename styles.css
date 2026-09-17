@@ -1791,5 +1791,5 @@ footer img.footer-logo,
 /* Full playground compositions, with any spare space in the card's beige. */
 .playground-slideshow img{object-fit:contain;background:#fffaf1}
 .playground-slideshow img[src$="Foto 02.06.26, 12 01 02(3).jpg"]{background:#fffaf1}
-.restaurant-detail-img{object-fit:contain!important;background:#ede4d5}
+.restaurant-detail-img{object-fit:cover!important;object-position:center 58%;background:transparent}
 
