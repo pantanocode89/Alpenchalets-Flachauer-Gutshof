@@ -250,6 +250,7 @@ html{scroll-behavior:auto}.page-header{backdrop-filter:none;-webkit-backdrop-fil
 /* Lageplan fills the preview; only a slim white frame remains. */
 .plan-preview{position:relative!important;height:auto!important;aspect-ratio:1.42/1!important;padding:3px!important}
 .plan-preview .plan-vertical{position:absolute!important;left:50%!important;top:50%!important;width:70.42%!important;height:142%!important;max-width:none!important;object-fit:cover!important;transform:translate(-50%,-50%) rotate(90deg)!important;transform-origin:center!important}
+.plan-preview .plan-vertical.lageplan-summer{width:100%!important;height:100%!important;object-fit:contain!important;transform:translate(-50%,-50%)!important}
 @media(max-width:600px){.plan-preview{height:auto!important;aspect-ratio:1.42/1!important}.plan-preview .plan-vertical{transform:translate(-50%,-50%) rotate(90deg)!important}}
 
 /* Same footer presentation on every inner page. */
