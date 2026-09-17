@@ -361,7 +361,7 @@ mountFunspace();
   };
   if(page==='sommer.html'){
     makeSlideshow(document.querySelector('.page-hero'),[
-      {src:'assets/images/Foto 24.07.26, 09 36 34(1).png',position:'center 48%'},{src:'assets/images/_WRO8237.jpg',position:'center 52%'},{src:'assets/images/_WRO8232.jpg',position:'center 52%'}
+      {src:'assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg',position:'center 52%'},{src:'assets/images/_WRO8237.jpg',position:'center 52%'},{src:'assets/images/_WRO8232.jpg',position:'center 52%'}
     ],'ac-page-hero-slideshow');
     const cards=[
       ['assets/images/25-flachau-sommer-wandern-berge-18.jpg','Wandern in Flachau','center 54%'],
@@ -373,7 +373,7 @@ mountFunspace();
       const img=document.createElement('img');img.className='summer-feature-image';img.src=data[0];img.alt=data[1];img.loading='lazy';img.decoding='async';img.style.objectPosition=data[2];card.prepend(img);card.classList.add('summer-feature-card');
     });
     const leadImage=document.querySelector('main>.section .lead-grid>img.photo');
-    if(leadImage){leadImage.src='assets/images/Foto 24.07.26, 09 36 34(1).png';leadImage.alt='Familie im Alpenchalet';leadImage.style.objectPosition='center 46%'}
+    if(leadImage){leadImage.src='assets/images/Foto-16.09.26,-14-10-12.jpg';leadImage.alt='Familie beim Essen im Alpenchalet';leadImage.style.objectPosition='center 50%'}
     const summerSection=document.querySelector('.summer-card-section .lead-grid');
     const oldImage=summerSection?.querySelector(':scope>img.photo');
     if(oldImage){
@@ -410,6 +410,20 @@ mountFunspace();
     image.dataset.slideshowReady='true';const frame=document.createElement('div');frame.className='ac-content-slideshow';frame.setAttribute('aria-label',label);
     const slides=images.map((entry,index)=>{const slide=document.createElement('img');slide.src=entry.src;slide.alt=entry.alt||image.alt;slide.loading='lazy';slide.decoding='async';slide.style.objectPosition=entry.position||'center';slide.className=index===0?'active':'';frame.append(slide);return slide});image.replaceWith(frame);rotate(slides);
   };
+  if(page==='index.html'||page===''){
+    const frame=document.querySelector('.playground-slideshow');
+    if(frame&&!frame.dataset.slideshowReady){
+      frame.dataset.slideshowReady='true';
+      const images=[
+        {src:'assets/images/Kinderspielplatz.jpg',alt:'Kinder vor dem Spielplatz',position:'center 52%'},
+        {src:'assets/images/Foto 24.07.26, 09 36 33(1).png',alt:'Kinder auf dem Holzspielplatz',position:'center 42%'},
+        {src:'assets/images/Foto 24.07.26, 09 36 34(1).png',alt:'Kinder im Sandkasten',position:'center 58%'},
+        {src:'assets/images/Foto 24.07.26, 11 07 55(1).png',alt:'Musistadl Spielplatz',position:'center 55%'},
+        {src:'assets/images/Foto 02.06.26, 12 01 02(3).jpg',alt:'Kaninchen beim Gutshof',position:'center'}
+      ].map((entry,index)=>{const img=document.createElement('img');img.src=entry.src;img.alt=entry.alt;img.loading='lazy';img.decoding='async';img.style.objectPosition=entry.position;img.className=index===0?'active':'';frame.append(img);return img});
+      rotate(images);
+    }
+  }
   if(page==='restaurant.html'){
     heroSlides(document.querySelector('.page-hero'),[
       {src:activeSeason==='winter'?'assets/images/restaurant-gutshof-winter-v2.webp':'assets/images/restaurant-gutshof-sommer.webp',position:'center 52%'},{src:'assets/images/Detail-Musistadl-Eingang.jpg',position:'center 52%'},{src:'assets/images/Terasse-1.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-48.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-91.jpg',position:'center 52%'}
