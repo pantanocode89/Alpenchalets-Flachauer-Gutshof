@@ -344,6 +344,55 @@ function mountFunspace(){
 }
 mountFunspace();
 
+/* Shared, independent image treatments for the Sommer and Winter pages. */
+(function(){
+  const page=(location.pathname.split('/').pop()||'').toLowerCase();
+  const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const makeSlideshow=(host,images,className)=>{
+    if(!host||host.dataset.slideshowReady)return;
+    host.dataset.slideshowReady='true';host.classList.add(className);
+    host.style.backgroundImage='none';
+    const slides=images.map((image,index)=>{
+      const slide=document.createElement('span');slide.className='ac-page-slide'+(index===0?' active':'');
+      slide.style.backgroundImage=`url("${image.src}")`;slide.style.backgroundPosition=image.position||'center';slide.setAttribute('aria-hidden','true');host.prepend(slide);return slide;
+    });
+    if(reduced||slides.length<2)return;
+    let active=0;window.setInterval(()=>{slides[active].classList.remove('active');active=(active+1)%slides.length;slides[active].classList.add('active')},2500);
+  };
+  if(page==='sommer.html'){
+    makeSlideshow(document.querySelector('.page-hero'),[
+      {src:'assets/images/hero-summer.webp',position:'center 52%'},{src:'assets/images/_WRO8237.jpg',position:'center 52%'},{src:'assets/images/_WRO8232.jpg',position:'center 52%'}
+    ],'ac-page-hero-slideshow');
+    const cards=[
+      ['assets/images/25-flachau-sommer-wandern-berge-18.jpg','Wandern in Flachau','center 54%'],
+      ['assets/images/20-flachau-sommer-e-mountainbike-7.jpg','Radfahren in Flachau','center 52%'],
+      ['assets/images/Foto-16.09.26,-14-10-12.jpg','Gemeinsame Zeit im Alpenchalet','center 50%']
+    ];
+    document.querySelectorAll('main>.section .feature-cards>.card').forEach((card,index)=>{
+      const data=cards[index];if(!data||card.querySelector('img'))return;
+      const img=document.createElement('img');img.className='summer-feature-image';img.src=data[0];img.alt=data[1];img.loading='lazy';img.decoding='async';img.style.objectPosition=data[2];card.prepend(img);card.classList.add('summer-feature-card');
+    });
+    const summerSection=document.querySelector('.summer-card-section .lead-grid');
+    const oldImage=summerSection?.querySelector(':scope>img.photo');
+    if(oldImage){
+      const frame=document.createElement('div');frame.className='summer-card-slideshow';frame.setAttribute('aria-label','Flachau Sommer Card Aktivitäten');
+      const slides=[
+        ['assets/images/18-flachau-sommer-card-beach-volleyball-1.jpg','center 52%'],['assets/images/18-flachau-sommer-card-erlebniswandern-1.jpg','center 50%'],['assets/images/18-flachau-sommer-card-kinderspiel-foot-darts-1.jpg','center 52%'],['assets/images/18-flachau-sommer-card-lagerfeuer-1.jpg','center 54%']
+      ].map(([src,position],index)=>{const img=document.createElement('img');img.src=src;img.alt='Flachau Sommer Card Aktivität';img.loading='lazy';img.decoding='async';img.style.objectPosition=position;img.className=index===0?'active':'';frame.append(img);return img});
+      oldImage.replaceWith(frame);if(!reduced){let active=0;window.setInterval(()=>{slides[active].classList.remove('active');active=(active+1)%slides.length;slides[active].classList.add('active')},2500)}
+    }
+    const pdfLink=document.querySelector('.summer-card-actions a');
+    if(pdfLink&&new Date()>=new Date(2026,9,3))pdfLink.addEventListener('click',event=>{
+      event.preventDefault();const message=document.createElement('p');message.className='summer-card-program-note';message.setAttribute('role','status');message.dataset.de='Das aktuelle Programm der Flachau Sommer Card für die Sommersaison 2027 wird zu Beginn der Sommersaison 2027 veröffentlicht.';message.dataset.en='The current Flachau Summer Card programme for the 2027 summer season will be published at the beginning of the 2027 summer season.';message.dataset.nl='Het actuele Flachau Summer Card-programma voor het zomerseizoen 2027 wordt aan het begin van het zomerseizoen 2027 gepubliceerd.';message.textContent=message.dataset[document.documentElement.lang]||message.dataset.de;pdfLink.replaceWith(message);
+    });
+    const funspace=document.querySelector('.funspace-visual');
+    if(funspace){funspace.innerHTML='';const logo=document.createElement('img');logo.src='assets/images/26_Flachau_Funspace_Logo_RGB_Positiv.png';logo.alt='FUNSPACE Flachau';logo.decoding='async';funspace.append(logo)}
+  }
+  if(page==='winter.html')makeSlideshow(document.querySelector('.page-hero'),[
+    {src:'assets/images/winter-page-hero.jpg',position:'center 52%'},{src:'assets/images/IMG_5188.JPG',position:'center 50%'},{src:'assets/images/IMG_5174.JPG',position:'center 52%'},{src:'assets/images/Alpenchalet1_filter.jpg',position:'center 52%'},{src:'assets/images/25-flachau-winter-ski-urlaub-outdoor-4.jpg',position:'center 50%'},{src:'assets/images/25-flachau-winter-ski-urlaub-17.jpg',position:'center 50%'}
+  ],'ac-page-hero-slideshow');
+})();
+
 function mountNewsletter(){
   const footer=document.querySelector('.site-footer');
   if(!footer||document.querySelector('.newsletter-signup'))return;
