@@ -439,9 +439,8 @@ mountFunspace();
     heroSlides(document.querySelector('.page-hero'),[
       {src:activeSeason==='winter'?'assets/images/restaurant-gutshof-winter-v2.webp':'assets/images/restaurant-gutshof-sommer.webp',position:'center 52%'},{src:'assets/images/Detail-Musistadl-Eingang.jpg',position:'center 52%'},{src:'assets/images/Terasse-1.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-48.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-91.jpg',position:'center 52%'}
     ]);
-    imageSlides(document.querySelector('.lead-grid>img.photo'),[
-      {src:'assets/images/restaurant-dining-plate.webp',position:'center 52%'},{src:'assets/images/Flachauer Gutshof_September_2k25_print-73.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-79.jpg',position:'center 52%'},{src:'assets/images/Foto-16.09.26,-14-10-12.jpg',position:'center 45%'}
-    ],'Gerichte aus dem Flachauer Gutshof');
+    const restaurantImage=document.querySelector('.lead-grid>img.photo');
+    if(restaurantImage){restaurantImage.src='assets/images/Foto-16.09.26,-14-10-12.jpg';restaurantImage.alt='Grillgericht im Flachauer Gutshof';restaurantImage.style.objectPosition='center 48%'}
   }
   if(page==='galerie.html'){
     const hero=document.querySelector('.page-hero');
