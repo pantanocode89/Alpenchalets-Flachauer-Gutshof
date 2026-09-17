@@ -700,3 +700,18 @@ document.querySelectorAll('[data-chalet-carousel]').forEach(carousel=>{
 if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260823-33';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}
 
 (function(){var slides=[{url:'assets/images/35314198-Original.jpg',position:'center 52%'},{url:'assets/images/Fischbacher_Chalet_innen_2017 (3).jpg',position:'center 50%'},{url:'assets/images/Fischbacher_Chalet_innen_2017 (13).jpg',position:'center 50%'}],hero=document.querySelector('.chalets-header');if(!hero)return;hero.classList.add('ac-header-slideshow');hero.style.backgroundImage='none';slides.forEach(function(data,index){var slide=document.createElement('span');slide.className='ac-header-slide'+(index===0?' active':'');slide.style.backgroundImage='url("'+data.url+'")';slide.style.backgroundPosition=data.position;slide.setAttribute('aria-hidden','true');hero.prepend(slide);});var items=hero.querySelectorAll('.ac-header-slide'),current=0;window.setInterval(function(){items[current].classList.remove('active');current=(current+1)%items.length;items[current].classList.add('active');},2500);})();
+
+/* Home Komfort: use the same quiet crossfade as the other image areas. */
+(function(){
+  const frame=document.querySelector('.playground-slideshow');if(!frame||frame.dataset.slideshowReady)return;
+  frame.dataset.slideshowReady='true';
+  const images=[
+    ['assets/images/Kinderspielplatz.jpg','Kinder vor dem Spielplatz','center 52%'],
+    ['assets/images/Foto 24.07.26, 09 36 33(1).png','Kinder auf dem Holzspielplatz','center 42%'],
+    ['assets/images/Foto 24.07.26, 09 36 34(1).png','Kinder im Sandkasten','center 58%'],
+    ['assets/images/Foto 24.07.26, 11 07 55(1).png','Musistadl Spielplatz','center 55%'],
+    ['assets/images/Foto 02.06.26, 12 01 02(3).jpg','Kaninchen beim Gutshof','center']
+  ].map((entry,index)=>{const image=document.createElement('img');image.src=entry[0];image.alt=entry[1];image.loading='lazy';image.decoding='async';image.style.objectPosition=entry[2];image.className=index===0?'active':'';frame.append(image);return image});
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  let active=0;window.setInterval(()=>{images[active].classList.remove('active');active=(active+1)%images.length;images[active].classList.add('active')},2500);
+})();
