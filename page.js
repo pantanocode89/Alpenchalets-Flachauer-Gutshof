@@ -440,7 +440,7 @@ mountFunspace();
       {src:activeSeason==='winter'?'assets/images/restaurant-gutshof-winter-v2.webp':'assets/images/restaurant-gutshof-sommer.webp',position:'center 52%'},{src:'assets/images/Detail-Musistadl-Eingang.jpg',position:'center 52%'},{src:'assets/images/Terasse-1.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-48.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-91.jpg',position:'center 52%'}
     ]);
     imageSlides(document.querySelector('.lead-grid>img.photo'),[
-      {src:'assets/images/Flachauer Gutshof_September_2k25_print-37.jpg',position:'center 60%'},{src:'assets/images/Flachauer Gutshof_September_2k25_print-73.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-79.jpg',position:'center 52%'},{src:'assets/images/Foto-16.09.26,-14-10-12.jpg',position:'center 45%'}
+      {src:'assets/images/Flachauer Gutshof_September_2k25_print-37.jpg',position:'center 68%'},{src:'assets/images/Flachauer Gutshof_September_2k25_print-73.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-79.jpg',position:'center 52%'}
     ],'Gerichte aus dem Flachauer Gutshof');
   }
   if(page==='galerie.html'){
