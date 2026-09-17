@@ -625,6 +625,9 @@ html{scroll-behavior:auto}.page-header{backdrop-filter:none;-webkit-backdrop-fil
 .page-hero:not(.ac-gallery-collage-hero){height:clamp(520px,38vw,680px);min-height:0}
 @media(max-width:600px){.page-hero:not(.ac-gallery-collage-hero){height:560px;min-height:0}}
 
+/* The complete gallery must render as soon as its page opens, not on first scroll. */
+.section:has(.gallery-full){content-visibility:visible!important}
+
 @media(prefers-reduced-motion:reduce){.ac-page-slide,.summer-card-slideshow img{transition:none!important}}
 
 /* Keep the complete focal subject visible in the image areas requested by the client. */
