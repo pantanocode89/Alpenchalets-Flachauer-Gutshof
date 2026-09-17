@@ -1790,7 +1790,7 @@ footer img.footer-logo,
 
 /* Portrait playground shots fill the frame while their focal point stays visible. */
 .playground-slideshow img{object-fit:cover;background:#fffaf1}
-.playground-slideshow img[src$="Kinderspielplatz.jpg"]{object-position:center 88%}
+.playground-slideshow img[src$="Kinderspielplatz.jpg"]{object-position:center 88%!important}
 .playground-slideshow img[src$="Foto 24.07.26, 09 36 33(1).png"]{object-position:center 42%}
 .playground-slideshow img[src$="Foto 24.07.26, 09 36 34(1).png"]{object-position:center 44%}
 .playground-slideshow img[src$="Foto 24.07.26, 11 07 55(1).png"]{object-position:center 45%}

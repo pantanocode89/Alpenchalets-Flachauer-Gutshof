@@ -624,6 +624,7 @@ html{scroll-behavior:auto}.page-header{backdrop-filter:none;-webkit-backdrop-fil
 
 /* Keep the complete focal subject visible in the image areas requested by the client. */
 .ac-gallery-collage{max-width:none!important;width:auto!important;height:auto!important}
+.page-hero>.ac-gallery-collage{position:absolute!important;inset:0!important;display:grid!important;max-width:none!important;width:auto!important;height:auto!important;padding:7px!important}
 .ac-content-slideshow img[src$="Flachauer Gutshof_September_2k25_print-37.jpg"],.lead-grid>img.photo[src$="Flachauer Gutshof_September_2k25_print-37.jpg"]{object-fit:contain!important;object-position:center!important;background:#ede4d5}
 @media(max-width:900px){.funspace-shell{grid-template-columns:1fr}.funspace-visual{min-height:420px}.funspace-copy{padding:54px 46px}}
 @media(max-width:600px){.funspace-section{padding-top:18px}.funspace-shell{border-radius:13px}.funspace-visual{min-height:310px}.funspace-visual:after{inset:13px}.funspace-mark{font-size:68px}.funspace-place{margin-top:25px}.funspace-copy{padding:40px 24px}.funspace-copy h2{font-size:43px}.funspace-copy>p:not(.kicker):not(.funspace-note){font-size:15px}.funspace-benefit{align-items:flex-start;padding:16px}.funspace-tags{gap:7px}.funspace-tags span{font-size:9px}}
