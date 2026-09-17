@@ -1394,6 +1394,7 @@ html{scrollbar-gutter:stable}
 @media(max-width:1100px){.home-corner-logo{right:20px;width:92px}}
 @media(max-width:600px){.home-corner-logo{right:15px;width:78px;top:calc(100% + 10px)}.menu-open .home-corner-logo{display:none}}
 .footer-logo{background:rgba(255,255,255,.08)!important;border-radius:16px!important}.footer-logo img{border-radius:16px!important;display:block}.chalets-header.ac-header-slideshow{isolation:isolate}.chalets-header .ac-header-slide{position:absolute;inset:0;z-index:0;background:center/cover no-repeat;opacity:0;transition:opacity 1.6s ease-in-out}.chalets-header .ac-header-slide.active{opacity:1}.chalets-header.ac-header-slideshow:before{z-index:1}.chalets-header.ac-header-slideshow>div{z-index:2}
+.service-card-photo{display:block;width:100%;aspect-ratio:16/7;object-fit:cover;object-position:center 52%;border-radius:10px;margin:0 0 18px}@media(max-width:700px){.service-card-photo{aspect-ratio:4/3}}
 /* Mobile refinement for the new home photo, chalet slideshow and footer mark. */
 @media(max-width:780px){
   .hero .hero-slide{background-position:center center!important}
