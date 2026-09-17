@@ -361,7 +361,7 @@ mountFunspace();
   };
   if(page==='sommer.html'){
     makeSlideshow(document.querySelector('.page-hero'),[
-      {src:'assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg',position:'center 62%'},{src:'assets/images/_WRO8237.jpg',position:'center 60%'},{src:'assets/images/_WRO8232.jpg',position:'center 60%'}
+      {src:'assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg',position:'center 70%'},{src:'assets/images/_WRO8237.jpg',position:'center 68%'},{src:'assets/images/_WRO8232.jpg',position:'center 68%'}
     ],'ac-page-hero-slideshow');
     document.querySelector('.page-hero')?.classList.add('ac-summer-hero');
     const cards=[
@@ -374,7 +374,7 @@ mountFunspace();
       const img=document.createElement('img');img.className='summer-feature-image';img.src=data[0];img.alt=data[1];img.loading='lazy';img.decoding='async';img.style.objectPosition=data[2];card.prepend(img);card.classList.add('summer-feature-card');
     });
     const leadImage=document.querySelector('main>.section .lead-grid>img.photo');
-    if(leadImage){leadImage.src='assets/images/Foto-16.09.26,-14-10-12.jpg';leadImage.alt='Familie beim Essen im Alpenchalet';leadImage.style.objectPosition='center 50%'}
+    if(leadImage){leadImage.src='assets/images/2.jpg';leadImage.alt='Familie beim Essen im Alpenchalet';leadImage.style.objectPosition='center 56%'}
     const summerSection=document.querySelector('.summer-card-section .lead-grid');
     const oldImage=summerSection?.querySelector(':scope>img.photo');
     if(oldImage){
@@ -412,6 +412,16 @@ mountFunspace();
     const slides=images.map((entry,index)=>{const slide=document.createElement('img');slide.src=entry.src;slide.alt=entry.alt||image.alt;slide.loading='lazy';slide.decoding='async';slide.style.objectPosition=entry.position||'center';slide.className=index===0?'active':'';frame.append(slide);return slide});image.replaceWith(frame);rotate(slides);
   };
   if(page==='index.html'||page===''){
+    const cardIcons=[
+      '<path d="M8 15h32M12 15v22m24-22v22M9 37h30M17 15V9h14v6M20 25h8M20 31h8"/>',
+      '<path d="M8 38h32M12 38V18h24v20M17 18V10h14v8M19 26h10M19 32h10"/>',
+      '<path d="M12 10h24v28H12zM17 10v28m14-28v28M8 38h32M20 17h8m-8 7h8"/>',
+      '<path d="M8 38h32M12 38V18h24v20M9 18h30l-15-10zM18 28h12"/>',
+      '<path d="M14 11h20v27H14zM10 38h28M20 17h8M20 23h8M20 29h8"/>'
+    ];
+    document.querySelectorAll('.services .service-grid>.service-card').forEach((card,index)=>{
+      if(card.querySelector('.service-icon'))return;const icon=document.createElementNS('http://www.w3.org/2000/svg','svg');icon.setAttribute('class','service-icon');icon.setAttribute('viewBox','0 0 48 48');icon.setAttribute('aria-hidden','true');icon.innerHTML=cardIcons[index%cardIcons.length];card.prepend(icon);
+    });
     const frame=document.querySelector('.playground-slideshow');
     if(frame&&!frame.dataset.slideshowReady){
       frame.dataset.slideshowReady='true';
@@ -434,9 +444,8 @@ mountFunspace();
     ],'Gerichte aus dem Flachauer Gutshof');
   }
   if(page==='galerie.html'){
-    heroSlides(document.querySelector('.page-hero'),[
-      {src:activeSeason==='winter'?'assets/images/hero-winter.webp':'assets/images/exterior-wide.webp',position:'center 52%'},{src:'assets/images/Rezeption.jpg',position:'center 52%'},{src:'assets/images/living.webp',position:'center 52%'},{src:'assets/images/hero-summer.webp',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-91.jpg',position:'center 52%'},{src:'assets/images/hero-winter.webp',position:'center 52%'}
-    ]);
+    const hero=document.querySelector('.page-hero');
+    if(hero&&!hero.querySelector('.ac-gallery-collage')){hero.style.backgroundImage='none';hero.classList.add('ac-gallery-collage-hero');const collage=document.createElement('div');collage.className='ac-gallery-collage';['exterior-wide.webp','Rezeption.jpg','1.jpg','Codex-Bild 17. Sept. 2026, 15_33_10.jpg','hero-winter.webp'].forEach((src,index)=>{const tile=document.createElement('span');tile.style.backgroundImage=`url("assets/images/${src}")`;tile.className=`ac-gallery-tile tile-${index+1}`;collage.append(tile)});hero.prepend(collage)}
     const galleryImages=['exterior-wide.webp','Rezeption.jpg','Fischbacher_Chalet_innen_2017-(11).jpg','hero-summer.webp','hero-winter.webp','Kinderspielplatz.jpg','Foto 24.07.26, 09 36 33(1).png','Flachauer-Gutshof_September_2k25_print-48.jpg','Flachauer Gutshof_September_2k25_print-73.jpg','lage.jpg'];
     document.querySelectorAll('.gallery-grid [data-full]').forEach((item,index)=>{const src=galleryImages[index];if(!src)return;const path=`assets/images/${src}`;item.dataset.full=path;const img=item.querySelector('img');if(img){img.src=path;img.alt='Flachauer Alpenchalets'}});
   }
