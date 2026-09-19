@@ -356,7 +356,8 @@ mountFunspace();
       const slide=document.createElement('span');slide.className='ac-page-slide'+(index===0?' active':'');
       slide.style.backgroundImage=`url("${image.src}")`;slide.style.backgroundPosition=image.position||'center';slide.setAttribute('aria-hidden','true');host.prepend(slide);return slide;
     });
-    if(reduced||slides.length<2)return;
+    // Sommer still cycles with reduced motion; CSS removes the fade in that mode.
+    if(slides.length<2||(reduced&&page!=='sommer.html'))return;
     let active=0;window.setInterval(()=>{slides[active].classList.remove('active');active=(active+1)%slides.length;slides[active].classList.add('active')},2500);
   };
   if(page==='sommer.html'){

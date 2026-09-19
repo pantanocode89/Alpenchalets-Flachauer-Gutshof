@@ -769,6 +769,59 @@ header .logo img,
 
 
 
+/* One outer corner treatment for content boxes on every page and viewport.
+   The explicit scope and specificity override earlier responsive card rules. */
+:root{--card-radius:18px}
+html body :is(
+  .card,.arrival-card,.arrival-address,.contact-card,.faq details,.notice,
+  .service-card,.room-card,.recognition-card,.booking-card,
+  .chalet-card,.chalet-compare-card,.intro-feature-card,.playground-feature,
+  .amenity,.detail-facts,.detail-note,.floorplan-card,.booking-banner,.cross-chalet-card,
+  .restaurant-copy,.restaurant-facts,.restaurant-mini-facts,
+  .journey-stop,.booking-rating,.review-card,.final-booking-box,
+  .home-contact-form,.inquiry-wrap .form,.date-range-field,.contact-status,
+  .nearby-group,.nearby-summary,.proximity-hero,.proximity-card,
+  .premium-map-directory>div,.premium-map-directory>a,
+  .funspace-shell,.funspace-benefit,.summer-card-program-note,
+  .gallery-item,.gallery-full button,.detail-gallery button,
+  .photo,.atmosphere-image img,.restaurant-visuals img,.restaurant-family-image,.floorplan-card img,
+  .ac-content-slideshow,.summer-card-slideshow,.slope-location-visual,
+  .plan-preview,.map-preview,.map-consent,.google-map-wrap iframe,.embedded-map iframe,
+  .radius-map,.route-map-panel,.route-map-stage,.beyond-radius,
+  .butler-panel,.butler-privacy
+){
+  border-radius:var(--card-radius)!important;
+}
+
+/* Clip media at the outer card without changing text panels' intrinsic sizing. */
+html body :is(
+  .chalet-card,.chalet-compare-card,.intro-feature-card,.playground-feature,
+  .recognition-card,.summer-feature-card,.detail-facts,
+  .gallery-item,.gallery-full button,.detail-gallery button,
+  .ac-content-slideshow,.summer-card-slideshow,.funspace-shell,
+  .slope-location-visual,.plan-preview,.map-preview,.map-consent,.radius-map
+){overflow:hidden}
+
+/* Edge-to-edge media is clipped once, by its outer card, without inner corners. */
+html body :is(
+  .playground-feature>.playground-slideshow,
+  .chalet-card>.chalet-image,.chalet-compare-card>.chalet-carousel,
+  .recognition-card>.recognition-image,
+  .summer-feature-card>.summer-feature-image,
+  .gallery-item>img,.gallery-full button>img,.detail-gallery button>img,
+  .intro-feature-card>img,.playground-slideshow>img,
+  .chalet-image>img,.chalet-carousel img,.recognition-image>img,
+  .ac-content-slideshow>img,.summer-card-slideshow>img,
+  .slope-location-visual>img,.map-preview>img
+){
+  border-radius:0!important;
+}
+
+/* The existing mobile cards inset their images with padding. */
+@media(max-width:780px){
+  html body .summer-feature-card>.summer-feature-image{border-radius:var(--card-radius)!important}
+}
+
 /* Unified Flachauer Alpenchalets footer logo on every page/language */
 footer img.footer-logo,
 .site-footer img.footer-logo {
