@@ -392,14 +392,21 @@ mountFunspace();
     });
     const leadImage=document.querySelector('main>.section .lead-grid>img.photo');
     if(leadImage){leadImage.src='assets/images/2.jpg';leadImage.alt='Familie beim Essen im Alpenchalet';leadImage.style.objectPosition='center 56%'}
-    const summerSection=document.querySelector('.summer-card-section .lead-grid');
-    const oldImage=summerSection?.querySelector(':scope>img.photo');
-    if(oldImage){
-      const frame=document.createElement('div');frame.className='summer-card-slideshow';frame.setAttribute('aria-label','Flachau Sommer Card Aktivitäten');
-      const slides=[
-        ['assets/images/18-flachau-sommer-card-beach-volleyball-1.jpg','center 52%'],['assets/images/18-flachau-sommer-card-erlebniswandern-1.jpg','center 50%'],['assets/images/18-flachau-sommer-card-kinderspiel-foot-darts-1.jpg','center 52%'],['assets/images/18-flachau-sommer-card-lagerfeuer-1.jpg','center 54%']
-      ].map(([src,position],index)=>{const img=document.createElement('img');img.src=src;img.alt='Flachau Sommer Card Aktivität';img.loading='lazy';img.decoding='async';img.style.objectPosition=position;img.className=index===0?'active':'';frame.append(img);return img});
-      oldImage.replaceWith(frame);if(!reduced){let active=0;window.setInterval(()=>{slides[active].classList.remove('active');active=(active+1)%slides.length;slides[active].classList.add('active')},2500)}
+    const summerCardFrame=document.querySelector('.summer-card-slideshow');
+    if(summerCardFrame&&!summerCardFrame.dataset.slideshowReady){
+      summerCardFrame.dataset.slideshowReady='true';
+      const slides=[...summerCardFrame.querySelectorAll('img')];
+      if(slides.length){
+        let active=Math.max(0,slides.findIndex(slide=>slide.classList.contains('active')));
+        slides.forEach((slide,index)=>slide.classList.toggle('active',index===active));
+        // Keep cycling on all devices, including systems with reduced-motion enabled.
+        // CSS already removes the fade there, so images still change without animation.
+        if(slides.length>1)window.setInterval(()=>{
+          slides[active].classList.remove('active');
+          active=(active+1)%slides.length;
+          slides[active].classList.add('active');
+        },2500);
+      }
     }
     const pdfLink=document.querySelector('.summer-card-actions a');
     if(pdfLink&&new Date()>=new Date(2026,9,3))pdfLink.addEventListener('click',event=>{
