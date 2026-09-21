@@ -318,14 +318,14 @@ def build():
     page2(c)
     chalet_page(
         c, 3, "4-Zimmer-Chalet", "Bis 12 Personen",
-        IMG / "living.jpg", IMG / "floorplan-type1.jpg",
+        IMG / "living.jpg", IMG / "Grundriss-Alpenschalet-Typ1-EG+OG.jpg",
         [("12 GÄSTE", "bis zu 12 Personen"), ("3 SCHLAFZIMMER", "großzügig aufgeteilt"), ("3 BÄDER + WC", "für entspannte Morgen"), ("PRIVATE SAUNA", "Wellness im Chalet")],
         "Das großzügige Chalet erstreckt sich über zwei Ebenen. Der offene Wohn- und Essbereich mit Kamin und Küche bietet viel Platz für gemeinsame Abende, während die Schlafzimmer private Rückzugsorte schaffen.",
         [("Schlafen", "Drei Schlafzimmer sowie ein Schlafsofa für zwei Personen."), ("Wohnen", "Offener Wohn- und Essbereich mit Kamin und Terrasse."), ("Praktisch", "Eigener Ski- und Abstellraum, Garderobe und Brötchenservice.")],
     )
     chalet_page(
         c, 4, "5-Zimmer-Chalet", "Bis 10 Personen",
-        IMG / "exterior-main.jpg", IMG / "floorplan-type2.jpg",
+        IMG / "exterior-main.jpg", IMG / "Grundriss-Alpenschalet-Typ2-EG+OG.jpg",
         [("10 GÄSTE", "bis zu 10 Personen"), ("4 SCHLAFZIMMER", "keine Stockbetten"), ("2 BÄDER + 2 WCs", "komfortabel aufgeteilt"), ("PRIVATE SAUNA", "Wellness im Chalet")],
         "Vier separate Schlafzimmer, eine private Sauna und ein ruhiger Wohnbereich machen diesen Chalet-Typ besonders angenehm für Familien und Freundesgruppen. Zwei gekoppelte Chalets bieten gemeinsam Platz für bis zu 20 Personen.",
         [("Schlafen", "Vier separate Schlafzimmer und Schlafsofa für zwei Personen."), ("Wohnen", "Gemütlicher Wohn- und Essbereich mit Kamin und Küche."), ("Für Gruppen", "Zwei gekoppelte Chalets für gemeinsam bis zu 20 Gäste.")],
