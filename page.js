@@ -348,8 +348,24 @@ mountFunspace();
 (function(){
   const page=(location.pathname.split('/').pop()||'').toLowerCase();
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const makeSlideshow=(host,images,className)=>{
+  const makeSlideshow=async(host,images,className)=>{
     if(!host||host.dataset.slideshowReady)return;
+    if(page==='sommer.html'){
+      if(host.dataset.slideshowLoading)return;
+      host.dataset.slideshowLoading='true';
+      // Keep the existing header visible until every slide is decoded.
+      await Promise.all(images.map(image=>new Promise(resolve=>{
+        const preload=new Image();
+        const load=()=>{preload.src=image.src};
+        preload.onload=async()=>{
+          try{await preload.decode()}catch(error){/* onload confirms a usable image. */}
+          resolve();
+        };
+        preload.onerror=()=>window.setTimeout(load,2500);
+        load();
+      })));
+      delete host.dataset.slideshowLoading;
+    }
     host.dataset.slideshowReady='true';host.classList.add(className);
     host.style.backgroundImage='none';
     const slides=images.map((image,index)=>{

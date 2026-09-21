@@ -62,6 +62,7 @@ function transformHtml(name){
   text=text.replace(/href="([a-z0-9-]+\.html(?:[^"#]*)?(?:#[^"]*)?|index\.html#[^"]*)"/gi,(all,href)=>`href="${phpUrlFor(href)}"`);
   text=text.replace(/<link rel="stylesheet" href="[^"]+">/g,'');
   text=text.replace(/<script src="[^"]+"><\/script>/g,'');
+  text=text.replace(/data-image="(assets\/images\/Grundriss-[^"]+)"/g,(all,src)=>{usedAssets.add(src);return `data-image="<?php echo esc_url(get_template_directory_uri()); ?>/${src}"`});
   text=text.replace('</head>','<?php wp_head(); ?>\n</head>');
   text=text.replace(/<body class="([^"]*)">/,'<body <?php body_class(\'$1\'); ?>><?php wp_body_open(); ?>');
   text=text.replace(/<body>/,'<body <?php body_class(); ?>><?php wp_body_open(); ?>');
