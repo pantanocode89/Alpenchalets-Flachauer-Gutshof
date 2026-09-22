@@ -515,4 +515,4 @@ function mountNewsletter(){
 mountNewsletter();
 
 /* Shared production polish for desktop and mobile. */
-if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260823-33';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}
+if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260922-immediate-1';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}

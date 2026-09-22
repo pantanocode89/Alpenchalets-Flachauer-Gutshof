@@ -1259,3 +1259,4 @@ footer img.footer-logo,
     margin-right:auto !important;
   }
 }
+.section,.site-footer{content-visibility:visible!important;contain:none!important}

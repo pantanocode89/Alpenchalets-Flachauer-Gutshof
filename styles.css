@@ -1798,3 +1798,5 @@ footer img.footer-logo,
 .playground-slideshow img[src$="Foto 24.07.26, 11 07 55(1).png"]{object-position:center 45%}
 .playground-slideshow img[src$="Foto 02.06.26, 12 01 02(3).jpg"]{object-fit:contain;background:#fffaf1}
 .restaurant-detail-img{object-fit:cover!important;object-position:center 68%;background:transparent}
+.section:not(.intro),.site-footer{content-visibility:visible!important;contain:none!important}
+.site-intro{display:none!important}body.is-loading{overflow:auto!important}
