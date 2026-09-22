@@ -69,7 +69,13 @@ if(seasonalHero&&seasonalImage){
 }
 if(seasonalPage==='lage.html'){
   const lageplan=document.querySelector('[data-seasonal-lageplan]');
-  if(lageplan)lageplan.href=activeSeason==='winter'?'assets/docs/Lageplan_Winter-2026.pdf':'assets/docs/Lageplan_Sommer-2026.pdf';
+  const winterPlan=activeSeason==='winter';
+  const lageplanPreview=winterPlan?'assets/images/lageplan-winter-2026-landscape.png':'assets/images/lageplan-sommer-2026-landscape.png';
+  if(lageplan){lageplan.href=winterPlan?'assets/docs/Lageplan_Winter-2026.pdf':'assets/docs/Lageplan_Sommer-2026.pdf';lageplan.dataset.full=lageplanPreview;}
+  const planPreview=document.querySelector('.plan-preview');
+  if(planPreview)planPreview.dataset.full=lageplanPreview;
+  const planImage=planPreview?.querySelector('img');
+  if(planImage)planImage.src=lageplanPreview;
 }
 document.documentElement.dataset.season=activeSeason;
 
@@ -354,33 +360,23 @@ mountFunspace();
 (function(){
   const page=(location.pathname.split('/').pop()||'').toLowerCase();
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const makeSlideshow=async(host,images,className)=>{
-    if(!host||host.dataset.slideshowReady)return;
-    if(page==='sommer.html'){
-      if(host.dataset.slideshowLoading)return;
-      host.dataset.slideshowLoading='true';
-      // Keep the existing header visible until every slide is decoded.
-      await Promise.all(images.map(image=>new Promise(resolve=>{
-        const preload=new Image();
-        const load=()=>{preload.src=image.src};
-        preload.onload=async()=>{
-          try{await preload.decode()}catch(error){/* onload confirms a usable image. */}
-          resolve();
-        };
-        preload.onerror=()=>window.setTimeout(load,2500);
-        load();
-      })));
-      delete host.dataset.slideshowLoading;
-    }
-    host.dataset.slideshowReady='true';host.classList.add(className);
-    host.style.backgroundImage='none';
+  const makeSlideshow=(host,images,className)=>{
+    if(!host||host.dataset.slideshowReady||host.dataset.slideshowLoading)return;
+    host.dataset.slideshowLoading='true';
     const slides=images.map((image,index)=>{
       const slide=document.createElement('span');slide.className='ac-page-slide'+(index===0?' active':'');
       slide.style.backgroundImage=`url("${image.src}")`;slide.style.backgroundPosition=image.position||'center';slide.setAttribute('aria-hidden','true');host.prepend(slide);return slide;
     });
-    // Sommer still cycles with reduced motion; CSS removes the fade in that mode.
-    if(slides.length<2||(reduced&&page!=='sommer.html'))return;
-    let active=0;window.setInterval(()=>{slides[active].classList.remove('active');active=(active+1)%slides.length;slides[active].classList.add('active')},2500);
+    let started=false;
+    const start=()=>{
+      if(started)return;
+      started=true;delete host.dataset.slideshowLoading;host.dataset.slideshowReady='true';host.classList.add(className);
+      host.style.setProperty('background-image','none','important');
+      if(slides.length<2)return;
+      let active=0;window.setInterval(()=>{slides[active].classList.remove('active');active=(active+1)%slides.length;slides[active].classList.add('active')},2500);
+    };
+    const firstImage=new Image();firstImage.onload=start;firstImage.onerror=start;firstImage.src=images[0]?.src||'';
+    if(firstImage.complete)start();
   };
   if(page==='sommer.html'){
     makeSlideshow(document.querySelector('.page-hero'),[
@@ -430,11 +426,11 @@ mountFunspace();
 (function(){
   const page=(location.pathname.split('/').pop()||'').toLowerCase();
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const rotate=(items)=>{if(reduced||items.length<2)return;let active=0;window.setInterval(()=>{items[active].classList.remove('active');active=(active+1)%items.length;items[active].classList.add('active')},2500)};
+  const rotate=(items,header=false)=>{if((reduced&&!header)||items.length<2)return;let active=0;window.setInterval(()=>{items[active].classList.remove('active');active=(active+1)%items.length;items[active].classList.add('active')},2500)};
   const heroSlides=(host,images)=>{
     if(!host||host.dataset.restaurantGallerySlideshow)return;
     host.dataset.restaurantGallerySlideshow='true';host.classList.add('ac-page-hero-slideshow');host.style.backgroundImage='none';
-    const slides=images.map((image,index)=>{const slide=document.createElement('span');slide.className='ac-page-slide'+(index===0?' active':'');slide.style.backgroundImage=`url("${image.src}")`;slide.style.backgroundPosition=image.position||'center';slide.setAttribute('aria-hidden','true');host.prepend(slide);return slide});rotate(slides);
+    const slides=images.map((image,index)=>{const slide=document.createElement('span');slide.className='ac-page-slide'+(index===0?' active':'');slide.style.backgroundImage=`url("${image.src}")`;slide.style.backgroundPosition=image.position||'center';slide.setAttribute('aria-hidden','true');host.prepend(slide);return slide});rotate(slides,true);
   };
   const imageSlides=(image,images,label)=>{
     if(!image||image.dataset.slideshowReady)return;

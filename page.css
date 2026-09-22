@@ -1022,6 +1022,7 @@ html{scrollbar-gutter:stable}
 .route-map-stage{width:100%;min-height:0!important;aspect-ratio:3508/2481!important}
 .route-map-stage img{position:absolute!important;inset:0!important;width:100%!important;min-width:0!important;height:100%!important;max-width:100%!important;transform:none!important;object-fit:contain!important;object-position:center!important}
 .modal.plan-modal img{width:auto!important;height:auto!important;max-width:calc(100vw - 24px)!important;max-height:calc(100svh - 24px)!important;object-fit:contain!important;transform:none!important}
+html[data-season="winter"] .modal.plan-modal button:not(.modal-nav),html[data-season="winter"] .route-map-close{color:var(--green)!important;background:var(--cream)!important;border-color:var(--green)!important}
 @media(max-width:700px){.route-map-modal{padding:8px}.route-map-panel{width:calc(100vw - 16px);max-height:calc(100svh - 16px);padding:10px;border-radius:10px}.route-map-header{align-items:center;padding:0 0 8px}.route-map-header .kicker{display:none}.route-map-header h2{font-size:1.2rem}.route-map-close{width:36px;height:36px;flex-basis:36px;font-size:23px}.route-map-stage{min-height:0!important;width:100%!important;aspect-ratio:3508/2481!important}.route-map-stage img{left:0!important;width:100%!important;min-width:0!important;height:100%!important;transform:none!important}.route-map-legend{display:none!important}}
 
 /* Lage: editorial proof of the ski-in location. */
@@ -1258,4 +1259,3 @@ footer img.footer-logo,
     margin-right:auto !important;
   }
 }
-

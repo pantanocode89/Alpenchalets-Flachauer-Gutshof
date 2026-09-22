@@ -21,9 +21,13 @@ const activeSeason=['summer','winter'].includes(seasonalPreview)?seasonalPreview
 document.documentElement.dataset.season=activeSeason;
 if(activeSeason==='winter'){
   const mobileSeason=innerWidth<=700;
+  const homeHero=document.querySelector('.hero-slide:not([data-rotating-hero])');
+  const homePlan='assets/images/lageplan-winter-2026-landscape.png';
   const chaletHeader=document.querySelector('.chalets-header');
   const comfortHeader=document.querySelector('.comfort-header');
   const restaurantImage=document.querySelector('.restaurant-main-img');
+  if(homeHero)homeHero.style.setProperty('background-image',"url('assets/images/Alpenchalet1_filter.jpg')",'important');
+  document.querySelectorAll('.open-floorplan[data-image*="lageplan-sommer"]').forEach(plan=>{plan.dataset.image=homePlan;const image=plan.querySelector('img');if(image)image.src=homePlan});
   if(chaletHeader)chaletHeader.style.setProperty('background-image',`url("assets/images/chalets-header-real-room-winter-v2${mobileSeason?'-mobile':''}.webp")`,'important');
   if(comfortHeader)comfortHeader.style.setProperty('background-image',`url("assets/images/comfort-header-chalet-winter-v2${mobileSeason?'-mobile':''}.webp")`,'important');
   if(restaurantImage)restaurantImage.src=`assets/images/restaurant-gutshof-winter-v2${mobileSeason?'-mobile':''}.webp`;
@@ -699,7 +703,7 @@ document.querySelectorAll('[data-chalet-carousel]').forEach(carousel=>{
 
 if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260823-33';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}
 
-(function(){var slides=[{url:'assets/images/35314198-Original.jpg',position:'center 52%'},{url:'assets/images/Fischbacher_Chalet_innen_2017 (3).jpg',position:'center 50%'},{url:'assets/images/Fischbacher_Chalet_innen_2017 (13).jpg',position:'center 50%'}],hero=document.querySelector('.chalets-header');if(!hero)return;hero.classList.add('ac-header-slideshow');hero.style.backgroundImage='none';slides.forEach(function(data,index){var slide=document.createElement('span');slide.className='ac-header-slide'+(index===0?' active':'');slide.style.backgroundImage='url("'+data.url+'")';slide.style.backgroundPosition=data.position;slide.setAttribute('aria-hidden','true');hero.prepend(slide);});var items=hero.querySelectorAll('.ac-header-slide'),current=0;window.setInterval(function(){items[current].classList.remove('active');current=(current+1)%items.length;items[current].classList.add('active');},2500);})();
+(function(){var slides=[{url:'assets/images/35314198-Original.jpg',position:'center 52%'},{url:'assets/images/Fischbacher_Chalet_innen_2017 (3).jpg',position:'center 50%'},{url:'assets/images/Fischbacher_Chalet_innen_2017 (13).jpg',position:'center 50%'}],hero=document.querySelector('.chalets-header');if(!hero||hero.dataset.slideshowReady)return;hero.dataset.slideshowReady='true';hero.classList.add('ac-header-slideshow');hero.style.backgroundImage='none';slides.forEach(function(data,index){var slide=document.createElement('span');slide.className='ac-header-slide'+(index===0?' active':'');slide.style.backgroundImage='url("'+data.url+'")';slide.style.backgroundPosition=data.position;slide.setAttribute('aria-hidden','true');hero.prepend(slide);});var items=hero.querySelectorAll('.ac-header-slide'),current=0;window.setInterval(function(){items[current].classList.remove('active');current=(current+1)%items.length;items[current].classList.add('active');},2500);})();
 
 /* Home Komfort: use the same quiet crossfade as the other image areas. */
 (function(){

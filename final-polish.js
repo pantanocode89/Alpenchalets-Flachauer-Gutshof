@@ -4,7 +4,7 @@
   const settleInternalMotion=()=>document.documentElement.classList.add('ac-navigation-settled');
   document.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',settleInternalMotion,{capture:true}));
   window.addEventListener('popstate',settleInternalMotion);
-  const revealTargets=[...document.querySelectorAll('main > section:not(:first-child),.card,.room-card,.amenity,.detail-fact,.gallery-item,.gallery-full button')];
+  const revealTargets=[...document.querySelectorAll('main > section:not(:first-child),.card,.room-card,.amenity,.detail-fact,.gallery-item,.gallery-full button')].filter(el=>!el.matches('.gallery-full button,main > section:has(.gallery-full)'));
   if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&'IntersectionObserver'in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('ac-visible');observer.unobserve(entry.target)}}),{rootMargin:'0px 0px -7% 0px',threshold:.08});revealTargets.forEach((el,index)=>{el.classList.add('ac-reveal');el.style.transitionDelay=`${Math.min(index%4,3)*55}ms`;observer.observe(el)})}else revealTargets.forEach(el=>el.classList.add('ac-visible'));
   document.querySelectorAll('img:not([loading])').forEach((img,index)=>{if(index>1)img.loading='lazy';img.decoding='async'});
   const journey=document.querySelector('.alpine-journey');
