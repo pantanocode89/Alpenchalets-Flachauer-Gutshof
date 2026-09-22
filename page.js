@@ -40,8 +40,10 @@ if(['summer','winter'].includes(seasonalPreview)){
 const seasonalHeroes={
   'faq.html':{summer:'assets/images/faq-header-planning-v1.webp',winter:'assets/images/faq-header-planning-winter-v2.webp'},
   'galerie.html':{summer:'assets/images/exterior-wide.webp',winter:'assets/images/hero-winter.webp'},
+  'impressum.html':{summer:'assets/images/66261ce3-38b5-435d-9c1c-84d8aa9afd0d.png',winter:'assets/images/057becf1-c300-402d-aaba-e86d9ee57cdc.png'},
   'kontakt.html':{summer:'assets/images/kontakt-header-modern-summer-v2.webp',winter:'assets/images/kontakt-header-modern-winter-v2.webp'},
   'lage.html':{summer:'assets/images/26-flachau-sommer-wandern-hüttenwanderung-franzfischerhütte-21.jpg',winter:'assets/images/lage.jpg'},
+  'datenschutz.html':{summer:'assets/images/057becf1-c300-402d-aaba-e86d9ee57cdc.png',winter:'assets/images/0ab298b4-42ad-4d80-ab23-e68aa2d97c0d.png'},
   'restaurant.html':{summer:'assets/images/restaurant-gutshof-sommer.webp',winter:'assets/images/restaurant-gutshof-winter-v2.webp'},
   'sommer.html':{summer:'assets/images/sommer-header-terrasse.webp',winter:'assets/images/sommer-header-terrasse.webp'},
   'urlaubsanfrage.html':{summer:'assets/images/urlaubsanfrage-header-suitcase-summer-v2.webp',winter:'assets/images/urlaubsanfrage-header-suitcase-winter-v2.webp'},
@@ -57,13 +59,17 @@ const seasonalMobileAssets=new Set([
   "assets/images/summer-header-generated-mobile.webp","assets/images/urlaubsanfrage-header-suitcase-summer-v2-mobile.webp",
   "assets/images/urlaubsanfrage-header-suitcase-winter-v2-mobile.webp","assets/images/winter-page-hero-mobile.webp"
 ]);
-const seasonalHero=document.querySelector('.page-hero');
+const seasonalHero=document.querySelector('.page-hero,.legal-hero');
 const seasonalDesktopImage=seasonalHeroes[seasonalPage]?.[activeSeason];
 const seasonalMobileImage=seasonalDesktopImage?.replace(/\.webp$/,'-mobile.webp');
 const seasonalImage=innerWidth<=700&&seasonalMobileAssets.has(seasonalMobileImage)?seasonalMobileImage:seasonalDesktopImage;
 if(seasonalHero&&seasonalImage){
   seasonalHero.style.setProperty('background-image',`url("${seasonalImage}")`,'important');
   seasonalHero.dataset.season=activeSeason;
+}
+if(seasonalPage==='lage.html'){
+  const lageplan=document.querySelector('[data-seasonal-lageplan]');
+  if(lageplan)lageplan.href=activeSeason==='winter'?'assets/docs/Lageplan_Winter-2026.pdf':'assets/docs/Lageplan_Sommer-2026.pdf';
 }
 document.documentElement.dataset.season=activeSeason;
 
