@@ -380,7 +380,7 @@ mountFunspace();
   };
   if(page==='sommer.html'){
     makeSlideshow(document.querySelector('.page-hero'),[
-      {src:'assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg',position:'center 70%'},{src:'assets/images/_WRO8237.jpg',position:'center 68%'},{src:'assets/images/_WRO8232.jpg',position:'center 68%'}
+      {src:'assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg',position:'center 70%'},{src:'assets/images/sommer-header-wro8237.jpg',position:'center 68%'},{src:'assets/images/sommer-header-wro8232.jpg',position:'center 68%'}
     ],'ac-page-hero-slideshow');
     document.querySelector('.page-hero')?.classList.add('ac-summer-hero');
     const cards=[
