@@ -2,6 +2,7 @@
 <!doctype html>
 <html lang="de">
 <head>
+  <base href="<?php echo esc_url(get_template_directory_uri()); ?>/">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Information zum nahe gelegenen Flachauer Gutshof." data-content-de="Information zum nahe gelegenen Flachauer Gutshof." data-content-en="Information about the nearby Flachauer Gutshof." data-content-nl="Informatie over de nabijgelegen Flachauer Gutshof.">
@@ -43,7 +44,7 @@
 <div class="page-lang">
 <button data-lang="de">DE</button>
 <button data-lang="en">EN</button>
-<button data-lang="nl">NL</button>
+
 </div>
 </header>
 <main>

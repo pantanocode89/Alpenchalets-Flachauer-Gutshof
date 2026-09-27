@@ -1,6 +1,18 @@
-(function(){var d=window.acCmsData||{},t=d.texts||{},m=d.media||{};document.querySelectorAll('[data-cms-key]').forEach(function(e){var v=t[e.dataset.cmsKey];if(!v)return;['de','en','nl'].forEach(function(l){if(v[l])e.dataset[l]=v[l]});});document.querySelectorAll('[data-cms-src-key]').forEach(function(e){var v=m[e.dataset.cmsSrcKey];if(v)e.src=v;});document.querySelectorAll('[data-cms-bg-key]').forEach(function(e){var v=m[e.dataset.cmsBgKey];if(v)e.style.backgroundImage='url("'+v.replace(/"/g,'')+'")';});document.querySelectorAll('[data-cms-href-key]').forEach(function(e){var v=m[e.dataset.cmsHrefKey];if(v)e.href=v;});var g=d.global||{};if(g.phone){document.querySelectorAll('a[href="tel:+43645733971"]').forEach(function(a){a.href='tel:'+g.phone.replace(/[^+0-9]/g,'');a.textContent=g.phone;});}if(g.email){document.querySelectorAll('a[href="mailto:info@alpenchalets.at"]').forEach(function(a){a.href='mailto:'+g.email;a.textContent=g.email;});}})();
+try{const introKey='alpenchaletsIntroSeenV2';sessionStorage.setItem(introKey,'true');if(!window.name.includes(introKey))window.name=((window.name||'')+' '+introKey).trim()}catch{}
 const h=document.querySelector('.page-header');
 const m=document.querySelector('.mobile-menu');
+
+// Keep the chalet logo in the desktop header on every inner page.
+// Existing CSS hides it after scrolling and moves the language switcher
+// into the released top-right position. Phone behavior stays unchanged.
+if(h&&!h.querySelector('.home-corner-logo')){
+  const headerLogo=document.createElement('a');
+  headerLogo.className='home-corner-logo';
+  headerLogo.href=(window.acWordPressHomeUrl||'index.html')+'?from=nav#home';
+  headerLogo.setAttribute('aria-label','Flachauer Alpenchalets');
+  headerLogo.innerHTML='<img src="assets/images/logo-transparent.png" alt="Flachauer Alpenchalets" width="400" height="348">';
+  h.appendChild(headerLogo);
+}
 m?.addEventListener('click',()=>h?.classList.toggle('open'));
 
 function viennaSeason(){
@@ -8,7 +20,9 @@ function viennaSeason(){
   const month=Number(parts.find(part=>part.type==='month')?.value||1);
   return month>=11||month<=4?'winter':'summer';
 }
-const seasonalPage=location.pathname.split('/').pop()||'index.html';
+const seasonalPage=window.acWordPressPage||location.pathname.split('/').pop()||'index.html';
+// The location page must display all of its copy immediately, without scroll fade-ins.
+if(seasonalPage==='lage.html')document.documentElement.classList.add('ac-navigation-settled');
 const seasonalPreview=new URLSearchParams(location.search).get('season');
 const forcedSeason=seasonalPage==='sommer.html'?'summer':seasonalPage==='winter.html'?'winter':null;
 const activeSeason=forcedSeason||(['summer','winter'].includes(seasonalPreview)?seasonalPreview:viennaSeason());
@@ -25,9 +39,11 @@ if(['summer','winter'].includes(seasonalPreview)){
 }
 const seasonalHeroes={
   'faq.html':{summer:'assets/images/faq-header-planning-v1.webp',winter:'assets/images/faq-header-planning-winter-v2.webp'},
-  'galerie.html':{summer:'assets/images/gallery-hero-collage.webp',winter:'assets/images/hero-winter.webp'},
+  'galerie.html':{summer:'assets/images/exterior-wide.webp',winter:'assets/images/hero-winter.webp'},
+  'impressum.html':{summer:'assets/images/66261ce3-38b5-435d-9c1c-84d8aa9afd0d.png',winter:'assets/images/057becf1-c300-402d-aaba-e86d9ee57cdc.png'},
   'kontakt.html':{summer:'assets/images/kontakt-header-modern-summer-v2.webp',winter:'assets/images/kontakt-header-modern-winter-v2.webp'},
-  'lage.html':{summer:'assets/images/lage-header-sign-v1.webp',winter:'assets/images/lage-header-sign-winter-v2.webp'},
+  'lage.html':{summer:'assets/images/26-flachau-sommer-wandern-hüttenwanderung-franzfischerhütte-21.jpg',winter:'assets/images/lage.jpg'},
+  'datenschutz.html':{summer:'assets/images/057becf1-c300-402d-aaba-e86d9ee57cdc.png',winter:'assets/images/0ab298b4-42ad-4d80-ab23-e68aa2d97c0d.png'},
   'restaurant.html':{summer:'assets/images/restaurant-gutshof-sommer.webp',winter:'assets/images/restaurant-gutshof-winter-v2.webp'},
   'sommer.html':{summer:'assets/images/sommer-header-terrasse.webp',winter:'assets/images/sommer-header-terrasse.webp'},
   'urlaubsanfrage.html':{summer:'assets/images/urlaubsanfrage-header-suitcase-summer-v2.webp',winter:'assets/images/urlaubsanfrage-header-suitcase-winter-v2.webp'},
@@ -43,7 +59,7 @@ const seasonalMobileAssets=new Set([
   "assets/images/summer-header-generated-mobile.webp","assets/images/urlaubsanfrage-header-suitcase-summer-v2-mobile.webp",
   "assets/images/urlaubsanfrage-header-suitcase-winter-v2-mobile.webp","assets/images/winter-page-hero-mobile.webp"
 ]);
-const seasonalHero=document.querySelector('.page-hero');
+const seasonalHero=document.querySelector('.page-hero,.legal-hero');
 const seasonalDesktopImage=seasonalHeroes[seasonalPage]?.[activeSeason];
 const seasonalMobileImage=seasonalDesktopImage?.replace(/\.webp$/,'-mobile.webp');
 const seasonalImage=innerWidth<=700&&seasonalMobileAssets.has(seasonalMobileImage)?seasonalMobileImage:seasonalDesktopImage;
@@ -51,9 +67,35 @@ if(seasonalHero&&seasonalImage){
   seasonalHero.style.setProperty('background-image',`url("${seasonalImage}")`,'important');
   seasonalHero.dataset.season=activeSeason;
 }
+const warmedRoutes=new Set();
+function warmInternalRoute(link){
+  const raw=link.getAttribute('href');
+  if(!raw)return;
+  const url=new URL(raw,location.href);
+  if(url.origin!==location.origin||url.pathname===location.pathname)return;
+  const key=url.pathname+url.search+url.hash;
+  if(warmedRoutes.has(key))return;
+  warmedRoutes.add(key);
+  const page=document.createElement('link');page.rel='prefetch';page.as='document';page.href=url.href;document.head.append(page);
+  const image=seasonalHeroes[url.pathname.split('/').pop()]?.[activeSeason];
+  if(image){const hero=new Image();hero.src=image}
+}
+document.addEventListener('pointerover',event=>{const link=event.target.closest?.('a[href]');if(link)warmInternalRoute(link)},{passive:true});
+document.addEventListener('focusin',event=>{const link=event.target.closest?.('a[href]');if(link)warmInternalRoute(link)});
+document.addEventListener('touchstart',event=>{const link=event.target.closest?.('a[href]');if(link)warmInternalRoute(link)},{passive:true});
+if(seasonalPage==='lage.html'){
+  const lageplan=document.querySelector('[data-seasonal-lageplan]');
+  const winterPlan=activeSeason==='winter';
+  const lageplanPreview=winterPlan?'assets/images/lageplan-winter-2026-landscape.png':'assets/images/lageplan-sommer-2026-landscape.png';
+  if(lageplan){lageplan.href=winterPlan?'assets/docs/Lageplan_Winter-2026.pdf':'assets/docs/Lageplan_Sommer-2026.pdf';lageplan.dataset.full=lageplanPreview;}
+  const planPreview=document.querySelector('.plan-preview');
+  if(planPreview)planPreview.dataset.full=lageplanPreview;
+  const planImage=planPreview?.querySelector('img');
+  if(planImage)planImage.src=lageplanPreview;
+}
 document.documentElement.dataset.season=activeSeason;
 
-if(location.pathname.endsWith('/sommer.html')||location.pathname.endsWith('sommer.html')){
+if(seasonalPage==='sommer.html'){
   const summerHeroTitle=document.querySelector('.page-hero h1');
   const summerHeroText=document.querySelector('.page-hero h1 + p');
   if(summerHeroTitle){
@@ -69,11 +111,11 @@ if(location.pathname.endsWith('/sommer.html')||location.pathname.endsWith('somme
 }
 
 const langBtns=document.querySelectorAll('[data-lang]');
-const supportedLangs=['de','en','nl'];
+const supportedLangs=['de','en'];
 const languageStorageKey='alpenchalets-language';
 function readSavedLanguage(){
   try{const value=localStorage.getItem(languageStorageKey);if(value)return value}catch{}
-  const match=document.cookie.match(/(?:^|;\s*)alpenchalets-language=(de|en|nl)(?:;|$)/);
+  const match=document.cookie.match(/(?:^|;\s*)alpenchalets-language=(de|en)(?:;|$)/);
   return match?match[1]:'de';
 }
 function saveLanguage(value){
@@ -110,6 +152,7 @@ function lang(l){
   translateAttributes(active);
   langBtns.forEach(b=>b.classList.toggle('active',b.dataset.lang===active));
   saveLanguage(active);
+  document.documentElement.classList.remove('language-pending');
 }
 if(seasonalPage==='winter.html'){
   const winterHeading=document.querySelector('.page-hero h1');
@@ -317,7 +360,7 @@ window.addEventListener('scroll',updateMobileBackToTop,{passive:true});
 mobileBackToTop.addEventListener('click',event=>{event.preventDefault();window.scrollTo({top:0,behavior:'smooth'})});
 
 function mountFunspace(){
-  const page=(location.pathname.split('/').pop()||'').toLowerCase();
+  const page=(window.acWordPressPage||location.pathname.split('/').pop()||'').toLowerCase();
   const main=document.querySelector('main');
   if(page!=='sommer.html'||!main||document.querySelector('.funspace-section'))return;
   const section=document.createElement('section');
@@ -328,6 +371,128 @@ function mountFunspace(){
   lang(document.documentElement.lang);
 }
 mountFunspace();
+
+/* Shared, independent image treatments for the Sommer and Winter pages. */
+(function(){
+  const page=(window.acWordPressPage||location.pathname.split('/').pop()||'').toLowerCase();
+  const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const makeSlideshow=(host,images,className)=>{
+    if(!host||host.dataset.slideshowReady||host.dataset.slideshowLoading)return;
+    host.dataset.slideshowLoading='true';
+    const slides=images.map((image,index)=>{
+      const slide=document.createElement('span');slide.className='ac-page-slide'+(index===0?' active':'');
+      slide.style.backgroundImage=`url("${image.src}")`;slide.style.backgroundPosition=image.position||'center';slide.setAttribute('aria-hidden','true');host.prepend(slide);return slide;
+    });
+    let started=false;
+    const start=()=>{
+      if(started)return;
+      started=true;delete host.dataset.slideshowLoading;host.dataset.slideshowReady='true';host.classList.add(className);
+      host.style.setProperty('background-image','none','important');
+      if(slides.length<2)return;
+      let active=0;window.setInterval(()=>{slides[active].classList.remove('active');active=(active+1)%slides.length;slides[active].classList.add('active')},2500);
+    };
+    const firstImage=new Image();firstImage.onload=start;firstImage.onerror=start;firstImage.src=images[0]?.src||'';
+    if(firstImage.complete)start();
+  };
+  if(page==='sommer.html'){
+    makeSlideshow(document.querySelector('.page-hero'),[
+      {src:'assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg',position:'center 70%'},{src:'assets/images/sommer-header-wro8237.jpg',position:'center 68%'},{src:'assets/images/sommer-header-wro8232.jpg',position:'center 68%'}
+    ],'ac-page-hero-slideshow');
+    document.querySelector('.page-hero')?.classList.add('ac-summer-hero');
+    const cards=[
+      ['assets/images/25-flachau-sommer-wandern-berge-18.jpg','Wandern in Flachau','center 54%'],
+      ['assets/images/20-flachau-sommer-e-mountainbike-7.jpg','Radfahren in Flachau','center 52%'],
+      ['assets/images/Foto-16.09.26,-14-10-12.jpg','Gemeinsame Zeit im Alpenchalet','center 50%']
+    ];
+    document.querySelectorAll('main>.section .feature-cards>.card').forEach((card,index)=>{
+      const data=cards[index];if(!data||card.querySelector('img'))return;
+      const img=document.createElement('img');img.className='summer-feature-image';img.src=data[0];img.alt=data[1];img.loading='lazy';img.decoding='async';img.style.objectPosition=data[2];card.prepend(img);card.classList.add('summer-feature-card');
+    });
+    const leadImage=document.querySelector('main>.section .lead-grid>img.photo');
+    if(leadImage){leadImage.src='assets/images/2.jpg';leadImage.alt='Familie beim Essen im Alpenchalet';leadImage.style.objectPosition='center 56%'}
+    const summerCardFrame=document.querySelector('.summer-card-slideshow');
+    if(summerCardFrame&&!summerCardFrame.dataset.slideshowReady){
+      summerCardFrame.dataset.slideshowReady='true';
+      const slides=[...summerCardFrame.querySelectorAll('img')];
+      if(slides.length){
+        let active=Math.max(0,slides.findIndex(slide=>slide.classList.contains('active')));
+        slides.forEach((slide,index)=>slide.classList.toggle('active',index===active));
+        // Keep cycling on all devices, including systems with reduced-motion enabled.
+        // CSS already removes the fade there, so images still change without animation.
+        if(slides.length>1)window.setInterval(()=>{
+          slides[active].classList.remove('active');
+          active=(active+1)%slides.length;
+          slides[active].classList.add('active');
+        },2500);
+      }
+    }
+    const pdfLink=document.querySelector('.summer-card-actions a');
+    if(pdfLink&&new Date()>=new Date(2026,9,3))pdfLink.addEventListener('click',event=>{
+      event.preventDefault();const message=document.createElement('p');message.className='summer-card-program-note';message.setAttribute('role','status');message.dataset.de='Das aktuelle Programm der Flachau Sommer Card für die Sommersaison 2027 wird zu Beginn der Sommersaison 2027 veröffentlicht.';message.dataset.en='The current Flachau Summer Card programme for the 2027 summer season will be published at the beginning of the 2027 summer season.';message.dataset.nl='Het actuele Flachau Summer Card-programma voor het zomerseizoen 2027 wordt aan het begin van het zomerseizoen 2027 gepubliceerd.';message.textContent=message.dataset[document.documentElement.lang]||message.dataset.de;pdfLink.replaceWith(message);
+    });
+    const funspace=document.querySelector('.funspace-visual');
+    if(funspace){funspace.innerHTML='';const logo=document.createElement('img');logo.src='assets/images/26_Flachau_Funspace_Logo_RGB_Positiv.png';logo.alt='FUNSPACE Flachau';logo.decoding='async';funspace.append(logo)}
+  }
+  if(page==='winter.html')makeSlideshow(document.querySelector('.page-hero'),[
+    {src:'assets/images/winter-page-hero.jpg',position:'center 52%'},{src:'assets/images/IMG_5188.JPG',position:'center 50%'},{src:'assets/images/IMG_5174.JPG',position:'center 52%'},{src:'assets/images/Alpenchalet1_filter.jpg',position:'center 52%'},{src:'assets/images/25-flachau-winter-ski-urlaub-outdoor-4.jpg',position:'center 50%'},{src:'assets/images/25-flachau-winter-ski-urlaub-17.jpg',position:'center 50%'}
+  ],'ac-page-hero-slideshow');
+})();
+
+/* Restaurant and gallery image updates share the existing unobtrusive page behaviour. */
+(function(){
+  const page=(window.acWordPressPage||location.pathname.split('/').pop()||'').toLowerCase();
+  const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const rotate=(items,header=false)=>{if((reduced&&!header)||items.length<2)return;let active=0;window.setInterval(()=>{items[active].classList.remove('active');active=(active+1)%items.length;items[active].classList.add('active')},2500)};
+  const heroSlides=(host,images)=>{
+    if(!host||host.dataset.restaurantGallerySlideshow)return;
+    host.dataset.restaurantGallerySlideshow='true';host.classList.add('ac-page-hero-slideshow');host.style.backgroundImage='none';
+    const slides=images.map((image,index)=>{const slide=document.createElement('span');slide.className='ac-page-slide'+(index===0?' active':'');slide.style.backgroundImage=`url("${image.src}")`;slide.style.backgroundPosition=image.position||'center';slide.setAttribute('aria-hidden','true');host.prepend(slide);return slide});rotate(slides,true);
+  };
+  const imageSlides=(image,images,label)=>{
+    if(!image||image.dataset.slideshowReady)return;
+    image.dataset.slideshowReady='true';const frame=document.createElement('div');frame.className='ac-content-slideshow';frame.setAttribute('aria-label',label);
+    const slides=images.map((entry,index)=>{const slide=document.createElement('img');slide.src=entry.src;slide.alt=entry.alt||image.alt;slide.loading='lazy';slide.decoding='async';slide.style.objectPosition=entry.position||'center';slide.className=index===0?'active':'';frame.append(slide);return slide});image.replaceWith(frame);rotate(slides);
+  };
+  if(page==='index.html'||page===''){
+    const cardIcons=[
+      '<path d="M8 15h32M12 15v22m24-22v22M9 37h30M17 15V9h14v6M20 25h8M20 31h8"/>',
+      '<path d="M8 38h32M12 38V18h24v20M17 18V10h14v8M19 26h10M19 32h10"/>',
+      '<path d="M12 10h24v28H12zM17 10v28m14-28v28M8 38h32M20 17h8m-8 7h8"/>',
+      '<path d="M8 38h32M12 38V18h24v20M9 18h30l-15-10zM18 28h12"/>',
+      '<path d="M14 11h20v27H14zM10 38h28M20 17h8M20 23h8M20 29h8"/>'
+    ];
+    document.querySelectorAll('.services .service-grid>.service-card').forEach((card,index)=>{
+      if(card.querySelector('.service-icon'))return;const icon=document.createElementNS('http://www.w3.org/2000/svg','svg');icon.setAttribute('class','service-icon');icon.setAttribute('viewBox','0 0 48 48');icon.setAttribute('aria-hidden','true');icon.innerHTML=cardIcons[index%cardIcons.length];card.prepend(icon);
+    });
+    const frame=document.querySelector('.playground-slideshow');
+    if(frame&&!frame.dataset.slideshowReady){
+      frame.dataset.slideshowReady='true';
+      const images=[
+        {src:'assets/images/Kinderspielplatz.jpg',alt:'Kinder vor dem Spielplatz',position:'center 52%'},
+        {src:'assets/images/Foto 24.07.26, 09 36 33(1).png',alt:'Kinder auf dem Holzspielplatz',position:'center 42%'},
+        {src:'assets/images/Foto 24.07.26, 09 36 34(1).png',alt:'Kinder im Sandkasten',position:'center 58%'},
+        {src:'assets/images/Foto 24.07.26, 11 07 55(1).png',alt:'Musistadl Spielplatz',position:'center 55%'},
+        {src:'assets/images/Foto 02.06.26, 12 01 02(3).jpg',alt:'Kaninchen beim Gutshof',position:'center'}
+      ].map((entry,index)=>{const img=document.createElement('img');img.src=entry.src;img.alt=entry.alt;img.loading='lazy';img.decoding='async';img.style.objectPosition=entry.position;img.className=index===0?'active':'';frame.append(img);return img});
+      rotate(images);
+    }
+  }
+  if(page==='restaurant.html'){
+    heroSlides(document.querySelector('.page-hero'),[
+      {src:activeSeason==='winter'?'assets/images/restaurant-gutshof-winter-v2.webp':'assets/images/restaurant-gutshof-sommer.webp',position:'center 52%'},{src:'assets/images/Detail-Musistadl-Eingang.jpg',position:'center 52%'},{src:'assets/images/Terasse-1.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-48.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-91.jpg',position:'center 52%'}
+    ]);
+    imageSlides(document.querySelector('.lead-grid>img.photo'),[
+      {src:'assets/images/Flachauer Gutshof_September_2k25_print-37.jpg',position:'center 68%'},{src:'assets/images/Flachauer Gutshof_September_2k25_print-73.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-79.jpg',position:'center 52%'}
+    ],'Gerichte aus dem Flachauer Gutshof');
+  }
+  if(page==='galerie.html'){
+    const hero=document.querySelector('.page-hero');
+    if(hero&&!hero.querySelector('.ac-gallery-collage')){hero.style.setProperty('background-image','none','important');hero.classList.add('ac-gallery-collage-hero');const collage=document.createElement('div');collage.className='ac-gallery-collage';['exterior-wide.webp','Rezeption.jpg','1.jpg','Codex-Bild 17. Sept. 2026, 15_33_10.jpg','hero-winter.webp'].forEach((src,index)=>{const tile=document.createElement('span');tile.style.backgroundImage=`url("assets/images/${src}")`;tile.className=`ac-gallery-tile tile-${index+1}`;collage.append(tile)});hero.prepend(collage)}
+    const galleryImages=['exterior-wide.webp','35314198-Original.jpg','35314193-1280w.jpg','exterior-main.webp','Alpenchalet1_filter.jpg','unsere-chalets-roses.jpg','Zentrale-Lage.jpg','Rezeption.jpg','kitchen.webp','living.webp','bedroom-main.webp','bathroom.webp','ChatGPT-Image-16.-Sept.-2026,-13_13_45.png','1.jpg','Codex-Bild 17. Sept. 2026, 15_33_10.jpg','25-flachau-sommer-wandern-berge-18.jpg','26-flachau-sommer-wandern-hüttenwanderung-franzfischerhütte-21.jpg','20-flachau-sommer-e-mountainbike-7.jpg','18-flachau-sommer-card-beach-volleyball-1.jpg','18-flachau-sommer-card-erlebniswandern-1.jpg','18-flachau-sommer-card-kinderspiel-foot-darts-1.jpg','18-flachau-sommer-card-lagerfeuer-1.jpg','winter-page-hero.jpg','IMG_5188.JPG','IMG_5174.JPG','25-flachau-winter-ski-urlaub-outdoor-4.jpg','25-flachau-winter-ski-urlaub-17.jpg','Detail-Musistadl-Eingang.jpg','Terasse-1.jpg','Flachauer-Gutshof_September_2k25_print-48.jpg','Flachauer-Gutshof_September_2k25_print-91.jpg','Flachauer-Gutshof_September_2k25_print-79.jpg','Flachauer Gutshof_September_2k25_print-73.jpg','Flachauer Gutshof_September_2k25_print-74.jpg','Flachauer Gutshof_September_2k25_print-37.jpg','restaurant-dining-detail.webp','restaurant-gutshof-sommer.webp','restaurant-musistadl-eingang.webp','Kinderspielplatz.jpg','Foto 24.07.26, 09 36 33(1).png','Foto 24.07.26, 09 36 34(1).png','Foto 24.07.26, 11 07 55(1).png','Foto 02.06.26, 12 01 02(3).jpg','lage.jpg'];
+    const gallery=document.querySelector('.gallery-full');
+    if(gallery){const current=[...gallery.querySelectorAll('[data-full]')];galleryImages.forEach((src,index)=>{let item=current[index];if(!item){item=document.createElement('button');item.type='button';gallery.append(item);item.addEventListener('click',()=>{const image=modal?.querySelector('img');if(image){image.src=item.dataset.full;modal.classList.add('open')}})}const path=`assets/images/${src}`;item.dataset.full=path;let img=item.querySelector('img');if(!img){img=document.createElement('img');img.loading='eager';img.decoding='async';item.append(img)}img.src=path;img.alt='Flachauer Alpenchalets'});current.slice(galleryImages.length).forEach(item=>item.remove())}
+  }
+})();
 
 function mountNewsletter(){
   const footer=document.querySelector('.site-footer');
@@ -364,3 +529,6 @@ function mountNewsletter(){
   lang(document.documentElement.lang);
 }
 mountNewsletter();
+
+/* Shared production polish for desktop and mobile. */
+if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260927-stable-1';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}

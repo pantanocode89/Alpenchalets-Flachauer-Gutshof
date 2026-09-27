@@ -2,6 +2,7 @@
 <!doctype html>
 <html lang="de">
 <head>
+  <base href="<?php echo esc_url(get_template_directory_uri()); ?>/">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Lage, Anreise und Umgebung der Flachauer Alpenchalets." data-content-de="Lage, Anreise und Umgebung der Flachauer Alpenchalets." data-content-en="Location, arrival and surroundings of Flachauer Alpenchalets." data-content-nl="Ligging, aankomst en omgeving van Flachauer Alpenchalets.">
@@ -43,7 +44,7 @@
 <div class="page-lang">
 <button data-lang="de">DE</button>
 <button data-lang="en">EN</button>
-<button data-lang="nl">NL</button>
+
 </div>
 </header>
 <main>

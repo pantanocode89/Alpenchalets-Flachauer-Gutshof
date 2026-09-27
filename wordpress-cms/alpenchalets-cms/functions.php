@@ -10,14 +10,17 @@ add_action('after_setup_theme','ac_setup');
 
 function ac_assets(){
   $uri=get_template_directory_uri();$ver=wp_get_theme()->get('Version');$slug=ac_page_slug();
+  wp_enqueue_script('ac-language-preload',$uri.'/language-preload.js',array(),$ver,false);
   wp_enqueue_style('ac-theme',get_stylesheet_uri(),array(),$ver);
-  if(is_front_page()){wp_enqueue_style('ac-main',$uri.'/styles.css',array('ac-theme'),$ver);wp_enqueue_script('ac-main',$uri.'/script.js',array(),$ver,true);$handle='ac-main';}
-  elseif(in_array($slug,array('chalet-4-zimmer','chalet-5-zimmer'),true)){wp_enqueue_style('ac-chalet',$uri.'/chalet-detail.css',array('ac-theme'),$ver);wp_enqueue_script('ac-chalet',$uri.'/chalet-detail.js',array(),$ver,true);$handle='ac-chalet';}
-  else{wp_enqueue_style('ac-page',$uri.'/page.css',array('ac-theme'),$ver);wp_enqueue_script('ac-page',$uri.'/page.js',array(),$ver,true);$handle='ac-page';}
+  wp_enqueue_style('ac-navigation',$uri.'/navigation-final.css',array('ac-theme'),$ver);
+  wp_enqueue_script('ac-cms-bridge',$uri.'/cms-bridge.js',array(),$ver,true);
+  if(is_front_page()){wp_enqueue_style('ac-main',$uri.'/styles.css',array('ac-theme'),$ver);wp_enqueue_script('ac-main',$uri.'/script.js',array('ac-cms-bridge'),$ver,true);$handle='ac-main';}
+  elseif(in_array($slug,array('chalet-4-zimmer','chalet-5-zimmer'),true)){wp_enqueue_style('ac-chalet',$uri.'/chalet-detail.css',array('ac-theme'),$ver);wp_enqueue_script('ac-chalet',$uri.'/chalet-detail.js',array('ac-cms-bridge'),$ver,true);$handle='ac-chalet';}
+  else{wp_enqueue_style('ac-page',$uri.'/page.css',array('ac-theme'),$ver);wp_enqueue_script('ac-page',$uri.'/page.js',array('ac-cms-bridge'),$ver,true);$handle='ac-page';}
   $allTexts=get_option('ac_cms_texts',array());$allMedia=get_option('ac_cms_media',array());
   $pageTexts=isset($allTexts[$slug])?$allTexts[$slug]:array();$pageMedia=isset($allMedia[$slug])?$allMedia[$slug]:array();
   $translationOverrides=get_option('ac_cms_translations',array());
-  $payload='window.acCmsData='.wp_json_encode(array('texts'=>$pageTexts,'media'=>$pageMedia,'global'=>get_option('ac_cms_global',array()))).';window.acCmsTranslations='.wp_json_encode($translationOverrides).';window.acNewsletterEndpoint='.wp_json_encode(admin_url('admin-post.php')).';';
+  $payload='window.acCmsData='.wp_json_encode(array('texts'=>$pageTexts,'media'=>$pageMedia,'global'=>get_option('ac_cms_global',array()))).';window.acCmsTranslations='.wp_json_encode($translationOverrides).';window.acNewsletterEndpoint='.wp_json_encode(admin_url('admin-post.php')).';window.acWordPressPage='.wp_json_encode(is_front_page()?'index.html':$slug.'.html').';window.acWordPressHomeUrl='.wp_json_encode(home_url('/')).';';
   wp_add_inline_script($handle,$payload,'before');
 }
 add_action('wp_enqueue_scripts','ac_assets');

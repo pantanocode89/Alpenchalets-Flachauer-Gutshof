@@ -2,6 +2,7 @@
 <!doctype html>
 <html lang="de">
 <head>
+  <base href="<?php echo esc_url(get_template_directory_uri()); ?>/">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Premium Alpenchalets in Flachau mit privater Sauna, Kamin, warmem Wohngefühl und viel Platz für Familien und Freunde." data-content-de="Premium Alpenchalets in Flachau mit privater Sauna, Kamin, warmem Wohngefühl und viel Platz für Familien und Freunde." data-content-en="Premium alpine chalets in Flachau with private sauna, fireplace, warm living atmosphere and plenty of space for families and friends." data-content-nl="Premium alpenchalets in Flachau met privésauna, open haard, warme sfeer en veel ruimte voor families en vrienden.">
@@ -28,7 +29,7 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class('is-loading'); ?>><?php wp_body_open(); ?>
-  <div class="site-intro" id="siteIntro" aria-label="Flachauer Alpenchalets"><div class="site-intro-inner"><img decoding="async" fetchpriority="high" class="site-intro-logo" data-cms-src-key="home_image_001" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/logo.jpg" alt="Flachauer Alpenchalets"><p>wohlf&uuml;hlen | genie&szlig;en</p><span class="intro-line"></span></div></div>
+  <div class="site-intro" id="siteIntro" aria-label="Flachauer Alpenchalets"><div class="site-intro-inner"><img decoding="async" fetchpriority="high" class="site-intro-logo" data-cms-src-key="home_image_001" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/logo.jpg" alt="Flachauer Alpenchalets"><svg class="intro-mountain" viewBox="0 0 320 82" aria-hidden="true" focusable="false"><path class="intro-mountain-path" pathLength="1" d="M4 67 C30 65 48 61 69 49 L92 29 L110 45 L143 13 L181 52 L204 35 L236 60 C259 65 284 66 316 67"/><path class="intro-mountain-glow" pathLength="1" d="M4 67 C30 65 48 61 69 49 L92 29 L110 45 L143 13 L181 52 L204 35 L236 60 C259 65 284 66 316 67"/></svg><p>Flachau <span aria-hidden="true">&middot;</span> Salzburger Land</p></div></div>
   <a class="skip-link" href="#main" data-cms-key="home_text_001" data-de="Zum Inhalt" data-en="Skip to content" data-nl="Naar inhoud">Zum Inhalt</a>
 
   <header class="site-header" id="siteHeader">
@@ -54,7 +55,6 @@
       <div class="language-switcher" aria-label="Sprache wählen">
         <button class="lang-btn active" data-lang="de" aria-label="Deutsch">DE</button>
         <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
-        <button class="lang-btn" data-lang="nl" aria-label="Nederlands">NL</button>
       </div></div>
   </header>
 

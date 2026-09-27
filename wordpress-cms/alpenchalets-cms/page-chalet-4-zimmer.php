@@ -2,6 +2,7 @@
 <!doctype html>
 <html lang="de">
 <head>
+  <base href="<?php echo esc_url(get_template_directory_uri()); ?>/">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Details zum 4-Zimmer-Chalet der Flachauer Alpenchalets." data-content-de="Details zum 4-Zimmer-Chalet der Flachauer Alpenchalets." data-content-en="Details about the 4-room chalet at Flachauer Alpenchalets." data-content-nl="Details over het 4-kamerchalet van Flachauer Alpenchalets.">
@@ -70,7 +71,6 @@
 <div class="language-switcher">
 <button class="lang-btn active" data-lang="de">DE</button>
 <button class="lang-btn" data-lang="en">EN</button>
-<button class="lang-btn" data-lang="nl">NL</button>
 </div>
 </div>
 </header>
