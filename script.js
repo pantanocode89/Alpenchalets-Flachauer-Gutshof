@@ -8,8 +8,8 @@
       setTimeout(() => intro.remove(), 900);
     }
   };
-  window.addEventListener('error', () => setTimeout(releaseIntro, 3600), {once:true});
-  setTimeout(releaseIntro, 6500);
+  window.addEventListener('error', () => setTimeout(releaseIntro, 1300), {once:true});
+  setTimeout(releaseIntro, 1300);
 })();
 function viennaSeason(){
   const parts=new Intl.DateTimeFormat('en-US',{timeZone:'Europe/Vienna',month:'numeric'}).formatToParts(new Date());
@@ -394,7 +394,7 @@ function closeIntro(immediate=false){
 function hasSeenIntro(){try{const internalArrival=document.referrer&&new URL(document.referrer).origin===location.origin;return !forceIntro&&(internalNavigation||internalArrival||sessionStorage.getItem(introKey)==='true'||window.name.includes(introKey))}catch{return !forceIntro}}
 function markIntroSeen(){try{sessionStorage.setItem(introKey,'true');if(!window.name.includes(introKey))window.name=`${window.name||''} ${introKey}`.trim()}catch{}}
 if(forceIntro)document.documentElement.classList.remove('intro-seen');
-if(!siteIntro||reduceMotion||hasSeenIntro()){closeIntro(true)}else{markIntroSeen();setTimeout(()=>closeIntro(false),3400)}
+if(!siteIntro||reduceMotion||hasSeenIntro()){closeIntro(true)}else{markIntroSeen();setTimeout(()=>closeIntro(false),1300)}
 updateButlerToggleLabel();
 
 
