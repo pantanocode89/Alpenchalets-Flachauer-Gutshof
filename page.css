@@ -73,7 +73,7 @@
 .modal.plan-modal img{max-width:98vw!important;max-height:94vh!important;width:auto!important;height:auto!important;background:transparent!important;box-shadow:none!important}
 
 /* Avoid expensive live blur and off-screen rendering on slower devices. */
-html{scroll-behavior:auto}.page-header{backdrop-filter:none;-webkit-backdrop-filter:none;background:#faf8f3}.section,.site-footer{content-visibility:auto;contain-intrinsic-size:auto 760px}@media(max-width:780px){.gallery-full img{transition:none}.gallery-full button:hover img{transform:none}}
+html{scroll-behavior:auto}.page-header{backdrop-filter:none;-webkit-backdrop-filter:none;background:#faf8f3}.section,.site-footer{content-visibility:visible;contain:none}@media(max-width:780px){.gallery-full img{transition:none}.gallery-full button:hover img{transform:none}}
 
 /* v2.2 transparent booking buttons and rotated plan preview */
 .btn.outline{background:rgba(255,255,255,.34);color:var(--green);border-color:var(--green)}

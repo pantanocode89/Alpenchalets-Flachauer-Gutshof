@@ -8,8 +8,8 @@
       setTimeout(() => intro.remove(), 900);
     }
   };
-  window.addEventListener('error', () => setTimeout(releaseIntro, 1300), {once:true});
-  setTimeout(releaseIntro, 1300);
+  window.addEventListener('error', () => setTimeout(releaseIntro, 3000), {once:true});
+  setTimeout(releaseIntro, 3000);
 })();
 function viennaSeason(){
   const parts=new Intl.DateTimeFormat('en-US',{timeZone:'Europe/Vienna',month:'numeric'}).formatToParts(new Date());
@@ -394,7 +394,7 @@ function closeIntro(immediate=false){
 function hasSeenIntro(){try{const internalArrival=document.referrer&&new URL(document.referrer).origin===location.origin;return !forceIntro&&(internalNavigation||internalArrival||sessionStorage.getItem(introKey)==='true'||window.name.includes(introKey))}catch{return !forceIntro}}
 function markIntroSeen(){try{sessionStorage.setItem(introKey,'true');if(!window.name.includes(introKey))window.name=`${window.name||''} ${introKey}`.trim()}catch{}}
 if(forceIntro)document.documentElement.classList.remove('intro-seen');
-if(!siteIntro||reduceMotion||hasSeenIntro()){closeIntro(true)}else{markIntroSeen();setTimeout(()=>closeIntro(false),1300)}
+if(!siteIntro||reduceMotion||hasSeenIntro()){closeIntro(true)}else{markIntroSeen();setTimeout(()=>closeIntro(false),3000)}
 updateButlerToggleLabel();
 
 
@@ -701,7 +701,7 @@ document.querySelectorAll('[data-chalet-carousel]').forEach(carousel=>{
   show(0);
 });
 
-if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260922-immediate-1';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}
+if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260927-stable-1';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}
 
 (function(){var slides=[{url:'assets/images/35314198-Original.jpg',position:'center 52%'},{url:'assets/images/Fischbacher_Chalet_innen_2017 (3).jpg',position:'center 50%'},{url:'assets/images/Fischbacher_Chalet_innen_2017 (13).jpg',position:'center 50%'}],hero=document.querySelector('.chalets-header');if(!hero||hero.dataset.slideshowReady||hero.dataset.slideshowLoading)return;hero.dataset.slideshowLoading='true';slides.forEach(function(data,index){var slide=document.createElement('span');slide.className='ac-header-slide'+(index===0?' active':'');slide.style.backgroundImage='url("'+data.url+'")';slide.style.backgroundPosition=data.position;slide.setAttribute('aria-hidden','true');hero.prepend(slide);});var started=false,start=function(){if(started)return;started=true;delete hero.dataset.slideshowLoading;hero.dataset.slideshowReady='true';hero.classList.add('ac-header-slideshow');hero.style.setProperty('background-image','none','important');var items=hero.querySelectorAll('.ac-header-slide'),current=items.length-1;window.setInterval(function(){items[current].classList.remove('active');current=(current+1)%items.length;items[current].classList.add('active');},2500);},first=new Image();first.onload=start;first.onerror=start;first.src=slides[0].url;if(first.complete)start();})();
 
