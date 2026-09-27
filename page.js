@@ -67,6 +67,22 @@ if(seasonalHero&&seasonalImage){
   seasonalHero.style.setProperty('background-image',`url("${seasonalImage}")`,'important');
   seasonalHero.dataset.season=activeSeason;
 }
+const warmedRoutes=new Set();
+function warmInternalRoute(link){
+  const raw=link.getAttribute('href');
+  if(!raw)return;
+  const url=new URL(raw,location.href);
+  if(url.origin!==location.origin||!url.pathname.endsWith('.html')||url.pathname===location.pathname)return;
+  const key=url.pathname+url.search+url.hash;
+  if(warmedRoutes.has(key))return;
+  warmedRoutes.add(key);
+  const page=document.createElement('link');page.rel='prefetch';page.as='document';page.href=url.href;document.head.append(page);
+  const image=seasonalHeroes[url.pathname.split('/').pop()]?.[activeSeason];
+  if(image){const hero=new Image();hero.src=image}
+}
+document.addEventListener('pointerover',event=>{const link=event.target.closest?.('a[href]');if(link)warmInternalRoute(link)},{passive:true});
+document.addEventListener('focusin',event=>{const link=event.target.closest?.('a[href]');if(link)warmInternalRoute(link)});
+document.addEventListener('touchstart',event=>{const link=event.target.closest?.('a[href]');if(link)warmInternalRoute(link)},{passive:true});
 if(seasonalPage==='lage.html'){
   const lageplan=document.querySelector('[data-seasonal-lageplan]');
   const winterPlan=activeSeason==='winter';
