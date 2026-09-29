@@ -2,72 +2,6 @@
   "title": "Lage & Anfahrt",
   "texts": [
     {
-      "id": "lage-text-001",
-      "label": "Home",
-      "de": "Home",
-      "en": "Home"
-    },
-    {
-      "id": "lage-text-002",
-      "label": "Unsere Chalets",
-      "de": "Unsere Chalets",
-      "en": "Our Chalets"
-    },
-    {
-      "id": "lage-text-003",
-      "label": "Sommer",
-      "de": "Sommer",
-      "en": "Summer"
-    },
-    {
-      "id": "lage-text-004",
-      "label": "Winter",
-      "de": "Winter",
-      "en": "Winter"
-    },
-    {
-      "id": "lage-text-005",
-      "label": "Komfort",
-      "de": "Komfort",
-      "en": "Comfort"
-    },
-    {
-      "id": "lage-text-006",
-      "label": "Restaurant",
-      "de": "Restaurant",
-      "en": "Restaurant"
-    },
-    {
-      "id": "lage-text-007",
-      "label": "Galerie",
-      "de": "Galerie",
-      "en": "Gallery"
-    },
-    {
-      "id": "lage-text-008",
-      "label": "Lage & Anfahrt",
-      "de": "Lage & Anfahrt",
-      "en": "Location"
-    },
-    {
-      "id": "lage-text-009",
-      "label": "Urlaubsanfrage",
-      "de": "Urlaubsanfrage",
-      "en": "Enquiry"
-    },
-    {
-      "id": "lage-text-010",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
-    },
-    {
-      "id": "lage-text-011",
-      "label": "Kontakt",
-      "de": "Kontakt",
-      "en": "Contact"
-    },
-    {
       "id": "lage-text-012",
       "label": "Lage",
       "de": "Lage",
@@ -450,69 +384,24 @@
       "label": "Zu Fuß oder mit dem Auto",
       "de": "Zu Fuß oder mit dem Auto",
       "en": "On foot or by car"
-    },
-    {
-      "id": "lage-text-076",
-      "label": "wohlfühlen | genießen",
-      "de": "wohlfühlen | genießen",
-      "en": "feel good | enjoy"
-    },
-    {
-      "id": "lage-text-077",
-      "label": "Flachau Salzburger Land Österreich",
-      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
-      "en": "Flachau &middot; Salzburger Land &middot; Austria"
-    },
-    {
-      "id": "lage-text-078",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
-    },
-    {
-      "id": "lage-text-079",
-      "label": "Impressum",
-      "de": "Impressum",
-      "en": "Legal notice"
-    },
-    {
-      "id": "lage-text-080",
-      "label": "Datenschutz",
-      "de": "Datenschutz",
-      "en": "Privacy policy"
     }
   ],
   "translations": [],
   "media": [
     {
-      "id": "lage-image-001",
-      "label": "Bild 2: logo-transparent.png",
-      "image": "assets/images/logo-transparent.png"
-    },
-    {
       "id": "lage-image-002",
-      "label": "Bild 3: lageplan-sommer-2026-landscape.png",
+      "label": "Bild 1",
       "image": "assets/images/lageplan-sommer-2026-landscape.png"
     },
     {
       "id": "lage-image-003",
-      "label": "Bild 4: direkt-an-der-piste.jpg",
+      "label": "Bild 2",
       "image": "assets/images/direkt-an-der-piste.jpg"
     },
     {
       "id": "lage-image-004",
-      "label": "Bild 5: lageplan-sommer-2026-landscape.png",
+      "label": "Bild 3",
       "image": "assets/images/lageplan-sommer-2026-landscape.png"
-    },
-    {
-      "id": "lage-image-005",
-      "label": "Bild 6: logo.jpg",
-      "image": "assets/images/logo.jpg"
-    },
-    {
-      "id": "lage-image-006",
-      "label": "Bild 7: panta-studios-mark-black.png",
-      "image": "assets/images/panta-studios-mark-black.png"
     }
   ],
   "links": [

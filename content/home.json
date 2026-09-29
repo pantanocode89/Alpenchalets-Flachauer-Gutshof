@@ -8,12 +8,6 @@
       "en": "Skip to content"
     },
     {
-      "id": "home-text-002",
-      "label": "Urlaubsanfrage",
-      "de": "Urlaubsanfrage",
-      "en": "Enquiry"
-    },
-    {
       "id": "home-text-003",
       "label": "Ihr Urlaub beginnt hier",
       "de": "Ihr Urlaub beginnt hier",
@@ -158,12 +152,6 @@
       "en": "Our accommodation"
     },
     {
-      "id": "home-text-027",
-      "label": "Unsere Chalets",
-      "de": "Unsere Chalets",
-      "en": "Our Chalets"
-    },
-    {
       "id": "home-text-028",
       "label": "Gemütliche Rückzugsorte für kleine und große Gruppen – mit viel Platz zum Ankommen und W",
       "de": "Gemütliche Rückzugsorte für kleine und große Gruppen – mit viel Platz zum Ankommen und Wohlfühlen.",
@@ -228,12 +216,6 @@
       "label": "Google Maps laden",
       "de": "Google Maps laden",
       "en": "Load Google Maps"
-    },
-    {
-      "id": "home-text-039",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
     },
     {
       "id": "home-text-040",
@@ -348,30 +330,6 @@
       "label": "Alle echten Bewertungen auf Booking.com",
       "de": "Alle echten Bewertungen auf Booking.com",
       "en": "See all verified reviews on Booking.com"
-    },
-    {
-      "id": "home-text-059",
-      "label": "Flachau Salzburger Land Österreich",
-      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
-      "en": "Flachau &middot; Salzburger Land &middot; Austria"
-    },
-    {
-      "id": "home-text-060",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
-    },
-    {
-      "id": "home-text-061",
-      "label": "Impressum",
-      "de": "Impressum",
-      "en": "Legal notice"
-    },
-    {
-      "id": "home-text-062",
-      "label": "Datenschutz",
-      "de": "Datenschutz",
-      "en": "Privacy policy"
     },
     {
       "id": "home-text-063",
@@ -990,159 +948,134 @@
   ],
   "media": [
     {
-      "id": "home-image-001",
-      "label": "Bild 2: logo.jpg",
-      "image": "assets/images/logo.jpg"
-    },
-    {
-      "id": "home-image-002",
-      "label": "Bild 3: logo-transparent.png",
-      "image": "assets/images/logo-transparent.png"
-    },
-    {
       "id": "home-image-003",
-      "label": "Bild 4: Fischbacher_Chalet_innen_2017-(11).jpg",
+      "label": "Bild 1",
       "image": "assets/images/Fischbacher_Chalet_innen_2017-(11).jpg"
     },
     {
       "id": "home-image-004",
-      "label": "Bild 5: ChatGPT-Image-16.-Sept.-2026,-13_13_45.png",
+      "label": "Bild 2",
       "image": "assets/images/ChatGPT-Image-16.-Sept.-2026,-13_13_45.png"
     },
     {
       "id": "home-image-005",
-      "label": "Bild 6: Zentrale-Lage.jpg",
+      "label": "Bild 3",
       "image": "assets/images/Zentrale-Lage.jpg"
     },
     {
       "id": "home-image-006",
-      "label": "Bild 7: award-sunweb-2017.webp",
+      "label": "Bild 4",
       "image": "assets/images/award-sunweb-2017.webp"
     },
     {
       "id": "home-image-007",
-      "label": "Bild 8: membership-top-of-the-mountains.webp",
+      "label": "Bild 5",
       "image": "assets/images/membership-top-of-the-mountains.webp"
     },
     {
       "id": "home-image-008",
-      "label": "Bild 9: Grundriss-Alpenschalet-Typ1-EG+OG.jpg",
+      "label": "Bild 6",
       "image": "assets/images/Grundriss-Alpenschalet-Typ1-EG+OG.jpg"
     },
     {
       "id": "home-image-009",
-      "label": "Bild 10: 35314194-Original.jpg",
+      "label": "Bild 7",
       "image": "assets/images/35314194-Original.jpg"
     },
     {
       "id": "home-image-010",
-      "label": "Bild 11: 35314198-Original.jpg",
+      "label": "Bild 8",
       "image": "assets/images/35314198-Original.jpg"
     },
     {
       "id": "home-image-011",
-      "label": "Bild 12: 35314200-Original.jpg",
+      "label": "Bild 9",
       "image": "assets/images/35314200-Original.jpg"
     },
     {
       "id": "home-image-012",
-      "label": "Bild 13: 3075035-Original.jpg",
+      "label": "Bild 10",
       "image": "assets/images/3075035-Original.jpg"
     },
     {
       "id": "home-image-013",
-      "label": "Bild 14: Grundriss-Alpenschalet-Typ2-EG+OG.jpg",
+      "label": "Bild 11",
       "image": "assets/images/Grundriss-Alpenschalet-Typ2-EG+OG.jpg"
     },
     {
       "id": "home-image-014",
-      "label": "Bild 15: 35314199-Original.jpg",
+      "label": "Bild 12",
       "image": "assets/images/35314199-Original.jpg"
     },
     {
       "id": "home-image-015",
-      "label": "Bild 16: Chalet_innen.jpg",
+      "label": "Bild 13",
       "image": "assets/images/Chalet_innen.jpg"
     },
     {
       "id": "home-image-016",
-      "label": "Bild 17: 3075039-Original.jpg",
+      "label": "Bild 14",
       "image": "assets/images/3075039-Original.jpg"
     },
     {
       "id": "home-image-017",
-      "label": "Bild 18: 3075049-Original.jpg",
+      "label": "Bild 15",
       "image": "assets/images/3075049-Original.jpg"
     },
     {
       "id": "home-image-018",
-      "label": "Bild 19: 1.jpg",
+      "label": "Bild 16",
       "image": "assets/images/1.jpg"
     },
     {
       "id": "home-image-019",
-      "label": "Bild 20: restaurant-gutshof-sommer.webp",
+      "label": "Bild 17",
       "image": "assets/images/restaurant-gutshof-sommer.webp"
     },
     {
       "id": "home-image-020",
-      "label": "Bild 21: restaurant-musistadl-eingang.webp",
+      "label": "Bild 18",
       "image": "assets/images/restaurant-musistadl-eingang.webp"
     },
     {
       "id": "home-image-021",
-      "label": "Bild 22: Flachauer Gutshof_September_2k25_print-37.jpg",
+      "label": "Bild 19",
       "image": "assets/images/Flachauer Gutshof_September_2k25_print-37.jpg"
     },
     {
       "id": "home-image-022",
-      "label": "Bild 23: exterior-wide.webp",
+      "label": "Bild 20",
       "image": "assets/images/exterior-wide.webp"
     },
     {
       "id": "home-image-023",
-      "label": "Bild 24: Fischbacher_Chalet_innen_2017-(11).jpg",
+      "label": "Bild 21",
       "image": "assets/images/Fischbacher_Chalet_innen_2017-(11).jpg"
     },
     {
       "id": "home-image-024",
-      "label": "Bild 25: 25-flachau-sommer-wandern-berge-18.jpg",
+      "label": "Bild 22",
       "image": "assets/images/25-flachau-sommer-wandern-berge-18.jpg"
     },
     {
       "id": "home-image-025",
-      "label": "Bild 26: winter-page-hero.jpg",
+      "label": "Bild 23",
       "image": "assets/images/winter-page-hero.jpg"
     },
     {
       "id": "home-image-026",
-      "label": "Bild 27: Flachauer-Gutshof_September_2k25_print-48.jpg",
+      "label": "Bild 24",
       "image": "assets/images/Flachauer-Gutshof_September_2k25_print-48.jpg"
     },
     {
       "id": "home-image-027",
-      "label": "Bild 28: Kinderspielplatz.jpg",
+      "label": "Bild 25",
       "image": "assets/images/Kinderspielplatz.jpg"
     },
     {
       "id": "home-image-028",
-      "label": "Bild 29: lageplan-sommer-2026-landscape.png",
+      "label": "Bild 26",
       "image": "assets/images/lageplan-sommer-2026-landscape.png"
-    },
-    {
-      "id": "home-image-029",
-      "label": "Bild 30: logo.jpg",
-      "image": "assets/images/logo.jpg"
-    },
-    {
-      "id": "home-image-030",
-      "label": "Bild 31: panta-studios-mark-black.png",
-      "image": "assets/images/panta-studios-mark-black.png"
-    },
-    {
-      "id": "home-image-031",
-      "label": "Bild 32: panta-studios-mark-black.png",
-      "image": "assets/images/panta-studios-mark-black.png"
     }
   ],
   "links": [

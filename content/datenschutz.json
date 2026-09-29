@@ -2,82 +2,10 @@
   "title": "Datenschutz",
   "texts": [
     {
-      "id": "datenschutz-text-001",
-      "label": "Home",
-      "de": "Home",
-      "en": "Home"
-    },
-    {
-      "id": "datenschutz-text-002",
-      "label": "Unsere Chalets",
-      "de": "Unsere Chalets",
-      "en": "Our Chalets"
-    },
-    {
-      "id": "datenschutz-text-003",
-      "label": "Sommer",
-      "de": "Sommer",
-      "en": "Summer"
-    },
-    {
-      "id": "datenschutz-text-004",
-      "label": "Winter",
-      "de": "Winter",
-      "en": "Winter"
-    },
-    {
-      "id": "datenschutz-text-005",
-      "label": "Komfort",
-      "de": "Komfort",
-      "en": "Comfort"
-    },
-    {
-      "id": "datenschutz-text-006",
-      "label": "Restaurant",
-      "de": "Restaurant",
-      "en": "Restaurant"
-    },
-    {
-      "id": "datenschutz-text-007",
-      "label": "Galerie",
-      "de": "Galerie",
-      "en": "Gallery"
-    },
-    {
-      "id": "datenschutz-text-008",
-      "label": "Lage & Anfahrt",
-      "de": "Lage & Anfahrt",
-      "en": "Location"
-    },
-    {
-      "id": "datenschutz-text-009",
-      "label": "Urlaubsanfrage",
-      "de": "Urlaubsanfrage",
-      "en": "Enquiry"
-    },
-    {
-      "id": "datenschutz-text-010",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
-    },
-    {
-      "id": "datenschutz-text-011",
-      "label": "Kontakt",
-      "de": "Kontakt",
-      "en": "Contact"
-    },
-    {
       "id": "datenschutz-text-012",
       "label": "Rechtliches",
       "de": "Rechtliches",
       "en": "Legal"
-    },
-    {
-      "id": "datenschutz-text-013",
-      "label": "Datenschutz",
-      "de": "Datenschutz",
-      "en": "Privacy policy"
     },
     {
       "id": "datenschutz-text-014",
@@ -228,51 +156,10 @@
       "label": "Stand: Juli 2026",
       "de": "Stand: Juli 2026",
       "en": "Last updated: July 2026"
-    },
-    {
-      "id": "datenschutz-text-039",
-      "label": "wohlfühlen | genießen",
-      "de": "wohlfühlen | genießen",
-      "en": "feel good | enjoy"
-    },
-    {
-      "id": "datenschutz-text-040",
-      "label": "Flachau Salzburger Land Österreich",
-      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
-      "en": "Flachau &middot; Salzburger Land &middot; Austria"
-    },
-    {
-      "id": "datenschutz-text-041",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
-    },
-    {
-      "id": "datenschutz-text-042",
-      "label": "Impressum",
-      "de": "Impressum",
-      "en": "Legal notice"
-    },
-    {
-      "id": "datenschutz-text-043",
-      "label": "Datenschutz",
-      "de": "Datenschutz",
-      "en": "Privacy policy"
     }
   ],
   "translations": [],
-  "media": [
-    {
-      "id": "datenschutz-image-001",
-      "label": "Bild 2: logo.jpg",
-      "image": "assets/images/logo.jpg"
-    },
-    {
-      "id": "datenschutz-image-002",
-      "label": "Bild 3: panta-studios-mark-black.png",
-      "image": "assets/images/panta-studios-mark-black.png"
-    }
-  ],
+  "media": [],
   "links": [
     {
       "id": "datenschutz-url-001",

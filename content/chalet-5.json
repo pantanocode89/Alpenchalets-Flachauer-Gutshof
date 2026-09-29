@@ -8,18 +8,6 @@
       "en": "Skip to content"
     },
     {
-      "id": "chalet-5-text-002",
-      "label": "Lage & Anfahrt",
-      "de": "Lage & Anfahrt",
-      "en": "Location"
-    },
-    {
-      "id": "chalet-5-text-003",
-      "label": "Urlaubsanfrage",
-      "de": "Urlaubsanfrage",
-      "en": "Enquiry"
-    },
-    {
       "id": "chalet-5-text-004",
       "label": "Auch interessant",
       "de": "Auch interessant",
@@ -36,36 +24,6 @@
       "label": "4-Zimmer-Chalet ansehen →",
       "de": "4-Zimmer-Chalet ansehen →",
       "en": "View the 4-room chalet →"
-    },
-    {
-      "id": "chalet-5-text-007",
-      "label": "Flachau Salzburger Land Österreich",
-      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
-      "en": "Flachau &middot; Salzburger Land &middot; Austria"
-    },
-    {
-      "id": "chalet-5-text-008",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
-    },
-    {
-      "id": "chalet-5-text-009",
-      "label": "Impressum",
-      "de": "Impressum",
-      "en": "Legal notice"
-    },
-    {
-      "id": "chalet-5-text-010",
-      "label": "Datenschutz",
-      "de": "Datenschutz",
-      "en": "Privacy policy"
-    },
-    {
-      "id": "chalet-5-text-011",
-      "label": "Newsletter",
-      "de": "Newsletter",
-      "en": "Newsletter"
     }
   ],
   "translations": [
@@ -492,49 +450,34 @@
   ],
   "media": [
     {
-      "id": "chalet-5-image-001",
-      "label": "Bild 2: logo-transparent.png",
-      "image": "assets/images/logo-transparent.png"
-    },
-    {
       "id": "chalet-5-image-002",
-      "label": "Bild 3: exterior-main.webp",
+      "label": "Bild 1",
       "image": "assets/images/exterior-main.webp"
     },
     {
       "id": "chalet-5-image-003",
-      "label": "Bild 4: bedroom-main.webp",
+      "label": "Bild 2",
       "image": "assets/images/bedroom-main.webp"
     },
     {
       "id": "chalet-5-image-004",
-      "label": "Bild 5: bathroom-sauna.webp",
+      "label": "Bild 3",
       "image": "assets/images/bathroom-sauna.webp"
     },
     {
       "id": "chalet-5-image-005",
-      "label": "Bild 6: living.webp",
+      "label": "Bild 4",
       "image": "assets/images/living.webp"
     },
     {
       "id": "chalet-5-image-006",
-      "label": "Bild 7: kitchen.webp",
+      "label": "Bild 5",
       "image": "assets/images/kitchen.webp"
     },
     {
       "id": "chalet-5-image-007",
-      "label": "Bild 8: Grundriss-Alpenschalet-Typ2-EG+OG.jpg",
+      "label": "Bild 6",
       "image": "assets/images/Grundriss-Alpenschalet-Typ2-EG+OG.jpg"
-    },
-    {
-      "id": "chalet-5-image-008",
-      "label": "Bild 9: logo.jpg",
-      "image": "assets/images/logo.jpg"
-    },
-    {
-      "id": "chalet-5-image-009",
-      "label": "Bild 10: panta-studios-mark-black.png",
-      "image": "assets/images/panta-studios-mark-black.png"
     }
   ],
   "links": [

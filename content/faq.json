@@ -2,72 +2,6 @@
   "title": "FAQ",
   "texts": [
     {
-      "id": "faq-text-001",
-      "label": "Home",
-      "de": "Home",
-      "en": "Home"
-    },
-    {
-      "id": "faq-text-002",
-      "label": "Unsere Chalets",
-      "de": "Unsere Chalets",
-      "en": "Our Chalets"
-    },
-    {
-      "id": "faq-text-003",
-      "label": "Sommer",
-      "de": "Sommer",
-      "en": "Summer"
-    },
-    {
-      "id": "faq-text-004",
-      "label": "Winter",
-      "de": "Winter",
-      "en": "Winter"
-    },
-    {
-      "id": "faq-text-005",
-      "label": "Komfort",
-      "de": "Komfort",
-      "en": "Comfort"
-    },
-    {
-      "id": "faq-text-006",
-      "label": "Restaurant",
-      "de": "Restaurant",
-      "en": "Restaurant"
-    },
-    {
-      "id": "faq-text-007",
-      "label": "Galerie",
-      "de": "Galerie",
-      "en": "Gallery"
-    },
-    {
-      "id": "faq-text-008",
-      "label": "Lage & Anfahrt",
-      "de": "Lage & Anfahrt",
-      "en": "Location"
-    },
-    {
-      "id": "faq-text-009",
-      "label": "Urlaubsanfrage",
-      "de": "Urlaubsanfrage",
-      "en": "Enquiry"
-    },
-    {
-      "id": "faq-text-010",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
-    },
-    {
-      "id": "faq-text-011",
-      "label": "Kontakt",
-      "de": "Kontakt",
-      "en": "Contact"
-    },
-    {
       "id": "faq-text-012",
       "label": "Gut vorbereitet ankommen",
       "de": "Gut vorbereitet ankommen",
@@ -318,51 +252,10 @@
       "label": "In Österreich gelten unter anderem 144 für Rettung, 122 für Feuerwehr, 133 für Polizei, ",
       "de": "In Österreich gelten unter anderem 144 für Rettung, 122 für Feuerwehr, 133 für Polizei, 141 für Ärztenotdienst und 112 als Euronotruf.",
       "en": "In Austria, key emergency numbers include 144 for ambulance, 122 for fire brigade, 133 for police, 141 for out-of-hours medical service and 112 as the European emergency number."
-    },
-    {
-      "id": "faq-text-054",
-      "label": "wohlfühlen | genießen",
-      "de": "wohlfühlen | genießen",
-      "en": "feel good | enjoy"
-    },
-    {
-      "id": "faq-text-055",
-      "label": "Flachau Salzburger Land Österreich",
-      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
-      "en": "Flachau &middot; Salzburger Land &middot; Austria"
-    },
-    {
-      "id": "faq-text-056",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
-    },
-    {
-      "id": "faq-text-057",
-      "label": "Impressum",
-      "de": "Impressum",
-      "en": "Legal notice"
-    },
-    {
-      "id": "faq-text-058",
-      "label": "Datenschutz",
-      "de": "Datenschutz",
-      "en": "Privacy policy"
     }
   ],
   "translations": [],
-  "media": [
-    {
-      "id": "faq-image-001",
-      "label": "Bild 2: logo.jpg",
-      "image": "assets/images/logo.jpg"
-    },
-    {
-      "id": "faq-image-002",
-      "label": "Bild 3: panta-studios-mark-black.png",
-      "image": "assets/images/panta-studios-mark-black.png"
-    }
-  ],
+  "media": [],
   "links": [
     {
       "id": "faq-url-001",

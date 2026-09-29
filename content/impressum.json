@@ -2,82 +2,10 @@
   "title": "Impressum",
   "texts": [
     {
-      "id": "impressum-text-001",
-      "label": "Home",
-      "de": "Home",
-      "en": "Home"
-    },
-    {
-      "id": "impressum-text-002",
-      "label": "Unsere Chalets",
-      "de": "Unsere Chalets",
-      "en": "Our Chalets"
-    },
-    {
-      "id": "impressum-text-003",
-      "label": "Sommer",
-      "de": "Sommer",
-      "en": "Summer"
-    },
-    {
-      "id": "impressum-text-004",
-      "label": "Winter",
-      "de": "Winter",
-      "en": "Winter"
-    },
-    {
-      "id": "impressum-text-005",
-      "label": "Komfort",
-      "de": "Komfort",
-      "en": "Comfort"
-    },
-    {
-      "id": "impressum-text-006",
-      "label": "Restaurant",
-      "de": "Restaurant",
-      "en": "Restaurant"
-    },
-    {
-      "id": "impressum-text-007",
-      "label": "Galerie",
-      "de": "Galerie",
-      "en": "Gallery"
-    },
-    {
-      "id": "impressum-text-008",
-      "label": "Lage & Anfahrt",
-      "de": "Lage & Anfahrt",
-      "en": "Location"
-    },
-    {
-      "id": "impressum-text-009",
-      "label": "Urlaubsanfrage",
-      "de": "Urlaubsanfrage",
-      "en": "Enquiry"
-    },
-    {
-      "id": "impressum-text-010",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
-    },
-    {
-      "id": "impressum-text-011",
-      "label": "Kontakt",
-      "de": "Kontakt",
-      "en": "Contact"
-    },
-    {
       "id": "impressum-text-012",
       "label": "Rechtliches",
       "de": "Rechtliches",
       "en": "Legal"
-    },
-    {
-      "id": "impressum-text-013",
-      "label": "Impressum",
-      "de": "Impressum",
-      "en": "Legal notice"
     },
     {
       "id": "impressum-text-014",
@@ -236,12 +164,6 @@
       "en": "The content of this website is prepared with care and reviewed regularly. Nevertheless, no guarantee can be given for its accuracy, completeness or timeliness. This website contains links to external websites whose content and design are beyond our control. We are liable for unlawful content on linked pages only within the limits of applicable law. If we become aware of specific legal infringements, the affected links will be reviewed and removed."
     },
     {
-      "id": "impressum-text-040",
-      "label": "Datenschutz",
-      "de": "Datenschutz",
-      "en": "Privacy"
-    },
-    {
       "id": "impressum-text-041",
       "label": "Informationen zur Verarbeitung personenbezogener Daten sowie zu Google Maps, Kontaktanfr",
       "de": "Informationen zur Verarbeitung personenbezogener Daten sowie zu Google Maps, Kontaktanfragen und externen Diensten finden Sie in unserer Datenschutzerklärung.",
@@ -252,51 +174,10 @@
       "label": "Stand: August 2026",
       "de": "Stand: August 2026",
       "en": "Last updated: August 2026"
-    },
-    {
-      "id": "impressum-text-043",
-      "label": "wohlfühlen | genießen",
-      "de": "wohlfühlen | genießen",
-      "en": "feel good | enjoy"
-    },
-    {
-      "id": "impressum-text-044",
-      "label": "Flachau Salzburger Land Österreich",
-      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
-      "en": "Flachau &middot; Salzburger Land &middot; Austria"
-    },
-    {
-      "id": "impressum-text-045",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
-    },
-    {
-      "id": "impressum-text-046",
-      "label": "Impressum",
-      "de": "Impressum",
-      "en": "Legal notice"
-    },
-    {
-      "id": "impressum-text-047",
-      "label": "Datenschutz",
-      "de": "Datenschutz",
-      "en": "Privacy policy"
     }
   ],
   "translations": [],
-  "media": [
-    {
-      "id": "impressum-image-001",
-      "label": "Bild 2: logo.jpg",
-      "image": "assets/images/logo.jpg"
-    },
-    {
-      "id": "impressum-image-002",
-      "label": "Bild 3: panta-studios-mark-black.png",
-      "image": "assets/images/panta-studios-mark-black.png"
-    }
-  ],
+  "media": [],
   "links": [
     {
       "id": "impressum-url-001",

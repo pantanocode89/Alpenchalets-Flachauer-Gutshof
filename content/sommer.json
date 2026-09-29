@@ -2,72 +2,6 @@
   "title": "Sommer",
   "texts": [
     {
-      "id": "sommer-text-001",
-      "label": "Home",
-      "de": "Home",
-      "en": "Home"
-    },
-    {
-      "id": "sommer-text-002",
-      "label": "Unsere Chalets",
-      "de": "Unsere Chalets",
-      "en": "Our Chalets"
-    },
-    {
-      "id": "sommer-text-003",
-      "label": "Sommer",
-      "de": "Sommer",
-      "en": "Summer"
-    },
-    {
-      "id": "sommer-text-004",
-      "label": "Winter",
-      "de": "Winter",
-      "en": "Winter"
-    },
-    {
-      "id": "sommer-text-005",
-      "label": "Komfort",
-      "de": "Komfort",
-      "en": "Comfort"
-    },
-    {
-      "id": "sommer-text-006",
-      "label": "Restaurant",
-      "de": "Restaurant",
-      "en": "Restaurant"
-    },
-    {
-      "id": "sommer-text-007",
-      "label": "Galerie",
-      "de": "Galerie",
-      "en": "Gallery"
-    },
-    {
-      "id": "sommer-text-008",
-      "label": "Lage & Anfahrt",
-      "de": "Lage & Anfahrt",
-      "en": "Location"
-    },
-    {
-      "id": "sommer-text-009",
-      "label": "Urlaubsanfrage",
-      "de": "Urlaubsanfrage",
-      "en": "Enquiry"
-    },
-    {
-      "id": "sommer-text-010",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
-    },
-    {
-      "id": "sommer-text-011",
-      "label": "Kontakt",
-      "de": "Kontakt",
-      "en": "Contact"
-    },
-    {
       "id": "sommer-text-012",
       "label": "Sommer in Flachau",
       "de": "Sommer in Flachau",
@@ -180,74 +114,34 @@
       "label": "Sommer Card Aktivitäten ansehen (PDF) ↗",
       "de": "Sommer Card Aktivitäten ansehen (PDF) ↗",
       "en": "View Summer Card activities (PDF) ↗"
-    },
-    {
-      "id": "sommer-text-031",
-      "label": "wohlfühlen | genießen",
-      "de": "wohlfühlen | genießen",
-      "en": "feel good | enjoy"
-    },
-    {
-      "id": "sommer-text-032",
-      "label": "Flachau Salzburger Land Österreich",
-      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
-      "en": "Flachau &middot; Salzburger Land &middot; Austria"
-    },
-    {
-      "id": "sommer-text-033",
-      "label": "FAQ",
-      "de": "FAQ",
-      "en": "FAQ"
-    },
-    {
-      "id": "sommer-text-034",
-      "label": "Impressum",
-      "de": "Impressum",
-      "en": "Legal notice"
-    },
-    {
-      "id": "sommer-text-035",
-      "label": "Datenschutz",
-      "de": "Datenschutz",
-      "en": "Privacy policy"
     }
   ],
   "translations": [],
   "media": [
     {
       "id": "sommer-image-001",
-      "label": "Bild 2: exterior-wide.webp",
+      "label": "Bild 1",
       "image": "assets/images/exterior-wide.webp"
     },
     {
       "id": "sommer-image-002",
-      "label": "Bild 3: 18-flachau-sommer-card-beach-volleyball-1.jpg",
+      "label": "Bild 2",
       "image": "assets/images/18-flachau-sommer-card-beach-volleyball-1.jpg"
     },
     {
       "id": "sommer-image-003",
-      "label": "Bild 4: 18-flachau-sommer-card-erlebniswandern-1.jpg",
+      "label": "Bild 3",
       "image": "assets/images/18-flachau-sommer-card-erlebniswandern-1.jpg"
     },
     {
       "id": "sommer-image-004",
-      "label": "Bild 5: 18-flachau-sommer-card-kinderspiel-foot-darts-1.jpg",
+      "label": "Bild 4",
       "image": "assets/images/18-flachau-sommer-card-kinderspiel-foot-darts-1.jpg"
     },
     {
       "id": "sommer-image-005",
-      "label": "Bild 6: 18-flachau-sommer-card-lagerfeuer-1.jpg",
+      "label": "Bild 5",
       "image": "assets/images/18-flachau-sommer-card-lagerfeuer-1.jpg"
-    },
-    {
-      "id": "sommer-image-006",
-      "label": "Bild 7: logo.jpg",
-      "image": "assets/images/logo.jpg"
-    },
-    {
-      "id": "sommer-image-007",
-      "label": "Bild 8: panta-studios-mark-black.png",
-      "image": "assets/images/panta-studios-mark-black.png"
     }
   ],
   "links": [
