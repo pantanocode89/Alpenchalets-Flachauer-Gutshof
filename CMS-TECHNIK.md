@@ -1,9 +1,9 @@
 # CMS-Technik
 
-Der öffentliche Auftritt bleibt eine statische GitHub-Pages-Seite. `/admin/` lädt Decap CMS ausschließlich dort. Die bearbeitbaren JSON-Dateien liegen in `content/`; geschützte HTML-, CSS- und JavaScript-Struktur bleibt außerhalb der CMS-Formulare.
+Der öffentliche Auftritt bleibt eine statische GitHub-Pages-Seite. Decap CMS wird ausschließlich unter `/admin/` geladen. Die bearbeitbaren JSON-Dateien liegen in `content/`; die CMS-Konfiguration stellt ausschließlich DE- und EN-Inhalte bereit.
 
-`cms-content.js` liest für die aktuelle Seite ihren JSON-Inhalt und wendet ausschließlich Text-, Bild- und URL-Werte an. Es kann weder Klassen, IDs, CSS noch JavaScript aus den Daten übernehmen. `admin/config.yml` definiert nur DE- und EN-Felder und speichert Medien unter `assets/images`.
+`cms-content.js` lädt pro Seite genau zwei kleine JSON-Dateien: `content/global.json` und den Seitendatensatz. Der Abruf erfolgt mit `fetch`, nie mit synchronem XHR. Während der Abruf läuft, verhindert ein kurzer Sichtbarkeits-Schutz falschen Sprach- oder Inhalts-Flash. `cms-bootstrap.js` startet anschließend deterministisch genau das vorhandene geschützte Seitenskript (`script.js`, `page.js` oder `chalet-detail.js`). Dadurch initialisieren Galerien, Forms und Slideshows erst nach Anwendung der CMS-Daten und ohne Zeit-Timeouts.
 
-Zum Hinzufügen eines neuen editierbaren Feldes wird das Element mit einer stabilen `data-cms-*`-Kennung versehen, der Datensatz in der passenden `content/*.json`-Datei ergänzt und anschließend ein deutsches Formularfeld in `admin/config.yml` ergänzt. Kein raw HTML, CSS oder JavaScript als CMS-Feld anlegen.
+Der Runtime-Code übernimmt nur Text, Bild-URLs und Inhaltslinks über feste `data-cms-*`-Kennungen. Er kann keine Klassen, IDs, CSS oder JavaScript aus CMS-Daten übernehmen. Slideshows erhalten ausschließlich Bildlisten; Intervall, Übergang und responsive Verhalten verbleiben im geschützten Frontend.
 
-Bei Slideshows werden ausschließlich Bildlisten bearbeitet. Intervall, Übergang, responsive Regeln und der jeweilige JavaScript-Mechanismus bleiben im geschützten Frontend-Code. Für Login und GitHub-Backend siehe `CMS-ANLEITUNG.md`.
+Die GitHub-Anmeldung braucht für eine statische Seite einen externen OAuth-Proxy. Die Konfiguration verwendet den Decap-GitHub-Backend ohne `publish_mode: editorial_workflow`, damit ein berechtigter Besitzer direkt nach `main` veröffentlichen kann. Der OAuth-Proxy, Callback und alle Credentials werden außerhalb dieses öffentlichen Repositorys eingerichtet; die konkreten Schritte stehen in `CMS-ANLEITUNG.md`.

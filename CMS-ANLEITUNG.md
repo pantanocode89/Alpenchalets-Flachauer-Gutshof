@@ -1,17 +1,27 @@
 # Alpenchalets Inhalte bearbeiten
 
-Für Texte, Bilder und Reihenfolgen sind keine HTML-, CSS- oder JavaScript-Kenntnisse nötig.
+## Bereits umgesetzt
 
-1. Öffnen Sie `https://www.alpenchalets.at/admin/` und melden Sie sich mit dem freigegebenen GitHub-Konto an.
-2. Wählen Sie links die gewünschte Seite, zum Beispiel **Startseite** oder **Galerie**.
-3. Bearbeiten Sie Deutsch und English jeweils im passenden Feld. Beide Sprachen werden getrennt gespeichert.
-4. Bei **Bilder** wählen Sie **Bild ersetzen**. Neue Bilder können dort hochgeladen werden.
-5. In **Galerien und Slideshows** können Sie Bilder hinzufügen, entfernen oder per Drag & Drop sortieren. Der Grundriss bleibt ein eigenes Feld.
-6. Nutzen Sie vor dem Speichern die Vorschau im CMS.
-7. Mit **Veröffentlichen** wird der Inhalt als GitHub-Änderung gespeichert. GitHub Pages stellt die Änderung danach automatisch online bereit.
+Die Website-Inhalte werden in `/admin/` mit Decap CMS gepflegt. Dort stehen ausschließlich DE- und EN-Texte, Bilder, Hero-Bilder, Galerien, Slideshows, FAQ sowie globale Kontaktangaben zur Verfügung. Layout, HTML, CSS, JavaScript, Formulare, Saisonalität und Animationen bleiben geschützt.
 
-Die Bereiche Layout, Farben, Abstände, mobile Darstellung, Navigation, Formulare und Animationen sind absichtlich nicht im CMS vorhanden.
+Nach der einmaligen Anmeldung ist der normale Ablauf:
 
-## Einmalige Anmeldung einrichten
+1. `https://www.alpenchalets.at/admin/` öffnen und mit dem freigegebenen GitHub-Konto anmelden.
+2. Gewünschte Seite oder **Globale Inhalte** wählen.
+3. Deutsch und Englisch getrennt bearbeiten; Bilder ersetzen oder in Listen hinzufügen, entfernen und per Drag & Drop sortieren.
+4. Vorschau prüfen und **Veröffentlichen** wählen.
 
-Decap CMS benötigt für eine GitHub-Pages-Seite einen OAuth-Anmeldedienst. Legen Sie eine GitHub OAuth App für den freigegebenen Besitzer-Account an und hinterlegen Sie deren Client-ID und Secret ausschließlich beim gewählten OAuth-Dienst (zum Beispiel Netlify Identity/Git Gateway oder ein eigener kleiner OAuth-Proxy). Tragen Sie keine Tokens oder Secrets in dieses Repository ein. Der OAuth-Callback und die `base_url` in `admin/config.yml` müssen anschließend auf diesen Dienst zeigen. Erst danach funktioniert Login in `/admin/`.
+Decap schreibt die Inhaltsänderung direkt in den Branch `main`; GitHub Pages veröffentlicht sie anschließend. Für normale Inhaltsänderungen ist kein Pull Request und keine Entwicklerfreigabe vorgesehen.
+
+## Einmalig außerhalb dieses Repositorys einzurichten
+
+Für GitHub Pages benötigt Decap CMS einen OAuth-Proxy. Empfohlen ist ein eigener, auf die Website beschränkter Cloudflare Worker nach der offiziellen Decap-GitHub-Backend-Anleitung.
+
+1. Einen Worker unter einer eigenen HTTPS-Adresse bereitstellen, z. B. `https://cms-auth.<eigene-domain>`.
+2. In GitHub eine OAuth App anlegen. Die Callback-URL ist exakt `<Worker-URL>/callback`.
+3. GitHub Client-ID und Client-Secret ausschließlich als Worker-Secrets speichern. Sie dürfen weder hier noch in einer CMS-Datei stehen.
+4. Den Worker auf `https://www.alpenchalets.at` als erlaubte Herkunft beschränken.
+5. In `admin/config.yml` unter `backend` die echte Worker-URL als `base_url` und `auth` als `auth_endpoint` ergänzen.
+6. Das Besitzerkonto braucht Schreibzugriff auf `pantanocode89/Alpenchalets-Flachauer-Gutshof`.
+
+Erst nach diesen sechs Schritten funktioniert die Anmeldung unter `/admin/`. Der OAuth-Dienst ist bewusst nicht mit einer erfundenen URL vorkonfiguriert; dadurch werden keine Zugangsdaten oder falsche Produktionsendpunkte veröffentlicht.

@@ -2,7 +2,8 @@ backend:
   name: github
   repo: pantanocode89/Alpenchalets-Flachauer-Gutshof
   branch: main
-  # OAuth is configured once outside this public repository; see CMS-ANLEITUNG.md.
+  # Add base_url and auth_endpoint only after the external OAuth proxy exists.
+  # The exact one-time setup is documented in CMS-ANLEITUNG.md.
 
 media_folder: assets/images
 public_folder: /assets/images

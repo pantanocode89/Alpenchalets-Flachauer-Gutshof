@@ -69,10 +69,8 @@ const translations={"de":{"nav.home":"Home","nav.chalets":"Unsere Chalets","nav.
 Object.entries(window.acCmsTranslations||{}).forEach(([language,values])=>Object.assign(translations[language]||{},values));
 translations.de['hero.title']='Wohlf&uuml;hlen<br>Genie&szlig;en';
 translations.en['hero.title']='Feel good<br>Enjoy';
-translations.nl['hero.title']='Ontspannen<br>Genieten';
 translations.de['intro.title']='Natur, Komfort und unvergessliche Momente';
 translations.en['intro.title']='Nature, comfort and unforgettable moments';
-translations.nl['intro.title']='Natuur, comfort en onvergetelijke momenten';
 // Accommodation facts: there is no separate cloakroom, only wardrobes and shelves.
 translations.de['chalet4.outdoor']='Terrasse, Schränke und Regale, eigener Abstellraum / Skiraum und Brötchenservice auf Wunsch';
 translations.de['chalet5.outdoor']='Terrasse, Schränke und Regale, eigener Abstellraum / Skiraum und Brötchenservice; zwei gekoppelte Chalets bis 20 Personen';
@@ -82,23 +80,16 @@ translations.de['chalet4.bathrooms']='Jedes Schlafzimmer mit eigenem Bad und WC;
 translations.de['chalet5.bathrooms']='Ein Schlafzimmer mit eigenem Bad und WC; Wellnessbad mit 2 Duschen, 2 Waschbecken und Sauna sowie 2 zus&auml;tzliche WCs';
 translations.en['chalet4.bathrooms']='Each bedroom has its own bathroom and WC; private sauna plus an additional WC in the entrance area';
 translations.en['chalet5.bathrooms']='One bedroom has a private bathroom and WC; wellness bathroom with 2 showers, 2 washbasins and sauna, plus 2 additional WCs';
-translations.nl['chalet4.outdoor']='Terras, kasten en planken, eigen berging / skiruimte en broodjesservice op aanvraag';
-translations.nl['chalet5.outdoor']='Terras, kasten en planken, eigen berging / skiruimte en broodjesservice; twee gekoppelde chalets voor maximaal 20 personen';
 translations.de['common.kitchen']='Eigene Küche · Filterkaffeemaschine';
 translations.en['common.kitchen']='Private kitchen · filter coffee maker';
-translations.nl['common.kitchen']='Eigen keuken · filterkoffiezetapparaat';
 translations.de['chalet4.living']='Großer Wohn- und Essbereich mit Kamin, voll ausgestatteter Küche und Filterkaffeemaschine';
 translations.de['chalet5.living']='Gemütlicher Wohn- und Essbereich mit Kamin, voll ausgestatteter Küche und Filterkaffeemaschine';
 translations.en['chalet4.living']='Large living and dining area with fireplace, fully equipped kitchen and filter coffee maker';
 translations.en['chalet5.living']='Cozy living and dining area with fireplace, fully equipped kitchen and filter coffee maker';
-translations.nl['chalet4.living']='Grote woon- en eetruimte met open haard, volledig uitgeruste keuken en filterkoffiezetapparaat';
-translations.nl['chalet5.living']='Gezellige woon- en eetruimte met open haard, volledig uitgeruste keuken en filterkoffiezetapparaat';
 translations.de['atmosphere.title']='Gemeinsame Zeit, die in Erinnerung bleibt';
 translations.de['atmosphere.text']='Fr&uuml;hst&uuml;ck vor dem ersten Ausflug, gemeinsames Kochen am Abend oder ein Glas Wein am Kamin: Die Chalets sind gemacht f&uuml;r entspannte Momente mit Familie und Freunden.';
 translations.en['atmosphere.title']='Time together that stays with you';
 translations.en['atmosphere.text']='Breakfast before the first outing, cooking together in the evening or a glass of wine by the fire: the chalets are made for relaxed moments with family and friends.';
-translations.nl['atmosphere.title']='Samen genieten van momenten die bijblijven';
-translations.nl['atmosphere.text']='Ontbijt voor het eerste uitstapje, samen koken in de avond of een glas wijn bij de open haard: de chalets zijn gemaakt voor ontspannen momenten met familie en vrienden.';
 const header=document.getElementById('siteHeader');
 const backToHero=document.querySelector('.back-to-hero');
 const menuToggle=document.getElementById('menuToggle');
@@ -133,8 +124,7 @@ mobileBackToTop.href='#';
 mobileBackToTop.innerHTML='&#8593;';
 mobileBackToTop.dataset.ariaDe='Zurück nach oben';
 mobileBackToTop.dataset.ariaEn='Back to top';
-mobileBackToTop.dataset.ariaNl='Terug naar boven';
-mobileBackToTop.setAttribute('aria-label',{de:'Zurück nach oben',en:'Back to top',nl:'Terug naar boven'}[document.documentElement.lang]||'Zurück nach oben');
+mobileBackToTop.setAttribute('aria-label',{de:'Zurück nach oben',en:'Back to top',}[document.documentElement.lang]||'Zurück nach oben');
 document.body.append(mobileBackToTop);
 let backToTopIdleTimer;
 function updateMobileBackToTop(){
@@ -234,8 +224,7 @@ function updateButlerToggleLabel(){
   const labels={
     de:butlerWidget.classList.contains('is-open')?'Virtuelle Rezeption schließen':'Virtuelle Rezeption öffnen',
     en:butlerWidget.classList.contains('is-open')?'Close Virtual Reception':'Open Virtual Reception',
-    nl:butlerWidget.classList.contains('is-open')?'Virtuele receptie sluiten':'Virtuele receptie openen'
-  };
+    };
   butlerToggle.setAttribute('aria-label',labels[lang].replace(/&ouml;/g,'ö').replace(/&szlig;/g,'ß'));
 }
 butlerToggle.addEventListener('click',()=>{butlerWidget.classList.toggle('is-open');updateButlerToggleLabel()});
@@ -299,31 +288,7 @@ const conciergeAnswers={
     contact:'You can reach Alpenchalets by phone at +43 6457 33971 or by email at info@alpenchalets.at.',
     fallback:'Sorry, I did not quite understand your question. Please try asking it again briefly – I can help with check-in, sauna, parking, the restaurant, Summer Card or booking.'
   },
-  nl:{
-    greeting:'Hallo en welkom! Waarmee kan ik u helpen?',
-    smalltalk:'Hallo! Met mij gaat het goed, dank u. Ik hoop met u ook. Waarmee kan ik u helpen tijdens uw verblijf in de Alpenchalets?',
-    help:'Graag. U kunt mij bijvoorbeeld vragen stellen over inchecken, uitchecken, sauna, parkeren, broodjesservice, restaurant, ligging, Summer Card, winterboeking, wifi, huisdieren of contact.',
-    thanks:'Graag gedaan. Als er nog iets is, ben ik hier.',
-    bye:'Graag gedaan. Wij wensen u alvast een mooie tijd in Flachau.',
-    checkin:'Inchecken kan dagelijks bij de receptie van 08:00 tot 12:00 en van 15:00 tot 20:00. Bij aankomst na 20:00 graag uiterlijk om 18:00 informeren.',
-    checkout:'Op de website staat geen aparte exacte uitchecktijd. Bevestig dit het best direct bij de receptie: +43 6457 33971 of info@alpenchalets.at.',
-    parking:'Parkeren is mogelijk in het resort. Er is ook een ondergrondse garage beschikbaar.',
-    sauna:'Ja, elk chalet heeft een privésauna. Het 4-kamerchalet heeft 3 badkamers en een apart toilet. Het 5-kamerchalet heeft 2 badkamers en 2 aparte toiletten.',
-    restaurant:'De Flachauer Gutshof ligt direct bij het chaletpark. Voor openingstijden, evenementen en reserveringen opent u de restaurantwebsite.',
-    location:'De Alpenchalets liggen centraal in Flachau aan Grießenkarweg 417. De plattegrond toont receptie, parkeerplaatsen, de route naar de Gutshof en het wandelpad naar de 8er-Jet.',
-    summerCard:'De Flachau Summer Card is inbegrepen bij uw zomerverblijf. U ontvangt uw digitale kaart na het inchecken.',
-    winter:'Winterverblijven worden uitsluitend via Sunweb geboekt. De winterboekingsknop staat in de hero en onderaan bij boeken.',
-    booking:'Voor boeken kiest u eenvoudig het juiste seizoen: Zomer boeken of Winter boeken. Zomer loopt via Alpenchalets, winter via Sunweb.',
-    bread:'Broodjes kunnen dagelijks tot 17:00 uur voor de volgende ochtend worden besteld. Levering gebeurt tussen 07:30 en 08:00 direct voor het chalet.',
-    laundry:'Bij de receptie is een wasruimte met wasmachine en droger beschikbaar.',
-    wifi:'Voor wifi-gegevens vraagt u dit het best direct bij aankomst aan de receptie.',
-    pets:'Over huisdieren vind ik op de website geen bindende informatie. Vraag dit voor het boeken even na bij de receptie: +43 6457 33971 of info@alpenchalets.at.',
-    price:'Prijzen en beschikbaarheid hangen af van seizoen, chaletgrootte en reisdatum. Gebruik de zomer- of winterboeking of neem contact op met de receptie.',
-    playground:'Voor kinderen zijn er speelplekken en veel ruimte rondom het chaletpark. Meer details vindt u in het comfortgedeelte van de website.',
-    contact:'U bereikt Alpenchalets telefonisch via +43 6457 33971 of per e-mail via info@alpenchalets.at.',
-    fallback:'Sorry, ik heb uw vraag nog niet helemaal begrepen. Stel de vraag gerust nog een keer kort – ik help bijvoorbeeld met inchecken, sauna, parkeren, het restaurant, Summer Card of boeken.'
-  }
-};
+  };
 function normalizeConciergeText(message){
   return message.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
 }
@@ -331,14 +296,11 @@ function detectConciergeLanguage(message){
   const text=normalizeConciergeText(message);
   const ui=(document.documentElement.lang in conciergeAnswers)?document.documentElement.lang:'de';
   if(/\b(bread|cards)\b/.test(text))return'en';
-  if(/\b(zomer|broodjes|broodjesservice)\b/.test(text))return'nl';
-  const scores={de:0,en:0,nl:0};
+  const scores={de:0,en:0,};
   const count=(pattern,lang,weight=1)=>{const matches=text.match(pattern);if(matches)scores[lang]+=matches.length*weight};
   count(/\b(hello|hi|hey|bread|rolls?|summer|cards?|what|where|how|when|booking|book|checkout|arrival|available|price|thanks|please)\b/g,'en',2);
-  count(/\b(brood|broodjes|zomer|zomerkaart|kaart|hoe|waar|wanneer|boeken|uitchecken|aankomst|beschikbaar|prijzen|bedankt|alstublieft)\b/g,'nl',2);
   count(/\b(servus|brot|brotchen|sommer|karte|wie|was|wo|wann|buchen|abreise|anreise|verfugbar|preise|danke|bitte)\b/g,'de',2);
   count(/\b(the|is|are|can|do|does|my|your|our|with|for)\b/g,'en');
-  count(/\b(het|een|zijn|kan|mijn|uw|onze|met|voor)\b/g,'nl');
   count(/\b(der|die|das|ist|sind|kann|mein|ihre|unser|mit|fur)\b/g,'de');
   const best=Math.max(...Object.values(scores));
   if(best===0)return ui;
@@ -504,20 +466,20 @@ function mountNewsletter(){
   const status=new URLSearchParams(location.search).get('newsletter');
   const block=document.createElement('section');
   block.className='newsletter-signup';block.id='newsletter';
-  block.innerHTML=`<div class="newsletter-inner"><div class="newsletter-copy"><p class="newsletter-kicker" data-de="Post aus Flachau" data-en="News from Flachau" data-nl="Nieuws uit Flachau">Post aus Flachau</p><h2 data-de="Alpenmomente im Postfach" data-en="Alpine moments in your inbox" data-nl="Alpenmomenten in uw inbox">Alpenmomente im Postfach</h2><p data-de="Erhalten Sie ausgewählte Neuigkeiten, saisonale Tipps und besondere Angebote der Alpenchalets." data-en="Receive selected news, seasonal tips and special offers from the Alpenchalets." data-nl="Ontvang geselecteerd nieuws, seizoenstips en bijzondere aanbiedingen van de Alpenchalets.">Erhalten Sie ausgewählte Neuigkeiten, saisonale Tipps und besondere Angebote der Alpenchalets.</p></div><form class="newsletter-form" action="newsletter-subscribe.php" method="post"><div class="newsletter-row"><label class="sr-only" for="newsletterEmail" data-de="E-Mail-Adresse" data-en="Email address" data-nl="E-mailadres">E-Mail-Adresse</label><input id="newsletterEmail" type="email" name="email" autocomplete="email" required data-placeholder-de="Ihre E-Mail-Adresse" data-placeholder-en="Your email address" data-placeholder-nl="Uw e-mailadres" placeholder="Ihre E-Mail-Adresse"><button type="submit" data-de="Anmelden" data-en="Subscribe" data-nl="Aanmelden">Anmelden</button></div><label class="newsletter-consent"><input type="checkbox" name="consent" value="yes" required><span data-de="Ich möchte den Newsletter erhalten und akzeptiere die Datenschutzerklärung. Die Abmeldung ist jederzeit möglich." data-en="I would like to receive the newsletter and accept the privacy policy. I can unsubscribe at any time." data-nl="Ik wil de nieuwsbrief ontvangen en accepteer het privacybeleid. Afmelden kan op elk moment.">Ich möchte den Newsletter erhalten und akzeptiere die Datenschutzerklärung. Die Abmeldung ist jederzeit möglich.</span></label><a class="newsletter-privacy" href="datenschutz.html" data-de="Datenschutz ansehen" data-en="View privacy policy" data-nl="Privacybeleid bekijken">Datenschutz ansehen</a><input class="newsletter-trap" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"></form></div>`;
+  block.innerHTML=`<div class="newsletter-inner"><div class="newsletter-copy"><p class="newsletter-kicker" data-de="Post aus Flachau" data-en="News from Flachau">Post aus Flachau</p><h2 data-de="Alpenmomente im Postfach" data-en="Alpine moments in your inbox">Alpenmomente im Postfach</h2><p data-de="Erhalten Sie ausgewählte Neuigkeiten, saisonale Tipps und besondere Angebote der Alpenchalets." data-en="Receive selected news, seasonal tips and special offers from the Alpenchalets.">Erhalten Sie ausgewählte Neuigkeiten, saisonale Tipps und besondere Angebote der Alpenchalets.</p></div><form class="newsletter-form" action="newsletter-subscribe.php" method="post"><div class="newsletter-row"><label class="sr-only" for="newsletterEmail" data-de="E-Mail-Adresse" data-en="Email address">E-Mail-Adresse</label><input id="newsletterEmail" type="email" name="email" autocomplete="email" required data-placeholder-de="Ihre E-Mail-Adresse" data-placeholder-en="Your email address" placeholder="Ihre E-Mail-Adresse"><button type="submit" data-de="Anmelden" data-en="Subscribe">Anmelden</button></div><label class="newsletter-consent"><input type="checkbox" name="consent" value="yes" required><span data-de="Ich möchte den Newsletter erhalten und akzeptiere die Datenschutzerklärung. Die Abmeldung ist jederzeit möglich." data-en="I would like to receive the newsletter and accept the privacy policy. I can unsubscribe at any time.">Ich möchte den Newsletter erhalten und akzeptiere die Datenschutzerklärung. Die Abmeldung ist jederzeit möglich.</span></label><a class="newsletter-privacy" href="datenschutz.html" data-de="Datenschutz ansehen" data-en="View privacy policy">Datenschutz ansehen</a><input class="newsletter-trap" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"></form></div>`;
   if(status){
-    const messages={success:{de:'Fast geschafft: Bitte bestätigen Sie die Anmeldung über den Link in Ihrer E-Mail.',en:'Almost done: please confirm your subscription using the link in your email.',nl:'Bijna klaar: bevestig uw aanmelding via de link in uw e-mail.'},invalid:{de:'Bitte geben Sie eine gültige E-Mail-Adresse ein und bestätigen Sie die Einwilligung.',en:'Please enter a valid email address and confirm your consent.',nl:'Vul een geldig e-mailadres in en bevestig uw toestemming.'},unavailable:{de:'Die Newsletter-Anmeldung wird gerade eingerichtet. Bitte versuchen Sie es später erneut.',en:'Newsletter signup is currently being configured. Please try again later.',nl:'De nieuwsbriefaanmelding wordt momenteel ingesteld. Probeer het later opnieuw.'},failed:{de:'Die Anmeldung konnte nicht abgeschlossen werden. Bitte versuchen Sie es später erneut.',en:'Signup could not be completed. Please try again later.',nl:'De aanmelding kon niet worden voltooid. Probeer het later opnieuw.'}};
+    const messages={success:{de:'Fast geschafft: Bitte bestätigen Sie die Anmeldung über den Link in Ihrer E-Mail.',en:'Almost done: please confirm your subscription using the link in your email.',},invalid:{de:'Bitte geben Sie eine gültige E-Mail-Adresse ein und bestätigen Sie die Einwilligung.',en:'Please enter a valid email address and confirm your consent.',},unavailable:{de:'Die Newsletter-Anmeldung wird gerade eingerichtet. Bitte versuchen Sie es später erneut.',en:'Newsletter signup is currently being configured. Please try again later.',},failed:{de:'Die Anmeldung konnte nicht abgeschlossen werden. Bitte versuchen Sie es später erneut.',en:'Signup could not be completed. Please try again later.',}};
     const msg=messages[status]||messages.failed,note=document.createElement('p');
-    note.className=`newsletter-status ${status==='success'?'is-success':'is-error'}`;note.dataset.de=msg.de;note.dataset.en=msg.en;note.dataset.nl=msg.nl;note.textContent=msg.de;
+    note.className=`newsletter-status ${status==='success'?'is-success':'is-error'}`;note.dataset.de=msg.de;note.dataset.en=msg.en;note.textContent=msg[document.documentElement.lang]||msg.de;
     block.querySelector('.newsletter-form').prepend(note);
   }
   block.querySelector('.newsletter-form').action=window.acNewsletterEndpoint||'newsletter-subscribe.php';
   if(window.acNewsletterEndpoint)block.querySelector('.newsletter-form').insertAdjacentHTML('beforeend','<input type="hidden" name="action" value="ac_newsletter_subscribe">');
   const details=document.createElement('details');
   details.className='newsletter-details';details.id='newsletter';
-  details.innerHTML='<summary data-de="Newsletter" data-en="Newsletter" data-nl="Nieuwsbrief">Newsletter</summary>';
+  details.innerHTML='<summary data-de="Newsletter" data-en="Newsletter">Newsletter</summary>';
   details.append(block.querySelector('.newsletter-form'));
-  details.querySelector('.newsletter-form').insertAdjacentHTML('afterbegin','<div class="newsletter-modal-heading"><h3 data-de="Newsletter anmelden" data-en="Subscribe to our newsletter" data-nl="Aanmelden voor de nieuwsbrief">Newsletter anmelden</h3><p data-de="Neuigkeiten, saisonale Tipps und besondere Angebote direkt per E-Mail." data-en="News, seasonal tips and special offers delivered directly by email." data-nl="Nieuws, seizoenstips en bijzondere aanbiedingen rechtstreeks per e-mail.">Neuigkeiten, saisonale Tipps und besondere Angebote direkt per E-Mail.</p></div>');
+  details.querySelector('.newsletter-form').insertAdjacentHTML('afterbegin','<div class="newsletter-modal-heading"><h3 data-de="Newsletter anmelden" data-en="Subscribe to our newsletter">Newsletter anmelden</h3><p data-de="Neuigkeiten, saisonale Tipps und besondere Angebote direkt per E-Mail." data-en="News, seasonal tips and special offers delivered directly by email.">Neuigkeiten, saisonale Tipps und besondere Angebote direkt per E-Mail.</p></div>');
   (footer.querySelector('.footer-contact')||footer).append(details);
   details.addEventListener('click',event=>{if(event.target===details)details.open=false});
   document.addEventListener('click',event=>{if(details.open&&!details.querySelector('.newsletter-form').contains(event.target)&&event.target!==details.querySelector('summary'))details.open=false});
@@ -530,10 +492,8 @@ mountNewsletter();
 /* Free smart reception: multilingual local knowledge search, no external API. */
 conciergeAnswers.de.skiRoom='Jedes Chalet verfügt über einen eigenen Abstellraum bzw. Skiraum für Ski, Schuhe und Sportausrüstung.';
 conciergeAnswers.en.skiRoom='Every chalet has its own storage or ski room for skis, boots and sports equipment.';
-conciergeAnswers.nl.skiRoom='Elk chalet heeft een eigen berging of skiruimte voor ski\'s, schoenen en sportuitrusting.';
 conciergeAnswers.de.capacity='Das 4-Zimmer-Chalet bietet Platz für bis zu 12 Gäste. Das 5-Zimmer-Chalet ist für bis zu 10 Gäste geeignet; zwei verbundene Chalets bieten Platz für bis zu 20 Gäste.';
 conciergeAnswers.en.capacity='The 4-room chalet accommodates up to 12 guests. The 5-room chalet accommodates up to 10 guests; two connected chalets can host up to 20 guests.';
-conciergeAnswers.nl.capacity='Het 4-kamerchalet biedt plaats aan maximaal 12 gasten. Het 5-kamerchalet is geschikt voor maximaal 10 gasten; twee verbonden chalets bieden plaats aan maximaal 20 gasten.';
 const acReceptionTopics={
   checkin:{terms:['check in','checkin','anreise','ankunft','ankommen','arrival','arrive','inchecken','aankomst'],action:'contact'},
   checkout:{terms:['check out','checkout','abreise','abreisen','departure','leave','uitchecken','vertrek'],action:'contact'},
@@ -557,17 +517,16 @@ const acReceptionTopics={
 const acReceptionUi={
   de:{unknown:'Diese Information konnte ich auf unserer Website nicht eindeutig finden. Bitte fragen Sie die Rezeption direkt.',suggest:'Häufige Fragen',actions:{contact:'Rezeption kontaktieren',booking:'Aufenthalt buchen',location:'Lage ansehen',chalets:'Chalets ansehen',restaurant:'Restaurant ansehen',summer:'Sommer entdecken',winter:'Winter buchen',comfort:'Komfort ansehen'}},
   en:{unknown:'I could not find a clear answer to this on our website. Please contact reception directly.',suggest:'Popular questions',actions:{contact:'Contact reception',booking:'Book your stay',location:'View location',chalets:'View chalets',restaurant:'View restaurant',summer:'Discover summer',winter:'Book winter',comfort:'View amenities'}},
-  nl:{unknown:'Ik kon hierover geen eenduidige informatie op onze website vinden. Neem rechtstreeks contact op met de receptie.',suggest:'Veelgestelde vragen',actions:{contact:'Contact receptie',booking:'Verblijf boeken',location:'Bekijk ligging',chalets:'Bekijk chalets',restaurant:'Bekijk restaurant',summer:'Ontdek de zomer',winter:'Winter boeken',comfort:'Bekijk comfort'}}
-};
+  };
 const acReceptionActionUrls={
   contact:'kontakt.html',booking:'urlaubsanfrage.html',location:'lage.html',chalets:'chalet-4-zimmer.html',restaurant:'restaurant.html',summer:'sommer.html',comfort:'index.html#services',
   winter:'https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen'
 };
 const acReceptionSuggestions={
-  default:{de:['Wann ist Check-in?','Gibt es eine Sauna?','Wo kann ich parken?'],en:['When is check-in?','Is there a sauna?','Where can I park?'],nl:['Wanneer kan ik inchecken?','Is er een sauna?','Waar kan ik parkeren?']},
-  restaurant:{de:['Wo ist das Restaurant?','Kann ich reservieren?','Gibt es einen Spielplatz?'],en:['Where is the restaurant?','Can I make a reservation?','Is there a playground?'],nl:['Waar is het restaurant?','Kan ik reserveren?','Is er een speeltuin?']},
-  winter:{de:['Wie buche ich im Winter?','Wie weit ist der Skilift?','Gibt es einen Skiraum?'],en:['How do I book winter?','How far is the ski lift?','Is there a ski room?'],nl:['Hoe boek ik de winter?','Hoe ver is de skilift?','Is er een skiruimte?']},
-  chalet:{de:['Wie viele Badezimmer?','Hat jedes Chalet eine Sauna?','Wie viele Personen?'],en:['How many bathrooms?','Does every chalet have a sauna?','How many guests?'],nl:['Hoeveel badkamers?','Heeft elk chalet een sauna?','Hoeveel gasten?']}
+  default:{de:['Wann ist Check-in?','Gibt es eine Sauna?','Wo kann ich parken?'],en:['When is check-in?','Is there a sauna?','Where can I park?'],},
+  restaurant:{de:['Wo ist das Restaurant?','Kann ich reservieren?','Gibt es einen Spielplatz?'],en:['Where is the restaurant?','Can I make a reservation?','Is there a playground?'],},
+  winter:{de:['Wie buche ich im Winter?','Wie weit ist der Skilift?','Gibt es einen Skiraum?'],en:['How do I book winter?','How far is the ski lift?','Is there a ski room?'],},
+  chalet:{de:['Wie viele Badezimmer?','Hat jedes Chalet eine Sauna?','Wie viele Personen?'],en:['How many bathrooms?','Does every chalet have a sauna?','How many guests?'],}
 };
 let acReceptionLastTopics=[];
 function acReceptionSimilarity(a,b){

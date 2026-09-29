@@ -101,12 +101,10 @@ if(location.pathname.endsWith('/sommer.html')||location.pathname.endsWith('somme
   if(summerHeroTitle){
     summerHeroTitle.dataset.de='Gemeinsam den Sommer genießen';
     summerHeroTitle.dataset.en='Enjoy summer together';
-    summerHeroTitle.dataset.nl='Samen van de zomer genieten';
   }
   if(summerHeroText){
     summerHeroText.dataset.de='Draußen Neues erleben und sich danach im eigenen Chalet wie zu Hause fühlen.';
     summerHeroText.dataset.en='Discover new experiences outdoors, then feel at home in your own chalet.';
-    summerHeroText.dataset.nl='Beleef buiten iets nieuws en voel u daarna thuis in uw eigen chalet.';
   }
 }
 
@@ -159,7 +157,6 @@ if(seasonalPage==='winter.html'){
   if(winterHeading){
     winterHeading.dataset.de='Schneetage<br>Kaminabende';
     winterHeading.dataset.en='Snowy days<br>Fireside evenings';
-    winterHeading.dataset.nl='Sneeuwdagen<br>Avonden bij de haard';
     winterHeading.innerHTML=winterHeading.dataset.de;
   }
 }
@@ -235,14 +232,13 @@ if(form){
   const winterCopy={
     de:{title:'Winterurlaub über Sunweb buchen',text:'Winteraufenthalte in unseren Alpenchalets werden ausschließlich über Sunweb gebucht.',button:'Jetzt buchen ↗',back:'Zur Sommeranfrage'},
     en:{title:'Book your winter holiday through Sunweb',text:'Winter stays at our Alpenchalets are booked exclusively through Sunweb.',button:'Book now ↗',back:'Back to summer enquiry'},
-    nl:{title:'Boek uw wintervakantie via Sunweb',text:'Winterverblijven in onze Alpenchalets worden uitsluitend via Sunweb geboekt.',button:'Nu boeken ↗',back:'Terug naar zomeraanvraag'}
-  };
+    };
   const winterMessage=document.createElement('div');
   winterMessage.className='winter-booking-message';
   function showWinterOption(){
     if(!/winter/i.test(String(form.elements.season?.value||'')))return;
     const copy=winterCopy[document.documentElement.lang]||winterCopy.de;
-    winterMessage.innerHTML=`<h3 data-de="${winterCopy.de.title}" data-en="${winterCopy.en.title}" data-nl="${winterCopy.nl.title}">${copy.title}</h3><p data-de="${winterCopy.de.text}" data-en="${winterCopy.en.text}" data-nl="${winterCopy.nl.text}">${copy.text}</p><div class="winter-booking-actions"><a class="btn primary" href="${winterUrl}" target="_blank" rel="noopener" data-de="${winterCopy.de.button}" data-en="${winterCopy.en.button}" data-nl="${winterCopy.nl.button}">${copy.button}</a><button class="btn winter-back" type="button" data-de="${winterCopy.de.back}" data-en="${winterCopy.en.back}" data-nl="${winterCopy.nl.back}">${copy.back}</button></div>`;
+    winterMessage.innerHTML=`<h3 data-de="${winterCopy.de.title}" data-en="${winterCopy.en.title}">${copy.title}</h3><p data-de="${winterCopy.de.text}" data-en="${winterCopy.en.text}">${copy.text}</p><div class="winter-booking-actions"><a class="btn primary" href="${winterUrl}" target="_blank" rel="noopener" data-de="${winterCopy.de.button}" data-en="${winterCopy.en.button}">${copy.button}</a><button class="btn winter-back" type="button" data-de="${winterCopy.de.back}" data-en="${winterCopy.en.back}">${copy.back}</button></div>`;
     form.appendChild(winterMessage);
     form.classList.add('winter-selected');
     winterMessage.querySelector('.winter-back')?.addEventListener('click',()=>{
@@ -268,7 +264,7 @@ if(form){
       const button=form.querySelector('[type="submit"]');
       if(button){
         button.disabled=true;
-        button.textContent=document.documentElement.lang==='en'?'Sending…':document.documentElement.lang==='nl'?'Verzenden…':'Wird gesendet…';
+        button.textContent=document.documentElement.lang==='en'?'Sending…':'Wird gesendet…';
       }
       return;
     }
@@ -290,10 +286,10 @@ if(form){
 
   const contactStatus=params.get('contact');
   const statusCopy={
-    sent:{type:'success',de:'Vielen Dank. Ihre Anfrage wurde erfolgreich gesendet.',en:'Thank you. Your enquiry has been sent successfully.',nl:'Bedankt. Uw aanvraag is succesvol verzonden.'},
-    failed:{type:'error',de:'Die Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie an info@alpenchalets.at.',en:'The message could not be sent. Please try again or email info@alpenchalets.at.',nl:'Het bericht kon niet worden verzonden. Probeer het opnieuw of mail naar info@alpenchalets.at.'},
-    invalid:{type:'error',de:'Bitte prüfen Sie Ihre Angaben und versuchen Sie es erneut.',en:'Please check your details and try again.',nl:'Controleer uw gegevens en probeer het opnieuw.'},
-    limited:{type:'error',de:'Zu viele Versuche. Bitte warten Sie 15 Minuten und versuchen Sie es erneut.',en:'Too many attempts. Please wait 15 minutes and try again.',nl:'Te veel pogingen. Wacht 15 minuten en probeer het opnieuw.'}
+    sent:{type:'success',de:'Vielen Dank. Ihre Anfrage wurde erfolgreich gesendet.',en:'Thank you. Your enquiry has been sent successfully.',},
+    failed:{type:'error',de:'Die Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie an info@alpenchalets.at.',en:'The message could not be sent. Please try again or email info@alpenchalets.at.',},
+    invalid:{type:'error',de:'Bitte prüfen Sie Ihre Angaben und versuchen Sie es erneut.',en:'Please check your details and try again.',},
+    limited:{type:'error',de:'Zu viele Versuche. Bitte warten Sie 15 Minuten und versuchen Sie es erneut.',en:'Too many attempts. Please wait 15 minutes and try again.',}
   };
   if(statusCopy[contactStatus]){
     const copy=statusCopy[contactStatus];
@@ -302,7 +298,6 @@ if(form){
     notice.setAttribute('role','status');
     notice.dataset.de=copy.de;
     notice.dataset.en=copy.en;
-    notice.dataset.nl=copy.nl;
     notice.textContent=copy[document.documentElement.lang]||copy.de;
     form.before(notice);
   }
@@ -342,8 +337,7 @@ mobileBackToTop.href='#';
 mobileBackToTop.innerHTML='&#8593;';
 mobileBackToTop.dataset.ariaDe='Zurück nach oben';
 mobileBackToTop.dataset.ariaEn='Back to top';
-mobileBackToTop.dataset.ariaNl='Terug naar boven';
-mobileBackToTop.setAttribute('aria-label',{de:'Zurück nach oben',en:'Back to top',nl:'Terug naar boven'}[document.documentElement.lang]||'Zurück nach oben');
+mobileBackToTop.setAttribute('aria-label',{de:'Zurück nach oben',en:'Back to top',}[document.documentElement.lang]||'Zurück nach oben');
 document.body.append(mobileBackToTop);
 let mobileBackIdleTimer;
 function updateMobileBackToTop(){
@@ -366,7 +360,7 @@ function mountFunspace(){
   const section=document.createElement('section');
   section.className='section funspace-section';
   section.id='funspace';
-  section.innerHTML=`<div class="container funspace-shell"><div class="funspace-visual" aria-hidden="true"><span class="funspace-orbit orbit-one"></span><span class="funspace-orbit orbit-two"></span><span class="funspace-mark">FUN<br>SPACE</span><span class="funspace-place">FLACHAU</span></div><div class="funspace-copy"><p class="kicker" data-de="NEU IN FLACHAU" data-en="NEW IN FLACHAU" data-nl="NIEUW IN FLACHAU">NEU IN FLACHAU</p><h2 data-de="Drau&szlig;en spielen. Gemeinsam staunen." data-en="Play outside. Discover together." data-nl="Buiten spelen. Samen ontdekken.">Drau&szlig;en spielen. Gemeinsam staunen.</h2><p data-de="Der FUNSPACE Flachau verbindet Natur, Bewegung und Spiel zu einem besonderen Erlebnis f&uuml;r Kinder, Jugendliche und Erwachsene. Wasserspa&szlig;, sportliche Herausforderungen und gemeinsame Abenteuer machen ihn zu einem abwechslungsreichen Ziel f&uuml;r den Sommertag." data-en="FUNSPACE Flachau combines nature, movement and play in a special experience for children, teenagers and adults. Water fun, sporting challenges and shared adventures make it an exciting destination for a summer day." data-nl="FUNSPACE Flachau combineert natuur, beweging en spel tot een bijzondere belevenis voor kinderen, jongeren en volwassenen. Waterpret, sportieve uitdagingen en gezamenlijke avonturen maken het een veelzijdige bestemming voor een zomerdag.">Der FUNSPACE Flachau verbindet Natur, Bewegung und Spiel zu einem besonderen Erlebnis f&uuml;r Kinder, Jugendliche und Erwachsene. Wasserspa&szlig;, sportliche Herausforderungen und gemeinsame Abenteuer machen ihn zu einem abwechslungsreichen Ziel f&uuml;r den Sommertag.</p><div class="funspace-benefit"><span aria-hidden="true">&#10003;</span><strong data-de="Mit der Flachau Sommer Card ist der Eintritt kostenlos." data-en="Admission is free with the Flachau Summer Card." data-nl="Met de Flachau Summer Card is de toegang gratis.">Mit der Flachau Sommer Card ist der Eintritt kostenlos.</strong></div><div class="funspace-tags"><span data-de="F&uuml;r alle Generationen" data-en="For all generations" data-nl="Voor alle generaties">F&uuml;r alle Generationen</span><span data-de="Natur &amp; Bewegung" data-en="Nature &amp; activity" data-nl="Natuur &amp; beweging">Natur &amp; Bewegung</span><span>Unterberggasse, Flachau</span></div><div class="actions"><a class="btn outline funspace-link" href="https://www.flachau.com/de/sommer/action-fun/fun-space-flachau.html" target="_blank" rel="noopener noreferrer" data-de="FUNSPACE entdecken &#8599;" data-en="Discover FUNSPACE &#8599;" data-nl="Ontdek FUNSPACE &#8599;">FUNSPACE entdecken &#8599;</a></div><p class="funspace-note" data-de="Aktuelle &Ouml;ffnungszeiten und saisonale Hinweise finden Sie auf der offiziellen FUNSPACE-Seite." data-en="Current opening hours and seasonal information are available on the official FUNSPACE website." data-nl="Actuele openingstijden en seizoensinformatie vindt u op de offici&euml;le FUNSPACE-website.">Aktuelle &Ouml;ffnungszeiten und saisonale Hinweise finden Sie auf der offiziellen FUNSPACE-Seite.</p></div></div>`;
+  section.innerHTML=`<div class="container funspace-shell"><div class="funspace-visual" aria-hidden="true"><span class="funspace-orbit orbit-one"></span><span class="funspace-orbit orbit-two"></span><span class="funspace-mark">FUN<br>SPACE</span><span class="funspace-place">FLACHAU</span></div><div class="funspace-copy"><p class="kicker" data-de="NEU IN FLACHAU" data-en="NEW IN FLACHAU">NEU IN FLACHAU</p><h2 data-de="Drau&szlig;en spielen. Gemeinsam staunen." data-en="Play outside. Discover together.">Drau&szlig;en spielen. Gemeinsam staunen.</h2><p data-de="Der FUNSPACE Flachau verbindet Natur, Bewegung und Spiel zu einem besonderen Erlebnis f&uuml;r Kinder, Jugendliche und Erwachsene. Wasserspa&szlig;, sportliche Herausforderungen und gemeinsame Abenteuer machen ihn zu einem abwechslungsreichen Ziel f&uuml;r den Sommertag." data-en="FUNSPACE Flachau combines nature, movement and play in a special experience for children, teenagers and adults. Water fun, sporting challenges and shared adventures make it an exciting destination for a summer day.">Der FUNSPACE Flachau verbindet Natur, Bewegung und Spiel zu einem besonderen Erlebnis f&uuml;r Kinder, Jugendliche und Erwachsene. Wasserspa&szlig;, sportliche Herausforderungen und gemeinsame Abenteuer machen ihn zu einem abwechslungsreichen Ziel f&uuml;r den Sommertag.</p><div class="funspace-benefit"><span aria-hidden="true">&#10003;</span><strong data-de="Mit der Flachau Sommer Card ist der Eintritt kostenlos." data-en="Admission is free with the Flachau Summer Card.">Mit der Flachau Sommer Card ist der Eintritt kostenlos.</strong></div><div class="funspace-tags"><span data-de="F&uuml;r alle Generationen" data-en="For all generations">F&uuml;r alle Generationen</span><span data-de="Natur &amp; Bewegung" data-en="Nature &amp; activity">Natur &amp; Bewegung</span><span>Unterberggasse, Flachau</span></div><div class="actions"><a class="btn outline funspace-link" href="https://www.flachau.com/de/sommer/action-fun/fun-space-flachau.html" target="_blank" rel="noopener noreferrer" data-de="FUNSPACE entdecken &#8599;" data-en="Discover FUNSPACE &#8599;">FUNSPACE entdecken &#8599;</a></div><p class="funspace-note" data-de="Aktuelle &Ouml;ffnungszeiten und saisonale Hinweise finden Sie auf der offiziellen FUNSPACE-Seite." data-en="Current opening hours and seasonal information are available on the official FUNSPACE website.">Aktuelle &Ouml;ffnungszeiten und saisonale Hinweise finden Sie auf der offiziellen FUNSPACE-Seite.</p></div></div>`;
   main.append(section);
   lang(document.documentElement.lang);
 }
@@ -429,7 +423,6 @@ mountFunspace();
     }
     const pdfLink=document.querySelector('.summer-card-actions a');
     if(pdfLink&&new Date()>=new Date(2026,9,3))pdfLink.addEventListener('click',event=>{
-      event.preventDefault();const message=document.createElement('p');message.className='summer-card-program-note';message.setAttribute('role','status');message.dataset.de='Das aktuelle Programm der Flachau Sommer Card für die Sommersaison 2027 wird zu Beginn der Sommersaison 2027 veröffentlicht.';message.dataset.en='The current Flachau Summer Card programme for the 2027 summer season will be published at the beginning of the 2027 summer season.';message.dataset.nl='Het actuele Flachau Summer Card-programma voor het zomerseizoen 2027 wordt aan het begin van het zomerseizoen 2027 gepubliceerd.';message.textContent=message.dataset[document.documentElement.lang]||message.dataset.de;pdfLink.replaceWith(message);
     });
     const funspace=document.querySelector('.funspace-visual');
     if(funspace){funspace.innerHTML='';const logo=document.createElement('img');logo.src='assets/images/26_Flachau_Funspace_Logo_RGB_Positiv.png';logo.alt='FUNSPACE Flachau';logo.decoding='async';funspace.append(logo)}
@@ -501,27 +494,26 @@ function mountNewsletter(){
   const status=new URLSearchParams(location.search).get('newsletter');
   const block=document.createElement('section');
   block.className='newsletter-signup';block.id='newsletter';
-  block.innerHTML=`<div class="newsletter-inner"><div class="newsletter-copy"><p class="newsletter-kicker" data-de="Post aus Flachau" data-en="News from Flachau" data-nl="Nieuws uit Flachau">Post aus Flachau</p><h2 data-de="Alpenmomente im Postfach" data-en="Alpine moments in your inbox" data-nl="Alpenmomenten in uw inbox">Alpenmomente im Postfach</h2><p data-de="Erhalten Sie ausgewählte Neuigkeiten, saisonale Tipps und besondere Angebote der Alpenchalets." data-en="Receive selected news, seasonal tips and special offers from the Alpenchalets." data-nl="Ontvang geselecteerd nieuws, seizoenstips en bijzondere aanbiedingen van de Alpenchalets.">Erhalten Sie ausgewählte Neuigkeiten, saisonale Tipps und besondere Angebote der Alpenchalets.</p></div><form class="newsletter-form" action="newsletter-subscribe.php" method="post"><div class="newsletter-row"><label class="sr-only" for="newsletterEmail" data-de="E-Mail-Adresse" data-en="Email address" data-nl="E-mailadres">E-Mail-Adresse</label><input id="newsletterEmail" type="email" name="email" autocomplete="email" required data-placeholder-de="Ihre E-Mail-Adresse" data-placeholder-en="Your email address" data-placeholder-nl="Uw e-mailadres" placeholder="Ihre E-Mail-Adresse"><button type="submit" data-de="Anmelden" data-en="Subscribe" data-nl="Aanmelden">Anmelden</button></div><label class="newsletter-consent"><input type="checkbox" name="consent" value="yes" required><span data-de="Ich möchte den Newsletter erhalten und akzeptiere die Datenschutzerklärung. Die Abmeldung ist jederzeit möglich." data-en="I would like to receive the newsletter and accept the privacy policy. I can unsubscribe at any time." data-nl="Ik wil de nieuwsbrief ontvangen en accepteer het privacybeleid. Afmelden kan op elk moment.">Ich möchte den Newsletter erhalten und akzeptiere die Datenschutzerklärung. Die Abmeldung ist jederzeit möglich.</span></label><a class="newsletter-privacy" href="datenschutz.html" data-de="Datenschutz ansehen" data-en="View privacy policy" data-nl="Privacybeleid bekijken">Datenschutz ansehen</a><input class="newsletter-trap" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"></form></div>`;
+  block.innerHTML=`<div class="newsletter-inner"><div class="newsletter-copy"><p class="newsletter-kicker" data-de="Post aus Flachau" data-en="News from Flachau">Post aus Flachau</p><h2 data-de="Alpenmomente im Postfach" data-en="Alpine moments in your inbox">Alpenmomente im Postfach</h2><p data-de="Erhalten Sie ausgewählte Neuigkeiten, saisonale Tipps und besondere Angebote der Alpenchalets." data-en="Receive selected news, seasonal tips and special offers from the Alpenchalets.">Erhalten Sie ausgewählte Neuigkeiten, saisonale Tipps und besondere Angebote der Alpenchalets.</p></div><form class="newsletter-form" action="newsletter-subscribe.php" method="post"><div class="newsletter-row"><label class="sr-only" for="newsletterEmail" data-de="E-Mail-Adresse" data-en="Email address">E-Mail-Adresse</label><input id="newsletterEmail" type="email" name="email" autocomplete="email" required data-placeholder-de="Ihre E-Mail-Adresse" data-placeholder-en="Your email address" placeholder="Ihre E-Mail-Adresse"><button type="submit" data-de="Anmelden" data-en="Subscribe">Anmelden</button></div><label class="newsletter-consent"><input type="checkbox" name="consent" value="yes" required><span data-de="Ich möchte den Newsletter erhalten und akzeptiere die Datenschutzerklärung. Die Abmeldung ist jederzeit möglich." data-en="I would like to receive the newsletter and accept the privacy policy. I can unsubscribe at any time.">Ich möchte den Newsletter erhalten und akzeptiere die Datenschutzerklärung. Die Abmeldung ist jederzeit möglich.</span></label><a class="newsletter-privacy" href="datenschutz.html" data-de="Datenschutz ansehen" data-en="View privacy policy">Datenschutz ansehen</a><input class="newsletter-trap" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"></form></div>`;
   if(status){
     const messages={
-      success:{de:'Fast geschafft: Bitte bestätigen Sie die Anmeldung über den Link in Ihrer E-Mail.',en:'Almost done: please confirm your subscription using the link in your email.',nl:'Bijna klaar: bevestig uw aanmelding via de link in uw e-mail.'},
-      invalid:{de:'Bitte geben Sie eine gültige E-Mail-Adresse ein und bestätigen Sie die Einwilligung.',en:'Please enter a valid email address and confirm your consent.',nl:'Vul een geldig e-mailadres in en bevestig uw toestemming.'},
-      unavailable:{de:'Die Newsletter-Anmeldung wird gerade eingerichtet. Bitte versuchen Sie es später erneut.',en:'Newsletter signup is currently being configured. Please try again later.',nl:'De nieuwsbriefaanmelding wordt momenteel ingesteld. Probeer het later opnieuw.'},
-      failed:{de:'Die Anmeldung konnte nicht abgeschlossen werden. Bitte versuchen Sie es später erneut.',en:'Signup could not be completed. Please try again later.',nl:'De aanmelding kon niet worden voltooid. Probeer het later opnieuw.'}
+      success:{de:'Fast geschafft: Bitte bestätigen Sie die Anmeldung über den Link in Ihrer E-Mail.',en:'Almost done: please confirm your subscription using the link in your email.',},
+      invalid:{de:'Bitte geben Sie eine gültige E-Mail-Adresse ein und bestätigen Sie die Einwilligung.',en:'Please enter a valid email address and confirm your consent.',},
+      unavailable:{de:'Die Newsletter-Anmeldung wird gerade eingerichtet. Bitte versuchen Sie es später erneut.',en:'Newsletter signup is currently being configured. Please try again later.',},
+      failed:{de:'Die Anmeldung konnte nicht abgeschlossen werden. Bitte versuchen Sie es später erneut.',en:'Signup could not be completed. Please try again later.',}
     };
     const msg=messages[status]||messages.failed;
     const note=document.createElement('p');
     note.className=`newsletter-status ${status==='success'?'is-success':'is-error'}`;
-    note.dataset.de=msg.de;note.dataset.en=msg.en;note.dataset.nl=msg.nl;note.textContent=msg.de;
     block.querySelector('.newsletter-form').prepend(note);
   }
   block.querySelector('.newsletter-form').action=window.acNewsletterEndpoint||'newsletter-subscribe.php';
   if(window.acNewsletterEndpoint)block.querySelector('.newsletter-form').insertAdjacentHTML('beforeend','<input type="hidden" name="action" value="ac_newsletter_subscribe">');
   const details=document.createElement('details');
   details.className='newsletter-details';details.id='newsletter';
-  details.innerHTML='<summary data-de="Newsletter" data-en="Newsletter" data-nl="Nieuwsbrief">Newsletter</summary>';
+  details.innerHTML='<summary data-de="Newsletter" data-en="Newsletter">Newsletter</summary>';
   details.append(block.querySelector('.newsletter-form'));
-  details.querySelector('.newsletter-form').insertAdjacentHTML('afterbegin','<div class="newsletter-modal-heading"><h3 data-de="Newsletter anmelden" data-en="Subscribe to our newsletter" data-nl="Aanmelden voor de nieuwsbrief">Newsletter anmelden</h3><p data-de="Neuigkeiten, saisonale Tipps und besondere Angebote direkt per E-Mail." data-en="News, seasonal tips and special offers delivered directly by email." data-nl="Nieuws, seizoenstips en bijzondere aanbiedingen rechtstreeks per e-mail.">Neuigkeiten, saisonale Tipps und besondere Angebote direkt per E-Mail.</p></div>');
+  details.querySelector('.newsletter-form').insertAdjacentHTML('afterbegin','<div class="newsletter-modal-heading"><h3 data-de="Newsletter anmelden" data-en="Subscribe to our newsletter">Newsletter anmelden</h3><p data-de="Neuigkeiten, saisonale Tipps und besondere Angebote direkt per E-Mail." data-en="News, seasonal tips and special offers delivered directly by email.">Neuigkeiten, saisonale Tipps und besondere Angebote direkt per E-Mail.</p></div>');
   (footer.querySelector('.footer-top>div:last-child')||footer).append(details);
   details.addEventListener('click',event=>{if(event.target===details)details.open=false});
   document.addEventListener('click',event=>{if(details.open&&!details.querySelector('.newsletter-form').contains(event.target)&&event.target!==details.querySelector('summary'))details.open=false});
