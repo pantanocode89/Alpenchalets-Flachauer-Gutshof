@@ -1,0 +1,598 @@
+{
+  "title": "Lage & Anfahrt",
+  "texts": [
+    {
+      "id": "lage-text-001",
+      "label": "Home",
+      "de": "Home",
+      "en": "Home"
+    },
+    {
+      "id": "lage-text-002",
+      "label": "Unsere Chalets",
+      "de": "Unsere Chalets",
+      "en": "Our Chalets"
+    },
+    {
+      "id": "lage-text-003",
+      "label": "Sommer",
+      "de": "Sommer",
+      "en": "Summer"
+    },
+    {
+      "id": "lage-text-004",
+      "label": "Winter",
+      "de": "Winter",
+      "en": "Winter"
+    },
+    {
+      "id": "lage-text-005",
+      "label": "Komfort",
+      "de": "Komfort",
+      "en": "Comfort"
+    },
+    {
+      "id": "lage-text-006",
+      "label": "Restaurant",
+      "de": "Restaurant",
+      "en": "Restaurant"
+    },
+    {
+      "id": "lage-text-007",
+      "label": "Galerie",
+      "de": "Galerie",
+      "en": "Gallery"
+    },
+    {
+      "id": "lage-text-008",
+      "label": "Lage & Anfahrt",
+      "de": "Lage & Anfahrt",
+      "en": "Location"
+    },
+    {
+      "id": "lage-text-009",
+      "label": "Urlaubsanfrage",
+      "de": "Urlaubsanfrage",
+      "en": "Enquiry"
+    },
+    {
+      "id": "lage-text-010",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "lage-text-011",
+      "label": "Kontakt",
+      "de": "Kontakt",
+      "en": "Contact"
+    },
+    {
+      "id": "lage-text-012",
+      "label": "Lage",
+      "de": "Lage",
+      "en": "Location"
+    },
+    {
+      "id": "lage-text-013",
+      "label": "Mitten in Flachau",
+      "de": "Mitten in Flachau",
+      "en": "In the heart of Flachau"
+    },
+    {
+      "id": "lage-text-014",
+      "label": "Chalets, Rezeption, Parkflächen und wichtige Wege auf einen Blick.",
+      "de": "Chalets, Rezeption, Parkflächen und wichtige Wege auf einen Blick.",
+      "en": "Chalets, reception, parking and key routes at a glance."
+    },
+    {
+      "id": "lage-text-015",
+      "label": "Alles übersichtlich",
+      "de": "Alles übersichtlich",
+      "en": "Everything clearly laid out"
+    },
+    {
+      "id": "lage-text-016",
+      "label": "Der Lageplan zeigt die 4- und 5-Zimmer-Chalets, Parkflächen, Rezeption, Tiefgarage, Kind",
+      "de": "Der Lageplan zeigt die 4- und 5-Zimmer-Chalets, Parkflächen, Rezeption, Tiefgarage, Kinderspielplatz, Streichelzoo, Langlaufloipe sowie den Gehweg zum 8er-Jet und zum Flachauer Gutshof.",
+      "en": "The site map shows the 4- and 5-room chalets, parking, reception, underground parking, playground, petting zoo, cross-country trail and walking routes to the 8er-Jet and Flachauer Gutshof."
+    },
+    {
+      "id": "lage-text-017",
+      "label": "Anfahrt",
+      "de": "Anfahrt",
+      "en": "Directions"
+    },
+    {
+      "id": "lage-text-018",
+      "label": "So erreichen Sie die Alpenchalets",
+      "de": "So erreichen Sie die Alpenchalets",
+      "en": "How to reach the Alpenchalets"
+    },
+    {
+      "id": "lage-text-019",
+      "label": "Ihre Zieladresse für die Navigation",
+      "de": "Ihre Zieladresse für die Navigation",
+      "en": "Your final navigation destination"
+    },
+    {
+      "id": "lage-text-020",
+      "label": "Route öffnen ↗",
+      "de": "Route öffnen ↗",
+      "en": "Open directions ↗"
+    },
+    {
+      "id": "lage-text-021",
+      "label": "Anreise mit dem Auto",
+      "de": "Anreise mit dem Auto",
+      "en": "Arriving by car"
+    },
+    {
+      "id": "lage-text-022",
+      "label": "Flachau liegt direkt an der Tauernautobahn A10. Verlassen Sie die Autobahn bei der Ausfa",
+      "de": "Flachau liegt direkt an der Tauernautobahn A10. Verlassen Sie die Autobahn bei der Ausfahrt 66 Flachau und folgen Sie anschließend der Beschilderung in Richtung Flachau beziehungsweise Grießenkarweg. Aus Richtung Salzburg sind es ungefähr 70 Kilometer, aus Richtung Villach rund 100 Kilometer. Bitte geben Sie im Navigationsgerät als endgültiges Ziel immer Grießenkarweg 417 ein. Beachten Sie die geltenden Vignetten- und Mautbestimmungen auf österreichischen Autobahnen.",
+      "en": "Flachau is located directly on the A10 Tauern motorway. Leave the motorway at exit 66 Flachau, then follow the signs towards Flachau and Grießenkarweg. The distance is approximately 70 kilometres from Salzburg and around 100 kilometres from Villach. Always enter Grießenkarweg 417 as the final destination in your navigation system. Please observe the applicable vignette and toll requirements on Austrian motorways."
+    },
+    {
+      "id": "lage-text-023",
+      "label": "Anreise mit der Bahn",
+      "de": "Anreise mit der Bahn",
+      "en": "Arriving by train"
+    },
+    {
+      "id": "lage-text-024",
+      "label": "Für die Anreise mit der Bahn eignen sich insbesondere die Bahnhöfe Altenmarkt im Pongau ",
+      "de": "Für die Anreise mit der Bahn eignen sich insbesondere die Bahnhöfe Altenmarkt im Pongau und Radstadt. Von dort erreichen Sie Flachau mit einem Regionalbus oder Taxi. Prüfen Sie die passende Verbindung und den letzten Abschnitt bis Grießenkarweg 417 bitte vor Reisebeginn im aktuellen Fahrplan.",
+      "en": "Altenmarkt im Pongau and Radstadt are the most convenient railway stations for travelling to the chalets. From either station, continue to Flachau by regional bus or taxi. Please check the current timetable and the final connection to Grießenkarweg 417 before travelling."
+    },
+    {
+      "id": "lage-text-025",
+      "label": "Anreise mit dem Flugzeug",
+      "de": "Anreise mit dem Flugzeug",
+      "en": "Arriving by plane"
+    },
+    {
+      "id": "lage-text-026",
+      "label": "Der nächstgelegene Flughafen ist Salzburg Airport W. A. Mozart, etwa 70 Kilometer von Fl",
+      "de": "Der nächstgelegene Flughafen ist Salzburg Airport W. A. Mozart, etwa 70 Kilometer von Flachau entfernt. Für die Weiterfahrt stehen Mietwagen, Taxi- und Shuttleangebote zur Verfügung. Sammeltransfers sollten Sie vor der Anreise reservieren und dabei als Zieladresse Grießenkarweg 417, 5542 Flachau angeben.",
+      "en": "The nearest airport is Salzburg Airport W. A. Mozart, approximately 70 kilometres from Flachau. Rental cars, taxis and shuttle services are available for the onward journey. Shared transfers should be booked in advance using Grießenkarweg 417, 5542 Flachau as the destination address."
+    },
+    {
+      "id": "lage-text-027",
+      "label": "Mit dem Laden der Karte stimmen Sie zu, dass Daten an Google übertragen werden. Weitere ",
+      "de": "Mit dem Laden der Karte stimmen Sie zu, dass Daten an Google übertragen werden. Weitere Informationen finden Sie in unserer Datenschutzerklärung.",
+      "en": "By loading the map, you agree that data will be transmitted to Google. More information is available in our privacy policy."
+    },
+    {
+      "id": "lage-text-028",
+      "label": "Google Maps laden",
+      "de": "Google Maps laden",
+      "en": "Load Google Maps"
+    },
+    {
+      "id": "lage-text-029",
+      "label": "Winter direkt vor der Tür",
+      "de": "Winter direkt vor der Tür",
+      "en": "Winter on your doorstep"
+    },
+    {
+      "id": "lage-text-030",
+      "label": "Direkt an der Piste",
+      "de": "Direkt an der Piste",
+      "en": "Right by the slopes"
+    },
+    {
+      "id": "lage-text-031",
+      "label": "Von den Alpenchalets sind es nur wenige Schritte bis zum Skivergnügen.",
+      "de": "Von den Alpenchalets sind es nur wenige Schritte bis zum Skivergnügen.",
+      "en": "From the Alpenchalets, the joy of skiing is only a few steps away."
+    },
+    {
+      "id": "lage-text-032",
+      "label": "Alles in der Nähe",
+      "de": "Alles in der Nähe",
+      "en": "Everything close by"
+    },
+    {
+      "id": "lage-text-033",
+      "label": "Eine Lage, die den Urlaub leicht macht",
+      "de": "Eine Lage, die den Urlaub leicht macht",
+      "en": "A location that makes holidays easy"
+    },
+    {
+      "id": "lage-text-034",
+      "label": "Piste, Ortszentrum, Restaurants und Einkaufsmöglichkeiten liegen nah bei den Alpenchalet",
+      "de": "Piste, Ortszentrum, Restaurants und Einkaufsmöglichkeiten liegen nah bei den Alpenchalets. Alle genannten Ziele sind auch zu Fuß erreichbar; für die weiter entfernten Einkaufsmöglichkeiten sind Fahrrad oder Auto besonders bequem.",
+      "en": "The slopes, village centre, restaurants and shops are all close to the Alpenchalets. Every destination listed below can also be reached on foot; a bicycle or car is especially convenient for the shops farther away."
+    },
+    {
+      "id": "lage-text-035",
+      "label": "Alles ganz nah",
+      "de": "Alles ganz nah",
+      "en": "Everything close by"
+    },
+    {
+      "id": "lage-text-036",
+      "label": "Minuten",
+      "de": "Minuten",
+      "en": "minutes"
+    },
+    {
+      "id": "lage-text-037",
+      "label": "Viele Urlaubsziele bequem zu Fuß erreichbar",
+      "de": "Viele Urlaubsziele bequem zu Fuß erreichbar",
+      "en": "Many holiday essentials within easy walking distance"
+    },
+    {
+      "id": "lage-text-038",
+      "label": "Restaurants, Einkaufsmöglichkeiten, Bäckerei und Skilifte befinden sich rund um die Alpe",
+      "de": "Restaurants, Einkaufsmöglichkeiten, Bäckerei und Skilifte befinden sich rund um die Alpenchalets – vieles erreichen Sie in ungefähr zehn Gehminuten oder schneller.",
+      "en": "Restaurants, shops, a bakery and ski lifts surround the Alpenchalets – many can be reached in around ten minutes on foot or less."
+    },
+    {
+      "id": "lage-text-039",
+      "label": "Essen & Genießen",
+      "de": "Essen & Genießen",
+      "en": "Food & dining"
+    },
+    {
+      "id": "lage-text-040",
+      "label": "Gute Küche gleich in der Nähe",
+      "de": "Gute Küche gleich in der Nähe",
+      "en": "Good food just moments away"
+    },
+    {
+      "id": "lage-text-041",
+      "label": "direkt nebenan · Lageplan ansehen",
+      "de": "direkt nebenan · Lageplan ansehen",
+      "en": "right next door · view site map"
+    },
+    {
+      "id": "lage-text-042",
+      "label": "Einkaufen & Bäckerei",
+      "de": "Einkaufen & Bäckerei",
+      "en": "Shopping & bakery"
+    },
+    {
+      "id": "lage-text-043",
+      "label": "Alles für den täglichen Bedarf",
+      "de": "Alles für den täglichen Bedarf",
+      "en": "Everything for everyday needs"
+    },
+    {
+      "id": "lage-text-044",
+      "label": "Bäckerei & Café",
+      "de": "Bäckerei & Café",
+      "en": "bakery & café"
+    },
+    {
+      "id": "lage-text-045",
+      "label": "Ski & Berge",
+      "de": "Ski & Berge",
+      "en": "Skiing & mountains"
+    },
+    {
+      "id": "lage-text-046",
+      "label": "Schnell auf die Piste",
+      "de": "Schnell auf die Piste",
+      "en": "Quickly onto the slopes"
+    },
+    {
+      "id": "lage-text-047",
+      "label": "Etwas weiter",
+      "de": "Etwas weiter",
+      "en": "A little farther"
+    },
+    {
+      "id": "lage-text-048",
+      "label": "Bequem mit Fahrrad oder Auto",
+      "de": "Bequem mit Fahrrad oder Auto",
+      "en": "Easy by bicycle or car"
+    },
+    {
+      "id": "lage-text-049",
+      "label": "mit SPAR Express · täglich bis 22 Uhr",
+      "de": "mit SPAR Express · täglich bis 22 Uhr",
+      "en": "with SPAR Express · open daily until 10 pm"
+    },
+    {
+      "id": "lage-text-050",
+      "label": "Ski & Berge",
+      "de": "Ski & Berge",
+      "en": "Skiing & mountains"
+    },
+    {
+      "id": "lage-text-051",
+      "label": "Direkt ins Erlebnis",
+      "de": "Direkt ins Erlebnis",
+      "en": "Straight into the adventure"
+    },
+    {
+      "id": "lage-text-052",
+      "label": "ca. 5–6 Gehminuten",
+      "de": "ca. 5–6 Gehminuten",
+      "en": "approx. 5–6 minutes on foot"
+    },
+    {
+      "id": "lage-text-053",
+      "label": "ca. 8–10 Gehminuten",
+      "de": "ca. 8–10 Gehminuten",
+      "en": "approx. 8–10 minutes on foot"
+    },
+    {
+      "id": "lage-text-054",
+      "label": "ca. 10 Gehminuten",
+      "de": "ca. 10 Gehminuten",
+      "en": "approx. 10 minutes on foot"
+    },
+    {
+      "id": "lage-text-055",
+      "label": "Einkaufen & Tanken",
+      "de": "Einkaufen & Tanken",
+      "en": "Shopping & fuel"
+    },
+    {
+      "id": "lage-text-056",
+      "label": "Schnell versorgt",
+      "de": "Schnell versorgt",
+      "en": "Everyday essentials nearby"
+    },
+    {
+      "id": "lage-text-057",
+      "label": "ca. 5 Gehminuten",
+      "de": "ca. 5 Gehminuten",
+      "en": "approx. 5 minutes on foot"
+    },
+    {
+      "id": "lage-text-058",
+      "label": "D’ Bachstub’n · Bäckerei & Café",
+      "de": "D’ Bachstub’n · Bäckerei & Café",
+      "en": "D’ Bachstub’n · Bakery & café"
+    },
+    {
+      "id": "lage-text-059",
+      "label": "ca. 5 Gehminuten",
+      "de": "ca. 5 Gehminuten",
+      "en": "approx. 5 minutes on foot"
+    },
+    {
+      "id": "lage-text-060",
+      "label": "ca. 8–10 Gehminuten",
+      "de": "ca. 8–10 Gehminuten",
+      "en": "approx. 8–10 minutes on foot"
+    },
+    {
+      "id": "lage-text-061",
+      "label": "ca. 30 Gehminuten / etwa 7 Autominuten",
+      "de": "ca. 30 Gehminuten / etwa 7 Autominuten",
+      "en": "approx. 30 minutes on foot / around 7 minutes by car"
+    },
+    {
+      "id": "lage-text-062",
+      "label": "OMV Tankstelle · SPAR Express",
+      "de": "OMV Tankstelle · SPAR Express",
+      "en": "OMV petrol station · SPAR Express"
+    },
+    {
+      "id": "lage-text-063",
+      "label": "ca. 30 Gehminuten / etwa 7 Autominuten · täglich bis 22 Uhr",
+      "de": "ca. 30 Gehminuten / etwa 7 Autominuten · täglich bis 22 Uhr",
+      "en": "approx. 30 minutes on foot / around 7 minutes by car · open daily until 10 pm"
+    },
+    {
+      "id": "lage-text-064",
+      "label": "Genuss in Flachau",
+      "de": "Genuss in Flachau",
+      "en": "Dining in Flachau"
+    },
+    {
+      "id": "lage-text-065",
+      "label": "Gute Küche ganz nah",
+      "de": "Gute Küche ganz nah",
+      "en": "Good food close at hand"
+    },
+    {
+      "id": "lage-text-066",
+      "label": "direkt nebenan · etwa 2 Gehminuten",
+      "de": "direkt nebenan · etwa 2 Gehminuten",
+      "en": "right next door · around 2 minutes on foot"
+    },
+    {
+      "id": "lage-text-067",
+      "label": "ca. 8 Gehminuten · österreichische und internationale Küche",
+      "de": "ca. 8 Gehminuten · österreichische und internationale Küche",
+      "en": "approx. 8 minutes on foot · Austrian and international cuisine"
+    },
+    {
+      "id": "lage-text-068",
+      "label": "ca. 10 Gehminuten · kreative Küche im modernen Ambiente",
+      "de": "ca. 10 Gehminuten · kreative Küche im modernen Ambiente",
+      "en": "approx. 10 minutes on foot · creative cuisine in a modern setting"
+    },
+    {
+      "id": "lage-text-069",
+      "label": "Alle Entfernungen und Fahrzeiten sind Richtwerte ab Grießenkarweg 417 und können je nach",
+      "de": "Alle Entfernungen und Fahrzeiten sind Richtwerte ab Grießenkarweg 417 und können je nach Route, Verkehr, Wetter und Saison abweichen. Öffnungszeiten bitte direkt beim jeweiligen Betrieb prüfen.",
+      "en": "All distances and journey times are approximate from Grießenkarweg 417 and may vary depending on route, traffic, weather and season. Please check current opening hours directly with each business."
+    },
+    {
+      "id": "lage-text-070",
+      "label": "Parken & Tiefgarage",
+      "de": "Parken & Tiefgarage",
+      "en": "Parking & underground garage"
+    },
+    {
+      "id": "lage-text-071",
+      "label": "In der Chalet-Anlage stehen Parkmöglichkeiten sowie eine Tiefgarage zur Verfügung. Die R",
+      "de": "In der Chalet-Anlage stehen Parkmöglichkeiten sowie eine Tiefgarage zur Verfügung. Die Rezeption befindet sich am Grießenkarweg 417.",
+      "en": "Parking spaces and an underground garage are available in the chalet resort. Reception is located at Grießenkarweg 417."
+    },
+    {
+      "id": "lage-text-072",
+      "label": "E-Ladestationen in Flachau",
+      "de": "E-Ladestationen in Flachau",
+      "en": "EV charging in Flachau"
+    },
+    {
+      "id": "lage-text-073",
+      "label": "Öffentliche Ladestationen befinden sich unter anderem an der Reitdorfer Straße 319, Wagr",
+      "de": "Öffentliche Ladestationen befinden sich unter anderem an der Reitdorfer Straße 319, Wagrainer Straße 373, Flachauer Straße 353, Unterberggasse 172 und Flachauer Straße 13.",
+      "en": "Public charging stations are located at Reitdorfer Strasse 319, Wagrainer Strasse 373, Flachauer Strasse 353, Unterberggasse 172 and Flachauer Strasse 13."
+    },
+    {
+      "id": "lage-text-074",
+      "label": "Ihr Weg zum Musistadl",
+      "de": "Ihr Weg zum Musistadl",
+      "en": "Your way to the Musistadl"
+    },
+    {
+      "id": "lage-text-075",
+      "label": "Zu Fuß oder mit dem Auto",
+      "de": "Zu Fuß oder mit dem Auto",
+      "en": "On foot or by car"
+    },
+    {
+      "id": "lage-text-076",
+      "label": "wohlfühlen | genießen",
+      "de": "wohlfühlen | genießen",
+      "en": "feel good | enjoy"
+    },
+    {
+      "id": "lage-text-077",
+      "label": "Flachau Salzburger Land Österreich",
+      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+      "en": "Flachau &middot; Salzburger Land &middot; Austria"
+    },
+    {
+      "id": "lage-text-078",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "lage-text-079",
+      "label": "Impressum",
+      "de": "Impressum",
+      "en": "Legal notice"
+    },
+    {
+      "id": "lage-text-080",
+      "label": "Datenschutz",
+      "de": "Datenschutz",
+      "en": "Privacy policy"
+    }
+  ],
+  "translations": [],
+  "media": [
+    {
+      "id": "lage-image-001",
+      "label": "Bild 2: logo-transparent.png",
+      "image": "assets/images/logo-transparent.png"
+    },
+    {
+      "id": "lage-image-002",
+      "label": "Bild 3: lageplan-sommer-2026-landscape.png",
+      "image": "assets/images/lageplan-sommer-2026-landscape.png"
+    },
+    {
+      "id": "lage-image-003",
+      "label": "Bild 4: direkt-an-der-piste.jpg",
+      "image": "assets/images/direkt-an-der-piste.jpg"
+    },
+    {
+      "id": "lage-image-004",
+      "label": "Bild 5: lageplan-sommer-2026-landscape.png",
+      "image": "assets/images/lageplan-sommer-2026-landscape.png"
+    },
+    {
+      "id": "lage-image-005",
+      "label": "Bild 6: logo.jpg",
+      "image": "assets/images/logo.jpg"
+    },
+    {
+      "id": "lage-image-006",
+      "label": "Bild 7: panta-studios-mark-black.png",
+      "image": "assets/images/panta-studios-mark-black.png"
+    }
+  ],
+  "links": [
+    {
+      "id": "lage-url-001",
+      "label": "Link 1: www.alpenchalets.at/lage.html",
+      "url": "https://www.alpenchalets.at/lage.html"
+    },
+    {
+      "id": "lage-url-002",
+      "label": "Link 2: www.google.com/maps/dir/?api=1&destination=Grie%C3%9Fenkarweg%20417%2C",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau%2C%20Austria"
+    },
+    {
+      "id": "lage-url-003",
+      "label": "Link 3: www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%2055",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Unterberggasse%20210%2C%205542%20Flachau&travelmode=walking"
+    },
+    {
+      "id": "lage-url-004",
+      "label": "Link 4: www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%2055",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Hofgasse%20186%2C%205542%20Flachau&travelmode=walking"
+    },
+    {
+      "id": "lage-url-005",
+      "label": "Link 5: www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%2055",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Liftstra%C3%9Fe%20335%2C%205542%20Flachau&travelmode=walking"
+    },
+    {
+      "id": "lage-url-006",
+      "label": "Link 6: www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%2055",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%2018%2C%205542%20Flachau&travelmode=walking"
+    },
+    {
+      "id": "lage-url-007",
+      "label": "Link 7: www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%2055",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%20157%2C%205542%20Flachau&travelmode=walking"
+    },
+    {
+      "id": "lage-url-008",
+      "label": "Link 8: www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%2055",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%20344%2C%205542%20Flachau&travelmode=walking"
+    },
+    {
+      "id": "lage-url-009",
+      "label": "Link 9: www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%2055",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Reitdorfer%20Stra%C3%9Fe%20319%2C%205542%20Flachau&travelmode=walking"
+    },
+    {
+      "id": "lage-url-010",
+      "label": "Link 10: www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%2055",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Reitdorfer%20Stra%C3%9Fe%20337%2C%205542%20Flachau&travelmode=walking"
+    },
+    {
+      "id": "lage-url-011",
+      "label": "Link 11: www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%2055",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Pichlgasse%2015%2C%205542%20Flachau&travelmode=walking"
+    },
+    {
+      "id": "lage-url-012",
+      "label": "Link 12: www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%2055",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%20104%2C%205542%20Flachau&travelmode=walking"
+    },
+    {
+      "id": "lage-url-013",
+      "label": "Link 13: www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%2055",
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%20353%2C%205542%20Flachau&travelmode=walking"
+    }
+  ],
+  "galleries": [],
+  "heroes": [
+    {
+      "id": "summer",
+      "label": "Sommer Hero",
+      "image": "assets/images/26-flachau-sommer-wandern-hüttenwanderung-franzfischerhütte-21.jpg"
+    },
+    {
+      "id": "winter",
+      "label": "Winter Hero",
+      "image": "assets/images/lage.jpg"
+    }
+  ]
+}

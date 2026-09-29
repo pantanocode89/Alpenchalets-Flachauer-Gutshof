@@ -1,0 +1,283 @@
+{
+  "title": "Sommer",
+  "texts": [
+    {
+      "id": "sommer-text-001",
+      "label": "Home",
+      "de": "Home",
+      "en": "Home"
+    },
+    {
+      "id": "sommer-text-002",
+      "label": "Unsere Chalets",
+      "de": "Unsere Chalets",
+      "en": "Our Chalets"
+    },
+    {
+      "id": "sommer-text-003",
+      "label": "Sommer",
+      "de": "Sommer",
+      "en": "Summer"
+    },
+    {
+      "id": "sommer-text-004",
+      "label": "Winter",
+      "de": "Winter",
+      "en": "Winter"
+    },
+    {
+      "id": "sommer-text-005",
+      "label": "Komfort",
+      "de": "Komfort",
+      "en": "Comfort"
+    },
+    {
+      "id": "sommer-text-006",
+      "label": "Restaurant",
+      "de": "Restaurant",
+      "en": "Restaurant"
+    },
+    {
+      "id": "sommer-text-007",
+      "label": "Galerie",
+      "de": "Galerie",
+      "en": "Gallery"
+    },
+    {
+      "id": "sommer-text-008",
+      "label": "Lage & Anfahrt",
+      "de": "Lage & Anfahrt",
+      "en": "Location"
+    },
+    {
+      "id": "sommer-text-009",
+      "label": "Urlaubsanfrage",
+      "de": "Urlaubsanfrage",
+      "en": "Enquiry"
+    },
+    {
+      "id": "sommer-text-010",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "sommer-text-011",
+      "label": "Kontakt",
+      "de": "Kontakt",
+      "en": "Contact"
+    },
+    {
+      "id": "sommer-text-012",
+      "label": "Sommer in Flachau",
+      "de": "Sommer in Flachau",
+      "en": "Summer in Flachau"
+    },
+    {
+      "id": "sommer-text-013",
+      "label": "Draußen zuhause",
+      "de": "Draußen zuhause",
+      "en": "At home outdoors"
+    },
+    {
+      "id": "sommer-text-014",
+      "label": "Bergluft, gemeinsame Erlebnisse und gemütliche Abende im eigenen Chalet.",
+      "de": "Bergluft, gemeinsame Erlebnisse und gemütliche Abende im eigenen Chalet.",
+      "en": "Mountain air, shared adventures and cozy evenings in your own chalet."
+    },
+    {
+      "id": "sommer-text-015",
+      "label": "Sommerurlaub",
+      "de": "Sommerurlaub",
+      "en": "Summer holiday"
+    },
+    {
+      "id": "sommer-text-016",
+      "label": "Viel Platz für aktive und entspannte Tage",
+      "de": "Viel Platz für aktive und entspannte Tage",
+      "en": "Plenty of room for active and relaxed days"
+    },
+    {
+      "id": "sommer-text-017",
+      "label": "Unsere Chalets sind ein ruhiger Ausgangspunkt für Urlaubstage in und rund um Flachau. Na",
+      "de": "Unsere Chalets sind ein ruhiger Ausgangspunkt für Urlaubstage in und rund um Flachau. Nach einem Tag draußen warten Terrasse, Küche, Kamin und private Sauna.",
+      "en": "Our chalets are a comfortable base for days in and around Flachau. After a day outdoors, the terrace, kitchen, fireplace and private sauna await."
+    },
+    {
+      "id": "sommer-text-018",
+      "label": "Sommeraufenthalte können Sie direkt über unser Anfrageformular anfragen.",
+      "de": "Sommeraufenthalte können Sie direkt über unser Anfrageformular anfragen.",
+      "en": "You can enquire about summer stays directly through our enquiry form."
+    },
+    {
+      "id": "sommer-text-019",
+      "label": "Sommer buchen",
+      "de": "Sommer buchen &#8594;",
+      "en": "Book Summer &#8594;"
+    },
+    {
+      "id": "sommer-text-020",
+      "label": "Wandern",
+      "de": "Wandern",
+      "en": "Hiking"
+    },
+    {
+      "id": "sommer-text-021",
+      "label": "Direkt von Flachau aus die Bergwelt entdecken – vom gemütlichen Spaziergang bis zur läng",
+      "de": "Direkt von Flachau aus die Bergwelt entdecken – vom gemütlichen Spaziergang bis zur längeren Tour.",
+      "en": "Discover the mountains from Flachau, from relaxed walks to longer tours."
+    },
+    {
+      "id": "sommer-text-022",
+      "label": "Rad & Natur",
+      "de": "Rad & Natur",
+      "en": "Cycling & nature"
+    },
+    {
+      "id": "sommer-text-023",
+      "label": "Aktive Urlaubstage mit viel Zeit draußen und einem gemütlichen Zuhause für den Abend.",
+      "de": "Aktive Urlaubstage mit viel Zeit draußen und einem gemütlichen Zuhause für den Abend.",
+      "en": "Active days outdoors and a cozy home to return to in the evening."
+    },
+    {
+      "id": "sommer-text-024",
+      "label": "Gemeinsame Zeit",
+      "de": "Gemeinsame Zeit",
+      "en": "Time together"
+    },
+    {
+      "id": "sommer-text-025",
+      "label": "Große Wohnbereiche und eigene Küchen machen gemeinsame Mahlzeiten und Abende besonders u",
+      "de": "Große Wohnbereiche und eigene Küchen machen gemeinsame Mahlzeiten und Abende besonders unkompliziert.",
+      "en": "Spacious living areas and private kitchens make shared meals and evenings easy."
+    },
+    {
+      "id": "sommer-text-026",
+      "label": "FLACHAU SOMMER CARD",
+      "de": "FLACHAU SOMMER CARD",
+      "en": "FLACHAU SUMMER CARD"
+    },
+    {
+      "id": "sommer-text-027",
+      "label": "Mehr Sommer inklusive",
+      "de": "Mehr Sommer inklusive",
+      "en": "More summer included"
+    },
+    {
+      "id": "sommer-text-028",
+      "label": "Die Flachau Sommer Card ist bei Ihrem Sommeraufenthalt inklusive und bietet gef hrte Akt",
+      "de": "Die Flachau Sommer Card ist bei Ihrem Sommeraufenthalt inklusive und bietet gef&uuml;hrte Aktivit&auml;ten, Familienprogramme sowie attraktive Erm&auml;&szlig;igungen bei zahlreichen Ausflugszielen und Freizeiteinrichtungen in und rund um Flachau.",
+      "en": "The Flachau Summer Card is included with your summer stay and offers guided activities, family programmes and attractive discounts at numerous attractions and leisure facilities in and around Flachau."
+    },
+    {
+      "id": "sommer-text-029",
+      "label": "Ihre digitale Flachau Sommer Card erhalten Sie nach dem Check-in.",
+      "de": "Ihre digitale Flachau Sommer Card erhalten Sie nach dem Check-in.",
+      "en": "You will receive your digital Flachau Summer Card after check-in."
+    },
+    {
+      "id": "sommer-text-030",
+      "label": "Sommer Card Aktivitäten ansehen (PDF) ↗",
+      "de": "Sommer Card Aktivitäten ansehen (PDF) ↗",
+      "en": "View Summer Card activities (PDF) ↗"
+    },
+    {
+      "id": "sommer-text-031",
+      "label": "wohlfühlen | genießen",
+      "de": "wohlfühlen | genießen",
+      "en": "feel good | enjoy"
+    },
+    {
+      "id": "sommer-text-032",
+      "label": "Flachau Salzburger Land Österreich",
+      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+      "en": "Flachau &middot; Salzburger Land &middot; Austria"
+    },
+    {
+      "id": "sommer-text-033",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "sommer-text-034",
+      "label": "Impressum",
+      "de": "Impressum",
+      "en": "Legal notice"
+    },
+    {
+      "id": "sommer-text-035",
+      "label": "Datenschutz",
+      "de": "Datenschutz",
+      "en": "Privacy policy"
+    }
+  ],
+  "translations": [],
+  "media": [
+    {
+      "id": "sommer-image-001",
+      "label": "Bild 2: exterior-wide.webp",
+      "image": "assets/images/exterior-wide.webp"
+    },
+    {
+      "id": "sommer-image-002",
+      "label": "Bild 3: 18-flachau-sommer-card-beach-volleyball-1.jpg",
+      "image": "assets/images/18-flachau-sommer-card-beach-volleyball-1.jpg"
+    },
+    {
+      "id": "sommer-image-003",
+      "label": "Bild 4: 18-flachau-sommer-card-erlebniswandern-1.jpg",
+      "image": "assets/images/18-flachau-sommer-card-erlebniswandern-1.jpg"
+    },
+    {
+      "id": "sommer-image-004",
+      "label": "Bild 5: 18-flachau-sommer-card-kinderspiel-foot-darts-1.jpg",
+      "image": "assets/images/18-flachau-sommer-card-kinderspiel-foot-darts-1.jpg"
+    },
+    {
+      "id": "sommer-image-005",
+      "label": "Bild 6: 18-flachau-sommer-card-lagerfeuer-1.jpg",
+      "image": "assets/images/18-flachau-sommer-card-lagerfeuer-1.jpg"
+    },
+    {
+      "id": "sommer-image-006",
+      "label": "Bild 7: logo.jpg",
+      "image": "assets/images/logo.jpg"
+    },
+    {
+      "id": "sommer-image-007",
+      "label": "Bild 8: panta-studios-mark-black.png",
+      "image": "assets/images/panta-studios-mark-black.png"
+    }
+  ],
+  "links": [
+    {
+      "id": "sommer-url-001",
+      "label": "Link 1: www.alpenchalets.at/sommer.html",
+      "url": "https://www.alpenchalets.at/sommer.html"
+    }
+  ],
+  "galleries": [
+    {
+      "id": "sommer-hero-slideshow",
+      "label": "Sommer: Hero-Slideshow",
+      "images": [
+        "assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg",
+        "assets/images/sommer-header-wro8237.jpg",
+        "assets/images/sommer-header-wro8232.jpg"
+      ]
+    }
+  ],
+  "heroes": [
+    {
+      "id": "summer",
+      "label": "Sommer Hero",
+      "image": "assets/images/sommer-header-terrasse.webp"
+    },
+    {
+      "id": "winter",
+      "label": "Winter Hero",
+      "image": "assets/images/sommer-header-terrasse.webp"
+    }
+  ]
+}

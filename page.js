@@ -60,7 +60,7 @@ const seasonalMobileAssets=new Set([
   "assets/images/urlaubsanfrage-header-suitcase-winter-v2-mobile.webp","assets/images/winter-page-hero-mobile.webp"
 ]);
 const seasonalHero=document.querySelector('.page-hero,.legal-hero');
-const seasonalDesktopImage=seasonalHeroes[seasonalPage]?.[activeSeason];
+const seasonalDesktopImage=window.acCmsHero?.(activeSeason,seasonalHeroes[seasonalPage]?.[activeSeason])||seasonalHeroes[seasonalPage]?.[activeSeason];
 const seasonalMobileImage=seasonalDesktopImage?.replace(/\.webp$/,'-mobile.webp');
 const seasonalImage=innerWidth<=700&&seasonalMobileAssets.has(seasonalMobileImage)?seasonalMobileImage:seasonalDesktopImage;
 if(seasonalHero&&seasonalImage){
@@ -395,9 +395,10 @@ mountFunspace();
     if(firstImage.complete)start();
   };
   if(page==='sommer.html'){
-    makeSlideshow(document.querySelector('.page-hero'),[
+    const summerHeroDefaults=[
       {src:'assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg',position:'center 70%'},{src:'assets/images/sommer-header-wro8237.jpg',position:'center 68%'},{src:'assets/images/sommer-header-wro8232.jpg',position:'center 68%'}
-    ],'ac-page-hero-slideshow');
+    ];
+    makeSlideshow(document.querySelector('.page-hero'),window.acCmsGallery?.('sommer-hero-slideshow',summerHeroDefaults.map(item=>item.src))?.map((src,index)=>({...summerHeroDefaults[index]||{},src}))||summerHeroDefaults,'ac-page-hero-slideshow');
     document.querySelector('.page-hero')?.classList.add('ac-summer-hero');
     const cards=[
       ['assets/images/25-flachau-sommer-wandern-berge-18.jpg','Wandern in Flachau','center 54%'],
@@ -433,9 +434,9 @@ mountFunspace();
     const funspace=document.querySelector('.funspace-visual');
     if(funspace){funspace.innerHTML='';const logo=document.createElement('img');logo.src='assets/images/26_Flachau_Funspace_Logo_RGB_Positiv.png';logo.alt='FUNSPACE Flachau';logo.decoding='async';funspace.append(logo)}
   }
-  if(page==='winter.html')makeSlideshow(document.querySelector('.page-hero'),[
-    {src:'assets/images/winter-page-hero.jpg',position:'center 52%'},{src:'assets/images/IMG_5188.JPG',position:'center 50%'},{src:'assets/images/IMG_5174.JPG',position:'center 52%'},{src:'assets/images/Alpenchalet1_filter.jpg',position:'center 52%'},{src:'assets/images/25-flachau-winter-ski-urlaub-outdoor-4.jpg',position:'center 50%'},{src:'assets/images/25-flachau-winter-ski-urlaub-17.jpg',position:'center 50%'}
-  ],'ac-page-hero-slideshow');
+  if(page==='winter.html'){const winterHeroDefaults=[
+    {src:'assets/images/winter-page-hero.jpg',position:'center 52%'},{src:'assets/images/IMG_5188.JPG',position:'center 50%'},{src:'assets/images/IMG_5174.JPG',position:'center 50%'},{src:'assets/images/Alpenchalet1_filter.jpg',position:'center 52%'},{src:'assets/images/25-flachau-winter-ski-urlaub-outdoor-4.jpg',position:'center 50%'},{src:'assets/images/25-flachau-winter-ski-urlaub-17.jpg',position:'center 50%'}
+  ];makeSlideshow(document.querySelector('.page-hero'),window.acCmsGallery?.('winter-hero-slideshow',winterHeroDefaults.map(item=>item.src))?.map((src,index)=>({...winterHeroDefaults[index]||{},src}))||winterHeroDefaults,'ac-page-hero-slideshow')}
 })();
 
 /* Restaurant and gallery image updates share the existing unobtrusive page behaviour. */
@@ -478,9 +479,9 @@ mountFunspace();
     }
   }
   if(page==='restaurant.html'){
-    heroSlides(document.querySelector('.page-hero'),[
+    const restaurantHeroDefaults=[
       {src:activeSeason==='winter'?'assets/images/restaurant-gutshof-winter-v2.webp':'assets/images/restaurant-gutshof-sommer.webp',position:'center 52%'},{src:'assets/images/Detail-Musistadl-Eingang.jpg',position:'center 52%'},{src:'assets/images/Terasse-1.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-48.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-91.jpg',position:'center 52%'}
-    ]);
+    ];heroSlides(document.querySelector('.page-hero'),window.acCmsGallery?.('restaurant-hero-slideshow',restaurantHeroDefaults.map(item=>item.src))?.map((src,index)=>({...restaurantHeroDefaults[index]||{},src}))||restaurantHeroDefaults);
     imageSlides(document.querySelector('.lead-grid>img.photo'),[
       {src:'assets/images/Flachauer Gutshof_September_2k25_print-37.jpg',position:'center 68%'},{src:'assets/images/Flachauer Gutshof_September_2k25_print-73.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-79.jpg',position:'center 52%'}
     ],'Gerichte aus dem Flachauer Gutshof');
@@ -488,7 +489,7 @@ mountFunspace();
   if(page==='galerie.html'){
     const hero=document.querySelector('.page-hero');
     if(hero&&!hero.querySelector('.ac-gallery-collage')){hero.style.setProperty('background-image','none','important');hero.classList.add('ac-gallery-collage-hero');const collage=document.createElement('div');collage.className='ac-gallery-collage';['exterior-wide.webp','Rezeption.jpg','1.jpg','Codex-Bild 17. Sept. 2026, 15_33_10.jpg','hero-winter.webp'].forEach((src,index)=>{const tile=document.createElement('span');tile.style.backgroundImage=`url("assets/images/${src}")`;tile.className=`ac-gallery-tile tile-${index+1}`;collage.append(tile)});hero.prepend(collage)}
-    const galleryImages=['exterior-wide.webp','35314199-Original.jpg','Chalet_innen.jpg','35314198-Original.jpg','35314193-1280w.jpg','exterior-main.webp','Alpenchalet1_filter.jpg','unsere-chalets-roses.jpg','Zentrale-Lage.jpg','Rezeption.jpg','kitchen.webp','living.webp','bedroom-main.webp','bathroom.webp','ChatGPT-Image-16.-Sept.-2026,-13_13_45.png','1.jpg','Codex-Bild 17. Sept. 2026, 15_33_10.jpg','25-flachau-sommer-wandern-berge-18.jpg','26-flachau-sommer-wandern-hüttenwanderung-franzfischerhütte-21.jpg','20-flachau-sommer-e-mountainbike-7.jpg','18-flachau-sommer-card-beach-volleyball-1.jpg','18-flachau-sommer-card-erlebniswandern-1.jpg','18-flachau-sommer-card-kinderspiel-foot-darts-1.jpg','18-flachau-sommer-card-lagerfeuer-1.jpg','winter-page-hero.jpg','IMG_5188.JPG','IMG_5174.JPG','25-flachau-winter-ski-urlaub-outdoor-4.jpg','25-flachau-winter-ski-urlaub-17.jpg','Detail-Musistadl-Eingang.jpg','Terasse-1.jpg','Flachauer-Gutshof_September_2k25_print-48.jpg','Flachauer-Gutshof_September_2k25_print-91.jpg','Flachauer-Gutshof_September_2k25_print-79.jpg','Flachauer Gutshof_September_2k25_print-73.jpg','Flachauer Gutshof_September_2k25_print-74.jpg','Flachauer Gutshof_September_2k25_print-37.jpg','restaurant-dining-detail.webp','restaurant-gutshof-sommer.webp','restaurant-musistadl-eingang.webp','Kinderspielplatz.jpg','Foto 24.07.26, 09 36 33(1).png','Foto 24.07.26, 09 36 34(1).png','Foto 24.07.26, 11 07 55(1).png','Foto 02.06.26, 12 01 02(3).jpg','lage.jpg'];
+    const galleryImages=window.acCmsGallery?.('galerie-bilder',['exterior-wide.webp','35314199-Original.jpg','Chalet_innen.jpg','35314198-Original.jpg','35314193-1280w.jpg','exterior-main.webp','Alpenchalet1_filter.jpg','unsere-chalets-roses.jpg','Zentrale-Lage.jpg','Rezeption.jpg','kitchen.webp','living.webp','bedroom-main.webp','bathroom.webp','ChatGPT-Image-16.-Sept.-2026,-13_13_45.png','1.jpg','Codex-Bild 17. Sept. 2026, 15_33_10.jpg','25-flachau-sommer-wandern-berge-18.jpg','26-flachau-sommer-wandern-hüttenwanderung-franzfischerhütte-21.jpg','20-flachau-sommer-e-mountainbike-7.jpg','18-flachau-sommer-card-beach-volleyball-1.jpg','18-flachau-sommer-card-erlebniswandern-1.jpg','18-flachau-sommer-card-kinderspiel-foot-darts-1.jpg','18-flachau-sommer-card-lagerfeuer-1.jpg','winter-page-hero.jpg','IMG_5188.JPG','IMG_5174.JPG','25-flachau-winter-ski-urlaub-outdoor-4.jpg','25-flachau-winter-ski-urlaub-17.jpg','Detail-Musistadl-Eingang.jpg','Terasse-1.jpg','Flachauer-Gutshof_September_2k25_print-48.jpg','Flachauer-Gutshof_September_2k25_print-91.jpg','Flachauer-Gutshof_September_2k25_print-79.jpg','Flachauer Gutshof_September_2k25_print-73.jpg','Flachauer Gutshof_September_2k25_print-74.jpg','Flachauer Gutshof_September_2k25_print-37.jpg','restaurant-dining-detail.webp','restaurant-gutshof-sommer.webp','restaurant-musistadl-eingang.webp','Kinderspielplatz.jpg','Foto 24.07.26, 09 36 33(1).png','Foto 24.07.26, 09 36 34(1).png','Foto 24.07.26, 11 07 55(1).png','Foto 02.06.26, 12 01 02(3).jpg','lage.jpg'])||['exterior-wide.webp','35314199-Original.jpg','Chalet_innen.jpg','35314198-Original.jpg','35314193-1280w.jpg','exterior-main.webp','Alpenchalet1_filter.jpg','unsere-chalets-roses.jpg','Zentrale-Lage.jpg','Rezeption.jpg','kitchen.webp','living.webp','bedroom-main.webp','bathroom.webp','ChatGPT-Image-16.-Sept.-2026,-13_13_45.png','1.jpg','Codex-Bild 17. Sept. 2026, 15_33_10.jpg','25-flachau-sommer-wandern-berge-18.jpg','26-flachau-sommer-wandern-hüttenwanderung-franzfischerhütte-21.jpg','20-flachau-sommer-e-mountainbike-7.jpg','18-flachau-sommer-card-beach-volleyball-1.jpg','18-flachau-sommer-card-erlebniswandern-1.jpg','18-flachau-sommer-card-kinderspiel-foot-darts-1.jpg','18-flachau-sommer-card-lagerfeuer-1.jpg','winter-page-hero.jpg','IMG_5188.JPG','IMG_5174.JPG','25-flachau-winter-ski-urlaub-outdoor-4.jpg','25-flachau-winter-ski-urlaub-17.jpg','Detail-Musistadl-Eingang.jpg','Terasse-1.jpg','Flachauer-Gutshof_September_2k25_print-48.jpg','Flachauer-Gutshof_September_2k25_print-91.jpg','Flachauer-Gutshof_September_2k25_print-79.jpg','Flachauer Gutshof_September_2k25_print-73.jpg','Flachauer Gutshof_September_2k25_print-74.jpg','Flachauer Gutshof_September_2k25_print-37.jpg','restaurant-dining-detail.webp','restaurant-gutshof-sommer.webp','restaurant-musistadl-eingang.webp','Kinderspielplatz.jpg','Foto 24.07.26, 09 36 33(1).png','Foto 24.07.26, 09 36 34(1).png','Foto 24.07.26, 11 07 55(1).png','Foto 02.06.26, 12 01 02(3).jpg','lage.jpg'];
     const gallery=document.querySelector('.gallery-full');
     if(gallery){const current=[...gallery.querySelectorAll('[data-full]')];galleryImages.forEach((src,index)=>{let item=current[index];if(!item){item=document.createElement('button');item.type='button';gallery.append(item);item.addEventListener('click',()=>{const image=modal?.querySelector('img');if(image){image.src=item.dataset.full;modal.classList.add('open')}})}const path=`assets/images/${src}`;item.dataset.full=path;let img=item.querySelector('img');if(!img){img=document.createElement('img');img.loading='eager';img.decoding='async';item.append(img)}img.src=path;img.alt='Flachauer Alpenchalets'});current.slice(galleryImages.length).forEach(item=>item.remove())}
   }

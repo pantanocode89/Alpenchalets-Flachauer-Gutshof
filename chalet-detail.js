@@ -24,7 +24,7 @@ const detailSeasonalHeroes={
   'chalet-5-zimmer.html':{summer:'assets/images/exterior-main.webp',winter:'assets/images/winter-header-real-chalet.webp'}
 };
 const detailHero=document.querySelector('.detail-hero');
-const detailSeasonalDesktopImage=detailSeasonalHeroes[detailPage]?.[activeSeason];
+const detailSeasonalDesktopImage=window.acCmsHero?.(activeSeason,detailSeasonalHeroes[detailPage]?.[activeSeason])||detailSeasonalHeroes[detailPage]?.[activeSeason];
 const detailMobileAssets=new Set(["assets/images/living-mobile.webp","assets/images/exterior-main-mobile.webp","assets/images/winter-header-real-chalet-mobile.webp"]);
 const detailSeasonalMobileImage=detailSeasonalDesktopImage?.replace(/\.webp$/,'-mobile.webp');
 const detailSeasonalImage=innerWidth<=700&&detailMobileAssets.has(detailSeasonalMobileImage)?detailSeasonalMobileImage:detailSeasonalDesktopImage;
@@ -79,6 +79,7 @@ const detailTranslations={
   'amenity.kitchen':'Volledig uitgeruste keuken','amenity.kitchenD':'Volledig uitgerust met oven, kookplaat, koelkast, koffiemachine, waterkoker, toaster, servies, glazen, potten en pannen.','amenity.fire':'Open haard','amenity.fireD':'Voor gezellige avonden na een dag in de bergen.','amenity.sauna':'Privésauna','amenity.saunaD':'Eigen wellnessruimte in het chalet.','amenity.terrace':'Eigen terras','amenity.terraceD':'Ruimte voor ontbijt, ontspanning en samenzijn.','amenity.wifi':'Gratis wifi','amenity.wifiD':'Internet in het hele chalet.','amenity.parking':'Parkeren','amenity.parkingD':'Parkeerplaatsen bevinden zich op het chaletpark.','amenity.storage':'Ski- & bergruimte','amenity.storageD':'Praktische opslag voor schoenen en materiaal.','amenity.laundry':'Wasruimte','amenity.laundryD':'Wasmachine en droger zijn beschikbaar bij de receptie.','amenity.kids':'Speeltuin','amenity.kidsD':'Grote speeltuin voor de Flachauer Gutshof, goed zichtbaar vanaf het restaurantterras.','amenity.location':'Centrale ligging','amenity.locationD':'Korte afstand tot Flachauer Gutshof en de 8er-Jet.'
  }
 };
+Object.entries(window.acCmsTranslations||{}).forEach(([language,values])=>Object.assign(detailTranslations[language]||{},values));
 // The entrance has wardrobes and shelves, not a separate cloakroom.
 detailTranslations.de['common.back']='Zurück zu unseren Chalets';
 detailTranslations.en['common.back']='Back to our chalets';

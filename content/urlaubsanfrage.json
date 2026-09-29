@@ -1,0 +1,254 @@
+{
+  "title": "Urlaubsanfrage",
+  "texts": [
+    {
+      "id": "urlaubsanfrage-text-001",
+      "label": "Home",
+      "de": "Home",
+      "en": "Home"
+    },
+    {
+      "id": "urlaubsanfrage-text-002",
+      "label": "Unsere Chalets",
+      "de": "Unsere Chalets",
+      "en": "Our Chalets"
+    },
+    {
+      "id": "urlaubsanfrage-text-003",
+      "label": "Sommer",
+      "de": "Sommer",
+      "en": "Summer"
+    },
+    {
+      "id": "urlaubsanfrage-text-004",
+      "label": "Winter",
+      "de": "Winter",
+      "en": "Winter"
+    },
+    {
+      "id": "urlaubsanfrage-text-005",
+      "label": "Komfort",
+      "de": "Komfort",
+      "en": "Comfort"
+    },
+    {
+      "id": "urlaubsanfrage-text-006",
+      "label": "Restaurant",
+      "de": "Restaurant",
+      "en": "Restaurant"
+    },
+    {
+      "id": "urlaubsanfrage-text-007",
+      "label": "Galerie",
+      "de": "Galerie",
+      "en": "Gallery"
+    },
+    {
+      "id": "urlaubsanfrage-text-008",
+      "label": "Lage & Anfahrt",
+      "de": "Lage & Anfahrt",
+      "en": "Location"
+    },
+    {
+      "id": "urlaubsanfrage-text-009",
+      "label": "Urlaubsanfrage",
+      "de": "Urlaubsanfrage",
+      "en": "Enquiry"
+    },
+    {
+      "id": "urlaubsanfrage-text-010",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "urlaubsanfrage-text-011",
+      "label": "Kontakt",
+      "de": "Kontakt",
+      "en": "Contact"
+    },
+    {
+      "id": "urlaubsanfrage-text-012",
+      "label": "Urlaubsanfrage",
+      "de": "Urlaubsanfrage",
+      "en": "Holiday enquiry"
+    },
+    {
+      "id": "urlaubsanfrage-text-013",
+      "label": "Ihr Chalet in Flachau anfragen",
+      "de": "Ihr Chalet in Flachau anfragen",
+      "en": "Enquire about your chalet in Flachau"
+    },
+    {
+      "id": "urlaubsanfrage-text-014",
+      "label": "Urlaubsanfrage",
+      "de": "Urlaubsanfrage",
+      "en": "Holiday enquiry"
+    },
+    {
+      "id": "urlaubsanfrage-text-015",
+      "label": "Wählen Sie Chalettyp, Reisedaten und Personenzahl. Wir melden uns mit den passenden Info",
+      "de": "Wählen Sie Chalettyp, Reisedaten und Personenzahl. Wir melden uns mit den passenden Informationen zu Ihrem Sommeraufenthalt.",
+      "en": "Select the chalet type, travel dates and number of guests. We will reply with the relevant information for your summer stay."
+    },
+    {
+      "id": "urlaubsanfrage-text-016",
+      "label": "Vor- und Nachname",
+      "de": "Vor- und Nachname",
+      "en": "First and last name"
+    },
+    {
+      "id": "urlaubsanfrage-text-017",
+      "label": "E-Mail",
+      "de": "E-Mail",
+      "en": "Email"
+    },
+    {
+      "id": "urlaubsanfrage-text-018",
+      "label": "Telefon",
+      "de": "Telefon",
+      "en": "Phone"
+    },
+    {
+      "id": "urlaubsanfrage-text-019",
+      "label": "Saison",
+      "de": "Saison",
+      "en": "Season"
+    },
+    {
+      "id": "urlaubsanfrage-text-020",
+      "label": "Sommer",
+      "de": "Sommer",
+      "en": "Summer"
+    },
+    {
+      "id": "urlaubsanfrage-text-021",
+      "label": "Winter",
+      "de": "Winter",
+      "en": "Winter"
+    },
+    {
+      "id": "urlaubsanfrage-text-022",
+      "label": "Chalettyp",
+      "de": "Chalettyp",
+      "en": "Chalet type"
+    },
+    {
+      "id": "urlaubsanfrage-text-023",
+      "label": "Bitte wählen",
+      "de": "Bitte wählen",
+      "en": "Please select"
+    },
+    {
+      "id": "urlaubsanfrage-text-024",
+      "label": "4-Zimmer-Chalet",
+      "de": "4-Zimmer-Chalet",
+      "en": "4-room chalet"
+    },
+    {
+      "id": "urlaubsanfrage-text-025",
+      "label": "5-Zimmer-Chalet",
+      "de": "5-Zimmer-Chalet",
+      "en": "5-room chalet"
+    },
+    {
+      "id": "urlaubsanfrage-text-026",
+      "label": "Aufenthalt / Zeitraum",
+      "de": "Aufenthalt / Zeitraum",
+      "en": "Stay / dates"
+    },
+    {
+      "id": "urlaubsanfrage-text-027",
+      "label": "Anreise",
+      "de": "Anreise",
+      "en": "Arrival"
+    },
+    {
+      "id": "urlaubsanfrage-text-028",
+      "label": "Abreise",
+      "de": "Abreise",
+      "en": "Departure"
+    },
+    {
+      "id": "urlaubsanfrage-text-029",
+      "label": "Anzahl Personen",
+      "de": "Anzahl Personen",
+      "en": "Number of guests"
+    },
+    {
+      "id": "urlaubsanfrage-text-030",
+      "label": "Nachricht",
+      "de": "Nachricht",
+      "en": "Message"
+    },
+    {
+      "id": "urlaubsanfrage-text-031",
+      "label": "Anfrage senden",
+      "de": "Anfrage senden &rarr;",
+      "en": "Send enquiry &rarr;"
+    },
+    {
+      "id": "urlaubsanfrage-text-032",
+      "label": "wohlfühlen | genießen",
+      "de": "wohlfühlen | genießen",
+      "en": "feel good | enjoy"
+    },
+    {
+      "id": "urlaubsanfrage-text-033",
+      "label": "Flachau Salzburger Land Österreich",
+      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+      "en": "Flachau &middot; Salzburger Land &middot; Austria"
+    },
+    {
+      "id": "urlaubsanfrage-text-034",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "urlaubsanfrage-text-035",
+      "label": "Impressum",
+      "de": "Impressum",
+      "en": "Legal notice"
+    },
+    {
+      "id": "urlaubsanfrage-text-036",
+      "label": "Datenschutz",
+      "de": "Datenschutz",
+      "en": "Privacy policy"
+    }
+  ],
+  "translations": [],
+  "media": [
+    {
+      "id": "urlaubsanfrage-image-001",
+      "label": "Bild 2: logo.jpg",
+      "image": "assets/images/logo.jpg"
+    },
+    {
+      "id": "urlaubsanfrage-image-002",
+      "label": "Bild 3: panta-studios-mark-black.png",
+      "image": "assets/images/panta-studios-mark-black.png"
+    }
+  ],
+  "links": [
+    {
+      "id": "urlaubsanfrage-url-001",
+      "label": "Link 1: www.alpenchalets.at/urlaubsanfrage.html",
+      "url": "https://www.alpenchalets.at/urlaubsanfrage.html"
+    }
+  ],
+  "galleries": [],
+  "heroes": [
+    {
+      "id": "summer",
+      "label": "Sommer Hero",
+      "image": "assets/images/urlaubsanfrage-header-suitcase-summer-v2.webp"
+    },
+    {
+      "id": "winter",
+      "label": "Winter Hero",
+      "image": "assets/images/urlaubsanfrage-header-suitcase-winter-v2.webp"
+    }
+  ]
+}

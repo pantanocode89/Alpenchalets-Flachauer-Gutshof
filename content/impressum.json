@@ -1,0 +1,325 @@
+{
+  "title": "Impressum",
+  "texts": [
+    {
+      "id": "impressum-text-001",
+      "label": "Home",
+      "de": "Home",
+      "en": "Home"
+    },
+    {
+      "id": "impressum-text-002",
+      "label": "Unsere Chalets",
+      "de": "Unsere Chalets",
+      "en": "Our Chalets"
+    },
+    {
+      "id": "impressum-text-003",
+      "label": "Sommer",
+      "de": "Sommer",
+      "en": "Summer"
+    },
+    {
+      "id": "impressum-text-004",
+      "label": "Winter",
+      "de": "Winter",
+      "en": "Winter"
+    },
+    {
+      "id": "impressum-text-005",
+      "label": "Komfort",
+      "de": "Komfort",
+      "en": "Comfort"
+    },
+    {
+      "id": "impressum-text-006",
+      "label": "Restaurant",
+      "de": "Restaurant",
+      "en": "Restaurant"
+    },
+    {
+      "id": "impressum-text-007",
+      "label": "Galerie",
+      "de": "Galerie",
+      "en": "Gallery"
+    },
+    {
+      "id": "impressum-text-008",
+      "label": "Lage & Anfahrt",
+      "de": "Lage & Anfahrt",
+      "en": "Location"
+    },
+    {
+      "id": "impressum-text-009",
+      "label": "Urlaubsanfrage",
+      "de": "Urlaubsanfrage",
+      "en": "Enquiry"
+    },
+    {
+      "id": "impressum-text-010",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "impressum-text-011",
+      "label": "Kontakt",
+      "de": "Kontakt",
+      "en": "Contact"
+    },
+    {
+      "id": "impressum-text-012",
+      "label": "Rechtliches",
+      "de": "Rechtliches",
+      "en": "Legal"
+    },
+    {
+      "id": "impressum-text-013",
+      "label": "Impressum",
+      "de": "Impressum",
+      "en": "Legal notice"
+    },
+    {
+      "id": "impressum-text-014",
+      "label": "Medieninhaber, Diensteanbieter und verantwortlich für den Inhalt",
+      "de": "Medieninhaber, Diensteanbieter und verantwortlich für den Inhalt",
+      "en": "Media owner, service provider and responsible for content"
+    },
+    {
+      "id": "impressum-text-015",
+      "label": "Telefon",
+      "de": "Telefon",
+      "en": "Phone"
+    },
+    {
+      "id": "impressum-text-016",
+      "label": "E-Mail",
+      "de": "E-Mail",
+      "en": "Email"
+    },
+    {
+      "id": "impressum-text-017",
+      "label": "Unternehmensangaben",
+      "de": "Unternehmensangaben",
+      "en": "Company information"
+    },
+    {
+      "id": "impressum-text-018",
+      "label": "Geschäftsführer",
+      "de": "Geschäftsführer",
+      "en": "Managing director"
+    },
+    {
+      "id": "impressum-text-019",
+      "label": "Firmenbuchnummer",
+      "de": "Firmenbuchnummer",
+      "en": "Company register number"
+    },
+    {
+      "id": "impressum-text-020",
+      "label": "Firmenbuchgericht",
+      "de": "Firmenbuchgericht",
+      "en": "Register court"
+    },
+    {
+      "id": "impressum-text-021",
+      "label": "UID-Nummer",
+      "de": "UID-Nummer",
+      "en": "VAT identification number"
+    },
+    {
+      "id": "impressum-text-022",
+      "label": "Sitz",
+      "de": "Sitz",
+      "en": "Registered office"
+    },
+    {
+      "id": "impressum-text-023",
+      "label": "Mitgliedschaft",
+      "de": "Mitgliedschaft",
+      "en": "Membership"
+    },
+    {
+      "id": "impressum-text-024",
+      "label": "Fachgruppe",
+      "de": "Fachgruppe",
+      "en": "Professional group"
+    },
+    {
+      "id": "impressum-text-025",
+      "label": "Gewerbebehörde",
+      "de": "Gewerbebehörde",
+      "en": "Trade authority"
+    },
+    {
+      "id": "impressum-text-026",
+      "label": "GISA-Zahl",
+      "de": "GISA-Zahl",
+      "en": "GISA number"
+    },
+    {
+      "id": "impressum-text-027",
+      "label": "Anwendbare gewerberechtliche Vorschriften: Gewerbeordnung 1994 (GewO), abrufbar über das",
+      "de": "Anwendbare gewerberechtliche Vorschriften: Gewerbeordnung 1994 (GewO), abrufbar über das Rechtsinformationssystem des Bundes.",
+      "en": "Applicable trade regulations: Austrian Trade Regulation Act 1994 (GewO), available through the Federal Legal Information System."
+    },
+    {
+      "id": "impressum-text-028",
+      "label": "Betriebsstätte und Kontakt der Alpenchalets",
+      "de": "Betriebsstätte und Kontakt der Alpenchalets",
+      "en": "Alpenchalets location and contact"
+    },
+    {
+      "id": "impressum-text-029",
+      "label": "Telefon",
+      "de": "Telefon",
+      "en": "Phone"
+    },
+    {
+      "id": "impressum-text-030",
+      "label": "E-Mail",
+      "de": "E-Mail",
+      "en": "Email"
+    },
+    {
+      "id": "impressum-text-031",
+      "label": "Unternehmensgegenstand und grundlegende Richtung",
+      "de": "Unternehmensgegenstand und grundlegende Richtung",
+      "en": "Business purpose and editorial purpose"
+    },
+    {
+      "id": "impressum-text-032",
+      "label": "Unternehmensgegenstand ist insbesondere das Gastgewerbe mit Beherbergung sowie der Betri",
+      "de": "Unternehmensgegenstand ist insbesondere das Gastgewerbe mit Beherbergung sowie der Betrieb und die Vermietung der Flachauer Alpenchalets. Die Website dient der Präsentation der Unterkünfte und ihres Angebots sowie der Bereitstellung von Kontakt-, Anfrage- und Buchungsinformationen. Sie verfolgt keine darüber hinausgehende politische oder weltanschauliche Ausrichtung.",
+      "en": "The business purpose includes hospitality with accommodation and the operation and rental of Flachauer Alpenchalets. The website presents the accommodation and its services and provides contact, enquiry and booking information. It has no additional political or ideological editorial orientation."
+    },
+    {
+      "id": "impressum-text-033",
+      "label": "Konzeption und technische Umsetzung",
+      "de": "Konzeption und technische Umsetzung",
+      "en": "Concept and technical implementation"
+    },
+    {
+      "id": "impressum-text-034",
+      "label": "Konzeption, Webdesign und technische Umsetzung",
+      "de": "Konzeption, Webdesign und technische Umsetzung",
+      "en": "Concept, web design and technical implementation"
+    },
+    {
+      "id": "impressum-text-035",
+      "label": "Urheberrecht und Bildnachweis",
+      "de": "Urheberrecht und Bildnachweis",
+      "en": "Copyright and image credits"
+    },
+    {
+      "id": "impressum-text-036",
+      "label": "Die Inhalte, Texte, Fotografien und Grafiken dieser Website sind urheberrechtlich geschü",
+      "de": "Die Inhalte, Texte, Fotografien und Grafiken dieser Website sind urheberrechtlich geschützt. Eine Vervielfältigung, Bearbeitung oder Verwendung außerhalb der gesetzlichen Schranken ist nur mit vorheriger Zustimmung des jeweiligen Rechteinhabers zulässig. Bildmaterial: Flachauer Alpenchalets und Flachauer Gutshof, sofern beim jeweiligen Inhalt nicht anders angegeben.",
+      "en": "The content, text, photographs and graphics on this website are protected by copyright. Reproduction, modification or use beyond statutory exceptions is permitted only with the prior consent of the respective rights holder. Images: Flachauer Alpenchalets and Flachauer Gutshof, unless otherwise stated with the relevant content."
+    },
+    {
+      "id": "impressum-text-037",
+      "label": "Einzelne Bilder und Fotografien auf dieser Website können mithilfe von KI-Werkzeugen, ei",
+      "de": "Einzelne Bilder und Fotografien auf dieser Website können mithilfe von KI-Werkzeugen, einschließlich ChatGPT/OpenAI, visuell bearbeitet oder gefiltert worden sein.",
+      "en": "Individual images and photographs on this website may have been visually edited or filtered using AI tools, including ChatGPT/OpenAI."
+    },
+    {
+      "id": "impressum-text-038",
+      "label": "Haftung für Inhalte und externe Links",
+      "de": "Haftung für Inhalte und externe Links",
+      "en": "Liability for content and external links"
+    },
+    {
+      "id": "impressum-text-039",
+      "label": "Die Inhalte dieser Website werden mit Sorgfalt erstellt und regelmäßig überprüft. Eine G",
+      "de": "Die Inhalte dieser Website werden mit Sorgfalt erstellt und regelmäßig überprüft. Eine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität kann dennoch nicht übernommen werden. Diese Website enthält Links zu externen Websites, auf deren Inhalte und Gestaltung wir keinen Einfluss haben. Für rechtswidrige Inhalte verlinkter Seiten haften wir nur im Rahmen der gesetzlichen Bestimmungen. Bei Bekanntwerden konkreter Rechtsverletzungen werden betroffene Links nach Prüfung entfernt.",
+      "en": "The content of this website is prepared with care and reviewed regularly. Nevertheless, no guarantee can be given for its accuracy, completeness or timeliness. This website contains links to external websites whose content and design are beyond our control. We are liable for unlawful content on linked pages only within the limits of applicable law. If we become aware of specific legal infringements, the affected links will be reviewed and removed."
+    },
+    {
+      "id": "impressum-text-040",
+      "label": "Datenschutz",
+      "de": "Datenschutz",
+      "en": "Privacy"
+    },
+    {
+      "id": "impressum-text-041",
+      "label": "Informationen zur Verarbeitung personenbezogener Daten sowie zu Google Maps, Kontaktanfr",
+      "de": "Informationen zur Verarbeitung personenbezogener Daten sowie zu Google Maps, Kontaktanfragen und externen Diensten finden Sie in unserer Datenschutzerklärung.",
+      "en": "Information about the processing of personal data, Google Maps, contact enquiries and external services is available in our privacy policy."
+    },
+    {
+      "id": "impressum-text-042",
+      "label": "Stand: August 2026",
+      "de": "Stand: August 2026",
+      "en": "Last updated: August 2026"
+    },
+    {
+      "id": "impressum-text-043",
+      "label": "wohlfühlen | genießen",
+      "de": "wohlfühlen | genießen",
+      "en": "feel good | enjoy"
+    },
+    {
+      "id": "impressum-text-044",
+      "label": "Flachau Salzburger Land Österreich",
+      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+      "en": "Flachau &middot; Salzburger Land &middot; Austria"
+    },
+    {
+      "id": "impressum-text-045",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "impressum-text-046",
+      "label": "Impressum",
+      "de": "Impressum",
+      "en": "Legal notice"
+    },
+    {
+      "id": "impressum-text-047",
+      "label": "Datenschutz",
+      "de": "Datenschutz",
+      "en": "Privacy policy"
+    }
+  ],
+  "translations": [],
+  "media": [
+    {
+      "id": "impressum-image-001",
+      "label": "Bild 2: logo.jpg",
+      "image": "assets/images/logo.jpg"
+    },
+    {
+      "id": "impressum-image-002",
+      "label": "Bild 3: panta-studios-mark-black.png",
+      "image": "assets/images/panta-studios-mark-black.png"
+    }
+  ],
+  "links": [
+    {
+      "id": "impressum-url-001",
+      "label": "Link 1: www.alpenchalets.at/impressum.html",
+      "url": "https://www.alpenchalets.at/impressum.html"
+    },
+    {
+      "id": "impressum-url-002",
+      "label": "Link 2: www.ris.bka.gv.at",
+      "url": "https://www.ris.bka.gv.at"
+    }
+  ],
+  "galleries": [],
+  "heroes": [
+    {
+      "id": "summer",
+      "label": "Sommer Hero",
+      "image": "assets/images/66261ce3-38b5-435d-9c1c-84d8aa9afd0d.png"
+    },
+    {
+      "id": "winter",
+      "label": "Winter Hero",
+      "image": "assets/images/057becf1-c300-402d-aaba-e86d9ee57cdc.png"
+    }
+  ]
+}

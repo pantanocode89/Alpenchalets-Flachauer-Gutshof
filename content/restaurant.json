@@ -1,0 +1,209 @@
+{
+  "title": "Restaurant / Flachauer Gutshof",
+  "texts": [
+    {
+      "id": "restaurant-text-001",
+      "label": "Home",
+      "de": "Home",
+      "en": "Home"
+    },
+    {
+      "id": "restaurant-text-002",
+      "label": "Unsere Chalets",
+      "de": "Unsere Chalets",
+      "en": "Our Chalets"
+    },
+    {
+      "id": "restaurant-text-003",
+      "label": "Sommer",
+      "de": "Sommer",
+      "en": "Summer"
+    },
+    {
+      "id": "restaurant-text-004",
+      "label": "Winter",
+      "de": "Winter",
+      "en": "Winter"
+    },
+    {
+      "id": "restaurant-text-005",
+      "label": "Komfort",
+      "de": "Komfort",
+      "en": "Comfort"
+    },
+    {
+      "id": "restaurant-text-006",
+      "label": "Restaurant",
+      "de": "Restaurant",
+      "en": "Restaurant"
+    },
+    {
+      "id": "restaurant-text-007",
+      "label": "Galerie",
+      "de": "Galerie",
+      "en": "Gallery"
+    },
+    {
+      "id": "restaurant-text-008",
+      "label": "Lage & Anfahrt",
+      "de": "Lage & Anfahrt",
+      "en": "Location"
+    },
+    {
+      "id": "restaurant-text-009",
+      "label": "Urlaubsanfrage",
+      "de": "Urlaubsanfrage",
+      "en": "Enquiry"
+    },
+    {
+      "id": "restaurant-text-010",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "restaurant-text-011",
+      "label": "Kontakt",
+      "de": "Kontakt",
+      "en": "Contact"
+    },
+    {
+      "id": "restaurant-text-012",
+      "label": "Flachauer Gutshof",
+      "de": "Flachauer Gutshof",
+      "en": "Flachauer Gutshof"
+    },
+    {
+      "id": "restaurant-text-013",
+      "label": "Nur wenige Schritte entfernt",
+      "de": "Nur wenige Schritte entfernt",
+      "en": "Only a few steps away"
+    },
+    {
+      "id": "restaurant-text-014",
+      "label": "Restaurant, Bar und Live-Musik liegen direkt beim Chaletdorf.",
+      "de": "Restaurant, Bar und Live-Musik liegen direkt beim Chaletdorf.",
+      "en": "Restaurant, bar and live music are located right by the chalet village."
+    },
+    {
+      "id": "restaurant-text-015",
+      "label": "Gemeinsam essen und den Abend genießen",
+      "de": "Gemeinsam essen und den Abend genießen",
+      "en": "Dine together and enjoy the evening"
+    },
+    {
+      "id": "restaurant-text-016",
+      "label": "Der Flachauer Gutshof ist auf dem Lageplan direkt neben den Alpenchalets eingezeichnet. ",
+      "de": "Der Flachauer Gutshof ist auf dem Lageplan direkt neben den Alpenchalets eingezeichnet. Adresse Restaurant: Pichlgasse 15, 5542 Flachau. Für aktuelle Öffnungszeiten, Veranstaltungen und Reservierungen wenden Sie sich bitte direkt an den Betrieb.",
+      "en": "Flachauer Gutshof is shown on the site map right next to the Alpenchalets. Restaurant address: Pichlgasse 15, 5542 Flachau. For current opening times, events and reservations, please contact the venue directly."
+    },
+    {
+      "id": "restaurant-text-017",
+      "label": "Website des Restaurants ffnen",
+      "de": "Website des Restaurants &ouml;ffnen &#8599;",
+      "en": "Open restaurant website &#8599;"
+    },
+    {
+      "id": "restaurant-text-018",
+      "label": "Familienfreundlich genießen",
+      "de": "Familienfreundlich genießen",
+      "en": "Family-friendly dining"
+    },
+    {
+      "id": "restaurant-text-019",
+      "label": "Direkt vor dem Flachauer Gutshof liegt ein großer Spielplatz mit verschiedenen Aktivität",
+      "de": "Direkt vor dem Flachauer Gutshof liegt ein großer Spielplatz mit verschiedenen Aktivitäten für Kinder. Von der Restaurantterrasse aus haben Eltern den Spielplatz gut im Blick.",
+      "en": "A large playground with varied activities for children is located directly in front of Flachauer Gutshof. Parents have a good view of the playground from the restaurant terrace."
+    },
+    {
+      "id": "restaurant-text-020",
+      "label": "wohlfühlen | genießen",
+      "de": "wohlfühlen | genießen",
+      "en": "feel good | enjoy"
+    },
+    {
+      "id": "restaurant-text-021",
+      "label": "Flachau Salzburger Land Österreich",
+      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+      "en": "Flachau &middot; Salzburger Land &middot; Austria"
+    },
+    {
+      "id": "restaurant-text-022",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "restaurant-text-023",
+      "label": "Impressum",
+      "de": "Impressum",
+      "en": "Legal notice"
+    },
+    {
+      "id": "restaurant-text-024",
+      "label": "Datenschutz",
+      "de": "Datenschutz",
+      "en": "Privacy policy"
+    }
+  ],
+  "translations": [],
+  "media": [
+    {
+      "id": "restaurant-image-001",
+      "label": "Bild 2: Flachauer Gutshof_September_2k25_print-37.jpg",
+      "image": "assets/images/Flachauer Gutshof_September_2k25_print-37.jpg"
+    },
+    {
+      "id": "restaurant-image-002",
+      "label": "Bild 3: Foto 24.07.26, 11 07 55(1).png",
+      "image": "assets/images/Foto 24.07.26, 11 07 55(1).png"
+    },
+    {
+      "id": "restaurant-image-003",
+      "label": "Bild 4: logo.jpg",
+      "image": "assets/images/logo.jpg"
+    },
+    {
+      "id": "restaurant-image-004",
+      "label": "Bild 5: panta-studios-mark-black.png",
+      "image": "assets/images/panta-studios-mark-black.png"
+    }
+  ],
+  "links": [
+    {
+      "id": "restaurant-url-001",
+      "label": "Link 1: www.alpenchalets.at/restaurant.html",
+      "url": "https://www.alpenchalets.at/restaurant.html"
+    },
+    {
+      "id": "restaurant-url-002",
+      "label": "Link 2: www.flachauer-gutshof.at/",
+      "url": "https://www.flachauer-gutshof.at/"
+    }
+  ],
+  "galleries": [
+    {
+      "id": "restaurant-hero-slideshow",
+      "label": "Restaurant: Hero-Slideshow",
+      "images": [
+        "assets/images/restaurant-gutshof-sommer.webp",
+        "assets/images/Detail-Musistadl-Eingang.jpg",
+        "assets/images/Terasse-1.jpg",
+        "assets/images/Flachauer-Gutshof_September_2k25_print-48.jpg",
+        "assets/images/Flachauer-Gutshof_September_2k25_print-91.jpg"
+      ]
+    }
+  ],
+  "heroes": [
+    {
+      "id": "summer",
+      "label": "Sommer Hero",
+      "image": "assets/images/restaurant-gutshof-sommer.webp"
+    },
+    {
+      "id": "winter",
+      "label": "Winter Hero",
+      "image": "assets/images/restaurant-gutshof-winter-v2.webp"
+    }
+  ]
+}
