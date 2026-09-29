@@ -1,46 +1,34 @@
 {
   "title": "Kontakt",
-  "texts": [
-    {
-      "id": "kontakt-text-013",
-      "label": "Wir freuen uns auf Ihre Anfrage",
+  "texts": {
+    "kontakt-text-013": {
       "de": "Wir freuen uns auf Ihre Anfrage",
       "en": "We look forward to hearing from you"
     },
-    {
-      "id": "kontakt-text-014",
-      "label": "Direkt erreichbar",
+    "kontakt-text-014": {
       "de": "Direkt erreichbar",
       "en": "Contact us directly "
     },
-    {
-      "id": "kontakt-text-015",
-      "label": "Rezeption: täglich 08:00-12:00 und 15:00-20:00 Uhr. Bei Anreise nach 20:00 Uhr bitte bis",
+    "kontakt-text-015": {
       "de": "Rezeption: täglich 08:00-12:00 und 15:00-20:00 Uhr. Bei Anreise nach 20:00 Uhr bitte bis spätestens 18:00 Uhr Bescheid geben.",
       "en": "Reception: daily 08:00-12:00 and 15:00-20:00. For arrival after 20:00, please let us know by 18:00 at the latest."
     },
-    {
-      "id": "kontakt-text-016",
-      "label": "Winterbuchungen erfolgen über Sunweb. Sommeranfragen senden Sie direkt über unser Anfrag",
+    "kontakt-text-016": {
       "de": "Winterbuchungen erfolgen über Sunweb. Sommeranfragen senden Sie direkt über unser Anfrageformular.",
       "en": "Winter bookings are made through Sunweb. Send summer enquiries directly through our enquiry form."
     },
-    {
-      "id": "kontakt-text-017",
-      "label": "Zur Urlaubsanfrage",
+    "kontakt-text-017": {
       "de": "Zur Urlaubsanfrage &rarr;",
       "en": "Open holiday enquiry &rarr;"
     }
-  ],
-  "translations": [],
-  "media": [],
-  "links": [
-    {
-      "id": "kontakt-url-001",
-      "label": "Link 1: www.alpenchalets.at/kontakt.html",
+  },
+  "translations": {},
+  "media": {},
+  "links": {
+    "kontakt-url-001": {
       "url": "https://www.alpenchalets.at/kontakt.html"
     }
-  ],
+  },
   "galleries": [],
   "heroes": {
     "summer": "assets/images/kontakt-header-modern-summer-v2.webp",

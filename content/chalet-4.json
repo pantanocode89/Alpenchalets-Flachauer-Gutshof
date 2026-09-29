@@ -1,497 +1,333 @@
 {
   "title": "4-Zimmer-Chalet",
-  "texts": [
-    {
-      "id": "chalet-4-text-001",
-      "label": "Zum Inhalt",
+  "texts": {
+    "chalet-4-text-001": {
       "de": "Zum Inhalt",
       "en": "Skip to content"
     },
-    {
-      "id": "chalet-4-text-004",
-      "label": "Auch interessant",
+    "chalet-4-text-004": {
       "de": "Auch interessant",
       "en": "You may also like"
     },
-    {
-      "id": "chalet-4-text-005",
-      "label": "Mehr Privatsphäre in vier separaten Schlafzimmern",
+    "chalet-4-text-005": {
       "de": "Mehr Privatsphäre in vier separaten Schlafzimmern",
       "en": "More privacy with four separate bedrooms"
     },
-    {
-      "id": "chalet-4-text-006",
-      "label": "5-Zimmer-Chalet ansehen →",
+    "chalet-4-text-006": {
       "de": "5-Zimmer-Chalet ansehen →",
       "en": "View the 5-room chalet →"
     }
-  ],
-  "translations": [
-    {
-      "id": "nav.home",
-      "label": "Home",
+  },
+  "translations": {
+    "nav.home": {
       "de": "Home",
       "en": "Home"
     },
-    {
-      "id": "nav.chalets",
-      "label": "Unsere Chalets",
+    "nav.chalets": {
       "de": "Unsere Chalets",
       "en": "Our Chalets"
     },
-    {
-      "id": "nav.summer",
-      "label": "Sommer",
+    "nav.summer": {
       "de": "Sommer",
       "en": "Summer"
     },
-    {
-      "id": "nav.winter",
-      "label": "Winter",
+    "nav.winter": {
       "de": "Winter",
       "en": "Winter"
     },
-    {
-      "id": "nav.comfort",
-      "label": "Komfort",
+    "nav.comfort": {
       "de": "Komfort",
       "en": "Comfort"
     },
-    {
-      "id": "nav.restaurant",
-      "label": "Restaurant",
+    "nav.restaurant": {
       "de": "Restaurant",
       "en": "Restaurant"
     },
-    {
-      "id": "nav.gallery",
-      "label": "Galerie",
+    "nav.gallery": {
       "de": "Galerie",
       "en": "Gallery"
     },
-    {
-      "id": "nav.enquiry",
-      "label": "Urlaubsanfrage",
+    "nav.enquiry": {
       "de": "Urlaubsanfrage",
       "en": "Holiday Enquiry"
     },
-    {
-      "id": "nav.faq",
-      "label": "FAQ",
+    "nav.faq": {
       "de": "FAQ",
       "en": "FAQ"
     },
-    {
-      "id": "nav.contact",
-      "label": "Kontakt",
+    "nav.contact": {
       "de": "Kontakt",
       "en": "Contact"
     },
-    {
-      "id": "c4.kicker",
-      "label": "4-Zimmer-Chalet   bis 12 Personen",
+    "c4.kicker": {
       "de": "4-Zimmer-Chalet &middot; bis 12 Personen",
       "en": "4-room chalet &middot; up to 12 guests"
     },
-    {
-      "id": "c4.lead",
-      "label": "Drei Schlafzimmer, großzügiger Wohnbereich, private Sauna und eine große Terrasse ? idea",
+    "c4.lead": {
       "de": "Drei Schlafzimmer, großzügiger Wohnbereich, private Sauna und eine große Terrasse ? ideal für Familien und Freundesgruppen, die ihren Urlaub zusammen genießen möchten.",
       "en": "Three bedrooms, a spacious living area, private sauna and large terrace ? ideal for families and groups of friends who want to enjoy their holiday together."
     },
-    {
-      "id": "c4.fact1",
-      "label": "bis 12 Personen",
+    "c4.fact1": {
       "de": "bis 12 Personen",
       "en": "up to 12 guests"
     },
-    {
-      "id": "c4.fact2",
-      "label": "3 Schlafzimmer",
+    "c4.fact2": {
       "de": "3 Schlafzimmer",
       "en": "3 bedrooms"
     },
-    {
-      "id": "c4.fact3",
-      "label": "3 Bäder mit WC + Extra-WC",
+    "c4.fact3": {
       "de": "3 Bäder mit WC + Extra-WC",
       "en": "3 baths + WC"
     },
-    {
-      "id": "c4.fact4",
-      "label": "Private Sauna",
+    "c4.fact4": {
       "de": "Private Sauna",
       "en": "Private sauna"
     },
-    {
-      "id": "c4.fact5",
-      "label": "2 Etagen",
+    "c4.fact5": {
       "de": "2 Etagen",
       "en": "2 floors"
     },
-    {
-      "id": "c4.introKicker",
-      "label": "Gemütlich wohnen",
+    "c4.introKicker": {
       "de": "Gemütlich wohnen",
       "en": "Cozy living"
     },
-    {
-      "id": "c4.introTitle",
-      "label": "Ein Chalet, das Gemeinschaft und Rückzug verbindet",
+    "c4.introTitle": {
       "de": "Ein Chalet, das Gemeinschaft und Rückzug verbindet",
       "en": "A chalet combining shared space and privacy"
     },
-    {
-      "id": "c4.introText",
-      "label": "Im Erdgeschoss treffen sich alle im offenen Wohn- und Essbereich mit Küche, Kamin und di",
+    "c4.introText": {
       "de": "Im Erdgeschoss treffen sich alle im offenen Wohn- und Essbereich mit Küche, Kamin und direktem Zugang zur Terrasse. Jedes der drei Schlafzimmer verfügt über ein eigenes Bad mit WC. Zu einem Schlafzimmer gehört zusätzlich die private Sauna; ein weiteres separates WC befindet sich im Eingangsbereich.",
       "en": "The ground floor brings everyone together in the open living and dining area with kitchen, fireplace and direct terrace access. Upstairs are the bedrooms, bathrooms and private wellness area."
     },
-    {
-      "id": "c4.note",
-      "label": "Schlafmöglichkeiten: Schlafzimmer 1 mit Doppelbett, Schlafzimmer 2 und 3 jeweils mit Dop",
+    "c4.note": {
       "de": "Schlafmöglichkeiten: Schlafzimmer 1 mit Doppelbett, Schlafzimmer 2 und 3 jeweils mit Doppelbett und Stockbett sowie ein Schlafsofa für zwei Personen im Wohnbereich.",
       "en": "Sleeping: bedroom 1 has a double bed; bedrooms 2 and 3 each have a double bed and bunk bed, plus a sofa bed for two in the living area."
     },
-    {
-      "id": "common.rooms",
-      "label": "Raumaufteilung",
+    "common.rooms": {
       "de": "Raumaufteilung",
       "en": "Room layout"
     },
-    {
-      "id": "c4.room1",
-      "label": "Schlafzimmer 1",
+    "c4.room1": {
       "de": "Schlafzimmer 1",
       "en": "Bedroom 1"
     },
-    {
-      "id": "c4.room1t",
-      "label": "Doppelbett",
+    "c4.room1t": {
       "de": "Doppelbett",
       "en": "Double bed"
     },
-    {
-      "id": "c4.room1d",
-      "label": "Geräumiges Schlafzimmer mit Doppelbett.",
+    "c4.room1d": {
       "de": "Geräumiges Schlafzimmer mit Doppelbett.",
       "en": "Spacious bedroom with double bed."
     },
-    {
-      "id": "c4.room2",
-      "label": "Schlafzimmer 2",
+    "c4.room2": {
       "de": "Schlafzimmer 2",
       "en": "Bedroom 2"
     },
-    {
-      "id": "c4.room2t",
-      "label": "Doppelbett + Stockbett",
+    "c4.room2t": {
       "de": "Doppelbett + Stockbett",
       "en": "Double bed + bunk bed"
     },
-    {
-      "id": "c4.room2d",
-      "label": "Zweites Schlafzimmer mit Doppelbett und Stockbett.",
+    "c4.room2d": {
       "de": "Zweites Schlafzimmer mit Doppelbett und Stockbett.",
       "en": "Second bedroom with double bed and bunk bed."
     },
-    {
-      "id": "c4.room3",
-      "label": "Schlafzimmer 3",
+    "c4.room3": {
       "de": "Schlafzimmer 3",
       "en": "Bedroom 3"
     },
-    {
-      "id": "c4.room3t",
-      "label": "Doppelbett + Stockbett",
+    "c4.room3t": {
       "de": "Doppelbett + Stockbett",
       "en": "Double bed + bunk bed"
     },
-    {
-      "id": "c4.room3d",
-      "label": "Drittes Schlafzimmer mit Doppelbett und Stockbett.",
+    "c4.room3d": {
       "de": "Drittes Schlafzimmer mit Doppelbett und Stockbett.",
       "en": "Bedroom with a double bed and bunk bed."
     },
-    {
-      "id": "c4.room4",
-      "label": "Wohnbereich",
+    "c4.room4": {
       "de": "Wohnbereich",
       "en": "Living area"
     },
-    {
-      "id": "c4.room4t",
-      "label": "Schlafsofa für 2",
+    "c4.room4t": {
       "de": "Schlafsofa für 2",
       "en": "Sofa bed for 2"
     },
-    {
-      "id": "c4.room4d",
-      "label": "Zusätzliche Schlafmöglichkeit im Wohnbereich.",
+    "c4.room4d": {
       "de": "Zusätzliche Schlafmöglichkeit im Wohnbereich.",
       "en": "Additional sleeping space in the living area."
     },
-    {
-      "id": "c4.room5",
-      "label": "Bad & Wellness",
+    "c4.room5": {
       "de": "Bad & Wellness",
       "en": "Bath & wellness"
     },
-    {
-      "id": "c4.room5t",
-      "label": "Eigenes Bad mit WC je Schlafzimmer",
+    "c4.room5t": {
       "de": "Eigenes Bad mit WC je Schlafzimmer",
       "en": "3 baths + sauna"
     },
-    {
-      "id": "c4.room5d",
-      "label": "Jedes Schlafzimmer verfügt über ein eigenes Bad mit WC; zu einem Schlafzimmer gehört zus",
+    "c4.room5d": {
       "de": "Jedes Schlafzimmer verfügt über ein eigenes Bad mit WC; zu einem Schlafzimmer gehört zusätzlich die private Sauna.",
       "en": "Private sauna and several bathrooms for relaxed mornings."
     },
-    {
-      "id": "c4.room6",
-      "label": "Eingangsbereich",
+    "c4.room6": {
       "de": "Eingangsbereich",
       "en": "Entrance area"
     },
-    {
-      "id": "c4.room6t",
-      "label": "Zusätzliches WC & Stauraum",
+    "c4.room6t": {
       "de": "Zusätzliches WC & Stauraum",
       "en": "Extra WC & storage"
     },
-    {
-      "id": "c4.room6d",
-      "label": "Garderobe, zusätzliches WC und praktischer Stauraum.",
+    "c4.room6d": {
       "de": "Garderobe, zusätzliches WC und praktischer Stauraum.",
       "en": "Cloakroom, separate toilet and practical storage."
     },
-    {
-      "id": "common.amenities",
-      "label": "Ausstattung im überblick",
+    "common.amenities": {
       "de": "Ausstattung im überblick",
       "en": "Amenities at a glance"
     },
-    {
-      "id": "amenity.kitchen",
-      "label": "Voll ausgestattete Küche",
+    "amenity.kitchen": {
       "de": "Voll ausgestattete Küche",
       "en": "Fully equipped kitchen"
     },
-    {
-      "id": "amenity.kitchenD",
-      "label": "Voll ausgestattet mit Backofen, Kochfeld, Kühlschrank, Kaffeemaschine, Wasserkocher, Toa",
+    "amenity.kitchenD": {
       "de": "Voll ausgestattet mit Backofen, Kochfeld, Kühlschrank, Kaffeemaschine, Wasserkocher, Toaster, Geschirr, Gläsern, Töpfen und Pfannen.",
       "en": "Hob, oven, refrigerator, tableware and dining area."
     },
-    {
-      "id": "amenity.fire",
-      "label": "Kamin",
+    "amenity.fire": {
       "de": "Kamin",
       "en": "Fireplace"
     },
-    {
-      "id": "amenity.fireD",
-      "label": "Für gemütliche Abende nach einem Tag in den Bergen.",
+    "amenity.fireD": {
       "de": "Für gemütliche Abende nach einem Tag in den Bergen.",
       "en": "For cozy evenings after a day in the mountains."
     },
-    {
-      "id": "amenity.sauna",
-      "label": "Private Sauna",
+    "amenity.sauna": {
       "de": "Private Sauna",
       "en": "Private sauna"
     },
-    {
-      "id": "amenity.saunaD",
-      "label": "Wellnessbereich direkt im eigenen Chalet.",
+    "amenity.saunaD": {
       "de": "Wellnessbereich direkt im eigenen Chalet.",
       "en": "Your own wellness area inside the chalet."
     },
-    {
-      "id": "amenity.terrace",
-      "label": "Eigene Terrasse",
+    "amenity.terrace": {
       "de": "Eigene Terrasse",
       "en": "Private terrace"
     },
-    {
-      "id": "amenity.terraceD",
-      "label": "Platz zum Frühstücken, Entspannen und Zusammensitzen.",
+    "amenity.terraceD": {
       "de": "Platz zum Frühstücken, Entspannen und Zusammensitzen.",
       "en": "Space for breakfast, relaxing and spending time together."
     },
-    {
-      "id": "amenity.wifi",
-      "label": "Kostenloses WLAN",
+    "amenity.wifi": {
       "de": "Kostenloses WLAN",
       "en": "Free Wi-Fi"
     },
-    {
-      "id": "amenity.wifiD",
-      "label": "Internetverbindung im gesamten Chalet.",
+    "amenity.wifiD": {
       "de": "Internetverbindung im gesamten Chalet.",
       "en": "Internet access throughout the chalet."
     },
-    {
-      "id": "amenity.parking",
-      "label": "Parkmöglichkeiten",
+    "amenity.parking": {
       "de": "Parkmöglichkeiten",
       "en": "Parking"
     },
-    {
-      "id": "amenity.parkingD",
-      "label": "Parkflächen befinden sich in der Chalet-Anlage; zusätzlich steht eine Tiefgarage zur Ver",
+    "amenity.parkingD": {
       "de": "Parkflächen befinden sich in der Chalet-Anlage; zusätzlich steht eine Tiefgarage zur Verfügung.",
       "en": "Parking spaces are available within the chalet complex."
     },
-    {
-      "id": "amenity.storage",
-      "label": "Ski- & Abstellraum",
+    "amenity.storage": {
       "de": "Ski- & Abstellraum",
       "en": "Ski & storage room"
     },
-    {
-      "id": "amenity.storageD",
-      "label": "Eigener Abstellraum mit Skiständer für Ski, Schuhe und Ausrüstung.",
+    "amenity.storageD": {
       "de": "Eigener Abstellraum mit Skiständer für Ski, Schuhe und Ausrüstung.",
       "en": "Practical space for footwear and equipment."
     },
-    {
-      "id": "amenity.laundry",
-      "label": "Wäscheküche",
+    "amenity.laundry": {
       "de": "Wäscheküche",
       "en": "Laundry room"
     },
-    {
-      "id": "amenity.laundryD",
-      "label": "Waschmaschine und Trockner stehen an der Rezeption zur Verfügung.",
+    "amenity.laundryD": {
       "de": "Waschmaschine und Trockner stehen an der Rezeption zur Verfügung.",
       "en": "Washing machine and dryer are available at reception."
     },
-    {
-      "id": "amenity.kids",
-      "label": "Spielplatz",
+    "amenity.kids": {
       "de": "Spielplatz",
       "en": "Playground"
     },
-    {
-      "id": "amenity.kidsD",
-      "label": "Großer Spielplatz vor dem Flachauer Gutshof, von der Restaurantterrasse gut einsehbar.",
+    "amenity.kidsD": {
       "de": "Großer Spielplatz vor dem Flachauer Gutshof, von der Restaurantterrasse gut einsehbar.",
       "en": "Large playground in front of Flachauer Gutshof, clearly visible from the restaurant terrace."
     },
-    {
-      "id": "amenity.location",
-      "label": "Zentrale Lage",
+    "amenity.location": {
       "de": "Zentrale Lage",
       "en": "Central location"
     },
-    {
-      "id": "amenity.locationD",
-      "label": "Kurze Wege zu Flachauer Gutshof und 8er-Jet.",
+    "amenity.locationD": {
       "de": "Kurze Wege zu Flachauer Gutshof und 8er-Jet.",
       "en": "Short walks to Flachauer Gutshof and the 8er-Jet."
     },
-    {
-      "id": "common.gallery",
-      "label": "Bildergalerie",
+    "common.gallery": {
       "de": "Bildergalerie",
       "en": "Photo gallery"
     },
-    {
-      "id": "common.goodToKnow",
-      "label": "Gut zu wissen",
+    "common.goodToKnow": {
       "de": "Gut zu wissen",
       "en": "Good to know"
     },
-    {
-      "id": "c4.good",
-      "label": "Das Chalet erstreckt sich über zwei Ebenen. Die konkrete Raumaufteilung kann je nach Cha",
+    "c4.good": {
       "de": "Das Chalet erstreckt sich über zwei Ebenen. Die konkrete Raumaufteilung kann je nach Chalet leicht abweichen. Der Grundriss zeigt den typischen Aufbau des 4-Zimmer-Chalets.",
       "en": "The chalet is arranged over two levels. The exact layout may vary slightly. The floor plan shows the typical 4-room chalet configuration."
     },
-    {
-      "id": "common.floor",
-      "label": "Grundriss vergrößern",
+    "common.floor": {
       "de": "Grundriss vergrößern",
       "en": "Enlarge floor plan"
     },
-    {
-      "id": "common.contact",
-      "label": "Fragen zu diesem Chalet",
+    "common.contact": {
       "de": "Fragen zu diesem Chalet",
       "en": "Questions about this chalet"
     },
-    {
-      "id": "common.contactText",
-      "label": "Wir helfen Ihnen gerne telefonisch oder per E-Mail weiter.",
+    "common.contactText": {
       "de": "Wir helfen Ihnen gerne telefonisch oder per E-Mail weiter.",
       "en": "We are happy to help by phone or email."
     },
-    {
-      "id": "common.summer",
-      "label": "Sommer anfragen",
+    "common.summer": {
       "de": "Sommer anfragen",
       "en": "Enquire about summer"
     },
-    {
-      "id": "common.winter",
-      "label": "Winter über Sunweb buchen",
+    "common.winter": {
       "de": "Winter über<br>Sunweb buchen",
       "en": "Book winter via<br>Sunweb"
     },
-    {
-      "id": "footer.tagline",
-      "label": "wohlfühlen | genießen",
+    "footer.tagline": {
       "de": "wohlfühlen | genießen",
       "en": "feel good | enjoy"
     }
-  ],
-  "media": [
-    {
-      "id": "chalet-4-image-002",
-      "label": "Bild 1",
+  },
+  "media": {
+    "chalet-4-image-002": {
       "image": "assets/images/living.webp"
     },
-    {
-      "id": "chalet-4-image-003",
-      "label": "Bild 2",
+    "chalet-4-image-003": {
       "image": "assets/images/bedroom-family.webp"
     },
-    {
-      "id": "chalet-4-image-004",
-      "label": "Bild 3",
+    "chalet-4-image-004": {
       "image": "assets/images/bathroom-sauna.webp"
     },
-    {
-      "id": "chalet-4-image-005",
-      "label": "Bild 4",
+    "chalet-4-image-005": {
       "image": "assets/images/kitchen.webp"
     },
-    {
-      "id": "chalet-4-image-006",
-      "label": "Bild 5",
+    "chalet-4-image-006": {
       "image": "assets/images/bathroom.webp"
     },
-    {
-      "id": "chalet-4-image-007",
-      "label": "Bild 6",
+    "chalet-4-image-007": {
       "image": "assets/images/Grundriss-Alpenschalet-Typ1-EG+OG.jpg"
     }
-  ],
-  "links": [
-    {
-      "id": "chalet-4-url-001",
-      "label": "Link 1: www.alpenchalets.at/chalet-4-zimmer.html",
+  },
+  "links": {
+    "chalet-4-url-001": {
       "url": "https://www.alpenchalets.at/chalet-4-zimmer.html"
     },
-    {
-      "id": "chalet-4-url-002",
-      "label": "Link 2: www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-",
+    "chalet-4-url-002": {
       "url": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
     }
-  ],
+  },
   "heroes": {
     "summer": "assets/images/living.webp",
     "winter": "assets/images/winter-header-real-chalet.webp"

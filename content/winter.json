@@ -1,75 +1,53 @@
 {
   "title": "Winter",
-  "texts": [
-    {
-      "id": "winter-text-012",
-      "label": "Winter in Flachau",
+  "texts": {
+    "winter-text-012": {
       "de": "Winter in Flachau",
       "en": "Winter in Flachau"
     },
-    {
-      "id": "winter-text-013",
-      "label": "Schneetage. Kaminabende",
+    "winter-text-013": {
       "de": "Schneetage. Kaminabende",
       "en": "Snowy days. Fireside evenings"
     },
-    {
-      "id": "winter-text-014",
-      "label": "Ein gemütliches Chalet als Zuhause nach einem Tag im Schnee.",
+    "winter-text-014": {
       "de": "Ein gemütliches Chalet als Zuhause nach einem Tag im Schnee.",
       "en": "A cozy chalet to come home to after a day in the snow."
     },
-    {
-      "id": "winter-text-015",
-      "label": "Winterurlaub",
+    "winter-text-015": {
       "de": "Winterurlaub",
       "en": "Winter holiday"
     },
-    {
-      "id": "winter-text-016",
-      "label": "Kurze Wege und Wärme, wenn Sie zurückkommen",
+    "winter-text-016": {
       "de": "Kurze Wege und Wärme, wenn Sie zurückkommen",
       "en": "Short distances and warmth when you return"
     },
-    {
-      "id": "winter-text-017",
-      "label": "Der Lageplan zeigt den Fußweg zum 8er-Jet, die Langlaufloipe sowie die Wege zu Rezeption",
+    "winter-text-017": {
       "de": "Der Lageplan zeigt den Fußweg zum 8er-Jet, die Langlaufloipe sowie die Wege zu Rezeption und Flachauer Gutshof. Im Chalet sorgen Sauna und Kamin für einen entspannten Abend.",
       "en": "The site map shows the footpath to the 8er-Jet, the cross-country trail and the routes to reception and Flachauer Gutshof. Back at the chalet, the sauna and fireplace make for a relaxed evening."
     },
-    {
-      "id": "winter-text-018",
-      "label": "Winteraufenthalte werden ausschließlich über Sunweb gebucht.",
+    "winter-text-018": {
       "de": "Winteraufenthalte werden ausschließlich über Sunweb gebucht.",
       "en": "Winter stays are booked exclusively through Sunweb."
     },
-    {
-      "id": "winter-text-019",
-      "label": "Winter buchen",
+    "winter-text-019": {
       "de": "Winter buchen &#8599;",
       "en": "Book Winter &#8599;"
     }
-  ],
-  "translations": [],
-  "media": [
-    {
-      "id": "winter-image-001",
-      "label": "Bild 1",
+  },
+  "translations": {},
+  "media": {
+    "winter-image-001": {
       "image": "assets/images/IMG_20210315_113003.webp"
     }
-  ],
-  "links": [
-    {
-      "id": "winter-url-001",
-      "label": "Link 1: www.alpenchalets.at/winter.html",
+  },
+  "links": {
+    "winter-url-001": {
       "url": "https://www.alpenchalets.at/winter.html"
     },
-    {
-      "id": "winter-url-002",
-      "label": "Link 2: www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-",
+    "winter-url-002": {
       "url": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
     }
-  ],
+  },
   "heroes": {
     "summer": "assets/images/winter-page-hero.webp",
     "winter": "assets/images/winter-page-hero.webp"

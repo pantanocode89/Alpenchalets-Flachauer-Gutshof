@@ -1,182 +1,124 @@
 {
   "title": "Datenschutz",
-  "texts": [
-    {
-      "id": "datenschutz-text-012",
-      "label": "Rechtliches",
+  "texts": {
+    "datenschutz-text-012": {
       "de": "Rechtliches",
       "en": "Legal"
     },
-    {
-      "id": "datenschutz-text-014",
-      "label": "Der Schutz Ihrer personenbezogenen Daten ist uns ein besonderes Anliegen. Wir verarbeite",
+    "datenschutz-text-014": {
       "de": "Der Schutz Ihrer personenbezogenen Daten ist uns ein besonderes Anliegen. Wir verarbeiten personenbezogene Daten ausschließlich im Rahmen der Datenschutz-Grundverordnung (DSGVO), des österreichischen Datenschutzgesetzes (DSG) und des Telekommunikationsgesetzes 2021 (TKG 2021). Diese Datenschutzerklärung informiert Sie über die Datenverarbeitung im Zusammenhang mit dieser Website.",
       "en": "Protecting your personal data is very important to us. We process personal data exclusively in accordance with the General Data Protection Regulation (GDPR), the Austrian Data Protection Act (DSG) and the Austrian Telecommunications Act 2021 (TKG 2021). This privacy policy explains the processing of data in connection with this website."
     },
-    {
-      "id": "datenschutz-text-015",
-      "label": "Verantwortlicher",
+    "datenschutz-text-015": {
       "de": "Verantwortlicher",
       "en": "Controller"
     },
-    {
-      "id": "datenschutz-text-016",
-      "label": "Aufruf der Website und Server-Logfiles",
+    "datenschutz-text-016": {
       "de": "Aufruf der Website und Server-Logfiles",
       "en": "Website access and server log files"
     },
-    {
-      "id": "datenschutz-text-017",
-      "label": "Beim Aufruf der Website kann der Hosting-Anbieter technisch erforderliche Verbindungsdat",
+    "datenschutz-text-017": {
       "de": "Beim Aufruf der Website kann der Hosting-Anbieter technisch erforderliche Verbindungsdaten verarbeiten. Dazu können IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Datei, übertragene Datenmenge, Referrer-URL, Browser, Betriebssystem und Zugriffsstatus gehören. Die Verarbeitung dient der sicheren und stabilen Bereitstellung der Website sowie der Abwehr von Missbrauch und erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Logdaten werden nur so lange gespeichert, wie dies für diese Zwecke oder aufgrund gesetzlicher Pflichten erforderlich ist.",
       "en": "When you access the website, the hosting provider may process technically necessary connection data. This may include the IP address, date and time of access, requested file, amount of data transferred, referrer URL, browser, operating system and access status. Processing serves the secure and stable provision of the website and the prevention of misuse and is based on Art. 6(1)(f) GDPR. Log data is retained only for as long as necessary for these purposes or to comply with legal obligations."
     },
-    {
-      "id": "datenschutz-text-018",
-      "label": "Kontaktaufnahme und Urlaubsanfrage",
+    "datenschutz-text-018": {
       "de": "Kontaktaufnahme und Urlaubsanfrage",
       "en": "Contact and holiday enquiries"
     },
-    {
-      "id": "datenschutz-text-019",
-      "label": "Wenn Sie uns per E-Mail oder Telefon kontaktieren oder das Anfrageformular verwenden, ve",
+    "datenschutz-text-019": {
       "de": "Wenn Sie uns per E-Mail oder Telefon kontaktieren oder das Anfrageformular verwenden, verarbeiten wir die von Ihnen übermittelten Angaben zur Bearbeitung Ihrer Anfrage und für mögliche Anschlussfragen. Das Formular öffnet das E-Mail-Programm auf Ihrem Gerät; die Formulardaten werden nicht in einer eigenen Website-Datenbank gespeichert. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, soweit es um vorvertragliche Maßnahmen oder die Durchführung eines Vertrags geht, andernfalls Art. 6 Abs. 1 lit. f DSGVO. Die Daten werden gelöscht, sobald die Anfrage abschließend bearbeitet wurde und keine gesetzlichen Aufbewahrungspflichten oder berechtigten Gründe für eine weitere Speicherung bestehen. Eine Weitergabe erfolgt nur, soweit sie zur Bearbeitung erforderlich oder gesetzlich vorgeschrieben ist.",
       "en": "If you contact us by email or telephone or use the enquiry form, we process the information you provide in order to handle your enquiry and any follow-up questions. The form opens the email application on your device; form data is not stored in a separate website database. The legal basis is Art. 6(1)(b) GDPR where pre-contractual measures or performance of a contract are concerned, and otherwise Art. 6(1)(f) GDPR. Data is deleted once the enquiry has been fully dealt with and there are no statutory retention obligations or legitimate grounds for further storage. Data is shared only where necessary to process the enquiry or where required by law."
     },
-    {
-      "id": "datenschutz-text-020",
-      "label": "Lokale Spracheinstellung und Cookies",
+    "datenschutz-text-020": {
       "de": "Lokale Spracheinstellung und Cookies",
       "en": "Local language setting and cookies"
     },
-    {
-      "id": "datenschutz-text-021",
-      "label": "Die gewählte Sprache wird ausschließlich lokal in Ihrem Browser gespeichert, damit die W",
+    "datenschutz-text-021": {
       "de": "Die gewählte Sprache wird ausschließlich lokal in Ihrem Browser gespeichert, damit die Website bei einem späteren Besuch in derselben Sprache angezeigt werden kann. Diese Einstellung wird nicht an unseren Server übertragen und nicht zu Analyse- oder Werbezwecken verwendet. Die Website setzt selbst keine Analyse- oder Marketing-Cookies ein.",
       "en": "Your selected language is stored only locally in your browser so that the website can be displayed in the same language on a later visit. This setting is not transmitted to our server and is not used for analytics or advertising. The website itself does not use analytics or marketing cookies."
     },
-    {
-      "id": "datenschutz-text-022",
-      "label": "Google Maps",
+    "datenschutz-text-022": {
       "de": "Google Maps",
       "en": "Google Maps"
     },
-    {
-      "id": "datenschutz-text-023",
-      "label": "Auf der Website kann eine Karte von Google Maps geladen werden. Anbieter im Europäischen",
+    "datenschutz-text-023": {
       "de": "Auf der Website kann eine Karte von Google Maps geladen werden. Anbieter im Europäischen Wirtschaftsraum ist Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Vor Ihrer ausdrücklichen Zustimmung wird keine Verbindung zu Google Maps hergestellt. Erst durch Anklicken der Schaltfläche „Google Maps laden“ wird die Karte aktiviert. Dabei können insbesondere Ihre IP-Adresse, Geräte- und Browserinformationen, Zeitpunkt des Aufrufs und die Herkunftsseite an Google übermittelt werden. Wenn Sie bei Google angemeldet sind, kann Google die Daten Ihrem Konto zuordnen. Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO und § 165 Abs. 3 TKG 2021. Eine Verarbeitung durch Google außerhalb des EWR kann nicht ausgeschlossen werden. Durch Neuladen der Seite wird die Karte wieder deaktiviert.",
       "en": "A Google Maps map can be loaded on the website. The provider in the European Economic Area is Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. No connection to Google Maps is established before your express consent. The map is activated only when you click the ‘Load Google Maps’ button. In particular, your IP address, device and browser information, time of access and referring page may then be transmitted to Google. If you are signed in to Google, Google may associate the data with your account. Processing is based on your consent pursuant to Art. 6(1)(a) GDPR and section 165(3) TKG 2021. Processing by Google outside the EEA cannot be ruled out. Reloading the page deactivates the map again."
     },
-    {
-      "id": "datenschutz-text-024",
-      "label": "Datenschutzerklärung von Google",
+    "datenschutz-text-024": {
       "de": "Datenschutzerklärung von Google",
       "en": "Google Privacy Policy"
     },
-    {
-      "id": "datenschutz-text-025",
-      "label": "Externe Links",
+    "datenschutz-text-025": {
       "de": "Externe Links",
       "en": "External links"
     },
-    {
-      "id": "datenschutz-text-026",
-      "label": "Diese Website enthält gekennzeichnete Links zu externen Angeboten, insbesondere zur Buch",
+    "datenschutz-text-026": {
       "de": "Diese Website enthält gekennzeichnete Links zu externen Angeboten, insbesondere zur Buchungsplattform Sunweb, zur Website des Flachauer Gutshofs sowie zu Informationsseiten von Flachau Tourismus, darunter die offizielle FUNSPACE-Flachau-Seite. Erst wenn Sie einen solchen Link anklicken, verlassen Sie diese Website. Ab diesem Zeitpunkt ist der jeweilige externe Anbieter für die Verarbeitung Ihrer Daten verantwortlich. Bitte beachten Sie die Datenschutzinformationen des jeweiligen Anbieters.",
       "en": "This website contains identified links to external services, in particular the Sunweb booking platform, the Flachauer Gutshof website and information pages provided by Flachau Tourism, including the official FUNSPACE Flachau page. You leave this website only when you click such a link. From that point, the respective external provider is responsible for processing your data. Please refer to the privacy information of the respective provider."
     },
-    {
-      "id": "datenschutz-text-027",
-      "label": "Webfonts, Analyse und soziale Netzwerke",
+    "datenschutz-text-027": {
       "de": "Webfonts, Analyse und soziale Netzwerke",
       "en": "Web fonts, analytics and social networks"
     },
-    {
-      "id": "datenschutz-text-028",
-      "label": "Die Website verwendet lokale Systemschriftarten und lädt keine Schriften von externen Sc",
+    "datenschutz-text-028": {
       "de": "Die Website verwendet lokale Systemschriftarten und lädt keine Schriften von externen Schriftanbietern. Derzeit sind weder ein Webanalysedienst wie Google Analytics noch Social-Media-Plugins eingebunden. Sollte sich dies ändern, wird diese Datenschutzerklärung vor dem Einsatz entsprechend aktualisiert und, soweit erforderlich, eine Einwilligung eingeholt.",
       "en": "The website uses local system fonts and does not load fonts from external font providers. No web analytics service such as Google Analytics or social media plugins are currently integrated. If this changes, this privacy policy will be updated before use and consent will be obtained where required."
     },
-    {
-      "id": "datenschutz-text-029",
-      "label": "Ihre Rechte",
+    "datenschutz-text-029": {
       "de": "Ihre Rechte",
       "en": "Your rights"
     },
-    {
-      "id": "datenschutz-text-030",
-      "label": "Nach der DSGVO stehen Ihnen insbesondere die folgenden Rechte zu:",
+    "datenschutz-text-030": {
       "de": "Nach der DSGVO stehen Ihnen insbesondere die folgenden Rechte zu:",
       "en": "Under the GDPR, you have in particular the following rights:"
     },
-    {
-      "id": "datenschutz-text-031",
-      "label": "Recht auf Information und Auskunft",
+    "datenschutz-text-031": {
       "de": "Recht auf Information und Auskunft",
       "en": "Right to information and access"
     },
-    {
-      "id": "datenschutz-text-032",
-      "label": "Recht auf Berichtigung und Löschung",
+    "datenschutz-text-032": {
       "de": "Recht auf Berichtigung und Löschung",
       "en": "Right to rectification and erasure"
     },
-    {
-      "id": "datenschutz-text-033",
-      "label": "Recht auf Einschränkung der Verarbeitung",
+    "datenschutz-text-033": {
       "de": "Recht auf Einschränkung der Verarbeitung",
       "en": "Right to restriction of processing"
     },
-    {
-      "id": "datenschutz-text-034",
-      "label": "Recht auf Datenübertragbarkeit",
+    "datenschutz-text-034": {
       "de": "Recht auf Datenübertragbarkeit",
       "en": "Right to data portability"
     },
-    {
-      "id": "datenschutz-text-035",
-      "label": "Recht auf Widerspruch",
+    "datenschutz-text-035": {
       "de": "Recht auf Widerspruch",
       "en": "Right to object"
     },
-    {
-      "id": "datenschutz-text-036",
-      "label": "Recht, eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen",
+    "datenschutz-text-036": {
       "de": "Recht, eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen",
       "en": "Right to withdraw consent at any time with effect for the future"
     },
-    {
-      "id": "datenschutz-text-037",
-      "label": "Zur Ausübung Ihrer Rechte wenden Sie sich bitte an die oben genannte Kontaktadresse. Wen",
+    "datenschutz-text-037": {
       "de": "Zur Ausübung Ihrer Rechte wenden Sie sich bitte an die oben genannte Kontaktadresse. Wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt, können Sie sich bei der Österreichischen Datenschutzbehörde beschweren.",
       "en": "To exercise your rights, please contact us using the details above. If you believe that the processing of your data infringes data protection law, you may lodge a complaint with the Austrian Data Protection Authority."
     },
-    {
-      "id": "datenschutz-text-038",
-      "label": "Stand: Juli 2026",
+    "datenschutz-text-038": {
       "de": "Stand: Juli 2026",
       "en": "Last updated: July 2026"
     }
-  ],
-  "translations": [],
-  "media": [],
-  "links": [
-    {
-      "id": "datenschutz-url-001",
-      "label": "Link 1: www.alpenchalets.at/datenschutz.html",
+  },
+  "translations": {},
+  "media": {},
+  "links": {
+    "datenschutz-url-001": {
       "url": "https://www.alpenchalets.at/datenschutz.html"
     },
-    {
-      "id": "datenschutz-url-002",
-      "label": "Link 2: policies.google.com/privacy",
+    "datenschutz-url-002": {
       "url": "https://policies.google.com/privacy"
     },
-    {
-      "id": "datenschutz-url-003",
-      "label": "Link 3: www.dsb.gv.at",
+    "datenschutz-url-003": {
       "url": "https://www.dsb.gv.at"
     }
-  ],
+  },
   "galleries": [],
   "heroes": {
     "summer": "assets/images/057becf1-c300-402d-aaba-e86d9ee57cdc.png",

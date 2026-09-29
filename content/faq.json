@@ -1,268 +1,182 @@
 {
   "title": "FAQ",
-  "texts": [
-    {
-      "id": "faq-text-012",
-      "label": "Gut vorbereitet ankommen",
+  "texts": {
+    "faq-text-012": {
       "de": "Gut vorbereitet ankommen",
       "en": "Arrive well prepared"
     },
-    {
-      "id": "faq-text-013",
-      "label": "Häufige Fragen",
+    "faq-text-013": {
       "de": "Häufige Fragen",
       "en": "Frequently asked questions"
     },
-    {
-      "id": "faq-text-014",
-      "label": "Wie buche ich einen Winterurlaub",
+    "faq-text-014": {
       "de": "Wie buche ich einen Winterurlaub",
       "en": "How do I book a winter stay"
     },
-    {
-      "id": "faq-text-015",
-      "label": "Winteraufenthalte werden über Sunweb gebucht. Der Buchungsbutton führt direkt zur Angebo",
+    "faq-text-015": {
       "de": "Winteraufenthalte werden über Sunweb gebucht. Der Buchungsbutton führt direkt zur Angebotsseite.",
       "en": "Winter stays are booked through Sunweb. The booking button takes you directly to the offer page."
     },
-    {
-      "id": "faq-text-016",
-      "label": "Wie buche ich einen Sommerurlaub",
+    "faq-text-016": {
       "de": "Wie buche ich einen Sommerurlaub",
       "en": "How do I book a summer stay"
     },
-    {
-      "id": "faq-text-017",
-      "label": "Sommeraufenthalte fragen Sie direkt über unser Anfrageformular an.",
+    "faq-text-017": {
       "de": "Sommeraufenthalte fragen Sie direkt über unser Anfrageformular an.",
       "en": "Use our enquiry form to request a summer stay directly."
     },
-    {
-      "id": "faq-text-018",
-      "label": "Gibt es eine Sauna und einen Kamin",
+    "faq-text-018": {
       "de": "Gibt es eine Sauna und einen Kamin",
       "en": "Is there a sauna and fireplace"
     },
-    {
-      "id": "faq-text-019",
-      "label": "Ja. Beide Chalet-Typen verfügen über eine private Sauna und einen Kamin.",
+    "faq-text-019": {
       "de": "Ja. Beide Chalet-Typen verfügen über eine private Sauna und einen Kamin.",
       "en": "Yes. Both chalet types have a private sauna and fireplace."
     },
-    {
-      "id": "faq-text-020",
-      "label": "Welche Betten haben die 4- und 5-Zimmer-Chalets",
+    "faq-text-020": {
       "de": "Welche Betten haben die 4- und 5-Zimmer-Chalets",
       "en": "What beds do the 4- and 5-room chalets have"
     },
-    {
-      "id": "faq-text-021",
-      "label": "Das 4-Zimmer-Chalet bietet in Schlafzimmer 1 ein Doppelbett sowie in Schlafzimmer 2 und ",
+    "faq-text-021": {
       "de": "Das 4-Zimmer-Chalet bietet in Schlafzimmer 1 ein Doppelbett sowie in Schlafzimmer 2 und 3 jeweils ein Doppelbett und Stockbett. Zusätzlich gibt es ein Schlafsofa für zwei Personen. Im 5-Zimmer-Chalet bietet jedes der vier separaten Schlafzimmer zwei Schlafplätze; zusammen mit dem Schlafsofa für zwei Personen ist Platz für bis zu zehn Gäste.",
       "en": "In the 4-room chalet, bedroom 1 has a double bed, while bedrooms 2 and 3 each have a double bed and bunk bed. There is also a sofa bed for two. In the 5-room chalet, each of the four separate bedrooms sleeps two; together with the sofa bed for two, it accommodates up to ten guests."
     },
-    {
-      "id": "faq-text-022",
-      "label": "Wie viele Personen können übernachten",
+    "faq-text-022": {
       "de": "Wie viele Personen können übernachten",
       "en": "How many guests can stay"
     },
-    {
-      "id": "faq-text-023",
-      "label": "Das 4-Zimmer-Chalet bietet Platz für bis zu 12 Personen, das 5-Zimmer-Chalet für bis zu ",
+    "faq-text-023": {
       "de": "Das 4-Zimmer-Chalet bietet Platz für bis zu 12 Personen, das 5-Zimmer-Chalet für bis zu 10 Personen. Zwei gekoppelte 5-Zimmer-Chalets eignen sich für bis zu 20 Personen.",
       "en": "The 4-room chalet accommodates up to 12 guests and the 5-room chalet up to 10. Two connected 5-room chalets are suitable for up to 20 guests."
     },
-    {
-      "id": "faq-text-024",
-      "label": "Wann ist Check-in und Check-out",
+    "faq-text-024": {
       "de": "Wann ist Check-in und Check-out",
       "en": "When are check-in and check-out"
     },
-    {
-      "id": "faq-text-025",
-      "label": "Der Check-in ist ab 15:00 Uhr möglich. Der Check-out erfolgt am Abreisetag bis 10:00 Uhr",
+    "faq-text-025": {
       "de": "Der Check-in ist ab 15:00 Uhr möglich. Der Check-out erfolgt am Abreisetag bis 10:00 Uhr. Wenn Sie früher ankommen, können Sie gerne an der Rezeption nachfragen, ob Ihr Chalet bereits bereit ist.",
       "en": "Check-in is possible from 3:00 PM. Check-out is until 10:00 AM on departure day. If you arrive earlier, you are welcome to ask at reception whether your chalet is already ready."
     },
-    {
-      "id": "faq-text-026",
-      "label": "Was passiert bei einer späten Anreise",
+    "faq-text-026": {
       "de": "Was passiert bei einer späten Anreise",
       "en": "What happens if we arrive late"
     },
-    {
-      "id": "faq-text-027",
-      "label": "Unsere Rezeption ist täglich bis 20:00 Uhr besetzt. Wenn Sie später anreisen, bitten wir",
+    "faq-text-027": {
       "de": "Unsere Rezeption ist täglich bis 20:00 Uhr besetzt. Wenn Sie später anreisen, bitten wir um eine kurze Information bis spätestens 18:00 Uhr, damit wir die Schlüsselübergabe vorbereiten können. Bei später Anreise kann der Schlüssel im benachbarten Flachauer Gutshof Musistadl hinterlegt werden.",
       "en": "Reception is staffed daily until 8:00 PM. If you arrive later, please let us know by 6:00 PM so we can prepare the key handover. For late arrivals, the key can be deposited at the neighbouring Flachauer Gutshof Musistadl."
     },
-    {
-      "id": "faq-text-028",
-      "label": "Wann kann die Sauna genutzt werden",
+    "faq-text-028": {
       "de": "Wann kann die Sauna genutzt werden",
       "en": "When can the sauna be used"
     },
-    {
-      "id": "faq-text-029",
-      "label": "Die private Sauna im Chalet kann täglich von 10:00 bis 22:00 Uhr genutzt werden.",
+    "faq-text-029": {
       "de": "Die private Sauna im Chalet kann täglich von 10:00 bis 22:00 Uhr genutzt werden.",
       "en": "The private sauna in the chalet can be used daily from 10:00 AM to 10:00 PM."
     },
-    {
-      "id": "faq-text-030",
-      "label": "Sind Bettwäsche und Handtücher inkludiert",
+    "faq-text-030": {
       "de": "Sind Bettwäsche und Handtücher inkludiert",
       "en": "Are bed linen and towels included"
     },
-    {
-      "id": "faq-text-031",
-      "label": "Ja. Pro Person sind ein Set Bettwäsche sowie ein Handtuchset mit Duschtuch und Handtuch ",
+    "faq-text-031": {
       "de": "Ja. Pro Person sind ein Set Bettwäsche sowie ein Handtuchset mit Duschtuch und Handtuch inkludiert. Frische Handtücher können bei Bedarf an der Rezeption ausgeliehen werden.",
       "en": "Yes. One set of bed linen and one towel set with a bath towel and hand towel per person are included. Fresh towels can be rented at reception if needed."
     },
-    {
-      "id": "faq-text-032",
-      "label": "Gibt es Babybetten und Hochstühle",
+    "faq-text-032": {
       "de": "Gibt es Babybetten und Hochstühle",
       "en": "Are baby beds and high chairs available"
     },
-    {
-      "id": "faq-text-033",
-      "label": "Ein Babybett stellen wir auf Anfrage gerne kostenlos im Chalet bereit. In jedem Chalet b",
+    "faq-text-033": {
       "de": "Ein Babybett stellen wir auf Anfrage gerne kostenlos im Chalet bereit. In jedem Chalet befindet sich außerdem ein Kinderstuhl.",
       "en": "A baby bed can be provided in the chalet free of charge on request. Each chalet also includes a high chair."
     },
-    {
-      "id": "faq-text-034",
-      "label": "Sind Haustiere erlaubt",
+    "faq-text-034": {
       "de": "Sind Haustiere erlaubt",
       "en": "Are pets allowed"
     },
-    {
-      "id": "faq-text-035",
-      "label": "Haustiere sind willkommen. Die Gebühr beträgt 20 Euro pro Haustier und Nacht.",
+    "faq-text-035": {
       "de": "Haustiere sind willkommen. Die Gebühr beträgt 20 Euro pro Haustier und Nacht.",
       "en": "Pets are welcome. The fee is 20 euros per pet per night."
     },
-    {
-      "id": "faq-text-036",
-      "label": "Gibt es eine Waschmaschine oder einen Trockner",
+    "faq-text-036": {
       "de": "Gibt es eine Waschmaschine oder einen Trockner",
       "en": "Is there a washing machine or dryer"
     },
-    {
-      "id": "faq-text-037",
-      "label": "Ja. An unserer Rezeption gibt es eine Wäscheküche mit einer Waschmaschine und einem Troc",
+    "faq-text-037": {
       "de": "Ja. An unserer Rezeption gibt es eine Wäscheküche mit einer Waschmaschine und einem Trockner.",
       "en": "Yes. At reception there is a laundry room with one washing machine and one dryer."
     },
-    {
-      "id": "faq-text-038",
-      "label": "Gibt es Parkplätze, Tiefgarage und Ladestationen",
+    "faq-text-038": {
       "de": "Gibt es Parkplätze, Tiefgarage und Ladestationen",
       "en": "Is there parking, an underground garage and EV charging"
     },
-    {
-      "id": "faq-text-039",
-      "label": "In der Chalet-Anlage stehen Parkmöglichkeiten und eine Tiefgarage zur Verfügung. Öffentl",
+    "faq-text-039": {
       "de": "In der Chalet-Anlage stehen Parkmöglichkeiten und eine Tiefgarage zur Verfügung. Öffentliche E-Ladestationen befinden sich in Flachau, unter anderem an der Reitdorfer Straße, Wagrainer Straße, Flachauer Straße und Unterberggasse.",
       "en": "Parking and an underground garage are available in the chalet resort. Public EV charging stations are located in Flachau, including Reitdorfer Strasse, Wagrainer Strasse, Flachauer Strasse and Unterberggasse."
     },
-    {
-      "id": "faq-text-040",
-      "label": "Ist die Flachau Sommer Card inkludiert",
+    "faq-text-040": {
       "de": "Ist die Flachau Sommer Card inkludiert",
       "en": "Is the Flachau Sommer Card included"
     },
-    {
-      "id": "faq-text-041",
-      "label": "Ja. Die Flachau Sommer Card ist im Sommer inkludiert und wird beim Check-in ausgegeben. ",
+    "faq-text-041": {
       "de": "Ja. Die Flachau Sommer Card ist im Sommer inkludiert und wird beim Check-in ausgegeben. Damit können Gäste an verschiedenen kostenfreien Aktivitäten teilnehmen.",
       "en": "Yes. The Flachau Sommer Card is included in summer and is handed out at check-in. It allows guests to take part in various free activities."
     },
-    {
-      "id": "faq-text-042",
-      "label": "Kann ich bei früher Anreise schon etwas nutzen",
+    "faq-text-042": {
       "de": "Kann ich bei früher Anreise schon etwas nutzen",
       "en": "Can I use anything if I arrive early"
     },
-    {
-      "id": "faq-text-043",
-      "label": "Wenn Sie vor 15:00 Uhr ankommen, können Sie gerne an der Rezeption vorbeikommen. Wir prü",
+    "faq-text-043": {
       "de": "Wenn Sie vor 15:00 Uhr ankommen, können Sie gerne an der Rezeption vorbeikommen. Wir prüfen den Status Ihres Chalets und Sie können das Badezimmer sowie den Umkleideraum an der Rezeption nutzen.",
       "en": "If you arrive before 3:00 PM, you are welcome to come to reception. We will check the status of your chalet, and you may use the bathroom and changing room at reception."
     },
-    {
-      "id": "faq-text-044",
-      "label": "Kann ich ein bestimmtes Chalet reservieren",
+    "faq-text-044": {
       "de": "Kann ich ein bestimmtes Chalet reservieren",
       "en": "Can I reserve a specific chalet"
     },
-    {
-      "id": "faq-text-045",
-      "label": "Ein bestimmtes Chalet kann nicht verbindlich zugesagt werden. Wünsche werden gerne notie",
+    "faq-text-045": {
       "de": "Ein bestimmtes Chalet kann nicht verbindlich zugesagt werden. Wünsche werden gerne notiert und nach Möglichkeit berücksichtigt.",
       "en": "A specific chalet cannot be guaranteed. Preferences are gladly noted and considered whenever possible."
     },
-    {
-      "id": "faq-text-046",
-      "label": "Gibt es einen Grill im Chalet",
+    "faq-text-046": {
       "de": "Gibt es einen Grill im Chalet",
       "en": "Is there a barbecue in the chalet"
     },
-    {
-      "id": "faq-text-047",
-      "label": "Die Chalets sind nicht mit einem Grill ausgestattet. Sie können gerne einen eigenen Gril",
+    "faq-text-047": {
       "de": "Die Chalets sind nicht mit einem Grill ausgestattet. Sie können gerne einen eigenen Grill im Garten verwenden, sofern andere Gäste dadurch nicht gestört werden.",
       "en": "The chalets are not equipped with a barbecue. You are welcome to use your own barbecue in the garden as long as it does not disturb other guests."
     },
-    {
-      "id": "faq-text-048",
-      "label": "Wie nah sind Piste und 8er-Jet",
+    "faq-text-048": {
       "de": "Wie nah sind Piste und 8er-Jet",
       "en": "How close are the slope and 8er-Jet"
     },
-    {
-      "id": "faq-text-049",
-      "label": "Die Alpenchalets liegen direkt an der Skipiste. Die Achterjet-Gondelbahn ist nur wenige ",
+    "faq-text-049": {
       "de": "Die Alpenchalets liegen direkt an der Skipiste. Die Achterjet-Gondelbahn ist nur wenige Minuten vom Chaletdorf entfernt.",
       "en": "The Alpenchalets are located directly by the ski slope. The Achterjet gondola is only a few minutes from the chalet village."
     },
-    {
-      "id": "faq-text-050",
-      "label": "Gibt es Taxi- oder Transferkontakte",
+    "faq-text-050": {
       "de": "Gibt es Taxi- oder Transferkontakte",
       "en": "Are there taxi or transfer contacts"
     },
-    {
-      "id": "faq-text-051",
-      "label": "Für Transfers können Gäste unter anderem Taxi Reiter unter +43 6457 2900 oder Taxi 3000 ",
+    "faq-text-051": {
       "de": "Für Transfers können Gäste unter anderem Taxi Reiter unter +43 6457 2900 oder Taxi 3000 unter +43 6457 3000 kontaktieren.",
       "en": "For transfers, guests can contact Taxi Reiter at +43 6457 2900 or Taxi 3000 at +43 6457 3000."
     },
-    {
-      "id": "faq-text-052",
-      "label": "Welche Notrufnummern gelten in Österreich",
+    "faq-text-052": {
       "de": "Welche Notrufnummern gelten in Österreich",
       "en": "Which emergency numbers apply in Austria"
     },
-    {
-      "id": "faq-text-053",
-      "label": "In Österreich gelten unter anderem 144 für Rettung, 122 für Feuerwehr, 133 für Polizei, ",
+    "faq-text-053": {
       "de": "In Österreich gelten unter anderem 144 für Rettung, 122 für Feuerwehr, 133 für Polizei, 141 für Ärztenotdienst und 112 als Euronotruf.",
       "en": "In Austria, key emergency numbers include 144 for ambulance, 122 for fire brigade, 133 for police, 141 for out-of-hours medical service and 112 as the European emergency number."
     }
-  ],
-  "translations": [],
-  "media": [],
-  "links": [
-    {
-      "id": "faq-url-001",
-      "label": "Link 1: www.alpenchalets.at/faq.html",
+  },
+  "translations": {},
+  "media": {},
+  "links": {
+    "faq-url-001": {
       "url": "https://www.alpenchalets.at/faq.html"
     }
-  ],
+  },
   "galleries": [],
   "heroes": {
     "summer": "assets/images/faq-header-planning-v1.webp",

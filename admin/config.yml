@@ -4,171 +4,3604 @@ backend:
   branch: main
   base_url: https://alpenchalets-cms-auth.draganaimilospantic.workers.dev
   auth_endpoint: auth
-
 media_folder: assets/images
 public_folder: /assets/images
 site_url: https://www.alpenchalets.at
 display_url: https://www.alpenchalets.at
 locale: de
-
 collections:
   - name: seiten
     label: Seiteninhalte
     files:
-      - label: Startseite
+      - label: "Startseite"
         name: home
         file: content/home.json
         fields:
-          - &title {label: Interner Seitentitel, name: title, widget: hidden}
-          - &texts
-            label: Inhalte und Texte
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
             name: texts
-            widget: list
-            summary: "{{fields.label}}"
+            widget: object
             fields:
-              - {label: ID, name: id, widget: hidden}
-              - {label: Interne Bezeichnung, name: label, widget: hidden}
-              - {label: Deutsch, name: de, widget: text}
-              - {label: English, name: en, widget: text}
-          - &translations
-            label: Überschriften und Schaltflächen dieser Seite
+            - label: "Text"
+              name: home-text-001
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-003
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-004
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-005
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-006
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-007
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-008
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-009
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-010
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-011
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-012
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-013
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-014
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-015
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-016
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-017
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-018
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-019
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-020
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-021
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-022
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-023
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-024
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-025
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-026
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-028
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-029
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-030
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-031
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-032
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-033
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-034
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-035
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-036
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-037
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-038
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-040
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-041
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-042
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-043
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-044
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-045
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-046
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-047
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-048
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-049
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-050
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-051
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-052
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-053
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-054
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-055
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-056
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-057
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-058
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-063
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-064
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-065
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-066
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-067
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: home-text-068
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Überschriften und Schaltflächen"
             name: translations
-            widget: list
-            summary: "{{fields.label}}"
+            widget: object
             fields:
-              - {label: ID, name: id, widget: hidden}
-              - {label: Interne Bezeichnung, name: label, widget: hidden}
-              - {label: Deutsch, name: de, widget: text}
-              - {label: English, name: en, widget: text}
-          - &media
-            label: Bilder auf dieser Seite
+            - label: "Text"
+              name: nav.home
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.chalets
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.summer
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.winter
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.comfort
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.restaurant
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.gallery
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.location
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.enquiry
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.faq
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.contact
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: hero.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: hero.text
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: hero.summerBook
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: hero.winterBook
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: intro.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: intro.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: intro.text
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: intro.f1
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: intro.f2
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: intro.f3
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalets.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalets.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalets.lead
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet4.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet4.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet4.text
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.sleeping
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet4.sleeping
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.bathrooms
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet4.bathrooms
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.living
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet4.living
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.outdoor
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet4.outdoor
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.guests12
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.sauna
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.breadService
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.skiRoom
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.details
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.floorplan
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet5.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet5.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet5.text
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet5.sleeping
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet5.bathrooms
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet5.living
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet5.outdoor
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.guests10
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.noBunks
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: summer.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: summer.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: summer.text
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: summer.cardCta
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: winter.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: winter.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: winter.text
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: atmosphere.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: atmosphere.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: atmosphere.text
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.lead
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.breadTitle
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.breadText
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.skiTitle
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.skiText
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.laundryTitle
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.laundryText
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.garageTitle
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.garageText
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.chargingTitle
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.chargingText
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.playgroundTitle
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: services.playgroundText
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: restaurant.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: restaurant.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: restaurant.text
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: restaurant.cta
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: gallery.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: gallery.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: gallery.all
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: location.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: location.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: location.text
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: location.map
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: finalBooking.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: finalBooking.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: finalBooking.text
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: finalBooking.summer
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: finalBooking.winter
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: contact.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: contact.title
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: contact.text
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: contact.phone
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: footer.tagline
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Bilder"
             name: media
-            widget: list
-            summary: "{{fields.label}}"
+            widget: object
             fields:
-              - {label: ID, name: id, widget: hidden}
-              - {label: Interne Bezeichnung, name: label, widget: hidden}
-              - {label: Bild ersetzen, name: image, widget: image, required: true}
-          - &heroes
-            label: Seitenkopf
+            - {label: "Bild 1", name: home-image-003, widget: image, required: true}
+            - {label: "Bild 2", name: home-image-004, widget: image, required: true}
+            - {label: "Bild 3", name: home-image-005, widget: image, required: true}
+            - {label: "Bild 4", name: home-image-006, widget: image, required: true}
+            - {label: "Bild 5", name: home-image-007, widget: image, required: true}
+            - {label: "Bild 6", name: home-image-008, widget: image, required: true}
+            - {label: "Bild 7", name: home-image-009, widget: image, required: true}
+            - {label: "Bild 8", name: home-image-010, widget: image, required: true}
+            - {label: "Bild 9", name: home-image-011, widget: image, required: true}
+            - {label: "Bild 10", name: home-image-012, widget: image, required: true}
+            - {label: "Bild 11", name: home-image-013, widget: image, required: true}
+            - {label: "Bild 12", name: home-image-014, widget: image, required: true}
+            - {label: "Bild 13", name: home-image-015, widget: image, required: true}
+            - {label: "Bild 14", name: home-image-016, widget: image, required: true}
+            - {label: "Bild 15", name: home-image-017, widget: image, required: true}
+            - {label: "Bild 16", name: home-image-018, widget: image, required: true}
+            - {label: "Bild 17", name: home-image-019, widget: image, required: true}
+            - {label: "Bild 18", name: home-image-020, widget: image, required: true}
+            - {label: "Bild 19", name: home-image-021, widget: image, required: true}
+            - {label: "Bild 20", name: home-image-022, widget: image, required: true}
+            - {label: "Bild 21", name: home-image-023, widget: image, required: true}
+            - {label: "Bild 22", name: home-image-024, widget: image, required: true}
+            - {label: "Bild 23", name: home-image-025, widget: image, required: true}
+            - {label: "Bild 24", name: home-image-026, widget: image, required: true}
+            - {label: "Bild 25", name: home-image-027, widget: image, required: true}
+            - {label: "Bild 26", name: home-image-028, widget: image, required: true}
+          - label: "Links"
+            name: links
+            widget: object
+            fields:
+            - {label: "Link", name: home-url-001, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: home-url-002, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: home-url-003, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: home-url-004, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: home-url-005, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: home-url-006, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+          - label: "4-Zimmer-Chalet – Bilder"
+            name: chalet4_gallery
+            widget: object
+            fields:
+              - {label: Grundriss, name: floorplan, widget: image, required: false}
+            - label: "Bilder"
+              name: images
+              widget: list
+              min: 1
+              field: {label: Bild, name: image, widget: image}
+          - label: "5-Zimmer-Chalet – Bilder"
+            name: chalet5_gallery
+            widget: object
+            fields:
+              - {label: Grundriss, name: floorplan, widget: image, required: false}
+            - label: "Bilder"
+              name: images
+              widget: list
+              min: 1
+              field: {label: Bild, name: image, widget: image}
+      - label: "4-Zimmer-Chalet"
+        name: chalet_4
+        file: content/chalet-4.json
+        fields:
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
+            name: texts
+            widget: object
+            fields:
+            - label: "Text"
+              name: chalet-4-text-001
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet-4-text-004
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet-4-text-005
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet-4-text-006
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Überschriften und Schaltflächen"
+            name: translations
+            widget: object
+            fields:
+            - label: "Text"
+              name: nav.home
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.chalets
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.summer
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.winter
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.comfort
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.restaurant
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.gallery
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.enquiry
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.faq
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.contact
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.lead
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.fact1
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.fact2
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.fact3
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.fact4
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.fact5
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.introKicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.introTitle
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.introText
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.note
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.rooms
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room1
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room1t
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room1d
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room2
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room2t
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room2d
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room3
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room3t
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room3d
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room4
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room4t
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room4d
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room5
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room5t
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room5d
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room6
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room6t
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.room6d
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.amenities
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.kitchen
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.kitchenD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.fire
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.fireD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.sauna
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.saunaD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.terrace
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.terraceD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.wifi
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.wifiD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.parking
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.parkingD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.storage
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.storageD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.laundry
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.laundryD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.kids
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.kidsD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.location
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.locationD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.gallery
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.goodToKnow
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c4.good
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.floor
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.contact
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.contactText
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.summer
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.winter
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: footer.tagline
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Bilder"
+            name: media
+            widget: object
+            fields:
+            - {label: "Bild 1", name: chalet-4-image-002, widget: image, required: true}
+            - {label: "Bild 2", name: chalet-4-image-003, widget: image, required: true}
+            - {label: "Bild 3", name: chalet-4-image-004, widget: image, required: true}
+            - {label: "Bild 4", name: chalet-4-image-005, widget: image, required: true}
+            - {label: "Bild 5", name: chalet-4-image-006, widget: image, required: true}
+            - {label: "Bild 6", name: chalet-4-image-007, widget: image, required: true}
+          - label: "Seitenkopf"
             name: heroes
             widget: object
             fields:
-              - {label: Sommer – Headerbild, name: summer, widget: image, required: true}
-              - {label: Winter – Headerbild, name: winter, widget: image, required: true}
-          - &links
-            label: Inhaltliche Links dieser Seite
+            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
+            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+          - label: "Links"
             name: links
-            widget: list
-            summary: "{{fields.label}}"
+            widget: object
             fields:
-              - {label: ID, name: id, widget: hidden}
-              - {label: Interne Bezeichnung, name: label, widget: hidden}
-              - {label: URL, name: url, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
-          - label: 4-Zimmer-Chalet – Bilder
-            name: chalet4_gallery
-            widget: object
-            fields: &gallery_with_floorplan
-              - {label: ID, name: id, widget: hidden}
-              - {label: Grundriss, name: floorplan, widget: image, required: false}
-              - label: Bilder
-                name: images
-                widget: list
-                min: 1
-                field: {label: Bild, name: image, widget: image}
-          - label: 5-Zimmer-Chalet – Bilder
-            name: chalet5_gallery
-            widget: object
-            fields: *gallery_with_floorplan
-      - label: 4-Zimmer-Chalet
-        name: chalet4
-        file: content/chalet-4.json
-        fields:
-          - *title
-          - *texts
-          - *translations
-          - *media
-          - *heroes
-          - *links
-          - &main_gallery
-            label: Hauptgalerie
+            - {label: "Link", name: chalet-4-url-001, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: chalet-4-url-002, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+          - label: "Hauptgalerie"
             name: gallery
             widget: object
-            fields: &gallery_images
-              - {label: ID, name: id, widget: hidden}
-              - label: Bilder
-                name: images
-                widget: list
-                min: 1
-                field: {label: Bild, name: image, widget: image}
-      - label: 5-Zimmer-Chalet
-        name: chalet5
+            fields:
+            - label: "Bilder"
+              name: images
+              widget: list
+              min: 1
+              field: {label: Bild, name: image, widget: image}
+      - label: "5-Zimmer-Chalet"
+        name: chalet_5
         file: content/chalet-5.json
-        fields: [*title, *texts, *translations, *media, *heroes, *links, *main_gallery]
-      - label: Sommer
-        name: sommer
-        file: content/sommer.json
-        fields: [*title, *texts, *translations, *media, *heroes, *links, &slideshow {label: Header-Slideshow, name: gallery, widget: object, fields: *gallery_images}]
-      - label: Winter
-        name: winter
-        file: content/winter.json
-        fields: [*title, *texts, *translations, *media, *heroes, *links, *slideshow]
-      - label: Restaurant / Flachauer Gutshof
-        name: restaurant
-        file: content/restaurant.json
-        fields: [*title, *texts, *translations, *media, *heroes, *links, *slideshow]
-      - label: Lage & Anfahrt
-        name: lage
-        file: content/lage.json
-        fields: [*title, *texts, *translations, *media, *heroes, *links]
-      - label: Galerie
-        name: galerie
-        file: content/galerie.json
         fields:
-          - *title
-          - label: Texte
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
             name: texts
             widget: object
             fields:
-              - {label: Hauptüberschrift – Deutsch, name: heading_de, widget: text}
-              - {label: Hauptüberschrift – English, name: heading_en, widget: text}
-              - {label: Untertitel – Deutsch, name: subtitle_de, widget: text}
-              - {label: Untertitel – English, name: subtitle_en, widget: text}
-          - label: Hauptgalerie
+            - label: "Text"
+              name: chalet-5-text-001
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet-5-text-004
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet-5-text-005
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: chalet-5-text-006
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Überschriften und Schaltflächen"
+            name: translations
+            widget: object
+            fields:
+            - label: "Text"
+              name: nav.home
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.chalets
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.summer
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.winter
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.comfort
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.restaurant
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.gallery
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.enquiry
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.faq
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: nav.contact
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.kicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.lead
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.fact1
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.fact2
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.fact3
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.fact4
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.fact5
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.introKicker
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.introTitle
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.introText
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.note
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.rooms
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room1
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room1t
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room1d
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room2
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room2t
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room2d
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room3
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room3t
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room3d
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room4
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room4t
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room4d
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room5
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room5t
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room5d
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room6
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room6t
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.room6d
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.amenities
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.kitchen
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.kitchenD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.fire
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.fireD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.sauna
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.saunaD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.terrace
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.terraceD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.wifi
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.wifiD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.parking
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.parkingD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.storage
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.storageD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.laundry
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.laundryD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.kids
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.kidsD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.location
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: amenity.locationD
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.gallery
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.goodToKnow
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: c5.good
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.floor
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.contact
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.contactText
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.summer
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: common.winter
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: footer.tagline
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Bilder"
+            name: media
+            widget: object
+            fields:
+            - {label: "Bild 1", name: chalet-5-image-002, widget: image, required: true}
+            - {label: "Bild 2", name: chalet-5-image-003, widget: image, required: true}
+            - {label: "Bild 3", name: chalet-5-image-004, widget: image, required: true}
+            - {label: "Bild 4", name: chalet-5-image-005, widget: image, required: true}
+            - {label: "Bild 5", name: chalet-5-image-006, widget: image, required: true}
+            - {label: "Bild 6", name: chalet-5-image-007, widget: image, required: true}
+          - label: "Seitenkopf"
+            name: heroes
+            widget: object
+            fields:
+            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
+            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+          - label: "Links"
+            name: links
+            widget: object
+            fields:
+            - {label: "Link", name: chalet-5-url-001, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: chalet-5-url-002, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+          - label: "Hauptgalerie"
+            name: gallery
+            widget: object
+            fields:
+            - label: "Bilder"
+              name: images
+              widget: list
+              min: 1
+              field: {label: Bild, name: image, widget: image}
+      - label: "Sommer"
+        name: sommer
+        file: content/sommer.json
+        fields:
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
+            name: texts
+            widget: object
+            fields:
+            - label: "Text"
+              name: sommer-text-012
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-013
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-014
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-015
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-016
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-017
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-018
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-019
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-020
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-021
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-022
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-023
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-024
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-025
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-026
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-027
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-028
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-029
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: sommer-text-030
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Bilder"
+            name: media
+            widget: object
+            fields:
+            - {label: "Bild 1", name: sommer-image-001, widget: image, required: true}
+            - {label: "Bild 2", name: sommer-image-002, widget: image, required: true}
+            - {label: "Bild 3", name: sommer-image-003, widget: image, required: true}
+            - {label: "Bild 4", name: sommer-image-004, widget: image, required: true}
+            - {label: "Bild 5", name: sommer-image-005, widget: image, required: true}
+          - label: "Seitenkopf"
+            name: heroes
+            widget: object
+            fields:
+            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
+            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+          - label: "Links"
+            name: links
+            widget: object
+            fields:
+            - {label: "Link", name: sommer-url-001, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+          - label: "Header-Slideshow"
+            name: gallery
+            widget: object
+            fields:
+            - label: "Bilder"
+              name: images
+              widget: list
+              min: 1
+              field: {label: Bild, name: image, widget: image}
+      - label: "Winter"
+        name: winter
+        file: content/winter.json
+        fields:
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
+            name: texts
+            widget: object
+            fields:
+            - label: "Text"
+              name: winter-text-012
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: winter-text-013
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: winter-text-014
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: winter-text-015
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: winter-text-016
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: winter-text-017
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: winter-text-018
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: winter-text-019
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Bilder"
+            name: media
+            widget: object
+            fields:
+            - {label: "Bild 1", name: winter-image-001, widget: image, required: true}
+          - label: "Seitenkopf"
+            name: heroes
+            widget: object
+            fields:
+            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
+            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+          - label: "Links"
+            name: links
+            widget: object
+            fields:
+            - {label: "Link", name: winter-url-001, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: winter-url-002, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+          - label: "Header-Slideshow"
+            name: gallery
+            widget: object
+            fields:
+            - label: "Bilder"
+              name: images
+              widget: list
+              min: 1
+              field: {label: Bild, name: image, widget: image}
+      - label: "Restaurant / Flachauer Gutshof"
+        name: restaurant
+        file: content/restaurant.json
+        fields:
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
+            name: texts
+            widget: object
+            fields:
+            - label: "Text"
+              name: restaurant-text-012
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: restaurant-text-013
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: restaurant-text-014
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: restaurant-text-015
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: restaurant-text-016
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: restaurant-text-017
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: restaurant-text-018
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: restaurant-text-019
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Bilder"
+            name: media
+            widget: object
+            fields:
+            - {label: "Bild 1", name: restaurant-image-001, widget: image, required: true}
+            - {label: "Bild 2", name: restaurant-image-002, widget: image, required: true}
+          - label: "Seitenkopf"
+            name: heroes
+            widget: object
+            fields:
+            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
+            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+          - label: "Links"
+            name: links
+            widget: object
+            fields:
+            - {label: "Link", name: restaurant-url-001, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: restaurant-url-002, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+          - label: "Header-Slideshow"
+            name: gallery
+            widget: object
+            fields:
+            - label: "Bilder"
+              name: images
+              widget: list
+              min: 1
+              field: {label: Bild, name: image, widget: image}
+      - label: "Lage & Anfahrt"
+        name: lage
+        file: content/lage.json
+        fields:
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
+            name: texts
+            widget: object
+            fields:
+            - label: "Text"
+              name: lage-text-012
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-013
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-014
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-015
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-016
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-017
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-018
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-019
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-020
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-021
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-022
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-023
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-024
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-025
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-026
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-027
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-028
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-029
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-030
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-031
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-032
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-033
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-034
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-035
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-036
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-037
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-038
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-039
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-040
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-041
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-042
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-043
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-044
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-045
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-046
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-047
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-048
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-049
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-050
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-051
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-052
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-053
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-054
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-055
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-056
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-057
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-058
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-059
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-060
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-061
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-062
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-063
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-064
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-065
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-066
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-067
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-068
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-069
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-070
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-071
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-072
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-073
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-074
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: lage-text-075
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Bilder"
+            name: media
+            widget: object
+            fields:
+            - {label: "Bild 1", name: lage-image-002, widget: image, required: true}
+            - {label: "Bild 2", name: lage-image-003, widget: image, required: true}
+            - {label: "Bild 3", name: lage-image-004, widget: image, required: true}
+          - label: "Seitenkopf"
+            name: heroes
+            widget: object
+            fields:
+            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
+            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+          - label: "Links"
+            name: links
+            widget: object
+            fields:
+            - {label: "Link", name: lage-url-001, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: lage-url-002, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: lage-url-003, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: lage-url-004, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: lage-url-005, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: lage-url-006, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: lage-url-007, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: lage-url-008, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: lage-url-009, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: lage-url-010, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: lage-url-011, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: lage-url-012, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: lage-url-013, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+      - label: "Galerie"
+        name: galerie
+        file: content/galerie.json
+        fields:
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
+            name: texts
+            widget: object
+            fields:
+            - label: "Text"
+              name: heading
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: subtitle
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Seitenkopf"
+            name: heroes
+            widget: object
+            fields:
+            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
+            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+          - label: "Hauptgalerie"
             name: main_gallery
             widget: object
             fields:
-              - {label: ID, name: id, widget: hidden}
-              - label: Bilder
-                name: images
-                widget: list
-                min: 1
-                field: {label: Bild, name: image, widget: image}
-          - *heroes
-      - label: FAQ
+            - label: "Bilder"
+              name: images
+              widget: list
+              min: 1
+              field: {label: Bild, name: image, widget: image}
+      - label: "FAQ"
         name: faq
         file: content/faq.json
         fields:
-          - *title
-          - *texts
-          - *translations
-          - *media
-          - *heroes
-          - *links
-          - &faqs
-            label: FAQ – Fragen und Antworten dieser Seite
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
+            name: texts
+            widget: object
+            fields:
+            - label: "Text"
+              name: faq-text-012
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-013
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-014
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-015
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-016
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-017
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-018
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-019
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-020
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-021
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-022
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-023
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-024
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-025
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-026
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-027
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-028
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-029
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-030
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-031
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-032
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-033
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-034
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-035
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-036
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-037
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-038
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-039
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-040
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-041
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-042
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-043
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-044
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-045
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-046
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-047
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-048
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-049
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-050
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-051
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-052
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: faq-text-053
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Seitenkopf"
+            name: heroes
+            widget: object
+            fields:
+            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
+            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+          - label: "Links"
+            name: links
+            widget: object
+            fields:
+            - {label: "Link", name: faq-url-001, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+          - label: "FAQ"
             name: faqs
             widget: list
             summary: "{{fields.question_de}}"
             fields:
-              - {label: Frage Deutsch, name: question_de, widget: text}
-              - {label: Antwort Deutsch, name: answer_de, widget: text}
-              - {label: Question English, name: question_en, widget: text}
-              - {label: Answer English, name: answer_en, widget: text}
-      - {label: Kontakt, name: kontakt, file: content/kontakt.json, fields: [*title, *texts, *translations, *media, *heroes, *links]}
-      - {label: Urlaubsanfrage, name: urlaubsanfrage, file: content/urlaubsanfrage.json, fields: [*title, *texts, *translations, *media, *heroes, *links]}
-      - {label: Impressum, name: impressum, file: content/impressum.json, fields: [*title, *texts, *translations, *media, *heroes, *links]}
-      - {label: Datenschutz, name: datenschutz, file: content/datenschutz.json, fields: [*title, *texts, *translations, *media, *heroes, *links]}
+              - {label: Frage – Deutsch, name: question_de, widget: text}
+              - {label: Antwort – Deutsch, name: answer_de, widget: text}
+              - {label: Frage – English, name: question_en, widget: text}
+              - {label: Antwort – English, name: answer_en, widget: text}
+      - label: "Kontakt"
+        name: kontakt
+        file: content/kontakt.json
+        fields:
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
+            name: texts
+            widget: object
+            fields:
+            - label: "Text"
+              name: kontakt-text-013
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: kontakt-text-014
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: kontakt-text-015
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: kontakt-text-016
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: kontakt-text-017
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Seitenkopf"
+            name: heroes
+            widget: object
+            fields:
+            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
+            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+          - label: "Links"
+            name: links
+            widget: object
+            fields:
+            - {label: "Link", name: kontakt-url-001, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+      - label: "Urlaubsanfrage"
+        name: urlaubsanfrage
+        file: content/urlaubsanfrage.json
+        fields:
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
+            name: texts
+            widget: object
+            fields:
+            - label: "Text"
+              name: urlaubsanfrage-text-013
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-015
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-016
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-017
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-018
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-019
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-022
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-023
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-024
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-025
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-026
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-027
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-028
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-029
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-030
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: urlaubsanfrage-text-031
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Seitenkopf"
+            name: heroes
+            widget: object
+            fields:
+            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
+            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+          - label: "Links"
+            name: links
+            widget: object
+            fields:
+            - {label: "Link", name: urlaubsanfrage-url-001, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+      - label: "Impressum"
+        name: impressum
+        file: content/impressum.json
+        fields:
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
+            name: texts
+            widget: object
+            fields:
+            - label: "Text"
+              name: impressum-text-012
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-014
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-015
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-016
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-017
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-018
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-019
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-020
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-021
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-022
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-023
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-024
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-025
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-026
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-027
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-028
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-029
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-030
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-031
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-032
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-033
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-034
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-035
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-036
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-037
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-038
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-039
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-041
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: impressum-text-042
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Seitenkopf"
+            name: heroes
+            widget: object
+            fields:
+            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
+            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+          - label: "Links"
+            name: links
+            widget: object
+            fields:
+            - {label: "Link", name: impressum-url-001, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: impressum-url-002, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+      - label: "Datenschutz"
+        name: datenschutz
+        file: content/datenschutz.json
+        fields:
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: "Texte"
+            name: texts
+            widget: object
+            fields:
+            - label: "Text"
+              name: datenschutz-text-012
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-014
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-015
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-016
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-017
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-018
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-019
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-020
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-021
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-022
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-023
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-024
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-025
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-026
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-027
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-028
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-029
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-030
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-031
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-032
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-033
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-034
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-035
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-036
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-037
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+            - label: "Text"
+              name: datenschutz-text-038
+              widget: object
+              fields:
+                - {label: Deutsch, name: de, widget: text}
+                - {label: English, name: en, widget: text}
+          - label: "Seitenkopf"
+            name: heroes
+            widget: object
+            fields:
+            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
+            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+          - label: "Links"
+            name: links
+            widget: object
+            fields:
+            - {label: "Link", name: datenschutz-url-001, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: datenschutz-url-002, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+            - {label: "Link", name: datenschutz-url-003, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
   - name: global
     label: Globale Inhalte
     files:
@@ -177,7 +3610,7 @@ collections:
         file: content/global.json
         fields:
           - {label: Interner Titel, name: title, widget: hidden}
-          - label: Kontaktangaben
+          - label: "Kontakt"
             name: contact
             widget: object
             fields:

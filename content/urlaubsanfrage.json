@@ -1,112 +1,78 @@
 {
   "title": "Urlaubsanfrage",
-  "texts": [
-    {
-      "id": "urlaubsanfrage-text-013",
-      "label": "Ihr Chalet in Flachau anfragen",
+  "texts": {
+    "urlaubsanfrage-text-013": {
       "de": "Ihr Chalet in Flachau anfragen",
       "en": "Enquire about your chalet in Flachau"
     },
-    {
-      "id": "urlaubsanfrage-text-015",
-      "label": "Wählen Sie Chalettyp, Reisedaten und Personenzahl. Wir melden uns mit den passenden Info",
+    "urlaubsanfrage-text-015": {
       "de": "Wählen Sie Chalettyp, Reisedaten und Personenzahl. Wir melden uns mit den passenden Informationen zu Ihrem Sommeraufenthalt.",
       "en": "Select the chalet type, travel dates and number of guests. We will reply with the relevant information for your summer stay."
     },
-    {
-      "id": "urlaubsanfrage-text-016",
-      "label": "Vor- und Nachname",
+    "urlaubsanfrage-text-016": {
       "de": "Vor- und Nachname",
       "en": "First and last name"
     },
-    {
-      "id": "urlaubsanfrage-text-017",
-      "label": "E-Mail",
+    "urlaubsanfrage-text-017": {
       "de": "E-Mail",
       "en": "Email"
     },
-    {
-      "id": "urlaubsanfrage-text-018",
-      "label": "Telefon",
+    "urlaubsanfrage-text-018": {
       "de": "Telefon",
       "en": "Phone"
     },
-    {
-      "id": "urlaubsanfrage-text-019",
-      "label": "Saison",
+    "urlaubsanfrage-text-019": {
       "de": "Saison",
       "en": "Season"
     },
-    {
-      "id": "urlaubsanfrage-text-022",
-      "label": "Chalettyp",
+    "urlaubsanfrage-text-022": {
       "de": "Chalettyp",
       "en": "Chalet type"
     },
-    {
-      "id": "urlaubsanfrage-text-023",
-      "label": "Bitte wählen",
+    "urlaubsanfrage-text-023": {
       "de": "Bitte wählen",
       "en": "Please select"
     },
-    {
-      "id": "urlaubsanfrage-text-024",
-      "label": "4-Zimmer-Chalet",
+    "urlaubsanfrage-text-024": {
       "de": "4-Zimmer-Chalet",
       "en": "4-room chalet"
     },
-    {
-      "id": "urlaubsanfrage-text-025",
-      "label": "5-Zimmer-Chalet",
+    "urlaubsanfrage-text-025": {
       "de": "5-Zimmer-Chalet",
       "en": "5-room chalet"
     },
-    {
-      "id": "urlaubsanfrage-text-026",
-      "label": "Aufenthalt / Zeitraum",
+    "urlaubsanfrage-text-026": {
       "de": "Aufenthalt / Zeitraum",
       "en": "Stay / dates"
     },
-    {
-      "id": "urlaubsanfrage-text-027",
-      "label": "Anreise",
+    "urlaubsanfrage-text-027": {
       "de": "Anreise",
       "en": "Arrival"
     },
-    {
-      "id": "urlaubsanfrage-text-028",
-      "label": "Abreise",
+    "urlaubsanfrage-text-028": {
       "de": "Abreise",
       "en": "Departure"
     },
-    {
-      "id": "urlaubsanfrage-text-029",
-      "label": "Anzahl Personen",
+    "urlaubsanfrage-text-029": {
       "de": "Anzahl Personen",
       "en": "Number of guests"
     },
-    {
-      "id": "urlaubsanfrage-text-030",
-      "label": "Nachricht",
+    "urlaubsanfrage-text-030": {
       "de": "Nachricht",
       "en": "Message"
     },
-    {
-      "id": "urlaubsanfrage-text-031",
-      "label": "Anfrage senden",
+    "urlaubsanfrage-text-031": {
       "de": "Anfrage senden &rarr;",
       "en": "Send enquiry &rarr;"
     }
-  ],
-  "translations": [],
-  "media": [],
-  "links": [
-    {
-      "id": "urlaubsanfrage-url-001",
-      "label": "Link 1: www.alpenchalets.at/urlaubsanfrage.html",
+  },
+  "translations": {},
+  "media": {},
+  "links": {
+    "urlaubsanfrage-url-001": {
       "url": "https://www.alpenchalets.at/urlaubsanfrage.html"
     }
-  ],
+  },
   "galleries": [],
   "heroes": {
     "summer": "assets/images/urlaubsanfrage-header-suitcase-summer-v2.webp",
