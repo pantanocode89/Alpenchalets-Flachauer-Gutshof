@@ -512,3 +512,4 @@ mountNewsletter();
 
 /* Shared production polish for desktop and mobile. */
 if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260927-stable-1';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}
+document.documentElement.classList.remove('header-pending');document.getElementById('ac-header-pending')?.remove();
