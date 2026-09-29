@@ -231,12 +231,9 @@ butlerToggle.addEventListener('click',()=>{butlerWidget.classList.toggle('is-ope
 butlerPrivacyClose.addEventListener('click',()=>butlerWidget.classList.add('privacy-hidden'));
 function syncButlerVisibility(){
   if(!butlerWidget)return;
+  if(butlerWidget.classList.contains('is-open'))return;
   const heroIsActive=!document.body.classList.contains('section-view')&&window.scrollY<24;
   butlerWidget.classList.toggle('is-hidden',!heroIsActive);
-  if(!heroIsActive&&butlerWidget.classList.contains('is-open')){
-    butlerWidget.classList.remove('is-open');
-    updateButlerToggleLabel();
-  }
 }
 window.addEventListener('scroll',syncButlerVisibility,{passive:true});
 const conciergeAnswers={
