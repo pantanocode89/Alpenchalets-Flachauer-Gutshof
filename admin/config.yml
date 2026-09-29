@@ -1013,21 +1013,21 @@ collections:
             widget: object
             fields:
               - {label: Grundriss, name: floorplan, widget: image, required: false}
-            - label: "Bilder"
-              name: images
-              widget: list
-              min: 1
-              field: {label: Bild, name: image, widget: image}
+              - label: "Bilder"
+                name: images
+                widget: list
+                min: 1
+                field: {label: Bild, name: image, widget: image}
           - label: "5-Zimmer-Chalet – Bilder"
             name: chalet5_gallery
             widget: object
             fields:
               - {label: Grundriss, name: floorplan, widget: image, required: false}
-            - label: "Bilder"
-              name: images
-              widget: list
-              min: 1
-              field: {label: Bild, name: image, widget: image}
+              - label: "Bilder"
+                name: images
+                widget: list
+                min: 1
+                field: {label: Bild, name: image, widget: image}
       - label: "4-Zimmer-Chalet"
         name: chalet_4
         file: content/chalet-4.json
@@ -1511,11 +1511,11 @@ collections:
             name: gallery
             widget: object
             fields:
-            - label: "Bilder"
-              name: images
-              widget: list
-              min: 1
-              field: {label: Bild, name: image, widget: image}
+              - label: "Bilder"
+                name: images
+                widget: list
+                min: 1
+                field: {label: Bild, name: image, widget: image}
       - label: "5-Zimmer-Chalet"
         name: chalet_5
         file: content/chalet-5.json
@@ -1999,11 +1999,11 @@ collections:
             name: gallery
             widget: object
             fields:
-            - label: "Bilder"
-              name: images
-              widget: list
-              min: 1
-              field: {label: Bild, name: image, widget: image}
+              - label: "Bilder"
+                name: images
+                widget: list
+                min: 1
+                field: {label: Bild, name: image, widget: image}
       - label: "Sommer"
         name: sommer
         file: content/sommer.json
@@ -2151,11 +2151,11 @@ collections:
             name: gallery
             widget: object
             fields:
-            - label: "Bilder"
-              name: images
-              widget: list
-              min: 1
-              field: {label: Bild, name: image, widget: image}
+              - label: "Bilder"
+                name: images
+                widget: list
+                min: 1
+                field: {label: Bild, name: image, widget: image}
       - label: "Winter"
         name: winter
         file: content/winter.json
@@ -2234,11 +2234,11 @@ collections:
             name: gallery
             widget: object
             fields:
-            - label: "Bilder"
-              name: images
-              widget: list
-              min: 1
-              field: {label: Bild, name: image, widget: image}
+              - label: "Bilder"
+                name: images
+                widget: list
+                min: 1
+                field: {label: Bild, name: image, widget: image}
       - label: "Restaurant / Flachauer Gutshof"
         name: restaurant
         file: content/restaurant.json
@@ -2318,11 +2318,11 @@ collections:
             name: gallery
             widget: object
             fields:
-            - label: "Bilder"
-              name: images
-              widget: list
-              min: 1
-              field: {label: Bild, name: image, widget: image}
+              - label: "Bilder"
+                name: images
+                widget: list
+                min: 1
+                field: {label: Bild, name: image, widget: image}
       - label: "Lage & Anfahrt"
         name: lage
         file: content/lage.json
@@ -2780,11 +2780,11 @@ collections:
             name: main_gallery
             widget: object
             fields:
-            - label: "Bilder"
-              name: images
-              widget: list
-              min: 1
-              field: {label: Bild, name: image, widget: image}
+              - label: "Bilder"
+                name: images
+                widget: list
+                min: 1
+                field: {label: Bild, name: image, widget: image}
       - label: "FAQ"
         name: faq
         file: content/faq.json
