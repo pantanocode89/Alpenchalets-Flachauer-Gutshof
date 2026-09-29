@@ -1017,7 +1017,7 @@ collections:
                 name: images
                 widget: list
                 min: 1
-                field: {label: Bild, name: image, widget: image}
+                field: {label: Bild, name: image, widget: image, required: false}
           - label: "5-Zimmer-Chalet – Bilder"
             name: chalet5_gallery
             widget: object
@@ -1027,7 +1027,7 @@ collections:
                 name: images
                 widget: list
                 min: 1
-                field: {label: Bild, name: image, widget: image}
+                field: {label: Bild, name: image, widget: image, required: false}
       - label: "4-Zimmer-Chalet"
         name: chalet_4
         file: content/chalet-4.json
@@ -2153,7 +2153,7 @@ collections:
                 name: images
                 widget: list
                 min: 1
-                field: {label: Bild, name: image, widget: image}
+                field: {label: Bild, name: image, widget: image, required: false}
       - label: "Winter"
         name: winter
         file: content/winter.json
@@ -2236,7 +2236,7 @@ collections:
                 name: images
                 widget: list
                 min: 1
-                field: {label: Bild, name: image, widget: image}
+                field: {label: Bild, name: image, widget: image, required: false}
       - label: "Restaurant / Flachauer Gutshof"
         name: restaurant
         file: content/restaurant.json
@@ -2320,7 +2320,7 @@ collections:
                 name: images
                 widget: list
                 min: 1
-                field: {label: Bild, name: image, widget: image}
+                field: {label: Bild, name: image, widget: image, required: false}
       - label: "Lage & Anfahrt"
         name: lage
         file: content/lage.json
@@ -2782,7 +2782,7 @@ collections:
                 name: images
                 widget: list
                 min: 1
-                field: {label: Bild, name: image, widget: image}
+                field: {label: Bild, name: image, widget: image, required: false}
       - label: "FAQ"
         name: faq
         file: content/faq.json
