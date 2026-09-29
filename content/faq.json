@@ -173,9 +173,7 @@
   "translations": {},
   "media": {},
   "links": {
-    "faq-url-001": {
-      "url": "https://www.alpenchalets.at/faq.html"
-    }
+    "faq-url-001": "https://www.alpenchalets.at/faq.html"
   },
   "galleries": [],
   "heroes": {

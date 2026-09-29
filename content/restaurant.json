@@ -36,20 +36,12 @@
   },
   "translations": {},
   "media": {
-    "restaurant-image-001": {
-      "image": "assets/images/Flachauer Gutshof_September_2k25_print-37.jpg"
-    },
-    "restaurant-image-002": {
-      "image": "assets/images/Foto 24.07.26, 11 07 55(1).png"
-    }
+    "restaurant-image-001": "assets/images/Flachauer Gutshof_September_2k25_print-37.jpg",
+    "restaurant-image-002": "assets/images/Foto 24.07.26, 11 07 55(1).png"
   },
   "links": {
-    "restaurant-url-001": {
-      "url": "https://www.alpenchalets.at/restaurant.html"
-    },
-    "restaurant-url-002": {
-      "url": "https://www.flachauer-gutshof.at/"
-    }
+    "restaurant-url-001": "https://www.alpenchalets.at/restaurant.html",
+    "restaurant-url-002": "https://www.flachauer-gutshof.at/"
   },
   "heroes": {
     "summer": "assets/images/restaurant-gutshof-sommer.webp",

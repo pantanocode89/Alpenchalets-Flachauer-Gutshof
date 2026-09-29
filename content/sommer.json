@@ -80,26 +80,14 @@
   },
   "translations": {},
   "media": {
-    "sommer-image-001": {
-      "image": "assets/images/exterior-wide.webp"
-    },
-    "sommer-image-002": {
-      "image": "assets/images/18-flachau-sommer-card-beach-volleyball-1.jpg"
-    },
-    "sommer-image-003": {
-      "image": "assets/images/18-flachau-sommer-card-erlebniswandern-1.jpg"
-    },
-    "sommer-image-004": {
-      "image": "assets/images/18-flachau-sommer-card-kinderspiel-foot-darts-1.jpg"
-    },
-    "sommer-image-005": {
-      "image": "assets/images/18-flachau-sommer-card-lagerfeuer-1.jpg"
-    }
+    "sommer-image-001": "assets/images/exterior-wide.webp",
+    "sommer-image-002": "assets/images/18-flachau-sommer-card-beach-volleyball-1.jpg",
+    "sommer-image-003": "assets/images/18-flachau-sommer-card-erlebniswandern-1.jpg",
+    "sommer-image-004": "assets/images/18-flachau-sommer-card-kinderspiel-foot-darts-1.jpg",
+    "sommer-image-005": "assets/images/18-flachau-sommer-card-lagerfeuer-1.jpg"
   },
   "links": {
-    "sommer-url-001": {
-      "url": "https://www.alpenchalets.at/sommer.html"
-    }
+    "sommer-url-001": "https://www.alpenchalets.at/sommer.html"
   },
   "heroes": {
     "summer": "assets/images/sommer-header-terrasse.webp",

@@ -301,32 +301,16 @@
     }
   },
   "media": {
-    "chalet-5-image-002": {
-      "image": "assets/images/exterior-main.webp"
-    },
-    "chalet-5-image-003": {
-      "image": "assets/images/bedroom-main.webp"
-    },
-    "chalet-5-image-004": {
-      "image": "assets/images/bathroom-sauna.webp"
-    },
-    "chalet-5-image-005": {
-      "image": "assets/images/living.webp"
-    },
-    "chalet-5-image-006": {
-      "image": "assets/images/kitchen.webp"
-    },
-    "chalet-5-image-007": {
-      "image": "assets/images/Grundriss-Alpenschalet-Typ2-EG+OG.jpg"
-    }
+    "chalet-5-image-002": "assets/images/exterior-main.webp",
+    "chalet-5-image-003": "assets/images/bedroom-main.webp",
+    "chalet-5-image-004": "assets/images/bathroom-sauna.webp",
+    "chalet-5-image-005": "assets/images/living.webp",
+    "chalet-5-image-006": "assets/images/kitchen.webp",
+    "chalet-5-image-007": "assets/images/Grundriss-Alpenschalet-Typ2-EG+OG.jpg"
   },
   "links": {
-    "chalet-5-url-001": {
-      "url": "https://www.alpenchalets.at/chalet-5-zimmer.html"
-    },
-    "chalet-5-url-002": {
-      "url": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
-    }
+    "chalet-5-url-001": "https://www.alpenchalets.at/chalet-5-zimmer.html",
+    "chalet-5-url-002": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
   },
   "heroes": {
     "summer": "assets/images/exterior-main.webp",

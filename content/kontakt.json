@@ -25,9 +25,7 @@
   "translations": {},
   "media": {},
   "links": {
-    "kontakt-url-001": {
-      "url": "https://www.alpenchalets.at/kontakt.html"
-    }
+    "kontakt-url-001": "https://www.alpenchalets.at/kontakt.html"
   },
   "galleries": [],
   "heroes": {

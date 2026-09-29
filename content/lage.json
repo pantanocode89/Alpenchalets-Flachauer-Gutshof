@@ -260,56 +260,24 @@
   },
   "translations": {},
   "media": {
-    "lage-image-002": {
-      "image": "assets/images/lageplan-sommer-2026-landscape.png"
-    },
-    "lage-image-003": {
-      "image": "assets/images/direkt-an-der-piste.jpg"
-    },
-    "lage-image-004": {
-      "image": "assets/images/lageplan-sommer-2026-landscape.png"
-    }
+    "lage-image-002": "assets/images/lageplan-sommer-2026-landscape.png",
+    "lage-image-003": "assets/images/direkt-an-der-piste.jpg",
+    "lage-image-004": "assets/images/lageplan-sommer-2026-landscape.png"
   },
   "links": {
-    "lage-url-001": {
-      "url": "https://www.alpenchalets.at/lage.html"
-    },
-    "lage-url-002": {
-      "url": "https://www.google.com/maps/dir/?api=1&destination=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau%2C%20Austria"
-    },
-    "lage-url-003": {
-      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Unterberggasse%20210%2C%205542%20Flachau&travelmode=walking"
-    },
-    "lage-url-004": {
-      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Hofgasse%20186%2C%205542%20Flachau&travelmode=walking"
-    },
-    "lage-url-005": {
-      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Liftstra%C3%9Fe%20335%2C%205542%20Flachau&travelmode=walking"
-    },
-    "lage-url-006": {
-      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%2018%2C%205542%20Flachau&travelmode=walking"
-    },
-    "lage-url-007": {
-      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%20157%2C%205542%20Flachau&travelmode=walking"
-    },
-    "lage-url-008": {
-      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%20344%2C%205542%20Flachau&travelmode=walking"
-    },
-    "lage-url-009": {
-      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Reitdorfer%20Stra%C3%9Fe%20319%2C%205542%20Flachau&travelmode=walking"
-    },
-    "lage-url-010": {
-      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Reitdorfer%20Stra%C3%9Fe%20337%2C%205542%20Flachau&travelmode=walking"
-    },
-    "lage-url-011": {
-      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Pichlgasse%2015%2C%205542%20Flachau&travelmode=walking"
-    },
-    "lage-url-012": {
-      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%20104%2C%205542%20Flachau&travelmode=walking"
-    },
-    "lage-url-013": {
-      "url": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%20353%2C%205542%20Flachau&travelmode=walking"
-    }
+    "lage-url-001": "https://www.alpenchalets.at/lage.html",
+    "lage-url-002": "https://www.google.com/maps/dir/?api=1&destination=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau%2C%20Austria",
+    "lage-url-003": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Unterberggasse%20210%2C%205542%20Flachau&travelmode=walking",
+    "lage-url-004": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Hofgasse%20186%2C%205542%20Flachau&travelmode=walking",
+    "lage-url-005": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Liftstra%C3%9Fe%20335%2C%205542%20Flachau&travelmode=walking",
+    "lage-url-006": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%2018%2C%205542%20Flachau&travelmode=walking",
+    "lage-url-007": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%20157%2C%205542%20Flachau&travelmode=walking",
+    "lage-url-008": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%20344%2C%205542%20Flachau&travelmode=walking",
+    "lage-url-009": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Reitdorfer%20Stra%C3%9Fe%20319%2C%205542%20Flachau&travelmode=walking",
+    "lage-url-010": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Reitdorfer%20Stra%C3%9Fe%20337%2C%205542%20Flachau&travelmode=walking",
+    "lage-url-011": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Pichlgasse%2015%2C%205542%20Flachau&travelmode=walking",
+    "lage-url-012": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%20104%2C%205542%20Flachau&travelmode=walking",
+    "lage-url-013": "https://www.google.com/maps/dir/?api=1&origin=Grie%C3%9Fenkarweg%20417%2C%205542%20Flachau&destination=Flachauer%20Stra%C3%9Fe%20353%2C%205542%20Flachau&travelmode=walking"
   },
   "galleries": [],
   "heroes": {

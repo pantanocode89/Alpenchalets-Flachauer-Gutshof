@@ -121,12 +121,8 @@
   "translations": {},
   "media": {},
   "links": {
-    "impressum-url-001": {
-      "url": "https://www.alpenchalets.at/impressum.html"
-    },
-    "impressum-url-002": {
-      "url": "https://www.ris.bka.gv.at"
-    }
+    "impressum-url-001": "https://www.alpenchalets.at/impressum.html",
+    "impressum-url-002": "https://www.ris.bka.gv.at"
   },
   "galleries": [],
   "heroes": {

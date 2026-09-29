@@ -15,8 +15,8 @@
     window.acCmsGallery=(id,fallback=[])=>{const gallery=cmsGalleries().find(item=>item.id===id);const images=(gallery?.images||[]).map(item=>typeof item==='string'?item:item.image).filter(Boolean);return images.length?images:fallback};
     window.acCmsTranslations={de:{},en:{}};
     const cmsPairs=value=>Array.isArray(value)?value:Object.entries(value||{}).map(([id,item])=>({id,...item}));
-    const cmsImages=value=>Array.isArray(value)?value:Object.entries(value||{}).map(([id,item])=>({id,...item}));
-    const cmsLinks=value=>Array.isArray(value)?value:Object.entries(value||{}).map(([id,item])=>({id,...item}));
+    const cmsImages=value=>Array.isArray(value)?value:Object.entries(value||{}).map(([id,item])=>({id,image:typeof item==='string'?item:item.image}));
+    const cmsLinks=value=>Array.isArray(value)?value:Object.entries(value||{}).map(([id,item])=>({id,url:typeof item==='string'?item:item.url}));
     for(const item of cmsPairs(data.translations)){window.acCmsTranslations.de[item.id]=item.de;window.acCmsTranslations.en[item.id]=item.en}
     const setText=(el,value)=>{const field=el.querySelector('input,select,textarea');if(el.tagName==='LABEL'&&field){let node=[...el.childNodes].find(child=>child.nodeType===Node.TEXT_NODE);if(!node){node=document.createTextNode('');el.insertBefore(node,field)}node.textContent=value.replace(/<br\s*\/?\s*>/gi,' ');return}el.innerHTML=value};
     const cmsTexts=cmsPairs(data.texts);

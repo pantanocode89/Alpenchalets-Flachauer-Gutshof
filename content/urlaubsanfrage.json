@@ -69,9 +69,7 @@
   "translations": {},
   "media": {},
   "links": {
-    "urlaubsanfrage-url-001": {
-      "url": "https://www.alpenchalets.at/urlaubsanfrage.html"
-    }
+    "urlaubsanfrage-url-001": "https://www.alpenchalets.at/urlaubsanfrage.html"
   },
   "galleries": [],
   "heroes": {

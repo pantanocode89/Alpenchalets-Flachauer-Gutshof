@@ -109,15 +109,9 @@
   "translations": {},
   "media": {},
   "links": {
-    "datenschutz-url-001": {
-      "url": "https://www.alpenchalets.at/datenschutz.html"
-    },
-    "datenschutz-url-002": {
-      "url": "https://policies.google.com/privacy"
-    },
-    "datenschutz-url-003": {
-      "url": "https://www.dsb.gv.at"
-    }
+    "datenschutz-url-001": "https://www.alpenchalets.at/datenschutz.html",
+    "datenschutz-url-002": "https://policies.google.com/privacy",
+    "datenschutz-url-003": "https://www.dsb.gv.at"
   },
   "galleries": [],
   "heroes": {

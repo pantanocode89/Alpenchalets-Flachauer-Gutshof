@@ -36,17 +36,11 @@
   },
   "translations": {},
   "media": {
-    "winter-image-001": {
-      "image": "assets/images/IMG_20210315_113003.webp"
-    }
+    "winter-image-001": "assets/images/IMG_20210315_113003.webp"
   },
   "links": {
-    "winter-url-001": {
-      "url": "https://www.alpenchalets.at/winter.html"
-    },
-    "winter-url-002": {
-      "url": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
-    }
+    "winter-url-001": "https://www.alpenchalets.at/winter.html",
+    "winter-url-002": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
   },
   "heroes": {
     "summer": "assets/images/winter-page-hero.webp",
