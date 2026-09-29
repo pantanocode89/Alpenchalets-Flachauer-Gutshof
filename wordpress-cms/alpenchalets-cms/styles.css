@@ -1799,3 +1799,27 @@ footer img.footer-logo,
 .playground-slideshow img[src$="Foto 02.06.26, 12 01 02(3).jpg"]{object-fit:contain;background:#fffaf1}
 .restaurant-detail-img{object-fit:cover!important;object-position:center 68%;background:transparent}
 .section:not(.intro),.site-footer{content-visibility:visible!important;contain:none!important}
+
+/* Side-by-side chalet comparison with image carousels below the information. */
+.chalet-compare-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;align-items:stretch}
+.chalet-compare-card{min-width:0;display:flex;flex-direction:column;overflow:hidden;background:#fffaf1;border:1px solid rgba(36,37,31,.1);border-radius:8px;box-shadow:var(--soft-shadow)}
+.chalet-compare-card .chalet-content{flex:1;justify-content:flex-start;padding:42px 38px 34px}
+.chalet-compare-card .chalet-content h3{font-size:44px;margin-bottom:20px}
+.chalet-compare-card .compact-list{grid-template-columns:1fr 1fr}
+.chalet-compare-card .card-actions{margin-top:auto}
+.chalet-compare-card .card-actions .btn{min-width:0;flex:1 1 210px;padding-inline:16px}
+.chalet-carousel{position:relative;aspect-ratio:16/10;overflow:hidden;background:#d9d6ce;border-top:1px solid rgba(36,37,31,.1)}
+.chalet-carousel-slides,.chalet-carousel-slides figure{position:absolute;inset:0;margin:0}
+.chalet-carousel-slides figure{opacity:0;visibility:hidden;transition:opacity .55s ease,visibility .55s ease}
+.chalet-carousel-slides figure.is-active{opacity:1;visibility:visible}
+.chalet-carousel-slides figure.is-active{cursor:zoom-in}
+.chalet-carousel-slides figure:focus-visible{outline:3px solid #596141;outline-offset:-5px}
+.chalet-carousel img{width:100%;height:100%;object-fit:cover}
+.chalet-carousel-slides figure.is-floorplan{background:#fff;padding:0}
+.chalet-carousel-slides figure.is-floorplan img{object-fit:contain}
+.chalet-carousel-arrow{position:absolute;z-index:2;top:50%;width:46px;height:46px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.75);border-radius:50%;background:rgba(28,33,23,.62);color:#fff;font-size:20px;cursor:pointer;transform:translateY(-50%);backdrop-filter:blur(8px);transition:background .25s ease,transform .25s ease}
+.chalet-carousel-arrow:hover{background:rgba(28,33,23,.86);transform:translateY(-50%) scale(1.04)}
+.chalet-carousel-arrow.is-prev{left:18px}.chalet-carousel-arrow.is-next{right:18px}
+.chalet-carousel-count{position:absolute;z-index:2;right:18px;bottom:16px;padding:5px 10px;border-radius:999px;background:rgba(28,33,23,.64);color:#fff;font-size:11px;letter-spacing:.08em;backdrop-filter:blur(8px)}
+@media(max-width:900px){.chalet-compare-grid{grid-template-columns:1fr;gap:28px}.chalet-compare-card .chalet-content{padding:34px 26px}.chalet-compare-card .chalet-content h3{font-size:40px}}
+@media(max-width:520px){.chalet-compare-card .spec-grid,.chalet-compare-card .compact-list{grid-template-columns:1fr}.chalet-carousel{aspect-ratio:4/3}.chalet-carousel-arrow{width:42px;height:42px}.chalet-carousel-arrow.is-prev{left:12px}.chalet-carousel-arrow.is-next{right:12px}}

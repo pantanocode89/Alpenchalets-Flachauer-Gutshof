@@ -128,8 +128,8 @@
           <p data-i18n="chalets.lead">Zwei Chalet-Typen, private Rückzugsräume und ein warmes Zuhause auf Zeit für kleine und große Gruppen.</p>
         </div>
 
-        <article class="chalet-card">
-          <div class="chalet-image"><img loading="lazy" decoding="async" data-cms-src-key="home_image_004" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/chalet-4-bedroom-bunk.webp" alt="Schlafzimmer im 4-Zimmer-Chalet mit Doppelbett und Bankbett"></div>
+        <div class="chalet-compare-grid">
+        <article class="chalet-compare-card">
           <div class="chalet-content">
             <p class="section-kicker" data-i18n="chalet4.kicker">Für bis zu 12 Personen</p>
             <h3 data-i18n="chalet4.title">4-Zimmer-Chalet</h3>
@@ -145,10 +145,21 @@
             </ul>
             <div class="card-actions"><a class="btn btn-outline" href="<?php echo esc_url(home_url('/chalet-4-zimmer/')); ?>"><span data-i18n="common.details">Alle Details</span><span>&rarr;</span></a><button class="btn btn-outline open-floorplan" type="button" data-image="assets/images/floorplan-type1-half.webp" data-title="4-Zimmer-Chalet"><span data-i18n="common.floorplan">Grundriss ansehen</span><span>&#8599;</span></button></div>
           </div>
+        <div class="chalet-carousel" data-chalet-carousel aria-label="4-Zimmer-Chalet Bildergalerie">
+            <div class="chalet-carousel-slides">
+              <figure class="is-active is-floorplan"><img loading="lazy" decoding="async" data-cms-src-key="home_chalet4_gallery_0" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/Grundriss-Alpenschalet-Typ1-EG+OG.jpg" alt="Grundriss des 4-Zimmer-Chalets"></figure>
+              <figure><img loading="lazy" decoding="async" data-cms-src-key="home_chalet4_gallery_1" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/35314194-Original.jpg" alt="4-Zimmer-Chalet"></figure>
+              <figure><img loading="lazy" decoding="async" data-cms-src-key="home_chalet4_gallery_2" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/35314198-Original.jpg" alt="4-Zimmer-Chalet"></figure>
+              <figure><img loading="lazy" decoding="async" data-cms-src-key="home_chalet4_gallery_3" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/35314200-Original.jpg" alt="4-Zimmer-Chalet"></figure>
+              <figure><img loading="lazy" decoding="async" data-cms-src-key="home_chalet4_gallery_4" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/3075035-Original.jpg" alt="4-Zimmer-Chalet"></figure>
+            </div>
+            <button class="chalet-carousel-arrow is-prev" type="button" aria-label="Vorheriges Bild">&#8592;</button>
+            <button class="chalet-carousel-arrow is-next" type="button" aria-label="Nächstes Bild">&#8594;</button>
+            <span class="chalet-carousel-count" aria-live="polite">1 / 5</span>
+          </div>
         </article>
 
-        <article class="chalet-card reverse">
-          <div class="chalet-image"><img loading="lazy" decoding="async" data-cms-src-key="home_image_005" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/chalet-5-bedroom-roses.webp" alt="Schlafzimmer im 5-Zimmer-Chalet mit Rosen"></div>
+        <article class="chalet-compare-card">
           <div class="chalet-content">
             <p class="section-kicker" data-i18n="chalet5.kicker">Für bis zu 10 Personen</p>
             <h3 data-i18n="chalet5.title">5-Zimmer-Chalet</h3>
@@ -164,7 +175,20 @@
             </ul>
             <div class="card-actions"><a class="btn btn-outline" href="<?php echo esc_url(home_url('/chalet-5-zimmer/')); ?>"><span data-i18n="common.details">Alle Details</span><span>&rarr;</span></a><button class="btn btn-outline open-floorplan" type="button" data-image="assets/images/floorplan-type2-half.webp" data-title="5-Zimmer-Chalet"><span data-i18n="common.floorplan">Grundriss ansehen</span><span>&#8599;</span></button></div>
           </div>
+        <div class="chalet-carousel" data-chalet-carousel aria-label="5-Zimmer-Chalet Bildergalerie">
+            <div class="chalet-carousel-slides">
+              <figure class="is-active is-floorplan"><img loading="lazy" decoding="async" data-cms-src-key="home_chalet5_gallery_0" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/Grundriss-Alpenschalet-Typ2-EG+OG.jpg" alt="Grundriss des 5-Zimmer-Chalets"></figure>
+              <figure><img loading="lazy" decoding="async" data-cms-src-key="home_chalet5_gallery_1" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/35314199-Original.jpg" alt="5-Zimmer-Chalet"></figure>
+              <figure><img loading="lazy" decoding="async" data-cms-src-key="home_chalet5_gallery_2" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/Chalet_innen.jpg" alt="5-Zimmer-Chalet"></figure>
+              <figure><img loading="lazy" decoding="async" data-cms-src-key="home_chalet5_gallery_3" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/3075039-Original.jpg" alt="5-Zimmer-Chalet"></figure>
+              <figure><img loading="lazy" decoding="async" data-cms-src-key="home_chalet5_gallery_4" src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/3075049-Original.jpg" alt="5-Zimmer-Chalet"></figure>
+            </div>
+            <button class="chalet-carousel-arrow is-prev" type="button" aria-label="Vorheriges Bild">&#8592;</button>
+            <button class="chalet-carousel-arrow is-next" type="button" aria-label="Nächstes Bild">&#8594;</button>
+            <span class="chalet-carousel-count" aria-live="polite">1 / 5</span>
+          </div>
         </article>
+        </div>
       </div>
     </section>
 

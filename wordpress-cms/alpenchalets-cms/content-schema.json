@@ -2514,6 +2514,13 @@
         "de": "Datenschutz",
         "en": "Privacy policy",
         "nl": "Privacybeleid"
+      },
+      {
+        "key": "impressum_image_processing_note",
+        "label": "Bildbearbeitung",
+        "de": "Einzelne Bilder und Fotografien auf dieser Website können mithilfe von KI-Werkzeugen, einschließlich ChatGPT/OpenAI, visuell bearbeitet oder gefiltert worden sein.",
+        "en": "Individual images and photographs on this website may have been visually edited or filtered using AI tools, including ChatGPT/OpenAI.",
+        "nl": "Afzonderlijke afbeeldingen en foto’s op deze website kunnen visueel zijn bewerkt of gefilterd met AI-tools, waaronder ChatGPT/OpenAI."
       }
     ],
     "datenschutz": [
@@ -3617,18 +3624,6 @@
         "default": "assets/images/membership-top-of-the-mountains.webp"
       },
       {
-        "key": "home_image_004",
-        "label": "chalet-4-bedroom-bunk.webp",
-        "type": "image",
-        "default": "assets/images/chalet-4-bedroom-bunk.webp"
-      },
-      {
-        "key": "home_image_005",
-        "label": "chalet-5-bedroom-roses.webp",
-        "type": "image",
-        "default": "assets/images/chalet-5-bedroom-roses.webp"
-      },
-      {
         "key": "home_image_006",
         "label": "kitchen.webp",
         "type": "image",
@@ -3729,6 +3724,66 @@
         "label": "Sunweb booking URL",
         "type": "url",
         "default": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
+      },
+      {
+        "key": "home_chalet4_gallery_0",
+        "label": "Grundriss-Alpenschalet-Typ1-EG+OG.jpg",
+        "type": "image",
+        "default": "assets/images/Grundriss-Alpenschalet-Typ1-EG+OG.jpg"
+      },
+      {
+        "key": "home_chalet4_gallery_1",
+        "label": "35314194-Original.jpg",
+        "type": "image",
+        "default": "assets/images/35314194-Original.jpg"
+      },
+      {
+        "key": "home_chalet4_gallery_2",
+        "label": "35314198-Original.jpg",
+        "type": "image",
+        "default": "assets/images/35314198-Original.jpg"
+      },
+      {
+        "key": "home_chalet4_gallery_3",
+        "label": "35314200-Original.jpg",
+        "type": "image",
+        "default": "assets/images/35314200-Original.jpg"
+      },
+      {
+        "key": "home_chalet4_gallery_4",
+        "label": "3075035-Original.jpg",
+        "type": "image",
+        "default": "assets/images/3075035-Original.jpg"
+      },
+      {
+        "key": "home_chalet5_gallery_0",
+        "label": "Grundriss-Alpenschalet-Typ2-EG+OG.jpg",
+        "type": "image",
+        "default": "assets/images/Grundriss-Alpenschalet-Typ2-EG+OG.jpg"
+      },
+      {
+        "key": "home_chalet5_gallery_1",
+        "label": "35314199-Original.jpg",
+        "type": "image",
+        "default": "assets/images/35314199-Original.jpg"
+      },
+      {
+        "key": "home_chalet5_gallery_2",
+        "label": "Chalet_innen.jpg",
+        "type": "image",
+        "default": "assets/images/Chalet_innen.jpg"
+      },
+      {
+        "key": "home_chalet5_gallery_3",
+        "label": "3075039-Original.jpg",
+        "type": "image",
+        "default": "assets/images/3075039-Original.jpg"
+      },
+      {
+        "key": "home_chalet5_gallery_4",
+        "label": "3075049-Original.jpg",
+        "type": "image",
+        "default": "assets/images/3075049-Original.jpg"
       }
     ],
     "chalet-4-zimmer": [
