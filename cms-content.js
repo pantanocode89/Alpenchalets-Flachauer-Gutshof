@@ -11,6 +11,7 @@
     global=global||{};data=data||{};window.acCmsPageData=data;window.acCmsGlobal=global;
     const cmsGalleries=()=>{if(Array.isArray(data.galleries))return data.galleries;if(data.gallery)return [data.gallery];if(data.main_gallery)return [data.main_gallery];return [data.chalet4_gallery,data.chalet5_gallery].filter(Boolean)};
     window.acCmsHero=(id,fallback)=>{const hero=Array.isArray(data.heroes)?data.heroes.find(item=>item.id===id)?.image:data.heroes?.[id];return hero||fallback};
+    window.acCmsMosaic=(fallback=[])=>{const mosaic=data.header_mosaic;return mosaic?[mosaic.image_1,mosaic.image_2,mosaic.image_3,mosaic.image_4,mosaic.image_5].filter(Boolean):fallback};
     window.acCmsGallery=(id,fallback=[])=>{const gallery=cmsGalleries().find(item=>item.id===id);const images=(gallery?.images||[]).map(item=>typeof item==='string'?item:item.image).filter(Boolean);return images.length?images:fallback};
     window.acCmsTranslations={de:{},en:{}};
     const cmsPairs=value=>Array.isArray(value)?value:Object.entries(value||{}).map(([id,item])=>({id,...item}));

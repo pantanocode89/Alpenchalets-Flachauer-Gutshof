@@ -67,5 +67,12 @@
   },
   "translations": {},
   "media": {},
-  "links": {}
+  "links": {},
+  "header_mosaic": {
+    "image_1": "assets/images/exterior-wide.webp",
+    "image_2": "assets/images/Rezeption.jpg",
+    "image_3": "assets/images/1.jpg",
+    "image_4": "assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg",
+    "image_5": "assets/images/hero-winter.webp"
+  }
 }

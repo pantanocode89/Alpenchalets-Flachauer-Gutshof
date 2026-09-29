@@ -2755,24 +2755,27 @@ collections:
             name: texts
             widget: object
             fields:
-            - label: "Text"
+            - label: "Hauptüberschrift"
               name: heading
               widget: object
               fields:
                 - {label: Deutsch, name: de, widget: text}
                 - {label: English, name: en, widget: text}
-            - label: "Text"
+            - label: "Untertitel"
               name: subtitle
               widget: object
               fields:
                 - {label: Deutsch, name: de, widget: text}
                 - {label: English, name: en, widget: text}
-          - label: "Seitenkopf"
-            name: heroes
+          - label: "Header-Mosaik"
+            name: header_mosaic
             widget: object
             fields:
-            - {label: "Sommer – Headerbild", name: summer, widget: image, required: true}
-            - {label: "Winter – Headerbild", name: winter, widget: image, required: true}
+            - {label: "Bild 1 – links", name: image_1, widget: image, required: true}
+            - {label: "Bild 2 – oben rechts", name: image_2, widget: image, required: true}
+            - {label: "Bild 3 – mitte rechts", name: image_3, widget: image, required: true}
+            - {label: "Bild 4 – ganz rechts", name: image_4, widget: image, required: true}
+            - {label: "Bild 5 – mobil", name: image_5, widget: image, required: true}
           - label: "Hauptgalerie"
             name: main_gallery
             widget: object
