@@ -1,0 +1,205 @@
+{
+  "title": "Winter",
+  "texts": [
+    {
+      "id": "winter-text-001",
+      "label": "Home",
+      "de": "Home",
+      "en": "Home"
+    },
+    {
+      "id": "winter-text-002",
+      "label": "Unsere Chalets",
+      "de": "Unsere Chalets",
+      "en": "Our Chalets"
+    },
+    {
+      "id": "winter-text-003",
+      "label": "Sommer",
+      "de": "Sommer",
+      "en": "Summer"
+    },
+    {
+      "id": "winter-text-004",
+      "label": "Winter",
+      "de": "Winter",
+      "en": "Winter"
+    },
+    {
+      "id": "winter-text-005",
+      "label": "Komfort",
+      "de": "Komfort",
+      "en": "Comfort"
+    },
+    {
+      "id": "winter-text-006",
+      "label": "Restaurant",
+      "de": "Restaurant",
+      "en": "Restaurant"
+    },
+    {
+      "id": "winter-text-007",
+      "label": "Galerie",
+      "de": "Galerie",
+      "en": "Gallery"
+    },
+    {
+      "id": "winter-text-008",
+      "label": "Lage & Anfahrt",
+      "de": "Lage & Anfahrt",
+      "en": "Location"
+    },
+    {
+      "id": "winter-text-009",
+      "label": "Urlaubsanfrage",
+      "de": "Urlaubsanfrage",
+      "en": "Enquiry"
+    },
+    {
+      "id": "winter-text-010",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "winter-text-011",
+      "label": "Kontakt",
+      "de": "Kontakt",
+      "en": "Contact"
+    },
+    {
+      "id": "winter-text-012",
+      "label": "Winter in Flachau",
+      "de": "Winter in Flachau",
+      "en": "Winter in Flachau"
+    },
+    {
+      "id": "winter-text-013",
+      "label": "Schneetage. Kaminabende",
+      "de": "Schneetage. Kaminabende",
+      "en": "Snowy days. Fireside evenings"
+    },
+    {
+      "id": "winter-text-014",
+      "label": "Ein gemütliches Chalet als Zuhause nach einem Tag im Schnee.",
+      "de": "Ein gemütliches Chalet als Zuhause nach einem Tag im Schnee.",
+      "en": "A cozy chalet to come home to after a day in the snow."
+    },
+    {
+      "id": "winter-text-015",
+      "label": "Winterurlaub",
+      "de": "Winterurlaub",
+      "en": "Winter holiday"
+    },
+    {
+      "id": "winter-text-016",
+      "label": "Kurze Wege und Wärme, wenn Sie zurückkommen",
+      "de": "Kurze Wege und Wärme, wenn Sie zurückkommen",
+      "en": "Short distances and warmth when you return"
+    },
+    {
+      "id": "winter-text-017",
+      "label": "Der Lageplan zeigt den Fußweg zum 8er-Jet, die Langlaufloipe sowie die Wege zu Rezeption",
+      "de": "Der Lageplan zeigt den Fußweg zum 8er-Jet, die Langlaufloipe sowie die Wege zu Rezeption und Flachauer Gutshof. Im Chalet sorgen Sauna und Kamin für einen entspannten Abend.",
+      "en": "The site map shows the footpath to the 8er-Jet, the cross-country trail and the routes to reception and Flachauer Gutshof. Back at the chalet, the sauna and fireplace make for a relaxed evening."
+    },
+    {
+      "id": "winter-text-018",
+      "label": "Winteraufenthalte werden ausschließlich über Sunweb gebucht.",
+      "de": "Winteraufenthalte werden ausschließlich über Sunweb gebucht.",
+      "en": "Winter stays are booked exclusively through Sunweb."
+    },
+    {
+      "id": "winter-text-019",
+      "label": "Winter buchen",
+      "de": "Winter buchen &#8599;",
+      "en": "Book Winter &#8599;"
+    },
+    {
+      "id": "winter-text-020",
+      "label": "wohlfühlen | genießen",
+      "de": "wohlfühlen | genießen",
+      "en": "feel good | enjoy"
+    },
+    {
+      "id": "winter-text-021",
+      "label": "Flachau Salzburger Land Österreich",
+      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+      "en": "Flachau &middot; Salzburger Land &middot; Austria"
+    },
+    {
+      "id": "winter-text-022",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "winter-text-023",
+      "label": "Impressum",
+      "de": "Impressum",
+      "en": "Legal notice"
+    },
+    {
+      "id": "winter-text-024",
+      "label": "Datenschutz",
+      "de": "Datenschutz",
+      "en": "Privacy policy"
+    }
+  ],
+  "translations": [],
+  "media": [
+    {
+      "id": "winter-image-001",
+      "label": "Bild 2: IMG_20210315_113003.webp",
+      "image": "assets/images/IMG_20210315_113003.webp"
+    },
+    {
+      "id": "winter-image-002",
+      "label": "Bild 3: logo.jpg",
+      "image": "assets/images/logo.jpg"
+    },
+    {
+      "id": "winter-image-003",
+      "label": "Bild 4: panta-studios-mark-black.png",
+      "image": "assets/images/panta-studios-mark-black.png"
+    }
+  ],
+  "links": [
+    {
+      "id": "winter-url-001",
+      "label": "Link 1: www.alpenchalets.at/winter.html",
+      "url": "https://www.alpenchalets.at/winter.html"
+    },
+    {
+      "id": "winter-url-002",
+      "label": "Link 2: www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-",
+      "url": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
+    }
+  ],
+  "galleries": [
+    {
+      "id": "winter-hero-slideshow",
+      "label": "Winter: Hero-Slideshow",
+      "images": [
+        "assets/images/winter-page-hero.jpg",
+        "assets/images/IMG_5188.JPG",
+        "assets/images/IMG_5174.JPG",
+        "assets/images/Alpenchalet1_filter.jpg",
+        "assets/images/25-flachau-winter-ski-urlaub-outdoor-4.jpg",
+        "assets/images/25-flachau-winter-ski-urlaub-17.jpg"
+      ]
+    }
+  ],
+  "heroes": [
+    {
+      "id": "summer",
+      "label": "Sommer Hero",
+      "image": "assets/images/winter-page-hero.webp"
+    },
+    {
+      "id": "winter",
+      "label": "Winter Hero",
+      "image": "assets/images/winter-page-hero.webp"
+    }
+  ]
+}

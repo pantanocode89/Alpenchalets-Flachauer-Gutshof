@@ -24,7 +24,7 @@ const detailSeasonalHeroes={
   'chalet-5-zimmer.html':{summer:'assets/images/exterior-main.webp',winter:'assets/images/winter-header-real-chalet.webp'}
 };
 const detailHero=document.querySelector('.detail-hero');
-const detailSeasonalDesktopImage=detailSeasonalHeroes[detailPage]?.[activeSeason];
+const detailSeasonalDesktopImage=window.acCmsHero?.(activeSeason,detailSeasonalHeroes[detailPage]?.[activeSeason])||detailSeasonalHeroes[detailPage]?.[activeSeason];
 const detailMobileAssets=new Set(["assets/images/living-mobile.webp","assets/images/exterior-main-mobile.webp","assets/images/winter-header-real-chalet-mobile.webp"]);
 const detailSeasonalMobileImage=detailSeasonalDesktopImage?.replace(/\.webp$/,'-mobile.webp');
 const detailSeasonalImage=innerWidth<=700&&detailMobileAssets.has(detailSeasonalMobileImage)?detailSeasonalMobileImage:detailSeasonalDesktopImage;
@@ -72,23 +72,15 @@ const detailTranslations={
   'c5.kicker':'5-room chalet &middot; up to 10 guests','c5.title':'Four separate bedrooms No bunk beds Plenty of comfort','c5.lead':'The 5-room chalet is especially comfortable for groups wanting four separate bedrooms. This chalet type has four separate bedrooms; there are no bunk beds here.','c5.fact1':'up to 10 guests','c5.fact2':'4 bedrooms','c5.fact3':'2 baths + 2 WCs','c5.fact4':'Private sauna','c5.fact5':'up to 20 connected','c5.introKicker':'More privacy','c5.introTitle':'Four proper bedrooms for restful nights','c5.introText':'The ground floor includes the living and dining area, fully equipped kitchen, one bedroom and terrace access. Upstairs are three more bedrooms, the wellness area and private sauna.','c5.note':'Each of the four separate bedrooms sleeps two guests. Together with the sofa bed for two in the living area, the chalet accommodates up to ten guests.','c5.room1':'Bedroom 1','c5.room1t':'Sleeps 2','c5.room1d':'Separate ground-floor bedroom for two guests.','c5.room2':'Bedroom 2','c5.room2t':'Sleeps 2','c5.room2d':'Quiet upstairs bedroom for two guests.','c5.room3':'Bedroom 3','c5.room3t':'Sleeps 2','c5.room3d':'Separate bedroom for two guests.','c5.room4':'Bedroom 4','c5.room4t':'Sleeps 2','c5.room4d':'Fourth separate bedroom for two guests.','c5.room5':'Living area','c5.room5t':'Sofa bed for 2','c5.room5d':'Additional sleeping space in the living area.','c5.room6':'For larger groups','c5.room6t':'Connected for up to 20','c5.room6d':'Two linked chalets can be used together.','c5.good':'Two 5-room chalets can be combined through a connecting door, creating a practical option for groups of up to 20 guests.',
   'amenity.kitchen':'Fully equipped kitchen','amenity.kitchenD':'Hob, oven, refrigerator, tableware and dining area.','amenity.fire':'Fireplace','amenity.fireD':'For cozy evenings after a day in the mountains.','amenity.sauna':'Private sauna','amenity.saunaD':'Your own wellness area inside the chalet.','amenity.terrace':'Private terrace','amenity.terraceD':'Space for breakfast, relaxing and spending time together.','amenity.wifi':'Free Wi-Fi','amenity.wifiD':'Internet access throughout the chalet.','amenity.parking':'Parking','amenity.parkingD':'Parking spaces are available within the chalet complex.','amenity.storage':'Ski & storage room','amenity.storageD':'Practical space for footwear and equipment.','amenity.laundry':'Laundry room','amenity.laundryD':'Washing machine and dryer are available at reception.','amenity.kids':'Playground','amenity.kidsD':'Large playground in front of Flachauer Gutshof, clearly visible from the restaurant terrace.','amenity.location':'Central location','amenity.locationD':'Short walks to Flachauer Gutshof and the 8er-Jet.'
  },
- nl:{
-  'nav.home':'Startpagina','nav.chalets':'Onze chalets','nav.summer':'Zomer','nav.winter':'Winter','nav.gallery':'Galerij','nav.location':'Ligging','nav.comfort':'Comfort','nav.restaurant':'Restaurant','nav.faq':'FAQ','nav.enquiry':'Vakantieaanvraag','nav.contact':'Contact','nav.book':'Winter boeken','common.back':'Terug naar startpagina','common.summer':'Zomer aanvragen','common.winter':'Winter via Sunweb boeken','common.floor':'Plattegrond vergroten','common.gallery':'Fotogalerij','common.amenities':'Voorzieningen in één oogopslag','common.rooms':'Indeling','common.goodToKnow':'Goed om te weten','common.contact':'Vragen over dit chalet','common.contactText':'Wij helpen u graag telefonisch of per e-mail.','footer.tagline':'ontspannen | genieten',
-  'c4.kicker':'4-kamerchalet &middot; maximaal 12 personen','c4.title':'Veel ruimte voor een vakantie samen','c4.lead':'Drie slaapkamers, een ruime woonkamer, privésauna en groot terras - ideaal voor families en vriendengroepen.','c4.fact1':'max. 12 personen','c4.fact2':'3 slaapkamers','c4.fact3':'3 badkamers + wc','c4.fact4':'Privésauna','c4.fact5':'2 verdiepingen','c4.introKicker':'Gezellig wonen','c4.introTitle':'Een chalet voor samen zijn én privacy','c4.introText':'Op de begane grond komt iedereen samen in de open woon- en eetruimte met keuken, open haard en directe toegang tot het terras. Boven bevinden zich de slaapkamers, badkamers en privéwellness.','c4.note':'Slaapplaatsen: slaapkamer 1 heeft een tweepersoonsbed; slaapkamers 2 en 3 hebben elk een tweepersoonsbed en stapelbed, plus een slaapbank voor twee personen.','c4.room1':'Slaapkamer 1','c4.room1t':'Tweepersoonsbed','c4.room1d':'Ruime slaapkamer met tweepersoonsbed.','c4.room2':'Slaapkamer 2','c4.room2t':'Tweepersoonsbed + stapelbed','c4.room2d':'Tweede slaapkamer met tweepersoonsbed en stapelbed.','c4.room3':'Slaapkamer 3','c4.room3t':'Tweepersoonsbed + stapelbed','c4.room3d':'Slaapkamer met tweepersoonsbed en stapelbed.','c4.room4':'Woonruimte','c4.room4t':'Slaapbank voor 2','c4.room4d':'Extra slaapmogelijkheid in de woonkamer.','c4.room5':'Bad & wellness','c4.room5t':'3 badkamers + sauna','c4.room5d':'Privésauna en meerdere badkamers.','c4.room6':'Entree','c4.room6t':'Extra wc & berging','c4.room6d':'Garderobe, apart toilet en praktische opslag.','c4.good':'Het chalet bestaat uit twee verdiepingen. De exacte indeling kan licht verschillen. De plattegrond toont de gebruikelijke indeling van het 4-kamerchalet.',
-  'c5.kicker':'5-kamerchalet &middot; maximaal 10 personen','c5.title':'Vier aparte slaapkamers Geen stapelbedden Veel comfort','c5.lead':'Het 5-kamerchalet is bijzonder prettig voor groepen die vier aparte slaapkamers willen. Dit chalettype heeft vier aparte slaapkamers; er zijn geen stapelbedden.','c5.fact1':'max. 10 personen','c5.fact2':'4 slaapkamers','c5.fact3':'2 badkamers + 2 toiletten','c5.fact4':'Privésauna','c5.fact5':'gekoppeld tot 20','c5.introKicker':'Meer privacy','c5.introTitle':'Vier volwaardige slaapkamers voor rustige nachten','c5.introText':'Op de begane grond bevinden zich de woon- en eetruimte, volledig uitgeruste keuken, één slaapkamer en toegang tot het terras. Boven liggen drie extra slaapkamers, de wellnessruimte en privésauna.','c5.note':'Elk van de vier aparte slaapkamers biedt twee slaapplaatsen. Samen met de slaapbank voor twee in de woonkamer biedt het chalet plaats aan maximaal tien gasten.','c5.room1':'Slaapkamer 1','c5.room1t':'2 slaapplaatsen','c5.room1d':'Aparte slaapkamer op de begane grond voor twee gasten.','c5.room2':'Slaapkamer 2','c5.room2t':'2 slaapplaatsen','c5.room2d':'Rustige slaapkamer boven voor twee gasten.','c5.room3':'Slaapkamer 3','c5.room3t':'2 slaapplaatsen','c5.room3d':'Derde aparte slaapkamer voor twee gasten.','c5.room4':'Slaapkamer 4','c5.room4t':'2 slaapplaatsen','c5.room4d':'Vierde aparte slaapkamer voor twee gasten.','c5.room5':'Woonruimte','c5.room5t':'Slaapbank voor 2','c5.room5d':'Extra slaapmogelijkheid in de woonkamer.','c5.room6':'Voor grotere groepen','c5.room6t':'Gekoppeld tot 20','c5.room6d':'Twee verbonden chalets kunnen samen worden gebruikt.','c5.good':'Twee 5-kamerchalets kunnen via een verbindingsdeur worden gecombineerd, ideaal voor groepen tot 20 personen.',
-  'amenity.kitchen':'Volledig uitgeruste keuken','amenity.kitchenD':'Volledig uitgerust met oven, kookplaat, koelkast, koffiemachine, waterkoker, toaster, servies, glazen, potten en pannen.','amenity.fire':'Open haard','amenity.fireD':'Voor gezellige avonden na een dag in de bergen.','amenity.sauna':'Privésauna','amenity.saunaD':'Eigen wellnessruimte in het chalet.','amenity.terrace':'Eigen terras','amenity.terraceD':'Ruimte voor ontbijt, ontspanning en samenzijn.','amenity.wifi':'Gratis wifi','amenity.wifiD':'Internet in het hele chalet.','amenity.parking':'Parkeren','amenity.parkingD':'Parkeerplaatsen bevinden zich op het chaletpark.','amenity.storage':'Ski- & bergruimte','amenity.storageD':'Praktische opslag voor schoenen en materiaal.','amenity.laundry':'Wasruimte','amenity.laundryD':'Wasmachine en droger zijn beschikbaar bij de receptie.','amenity.kids':'Speeltuin','amenity.kidsD':'Grote speeltuin voor de Flachauer Gutshof, goed zichtbaar vanaf het restaurantterras.','amenity.location':'Centrale ligging','amenity.locationD':'Korte afstand tot Flachauer Gutshof en de 8er-Jet.'
- }
-};
+ };
+Object.entries(window.acCmsTranslations||{}).forEach(([language,values])=>Object.assign(detailTranslations[language]||{},values));
 // The entrance has wardrobes and shelves, not a separate cloakroom.
 detailTranslations.de['common.back']='Zurück zu unseren Chalets';
 detailTranslations.en['common.back']='Back to our chalets';
-detailTranslations.nl['common.back']='Terug naar onze chalets';
 detailTranslations.de['common.galleryTitle']='Einblicke in unsere Chalets';
 detailTranslations.en['common.galleryTitle']='A look inside our chalets';
-detailTranslations.nl['common.galleryTitle']='Een kijkje in onze chalets';
 detailTranslations.de['amenity.kitchenD']='Voll ausgestattet mit Backofen, Kochfeld, Kühlschrank, Filterkaffeemaschine, Wasserkocher, Toaster, Geschirr, Gläsern, Töpfen und Pfannen. Es ist ausschließlich eine Filterkaffeemaschine vorhanden.';
 detailTranslations.en['amenity.kitchenD']='Fully equipped with oven, hob, refrigerator, filter coffee maker, kettle, toaster, crockery, glasses, pots and pans. Only a filter coffee maker is provided.';
-detailTranslations.nl['amenity.kitchenD']='Volledig uitgerust met oven, kookplaat, koelkast, filterkoffiezetapparaat, waterkoker, broodrooster, servies, glazen, potten en pannen. Er is uitsluitend een filterkoffiezetapparaat aanwezig.';
 detailTranslations.de['amenity.bread']='Brötchenservice';
 detailTranslations.de['amenity.breadD']='Brot und Gebäck können täglich bis 17:00 Uhr für den nächsten Morgen bestellt werden. Die Lieferung erfolgt zwischen 07:30 und 08:00 Uhr direkt vor das Chalet.';
 detailTranslations.de['amenity.takeaway']='Take-away im Winter';
@@ -97,13 +89,8 @@ detailTranslations.en['amenity.bread']='Bread roll service';
 detailTranslations.en['amenity.breadD']='Bread and pastries can be ordered daily until 5:00 PM for the following morning. Delivery is made between 7:30 and 8:00 AM directly in front of the chalet.';
 detailTranslations.en['amenity.takeaway']='Winter takeaway';
 detailTranslations.en['amenity.takeawayD']='In winter, guests can order takeaway meals from our Flachauer Gutshof restaurant and collect them there.';
-detailTranslations.nl['amenity.bread']='Broodjesservice';
-detailTranslations.nl['amenity.breadD']='Brood en gebak kunnen dagelijks tot 17:00 uur voor de volgende ochtend worden besteld. De levering gebeurt tussen 07:30 en 08:00 uur direct voor het chalet.';
-detailTranslations.nl['amenity.takeaway']='Take-away in de winter';
-detailTranslations.nl['amenity.takeawayD']='In de winter kunnen gasten afhaalgerechten bestellen bij ons restaurant Flachauer Gutshof en deze daar ophalen.';
 detailTranslations.de['common.contactKicker']='Persönlich für Sie da';
 detailTranslations.en['common.contactKicker']='Here for you';
-detailTranslations.nl['common.contactKicker']='Persoonlijk voor u bereikbaar';
 detailTranslations.de['c4.room6t']='Zusätzliches WC & Stauraum';
 detailTranslations.de['c4.room6d']='Schränke, Regale, separates WC und praktischer Stauraum.';
 detailTranslations.en['c4.room6t']='Extra WC & storage';
@@ -130,8 +117,6 @@ detailTranslations.en['c5.room6']='Entrance area';
 detailTranslations.en['c5.room6t']='Additional WC';
 detailTranslations.en['c5.room6d']='A further separate WC is located in the entrance area.';
 detailTranslations.en['c4.room6d']='Wardrobes, shelves, a separate toilet and practical storage.';
-detailTranslations.nl['c4.room6t']='Extra wc & opbergruimte';
-detailTranslations.nl['c4.room6d']='Kasten, planken, een apart toilet en praktische opbergruimte.';
 const buttons=document.querySelectorAll('.lang-btn');
 const supportedLangs=['de','en'];
 const languageStorageKey='alpenchalets-language';
@@ -173,8 +158,7 @@ detailBackToTop.href='#main';
 detailBackToTop.innerHTML='&#8593;';
 detailBackToTop.dataset.ariaDe='Zurück nach oben';
 detailBackToTop.dataset.ariaEn='Back to top';
-detailBackToTop.dataset.ariaNl='Terug naar boven';
-detailBackToTop.setAttribute('aria-label',{de:'Zurück nach oben',en:'Back to top',nl:'Terug naar boven'}[document.documentElement.lang]||'Zurück nach oben');
+detailBackToTop.setAttribute('aria-label',{de:'Zurück nach oben',en:'Back to top',}[document.documentElement.lang]||'Zurück nach oben');
 document.body.append(detailBackToTop);
 let detailBackIdleTimer;
 const updateBackToTop=()=>{

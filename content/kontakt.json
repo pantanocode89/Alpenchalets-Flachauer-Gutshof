@@ -1,0 +1,170 @@
+{
+  "title": "Kontakt",
+  "texts": [
+    {
+      "id": "kontakt-text-001",
+      "label": "Home",
+      "de": "Home",
+      "en": "Home"
+    },
+    {
+      "id": "kontakt-text-002",
+      "label": "Unsere Chalets",
+      "de": "Unsere Chalets",
+      "en": "Our Chalets"
+    },
+    {
+      "id": "kontakt-text-003",
+      "label": "Sommer",
+      "de": "Sommer",
+      "en": "Summer"
+    },
+    {
+      "id": "kontakt-text-004",
+      "label": "Winter",
+      "de": "Winter",
+      "en": "Winter"
+    },
+    {
+      "id": "kontakt-text-005",
+      "label": "Komfort",
+      "de": "Komfort",
+      "en": "Comfort"
+    },
+    {
+      "id": "kontakt-text-006",
+      "label": "Restaurant",
+      "de": "Restaurant",
+      "en": "Restaurant"
+    },
+    {
+      "id": "kontakt-text-007",
+      "label": "Galerie",
+      "de": "Galerie",
+      "en": "Gallery"
+    },
+    {
+      "id": "kontakt-text-008",
+      "label": "Lage & Anfahrt",
+      "de": "Lage & Anfahrt",
+      "en": "Location"
+    },
+    {
+      "id": "kontakt-text-009",
+      "label": "Urlaubsanfrage",
+      "de": "Urlaubsanfrage",
+      "en": "Enquiry"
+    },
+    {
+      "id": "kontakt-text-010",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "kontakt-text-011",
+      "label": "Kontakt",
+      "de": "Kontakt",
+      "en": "Contact"
+    },
+    {
+      "id": "kontakt-text-012",
+      "label": "Kontakt",
+      "de": "Kontakt",
+      "en": "Contact"
+    },
+    {
+      "id": "kontakt-text-013",
+      "label": "Wir freuen uns auf Ihre Anfrage",
+      "de": "Wir freuen uns auf Ihre Anfrage",
+      "en": "We look forward to hearing from you"
+    },
+    {
+      "id": "kontakt-text-014",
+      "label": "Direkt erreichbar",
+      "de": "Direkt erreichbar",
+      "en": "Contact us directly"
+    },
+    {
+      "id": "kontakt-text-015",
+      "label": "Rezeption: täglich 08:00-12:00 und 15:00-20:00 Uhr. Bei Anreise nach 20:00 Uhr bitte bis",
+      "de": "Rezeption: täglich 08:00-12:00 und 15:00-20:00 Uhr. Bei Anreise nach 20:00 Uhr bitte bis spätestens 18:00 Uhr Bescheid geben.",
+      "en": "Reception: daily 08:00-12:00 and 15:00-20:00. For arrival after 20:00, please let us know by 18:00 at the latest."
+    },
+    {
+      "id": "kontakt-text-016",
+      "label": "Winterbuchungen erfolgen über Sunweb. Sommeranfragen senden Sie direkt über unser Anfrag",
+      "de": "Winterbuchungen erfolgen über Sunweb. Sommeranfragen senden Sie direkt über unser Anfrageformular.",
+      "en": "Winter bookings are made through Sunweb. Send summer enquiries directly through our enquiry form."
+    },
+    {
+      "id": "kontakt-text-017",
+      "label": "Zur Urlaubsanfrage",
+      "de": "Zur Urlaubsanfrage &rarr;",
+      "en": "Open holiday enquiry &rarr;"
+    },
+    {
+      "id": "kontakt-text-018",
+      "label": "wohlfühlen | genießen",
+      "de": "wohlfühlen | genießen",
+      "en": "feel good | enjoy"
+    },
+    {
+      "id": "kontakt-text-019",
+      "label": "Flachau Salzburger Land Österreich",
+      "de": "Flachau &middot; Salzburger Land &middot; Österreich",
+      "en": "Flachau &middot; Salzburger Land &middot; Austria"
+    },
+    {
+      "id": "kontakt-text-020",
+      "label": "FAQ",
+      "de": "FAQ",
+      "en": "FAQ"
+    },
+    {
+      "id": "kontakt-text-021",
+      "label": "Impressum",
+      "de": "Impressum",
+      "en": "Legal notice"
+    },
+    {
+      "id": "kontakt-text-022",
+      "label": "Datenschutz",
+      "de": "Datenschutz",
+      "en": "Privacy policy"
+    }
+  ],
+  "translations": [],
+  "media": [
+    {
+      "id": "kontakt-image-001",
+      "label": "Bild 2: logo.jpg",
+      "image": "assets/images/logo.jpg"
+    },
+    {
+      "id": "kontakt-image-002",
+      "label": "Bild 3: panta-studios-mark-black.png",
+      "image": "assets/images/panta-studios-mark-black.png"
+    }
+  ],
+  "links": [
+    {
+      "id": "kontakt-url-001",
+      "label": "Link 1: www.alpenchalets.at/kontakt.html",
+      "url": "https://www.alpenchalets.at/kontakt.html"
+    }
+  ],
+  "galleries": [],
+  "heroes": [
+    {
+      "id": "summer",
+      "label": "Sommer Hero",
+      "image": "assets/images/kontakt-header-modern-summer-v2.webp"
+    },
+    {
+      "id": "winter",
+      "label": "Winter Hero",
+      "image": "assets/images/kontakt-header-modern-winter-v2.webp"
+    }
+  ]
+}

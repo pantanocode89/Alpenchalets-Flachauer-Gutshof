@@ -1,0 +1,113 @@
+backend:
+  name: github
+  repo: pantanocode89/Alpenchalets-Flachauer-Gutshof
+  branch: main
+  base_url: https://alpenchalets-cms-auth.draganaimilospantic.workers.dev
+  auth_endpoint: auth
+
+media_folder: assets/images
+public_folder: /assets/images
+site_url: https://www.alpenchalets.at
+display_url: https://www.alpenchalets.at
+locale: de
+
+collections:
+  - name: seiten
+    label: Seiteninhalte
+    files:
+      - label: Startseite
+        name: home
+        file: content/home.json
+        fields: &page_fields
+          - {label: Interner Seitentitel, name: title, widget: hidden}
+          - label: Texte
+            name: texts
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - {label: ID, name: id, widget: hidden}
+              - {label: Bezeichnung, name: label, widget: string}
+              - {label: Deutsch, name: de, widget: text}
+              - {label: English, name: en, widget: text}
+          - label: Gemeinsame Texte und Schaltflächen
+            name: translations
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - {label: ID, name: id, widget: hidden}
+              - {label: Bezeichnung, name: label, widget: string}
+              - {label: Deutsch, name: de, widget: text}
+              - {label: English, name: en, widget: text}
+          - label: Bilder
+            name: media
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - {label: ID, name: id, widget: hidden}
+              - {label: Bezeichnung, name: label, widget: string}
+              - {label: Bild ersetzen, name: image, widget: image, required: true}
+          - label: Hero-Bilder
+            name: heroes
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - {label: ID, name: id, widget: hidden}
+              - {label: Bezeichnung, name: label, widget: string}
+              - {label: Bild ersetzen, name: image, widget: image, required: true}
+          - label: Inhaltliche externe Links
+            name: links
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - {label: ID, name: id, widget: hidden}
+              - {label: Bezeichnung, name: label, widget: string}
+              - {label: URL, name: url, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
+          - label: Galerien und Slideshows
+            name: galleries
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - {label: ID, name: id, widget: hidden}
+              - {label: Bezeichnung, name: label, widget: string}
+              - {label: Grundriss, name: floorplan, widget: image, required: false}
+              - label: Bilder – Reihenfolge per Drag & Drop
+                name: images
+                widget: list
+                min: 1
+                field: {label: Bild, name: image, widget: image}
+          - label: FAQ – Fragen und Antworten
+            name: faqs
+            widget: list
+            summary: "{{fields.question_de}}"
+            fields:
+              - {label: Frage Deutsch, name: question_de, widget: text}
+              - {label: Antwort Deutsch, name: answer_de, widget: text}
+              - {label: Question English, name: question_en, widget: text}
+              - {label: Answer English, name: answer_en, widget: text}
+      - {label: 4-Zimmer-Chalet, name: chalet4, file: content/chalet-4.json, fields: *page_fields}
+      - {label: 5-Zimmer-Chalet, name: chalet5, file: content/chalet-5.json, fields: *page_fields}
+      - {label: Sommer, name: sommer, file: content/sommer.json, fields: *page_fields}
+      - {label: Winter, name: winter, file: content/winter.json, fields: *page_fields}
+      - {label: Restaurant / Flachauer Gutshof, name: restaurant, file: content/restaurant.json, fields: *page_fields}
+      - {label: Lage & Anfahrt, name: lage, file: content/lage.json, fields: *page_fields}
+      - {label: Galerie, name: galerie, file: content/galerie.json, fields: *page_fields}
+      - {label: FAQ, name: faq, file: content/faq.json, fields: *page_fields}
+      - {label: Kontakt, name: kontakt, file: content/kontakt.json, fields: *page_fields}
+      - {label: Urlaubsanfrage, name: urlaubsanfrage, file: content/urlaubsanfrage.json, fields: *page_fields}
+      - {label: Impressum, name: impressum, file: content/impressum.json, fields: *page_fields}
+      - {label: Datenschutz, name: datenschutz, file: content/datenschutz.json, fields: *page_fields}
+  - name: global
+    label: Globale Inhalte
+    files:
+      - label: Kontakt und Standort
+        name: global
+        file: content/global.json
+        fields:
+          - {label: Interner Titel, name: title, widget: hidden}
+          - label: Kontaktangaben
+            name: contact
+            widget: object
+            fields:
+              - {label: Telefon, name: phone, widget: string, required: true}
+              - {label: E-Mail, name: email, widget: string, required: true}
+              - {label: Adresse, name: address, widget: string, required: true}
