@@ -1511,11 +1511,10 @@ collections:
             name: gallery
             widget: object
             fields:
-              - label: "Bilder"
-                name: images
-                widget: list
-                min: 1
-                field: {label: Bild, name: image, widget: image}
+              - {label: "Bild 1", name: image_1, widget: image, required: true}
+              - {label: "Bild 2", name: image_2, widget: image, required: true}
+              - {label: "Bild 3", name: image_3, widget: image, required: true}
+              - {label: "Bild 4", name: image_4, widget: image, required: true}
       - label: "5-Zimmer-Chalet"
         name: chalet_5
         file: content/chalet-5.json
@@ -1999,11 +1998,10 @@ collections:
             name: gallery
             widget: object
             fields:
-              - label: "Bilder"
-                name: images
-                widget: list
-                min: 1
-                field: {label: Bild, name: image, widget: image}
+              - {label: "Bild 1", name: image_1, widget: image, required: true}
+              - {label: "Bild 2", name: image_2, widget: image, required: true}
+              - {label: "Bild 3", name: image_3, widget: image, required: true}
+              - {label: "Bild 4", name: image_4, widget: image, required: true}
       - label: "Sommer"
         name: sommer
         file: content/sommer.json

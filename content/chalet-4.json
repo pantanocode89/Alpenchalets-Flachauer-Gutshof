@@ -319,11 +319,9 @@
   "gallery": {
     "id": "chalet-4-gallery",
     "label": "Bildergalerie 4-Zimmer-Chalet",
-    "images": [
-      "assets/images/35314194-Original.jpg",
-      "assets/images/35314198-Original.jpg",
-      "assets/images/35314200-Original.jpg",
-      "assets/images/3075035-Original.jpg"
-    ]
+    "image_1": "assets/images/35314194-Original.jpg",
+    "image_2": "assets/images/35314198-Original.jpg",
+    "image_3": "assets/images/35314200-Original.jpg",
+    "image_4": "assets/images/3075035-Original.jpg"
   }
 }
