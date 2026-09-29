@@ -22,367 +22,367 @@ collections:
             name: texts
             widget: object
             fields:
-              - label: "Text"
+              - label: "Zum Inhalt – Titel"
                 name: home-text-001
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ihr Urlaub beginnt hier – Titel"
                 name: home-text-003
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Momente, die bleiben – Titel"
                 name: home-text-004
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "So fühlt sich Urlaub in den Bergen an. – Titel"
                 name: home-text-005
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "So fühlt sich Urlaub in den Bergen an. – Beschreibung"
                 name: home-text-006
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ankommen – Titel"
                 name: home-text-007
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Chalet – Titel"
                 name: home-text-008
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Großzügig wohnen, warmes Holz spüren und sofort zuhause sein. – Titel"
                 name: home-text-009
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Loslassen – Titel"
                 name: home-text-010
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Private Sauna – Titel"
                 name: home-text-011
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Private Wärme und wohltuende Ruhe nach einem Tag in den Bergen. – Titel"
                 name: home-text-012
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Aufbrechen – Titel"
                 name: home-text-013
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Berge – Titel"
                 name: home-text-014
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sommerwege und Winterpisten beginnen direkt vor der Tür. – Titel"
                 name: home-text-015
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Genießen – Titel"
                 name: home-text-016
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gutshof – Titel"
                 name: home-text-017
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Regionale Küche und stimmungsvolle Abende gleich nebenan. – Titel"
                 name: home-text-018
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Anerkennung & Partnerschaft – Titel"
                 name: home-text-019
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausgezeichnete Gastfreundschaft – Titel"
                 name: home-text-020
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausgezeichnete Gastfreundschaft – Beschreibung"
                 name: home-text-021
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sunweb Certificate of Excellence – Titel"
                 name: home-text-022
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Von Sunweb-G sten als bevorzugte Unterkunft ausgezeichnet. – Titel"
                 name: home-text-023
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Top of the Mountains – Titel"
                 name: home-text-024
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "VIP-Mitgliedschaft im Netzwerk Die Besten der Berge . – Titel"
                 name: home-text-025
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Unsere Unterkünfte – Titel"
                 name: home-text-026
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Unsere Unterkünfte – Beschreibung"
                 name: home-text-028
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Haustiere willkommen – Titel"
                 name: home-text-029
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Haustiere willkommen – Beschreibung"
                 name: home-text-030
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Bettwäsche & Handtücher – Titel"
                 name: home-text-031
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Bettwäsche & Handtücher – Beschreibung"
                 name: home-text-032
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Rezeption & persönlicher Service – Titel"
                 name: home-text-033
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Rezeption & persönlicher Service – Beschreibung"
                 name: home-text-034
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Private Terrasse & Außenbereich – Titel"
                 name: home-text-035
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Private Terrasse & Außenbereich – Beschreibung"
                 name: home-text-036
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Private Terrasse & Außenbereich – Beschreibung"
                 name: home-text-037
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Google Maps laden – Titel"
                 name: home-text-038
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gut vorbereitet ankommen – Titel"
                 name: home-text-040
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gut vorbereitet ankommen – Beschreibung"
                 name: home-text-041
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Check-in – Titel"
                 name: home-text-042
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Check-in – Beschreibung"
                 name: home-text-043
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sauna & Kamin – Titel"
                 name: home-text-044
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sauna & Kamin – Beschreibung"
                 name: home-text-045
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Buchung – Titel"
                 name: home-text-046
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Buchung – Beschreibung"
                 name: home-text-047
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Alle Fragen ansehen – Titel"
                 name: home-text-048
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Echte Gästestimmen – Titel"
                 name: home-text-049
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Was unsere Gäste besonders schätzen – Titel"
                 name: home-text-050
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Hervorragend · Lage 9,6 – Titel"
                 name: home-text-051
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "„Wir kommen bestimmt wieder.“ – Titel"
                 name: home-text-052
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Deutschland · Juni 2026 – Titel"
                 name: home-text-053
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "„Großzügiges Haus mit allem ausgestattet …“ – Titel"
                 name: home-text-054
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Deutschland · Juni 2026 – Titel"
                 name: home-text-055
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "„Sehr gepflegt und sauber innen und auch außen …“ – Titel"
                 name: home-text-056
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Deutschland · Juli 2024 – Titel"
                 name: home-text-057
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Alle echten Bewertungen auf Booking.com – Titel"
                 name: home-text-058
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "ALPENCHALETS – Titel"
                 name: home-text-063
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Virtuelle Rezeption – Titel"
                 name: home-text-064
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Hallo, ich bin Ihre virtuelle Rezeption. Wie kann ich Ihnen heute helfen? – Titel"
                 name: home-text-065
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Mit dem Chat stimmen Sie der – Titel"
                 name: home-text-066
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Datenschutzerkl rung – Titel"
                 name: home-text-067
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "zu. – Titel"
                 name: home-text-068
                 widget: object
                 fields:
@@ -1037,25 +1037,25 @@ collections:
             name: texts
             widget: object
             fields:
-              - label: "Text"
+              - label: "Zum Inhalt – Titel"
                 name: chalet-4-text-001
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Auch interessant – Titel"
                 name: chalet-4-text-004
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Mehr Privatsphäre in vier separaten Schlafzimmern – Titel"
                 name: chalet-4-text-005
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer-Chalet ansehen → – Titel"
                 name: chalet-4-text-006
                 widget: object
                 fields:
@@ -1525,25 +1525,25 @@ collections:
             name: texts
             widget: object
             fields:
-              - label: "Text"
+              - label: "Zum Inhalt – Titel"
                 name: chalet-5-text-001
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Auch interessant – Titel"
                 name: chalet-5-text-004
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Viel Platz für Familien und gemeinsame Urlaubstage – Titel"
                 name: chalet-5-text-005
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer-Chalet ansehen → – Titel"
                 name: chalet-5-text-006
                 widget: object
                 fields:
@@ -2013,115 +2013,115 @@ collections:
             name: texts
             widget: object
             fields:
-              - label: "Text"
+              - label: "Sommer in Flachau – Titel"
                 name: sommer-text-012
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Draußen zuhause – Titel"
                 name: sommer-text-013
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Bergluft, gemeinsame Erlebnisse und gemütliche Abende im eigenen Chalet. – Titel"
                 name: sommer-text-014
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sommerurlaub – Titel"
                 name: sommer-text-015
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Viel Platz für aktive und entspannte Tage – Titel"
                 name: sommer-text-016
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Viel Platz für aktive und entspannte Tage – Beschreibung"
                 name: sommer-text-017
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sommeraufenthalte können Sie direkt über unser Anfrageformular anfragen. – Titel"
                 name: sommer-text-018
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sommer buchen &#8594; – Titel"
                 name: sommer-text-019
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wandern – Titel"
                 name: sommer-text-020
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wandern – Beschreibung"
                 name: sommer-text-021
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Rad & Natur – Titel"
                 name: sommer-text-022
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Rad & Natur – Beschreibung"
                 name: sommer-text-023
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gemeinsame Zeit – Titel"
                 name: sommer-text-024
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gemeinsame Zeit – Beschreibung"
                 name: sommer-text-025
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "FLACHAU SOMMER CARD – Titel"
                 name: sommer-text-026
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Mehr Sommer inklusive – Titel"
                 name: sommer-text-027
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Mehr Sommer inklusive – Beschreibung"
                 name: sommer-text-028
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ihre digitale Flachau Sommer Card erhalten Sie nach dem Check-in. – Titel"
                 name: sommer-text-029
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sommer Card Aktivitäten ansehen (PDF) ↗ – Titel"
                 name: sommer-text-030
                 widget: object
                 fields:
@@ -2165,49 +2165,49 @@ collections:
             name: texts
             widget: object
             fields:
-              - label: "Text"
+              - label: "Winter in Flachau – Titel"
                 name: winter-text-012
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Schneetage. Kaminabende – Titel"
                 name: winter-text-013
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ein gemütliches Chalet als Zuhause nach einem Tag im Schnee. – Titel"
                 name: winter-text-014
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Winterurlaub – Titel"
                 name: winter-text-015
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Kurze Wege und Wärme, wenn Sie zurückkommen – Titel"
                 name: winter-text-016
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Kurze Wege und Wärme, wenn Sie zurückkommen – Beschreibung"
                 name: winter-text-017
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Winteraufenthalte werden ausschließlich über Sunweb gebucht. – Titel"
                 name: winter-text-018
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Winter buchen &#8599; – Titel"
                 name: winter-text-019
                 widget: object
                 fields:
@@ -2248,49 +2248,49 @@ collections:
             name: texts
             widget: object
             fields:
-              - label: "Text"
+              - label: "Flachauer Gutshof – Titel"
                 name: restaurant-text-012
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Nur wenige Schritte entfernt – Titel"
                 name: restaurant-text-013
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Restaurant, Bar und Live-Musik liegen direkt beim Chaletdorf. – Titel"
                 name: restaurant-text-014
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gemeinsam essen und den Abend genießen – Titel"
                 name: restaurant-text-015
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gemeinsam essen und den Abend genießen – Beschreibung"
                 name: restaurant-text-016
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Website des Restaurants ffnen &#8599; – Titel"
                 name: restaurant-text-017
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Familienfreundlich genießen – Titel"
                 name: restaurant-text-018
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Familienfreundlich genießen – Beschreibung"
                 name: restaurant-text-019
                 widget: object
                 fields:
@@ -2332,385 +2332,385 @@ collections:
             name: texts
             widget: object
             fields:
-              - label: "Text"
+              - label: "Lage – Titel"
                 name: lage-text-012
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Mitten in Flachau – Titel"
                 name: lage-text-013
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Chalets, Rezeption, Parkflächen und wichtige Wege auf einen Blick. – Titel"
                 name: lage-text-014
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Alles übersichtlich – Titel"
                 name: lage-text-015
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Alles übersichtlich – Beschreibung"
                 name: lage-text-016
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Anfahrt – Titel"
                 name: lage-text-017
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "So erreichen Sie die Alpenchalets – Titel"
                 name: lage-text-018
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ihre Zieladresse für die Navigation – Titel"
                 name: lage-text-019
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Route öffnen ↗ – Titel"
                 name: lage-text-020
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Anreise mit dem Auto – Titel"
                 name: lage-text-021
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Anreise mit dem Auto – Beschreibung"
                 name: lage-text-022
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Anreise mit der Bahn – Titel"
                 name: lage-text-023
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Anreise mit der Bahn – Beschreibung"
                 name: lage-text-024
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Anreise mit dem Flugzeug – Titel"
                 name: lage-text-025
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Anreise mit dem Flugzeug – Beschreibung"
                 name: lage-text-026
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Anreise mit dem Flugzeug – Beschreibung"
                 name: lage-text-027
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Google Maps laden – Titel"
                 name: lage-text-028
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Winter direkt vor der Tür – Titel"
                 name: lage-text-029
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Direkt an der Piste – Titel"
                 name: lage-text-030
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Von den Alpenchalets sind es nur wenige Schritte bis zum Skivergnügen. – Titel"
                 name: lage-text-031
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Alles in der Nähe – Titel"
                 name: lage-text-032
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Eine Lage, die den Urlaub leicht macht – Titel"
                 name: lage-text-033
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Eine Lage, die den Urlaub leicht macht – Beschreibung"
                 name: lage-text-034
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Alles ganz nah – Titel"
                 name: lage-text-035
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Minuten – Titel"
                 name: lage-text-036
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Viele Urlaubsziele bequem zu Fuß erreichbar – Titel"
                 name: lage-text-037
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Viele Urlaubsziele bequem zu Fuß erreichbar – Beschreibung"
                 name: lage-text-038
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Essen & Genießen – Titel"
                 name: lage-text-039
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gute Küche gleich in der Nähe – Titel"
                 name: lage-text-040
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "direkt nebenan · Lageplan ansehen – Titel"
                 name: lage-text-041
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Einkaufen & Bäckerei – Titel"
                 name: lage-text-042
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Alles für den täglichen Bedarf – Titel"
                 name: lage-text-043
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Bäckerei & Café – Titel"
                 name: lage-text-044
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ski & Berge – Titel"
                 name: lage-text-045
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Schnell auf die Piste – Titel"
                 name: lage-text-046
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Etwas weiter – Titel"
                 name: lage-text-047
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Bequem mit Fahrrad oder Auto – Titel"
                 name: lage-text-048
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "mit SPAR Express · täglich bis 22 Uhr – Titel"
                 name: lage-text-049
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ski & Berge – Titel"
                 name: lage-text-050
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Direkt ins Erlebnis – Titel"
                 name: lage-text-051
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "ca. 5–6 Gehminuten – Titel"
                 name: lage-text-052
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "ca. 8–10 Gehminuten – Titel"
                 name: lage-text-053
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "ca. 10 Gehminuten – Titel"
                 name: lage-text-054
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Einkaufen & Tanken – Titel"
                 name: lage-text-055
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Schnell versorgt – Titel"
                 name: lage-text-056
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "ca. 5 Gehminuten – Titel"
                 name: lage-text-057
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "D’ Bachstub’n · Bäckerei & Café – Titel"
                 name: lage-text-058
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "ca. 5 Gehminuten – Titel"
                 name: lage-text-059
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "ca. 8–10 Gehminuten – Titel"
                 name: lage-text-060
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "ca. 30 Gehminuten / etwa 7 Autominuten – Titel"
                 name: lage-text-061
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "OMV Tankstelle · SPAR Express – Titel"
                 name: lage-text-062
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "ca. 30 Gehminuten / etwa 7 Autominuten · täglich bis 22 Uhr – Titel"
                 name: lage-text-063
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Genuss in Flachau – Titel"
                 name: lage-text-064
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gute Küche ganz nah – Titel"
                 name: lage-text-065
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "direkt nebenan · etwa 2 Gehminuten – Titel"
                 name: lage-text-066
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "ca. 8 Gehminuten · österreichische und internationale Küche – Titel"
                 name: lage-text-067
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "ca. 10 Gehminuten · kreative Küche im modernen Ambiente – Titel"
                 name: lage-text-068
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "ca. 10 Gehminuten · kreative Küche im modernen Ambiente – Beschreibung"
                 name: lage-text-069
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Parken & Tiefgarage – Titel"
                 name: lage-text-070
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Parken & Tiefgarage – Beschreibung"
                 name: lage-text-071
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "E-Ladestationen in Flachau – Titel"
                 name: lage-text-072
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "E-Ladestationen in Flachau – Beschreibung"
                 name: lage-text-073
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ihr Weg zum Musistadl – Titel"
                 name: lage-text-074
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Zu Fuß oder mit dem Auto – Titel"
                 name: lage-text-075
                 widget: object
                 fields:
@@ -2794,253 +2794,253 @@ collections:
             name: texts
             widget: object
             fields:
-              - label: "Text"
+              - label: "Gut vorbereitet ankommen – Titel"
                 name: faq-text-012
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Häufige Fragen – Titel"
                 name: faq-text-013
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wie buche ich einen Winterurlaub – Titel"
                 name: faq-text-014
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wie buche ich einen Winterurlaub – Beschreibung"
                 name: faq-text-015
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wie buche ich einen Sommerurlaub – Titel"
                 name: faq-text-016
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sommeraufenthalte fragen Sie direkt über unser Anfrageformular an. – Titel"
                 name: faq-text-017
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gibt es eine Sauna und einen Kamin – Titel"
                 name: faq-text-018
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ja. Beide Chalet-Typen verfügen über eine private Sauna und einen Kamin. – Titel"
                 name: faq-text-019
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Welche Betten haben die 4- und 5-Zimmer-Chalets – Titel"
                 name: faq-text-020
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Welche Betten haben die 4- und 5-Zimmer-Chalets – Beschreibung"
                 name: faq-text-021
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wie viele Personen können übernachten – Titel"
                 name: faq-text-022
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wie viele Personen können übernachten – Beschreibung"
                 name: faq-text-023
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wann ist Check-in und Check-out – Titel"
                 name: faq-text-024
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wann ist Check-in und Check-out – Beschreibung"
                 name: faq-text-025
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Was passiert bei einer späten Anreise – Titel"
                 name: faq-text-026
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Was passiert bei einer späten Anreise – Beschreibung"
                 name: faq-text-027
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wann kann die Sauna genutzt werden – Titel"
                 name: faq-text-028
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Die private Sauna im Chalet kann täglich von 10:00 bis 22:00 Uhr genutzt werden. – Titel"
                 name: faq-text-029
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sind Bettwäsche und Handtücher inkludiert – Titel"
                 name: faq-text-030
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sind Bettwäsche und Handtücher inkludiert – Beschreibung"
                 name: faq-text-031
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gibt es Babybetten und Hochstühle – Titel"
                 name: faq-text-032
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gibt es Babybetten und Hochstühle – Beschreibung"
                 name: faq-text-033
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sind Haustiere erlaubt – Titel"
                 name: faq-text-034
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Haustiere sind willkommen. Die Gebühr beträgt 20 Euro pro Haustier und Nacht. – Titel"
                 name: faq-text-035
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gibt es eine Waschmaschine oder einen Trockner – Titel"
                 name: faq-text-036
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gibt es eine Waschmaschine oder einen Trockner – Beschreibung"
                 name: faq-text-037
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gibt es Parkplätze, Tiefgarage und Ladestationen – Titel"
                 name: faq-text-038
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gibt es Parkplätze, Tiefgarage und Ladestationen – Beschreibung"
                 name: faq-text-039
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ist die Flachau Sommer Card inkludiert – Titel"
                 name: faq-text-040
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ist die Flachau Sommer Card inkludiert – Beschreibung"
                 name: faq-text-041
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Kann ich bei früher Anreise schon etwas nutzen – Titel"
                 name: faq-text-042
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Kann ich bei früher Anreise schon etwas nutzen – Beschreibung"
                 name: faq-text-043
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Kann ich ein bestimmtes Chalet reservieren – Titel"
                 name: faq-text-044
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Kann ich ein bestimmtes Chalet reservieren – Beschreibung"
                 name: faq-text-045
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gibt es einen Grill im Chalet – Titel"
                 name: faq-text-046
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gibt es einen Grill im Chalet – Beschreibung"
                 name: faq-text-047
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wie nah sind Piste und 8er-Jet – Titel"
                 name: faq-text-048
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wie nah sind Piste und 8er-Jet – Beschreibung"
                 name: faq-text-049
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gibt es Taxi- oder Transferkontakte – Titel"
                 name: faq-text-050
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gibt es Taxi- oder Transferkontakte – Beschreibung"
                 name: faq-text-051
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Welche Notrufnummern gelten in Österreich – Titel"
                 name: faq-text-052
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Welche Notrufnummern gelten in Österreich – Beschreibung"
                 name: faq-text-053
                 widget: object
                 fields:
@@ -3075,31 +3075,31 @@ collections:
             name: texts
             widget: object
             fields:
-              - label: "Text"
+              - label: "Wir freuen uns auf Ihre Anfrage – Titel"
                 name: kontakt-text-013
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Direkt erreichbar – Titel"
                 name: kontakt-text-014
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Direkt erreichbar – Beschreibung"
                 name: kontakt-text-015
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Direkt erreichbar – Beschreibung"
                 name: kontakt-text-016
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Zur Urlaubsanfrage – Titel"
                 name: kontakt-text-017
                 widget: object
                 fields:
@@ -3125,97 +3125,97 @@ collections:
             name: texts
             widget: object
             fields:
-              - label: "Text"
+              - label: "Ihr Chalet in Flachau anfragen – Titel"
                 name: urlaubsanfrage-text-013
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ihr Chalet in Flachau anfragen – Beschreibung"
                 name: urlaubsanfrage-text-015
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Vor- und Nachname – Titel"
                 name: urlaubsanfrage-text-016
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "E-Mail – Titel"
                 name: urlaubsanfrage-text-017
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Telefon – Titel"
                 name: urlaubsanfrage-text-018
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Saison – Titel"
                 name: urlaubsanfrage-text-019
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Chalettyp – Titel"
                 name: urlaubsanfrage-text-022
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Bitte wählen – Titel"
                 name: urlaubsanfrage-text-023
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer-Chalet – Titel"
                 name: urlaubsanfrage-text-024
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer-Chalet – Titel"
                 name: urlaubsanfrage-text-025
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Aufenthalt / Zeitraum – Titel"
                 name: urlaubsanfrage-text-026
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Anreise – Titel"
                 name: urlaubsanfrage-text-027
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Abreise – Titel"
                 name: urlaubsanfrage-text-028
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Anzahl Personen – Titel"
                 name: urlaubsanfrage-text-029
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Nachricht – Titel"
                 name: urlaubsanfrage-text-030
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Anfrage senden – Titel"
                 name: urlaubsanfrage-text-031
                 widget: object
                 fields:
@@ -3241,175 +3241,175 @@ collections:
             name: texts
             widget: object
             fields:
-              - label: "Text"
+              - label: "Rechtliches – Titel"
                 name: impressum-text-012
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Medieninhaber, Diensteanbieter und verantwortlich für den Inhalt – Titel"
                 name: impressum-text-014
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Telefon – Titel"
                 name: impressum-text-015
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "E-Mail – Titel"
                 name: impressum-text-016
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Unternehmensangaben – Titel"
                 name: impressum-text-017
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Geschäftsführer – Titel"
                 name: impressum-text-018
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Firmenbuchnummer – Titel"
                 name: impressum-text-019
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Firmenbuchgericht – Titel"
                 name: impressum-text-020
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "UID-Nummer – Titel"
                 name: impressum-text-021
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sitz – Titel"
                 name: impressum-text-022
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Mitgliedschaft – Titel"
                 name: impressum-text-023
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Fachgruppe – Titel"
                 name: impressum-text-024
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gewerbebehörde – Titel"
                 name: impressum-text-025
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "GISA-Zahl – Titel"
                 name: impressum-text-026
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "GISA-Zahl – Beschreibung"
                 name: impressum-text-027
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Betriebsstätte und Kontakt der Alpenchalets – Titel"
                 name: impressum-text-028
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Telefon – Titel"
                 name: impressum-text-029
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "E-Mail – Titel"
                 name: impressum-text-030
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Unternehmensgegenstand und grundlegende Richtung – Titel"
                 name: impressum-text-031
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Unternehmensgegenstand und grundlegende Richtung – Beschreibung"
                 name: impressum-text-032
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Konzeption und technische Umsetzung – Titel"
                 name: impressum-text-033
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Konzeption, Webdesign und technische Umsetzung – Titel"
                 name: impressum-text-034
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Urheberrecht und Bildnachweis – Titel"
                 name: impressum-text-035
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Urheberrecht und Bildnachweis – Beschreibung"
                 name: impressum-text-036
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Urheberrecht und Bildnachweis – Beschreibung"
                 name: impressum-text-037
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Haftung für Inhalte und externe Links – Titel"
                 name: impressum-text-038
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Haftung für Inhalte und externe Links – Beschreibung"
                 name: impressum-text-039
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Haftung für Inhalte und externe Links – Beschreibung"
                 name: impressum-text-041
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Stand: August 2026 – Titel"
                 name: impressum-text-042
                 widget: object
                 fields:
@@ -3436,157 +3436,157 @@ collections:
             name: texts
             widget: object
             fields:
-              - label: "Text"
+              - label: "Rechtliches – Titel"
                 name: datenschutz-text-012
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Rechtliches – Beschreibung"
                 name: datenschutz-text-014
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Verantwortlicher – Titel"
                 name: datenschutz-text-015
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Aufruf der Website und Server-Logfiles – Titel"
                 name: datenschutz-text-016
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Aufruf der Website und Server-Logfiles – Beschreibung"
                 name: datenschutz-text-017
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Kontaktaufnahme und Urlaubsanfrage – Titel"
                 name: datenschutz-text-018
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Kontaktaufnahme und Urlaubsanfrage – Beschreibung"
                 name: datenschutz-text-019
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Lokale Spracheinstellung und Cookies – Titel"
                 name: datenschutz-text-020
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Lokale Spracheinstellung und Cookies – Beschreibung"
                 name: datenschutz-text-021
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Google Maps – Titel"
                 name: datenschutz-text-022
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Google Maps – Beschreibung"
                 name: datenschutz-text-023
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Datenschutzerklärung von Google – Titel"
                 name: datenschutz-text-024
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Externe Links – Titel"
                 name: datenschutz-text-025
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Externe Links – Beschreibung"
                 name: datenschutz-text-026
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Webfonts, Analyse und soziale Netzwerke – Titel"
                 name: datenschutz-text-027
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Webfonts, Analyse und soziale Netzwerke – Beschreibung"
                 name: datenschutz-text-028
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ihre Rechte – Titel"
                 name: datenschutz-text-029
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Nach der DSGVO stehen Ihnen insbesondere die folgenden Rechte zu: – Titel"
                 name: datenschutz-text-030
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Recht auf Information und Auskunft – Titel"
                 name: datenschutz-text-031
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Recht auf Berichtigung und Löschung – Titel"
                 name: datenschutz-text-032
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Recht auf Einschränkung der Verarbeitung – Titel"
                 name: datenschutz-text-033
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Recht auf Datenübertragbarkeit – Titel"
                 name: datenschutz-text-034
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Recht auf Widerspruch – Titel"
                 name: datenschutz-text-035
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Recht auf Widerspruch – Beschreibung"
                 name: datenschutz-text-036
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Recht auf Widerspruch – Beschreibung"
                 name: datenschutz-text-037
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Stand: Juli 2026 – Titel"
                 name: datenschutz-text-038
                 widget: object
                 fields:
