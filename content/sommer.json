@@ -151,27 +151,17 @@
       "url": "https://www.alpenchalets.at/sommer.html"
     }
   ],
-  "galleries": [
-    {
-      "id": "sommer-hero-slideshow",
-      "label": "Sommer: Hero-Slideshow",
-      "images": [
-        "assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg",
-        "assets/images/sommer-header-wro8237.jpg",
-        "assets/images/sommer-header-wro8232.jpg"
-      ]
-    }
-  ],
-  "heroes": [
-    {
-      "id": "summer",
-      "label": "Sommer Hero",
-      "image": "assets/images/sommer-header-terrasse.webp"
-    },
-    {
-      "id": "winter",
-      "label": "Winter Hero",
-      "image": "assets/images/sommer-header-terrasse.webp"
-    }
-  ]
+  "heroes": {
+    "summer": "assets/images/sommer-header-terrasse.webp",
+    "winter": "assets/images/sommer-header-terrasse.webp"
+  },
+  "gallery": {
+    "id": "sommer-hero-slideshow",
+    "label": "Sommer: Hero-Slideshow",
+    "images": [
+      "assets/images/Codex-Bild 17. Sept. 2026, 15_33_10.jpg",
+      "assets/images/sommer-header-wro8237.jpg",
+      "assets/images/sommer-header-wro8232.jpg"
+    ]
+  }
 }

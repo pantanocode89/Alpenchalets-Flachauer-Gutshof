@@ -264,18 +264,10 @@
     }
   ],
   "galleries": [],
-  "heroes": [
-    {
-      "id": "summer",
-      "label": "Sommer Hero",
-      "image": "assets/images/faq-header-planning-v1.webp"
-    },
-    {
-      "id": "winter",
-      "label": "Winter Hero",
-      "image": "assets/images/faq-header-planning-winter-v2.webp"
-    }
-  ],
+  "heroes": {
+    "summer": "assets/images/faq-header-planning-v1.webp",
+    "winter": "assets/images/faq-header-planning-winter-v2.webp"
+  },
   "faqs": [
     {
       "question_de": "Wie buche ich einen Winterurlaub",

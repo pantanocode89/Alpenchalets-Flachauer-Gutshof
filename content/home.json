@@ -1110,28 +1110,26 @@
       "url": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
     }
   ],
-  "galleries": [
-    {
-      "id": "home-4-zimmer",
-      "label": "4-Zimmer-Chalet: Bilder",
-      "floorplan": "assets/images/Grundriss-Alpenschalet-Typ1-EG+OG.jpg",
-      "images": [
-        "assets/images/35314194-Original.jpg",
-        "assets/images/35314198-Original.jpg",
-        "assets/images/35314200-Original.jpg",
-        "assets/images/3075035-Original.jpg"
-      ]
-    },
-    {
-      "id": "home-5-zimmer",
-      "label": "5-Zimmer-Chalet: Bilder",
-      "floorplan": "assets/images/Grundriss-Alpenschalet-Typ2-EG+OG.jpg",
-      "images": [
-        "assets/images/35314199-Original.jpg",
-        "assets/images/Chalet_innen.jpg",
-        "assets/images/3075039-Original.jpg",
-        "assets/images/3075049-Original.jpg"
-      ]
-    }
-  ]
+  "chalet4_gallery": {
+    "id": "home-4-zimmer",
+    "label": "4-Zimmer-Chalet: Bilder",
+    "floorplan": "assets/images/Grundriss-Alpenschalet-Typ1-EG+OG.jpg",
+    "images": [
+      "assets/images/35314194-Original.jpg",
+      "assets/images/35314198-Original.jpg",
+      "assets/images/35314200-Original.jpg",
+      "assets/images/3075035-Original.jpg"
+    ]
+  },
+  "chalet5_gallery": {
+    "id": "home-5-zimmer",
+    "label": "5-Zimmer-Chalet: Bilder",
+    "floorplan": "assets/images/Grundriss-Alpenschalet-Typ2-EG+OG.jpg",
+    "images": [
+      "assets/images/35314199-Original.jpg",
+      "assets/images/Chalet_innen.jpg",
+      "assets/images/3075039-Original.jpg",
+      "assets/images/3075049-Original.jpg"
+    ]
+  }
 }

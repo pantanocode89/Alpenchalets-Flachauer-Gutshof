@@ -178,16 +178,8 @@
     }
   ],
   "galleries": [],
-  "heroes": [
-    {
-      "id": "summer",
-      "label": "Sommer Hero",
-      "image": "assets/images/057becf1-c300-402d-aaba-e86d9ee57cdc.png"
-    },
-    {
-      "id": "winter",
-      "label": "Winter Hero",
-      "image": "assets/images/0ab298b4-42ad-4d80-ab23-e68aa2d97c0d.png"
-    }
-  ]
+  "heroes": {
+    "summer": "assets/images/057becf1-c300-402d-aaba-e86d9ee57cdc.png",
+    "winter": "assets/images/0ab298b4-42ad-4d80-ab23-e68aa2d97c0d.png"
+  }
 }

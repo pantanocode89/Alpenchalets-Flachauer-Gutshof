@@ -108,16 +108,8 @@
     }
   ],
   "galleries": [],
-  "heroes": [
-    {
-      "id": "summer",
-      "label": "Sommer Hero",
-      "image": "assets/images/urlaubsanfrage-header-suitcase-summer-v2.webp"
-    },
-    {
-      "id": "winter",
-      "label": "Winter Hero",
-      "image": "assets/images/urlaubsanfrage-header-suitcase-winter-v2.webp"
-    }
-  ]
+  "heroes": {
+    "summer": "assets/images/urlaubsanfrage-header-suitcase-summer-v2.webp",
+    "winter": "assets/images/urlaubsanfrage-header-suitcase-winter-v2.webp"
+  }
 }

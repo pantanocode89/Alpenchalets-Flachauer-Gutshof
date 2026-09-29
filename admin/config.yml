@@ -18,9 +18,10 @@ collections:
       - label: Startseite
         name: home
         file: content/home.json
-        fields: &page_fields
-          - {label: Interner Seitentitel, name: title, widget: hidden}
-          - label: Inhalte und Texte
+        fields:
+          - &title {label: Interner Seitentitel, name: title, widget: hidden}
+          - &texts
+            label: Inhalte und Texte
             name: texts
             widget: list
             summary: "{{fields.label}}"
@@ -29,7 +30,8 @@ collections:
               - {label: Interne Bezeichnung, name: label, widget: hidden}
               - {label: Deutsch, name: de, widget: text}
               - {label: English, name: en, widget: text}
-          - label: Überschriften und Schaltflächen dieser Seite
+          - &translations
+            label: Überschriften und Schaltflächen dieser Seite
             name: translations
             widget: list
             summary: "{{fields.label}}"
@@ -38,7 +40,8 @@ collections:
               - {label: Interne Bezeichnung, name: label, widget: hidden}
               - {label: Deutsch, name: de, widget: text}
               - {label: English, name: en, widget: text}
-          - label: Bilder auf dieser Seite
+          - &media
+            label: Bilder auf dieser Seite
             name: media
             widget: list
             summary: "{{fields.label}}"
@@ -46,15 +49,15 @@ collections:
               - {label: ID, name: id, widget: hidden}
               - {label: Interne Bezeichnung, name: label, widget: hidden}
               - {label: Bild ersetzen, name: image, widget: image, required: true}
-          - label: Header-Bilder
+          - &heroes
+            label: Seitenkopf
             name: heroes
-            widget: list
-            summary: "{{fields.label}}"
+            widget: object
             fields:
-              - {label: ID, name: id, widget: hidden}
-              - {label: Interne Bezeichnung, name: label, widget: hidden}
-              - {label: Bild ersetzen, name: image, widget: image, required: true}
-          - label: Inhaltliche Links dieser Seite
+              - {label: Sommer – Headerbild, name: summer, widget: image, required: true}
+              - {label: Winter – Headerbild, name: winter, widget: image, required: true}
+          - &links
+            label: Inhaltliche Links dieser Seite
             name: links
             widget: list
             summary: "{{fields.label}}"
@@ -62,20 +65,98 @@ collections:
               - {label: ID, name: id, widget: hidden}
               - {label: Interne Bezeichnung, name: label, widget: hidden}
               - {label: URL, name: url, widget: string, pattern: ['https?://.+', 'Bitte eine vollständige https://-Adresse eingeben.']}
-          - label: Bildergalerien und Slideshows
-            name: galleries
-            widget: list
-            summary: "{{fields.label}}"
-            fields:
+          - label: 4-Zimmer-Chalet – Bilder
+            name: chalet4_gallery
+            widget: object
+            fields: &gallery_with_floorplan
               - {label: ID, name: id, widget: hidden}
-              - {label: Interne Bezeichnung, name: label, widget: hidden}
               - {label: Grundriss, name: floorplan, widget: image, required: false}
-              - label: Bilder – Reihenfolge per Drag & Drop
+              - label: Bilder
                 name: images
                 widget: list
                 min: 1
                 field: {label: Bild, name: image, widget: image}
-          - label: FAQ – Fragen und Antworten dieser Seite
+          - label: 5-Zimmer-Chalet – Bilder
+            name: chalet5_gallery
+            widget: object
+            fields: *gallery_with_floorplan
+      - label: 4-Zimmer-Chalet
+        name: chalet4
+        file: content/chalet-4.json
+        fields:
+          - *title
+          - *texts
+          - *translations
+          - *media
+          - *heroes
+          - *links
+          - &main_gallery
+            label: Hauptgalerie
+            name: gallery
+            widget: object
+            fields: &gallery_images
+              - {label: ID, name: id, widget: hidden}
+              - label: Bilder
+                name: images
+                widget: list
+                min: 1
+                field: {label: Bild, name: image, widget: image}
+      - label: 5-Zimmer-Chalet
+        name: chalet5
+        file: content/chalet-5.json
+        fields: [*title, *texts, *translations, *media, *heroes, *links, *main_gallery]
+      - label: Sommer
+        name: sommer
+        file: content/sommer.json
+        fields: [*title, *texts, *translations, *media, *heroes, *links, &slideshow {label: Header-Slideshow, name: gallery, widget: object, fields: *gallery_images}]
+      - label: Winter
+        name: winter
+        file: content/winter.json
+        fields: [*title, *texts, *translations, *media, *heroes, *links, *slideshow]
+      - label: Restaurant / Flachauer Gutshof
+        name: restaurant
+        file: content/restaurant.json
+        fields: [*title, *texts, *translations, *media, *heroes, *links, *slideshow]
+      - label: Lage & Anfahrt
+        name: lage
+        file: content/lage.json
+        fields: [*title, *texts, *translations, *media, *heroes, *links]
+      - label: Galerie
+        name: galerie
+        file: content/galerie.json
+        fields:
+          - *title
+          - label: Texte
+            name: texts
+            widget: object
+            fields:
+              - {label: Hauptüberschrift – Deutsch, name: heading_de, widget: text}
+              - {label: Hauptüberschrift – English, name: heading_en, widget: text}
+              - {label: Untertitel – Deutsch, name: subtitle_de, widget: text}
+              - {label: Untertitel – English, name: subtitle_en, widget: text}
+          - label: Hauptgalerie
+            name: main_gallery
+            widget: object
+            fields:
+              - {label: ID, name: id, widget: hidden}
+              - label: Bilder
+                name: images
+                widget: list
+                min: 1
+                field: {label: Bild, name: image, widget: image}
+          - *heroes
+      - label: FAQ
+        name: faq
+        file: content/faq.json
+        fields:
+          - *title
+          - *texts
+          - *translations
+          - *media
+          - *heroes
+          - *links
+          - &faqs
+            label: FAQ – Fragen und Antworten dieser Seite
             name: faqs
             widget: list
             summary: "{{fields.question_de}}"
@@ -84,50 +165,10 @@ collections:
               - {label: Antwort Deutsch, name: answer_de, widget: text}
               - {label: Question English, name: question_en, widget: text}
               - {label: Answer English, name: answer_en, widget: text}
-      - {label: 4-Zimmer-Chalet, name: chalet4, file: content/chalet-4.json, fields: *page_fields}
-      - {label: 5-Zimmer-Chalet, name: chalet5, file: content/chalet-5.json, fields: *page_fields}
-      - {label: Sommer, name: sommer, file: content/sommer.json, fields: *page_fields}
-      - {label: Winter, name: winter, file: content/winter.json, fields: *page_fields}
-      - {label: Restaurant / Flachauer Gutshof, name: restaurant, file: content/restaurant.json, fields: *page_fields}
-      - {label: Lage & Anfahrt, name: lage, file: content/lage.json, fields: *page_fields}
-      - label: Galerie
-        name: galerie
-        file: content/galerie.json
-        fields:
-          - {label: Interner Seitentitel, name: title, widget: hidden}
-          - label: Texte der Galerie
-            name: texts
-            widget: list
-            summary: "{{fields.label}}"
-            fields:
-              - {label: Interne Bezeichnung, name: label, widget: hidden}
-              - {label: Deutsch, name: de, widget: text}
-              - {label: English, name: en, widget: text}
-          - label: Galerie-Bilder
-            name: galleries
-            widget: list
-            summary: "{{fields.label}}"
-            fields:
-              - {label: Interne Bezeichnung, name: id, widget: hidden}
-              - {label: Interne Bezeichnung, name: label, widget: hidden}
-              - label: Bilder – hinzufügen, entfernen oder sortieren
-                name: images
-                widget: list
-                min: 1
-                field: {label: Bild, name: image, widget: image}
-          - label: Header-Bilder
-            name: heroes
-            widget: list
-            summary: "{{fields.label}}"
-            fields:
-              - {label: Interne Bezeichnung, name: id, widget: hidden}
-              - {label: Interne Bezeichnung, name: label, widget: hidden}
-              - {label: Header-Bild, name: image, widget: image, required: true}
-      - {label: FAQ, name: faq, file: content/faq.json, fields: *page_fields}
-      - {label: Kontakt, name: kontakt, file: content/kontakt.json, fields: *page_fields}
-      - {label: Urlaubsanfrage, name: urlaubsanfrage, file: content/urlaubsanfrage.json, fields: *page_fields}
-      - {label: Impressum, name: impressum, file: content/impressum.json, fields: *page_fields}
-      - {label: Datenschutz, name: datenschutz, file: content/datenschutz.json, fields: *page_fields}
+      - {label: Kontakt, name: kontakt, file: content/kontakt.json, fields: [*title, *texts, *translations, *media, *heroes, *links]}
+      - {label: Urlaubsanfrage, name: urlaubsanfrage, file: content/urlaubsanfrage.json, fields: [*title, *texts, *translations, *media, *heroes, *links]}
+      - {label: Impressum, name: impressum, file: content/impressum.json, fields: [*title, *texts, *translations, *media, *heroes, *links]}
+      - {label: Datenschutz, name: datenschutz, file: content/datenschutz.json, fields: [*title, *texts, *translations, *media, *heroes, *links]}
   - name: global
     label: Globale Inhalte
     files:

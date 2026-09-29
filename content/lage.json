@@ -472,16 +472,8 @@
     }
   ],
   "galleries": [],
-  "heroes": [
-    {
-      "id": "summer",
-      "label": "Sommer Hero",
-      "image": "assets/images/26-flachau-sommer-wandern-hüttenwanderung-franzfischerhütte-21.jpg"
-    },
-    {
-      "id": "winter",
-      "label": "Winter Hero",
-      "image": "assets/images/lage.jpg"
-    }
-  ]
+  "heroes": {
+    "summer": "assets/images/26-flachau-sommer-wandern-hüttenwanderung-franzfischerhütte-21.jpg",
+    "winter": "assets/images/lage.jpg"
+  }
 }

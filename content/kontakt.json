@@ -42,16 +42,8 @@
     }
   ],
   "galleries": [],
-  "heroes": [
-    {
-      "id": "summer",
-      "label": "Sommer Hero",
-      "image": "assets/images/kontakt-header-modern-summer-v2.webp"
-    },
-    {
-      "id": "winter",
-      "label": "Winter Hero",
-      "image": "assets/images/kontakt-header-modern-winter-v2.webp"
-    }
-  ]
+  "heroes": {
+    "summer": "assets/images/kontakt-header-modern-summer-v2.webp",
+    "winter": "assets/images/kontakt-header-modern-winter-v2.webp"
+  }
 }

@@ -70,30 +70,20 @@
       "url": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
     }
   ],
-  "galleries": [
-    {
-      "id": "winter-hero-slideshow",
-      "label": "Winter: Hero-Slideshow",
-      "images": [
-        "assets/images/winter-page-hero.jpg",
-        "assets/images/IMG_5188.JPG",
-        "assets/images/IMG_5174.JPG",
-        "assets/images/Alpenchalet1_filter.jpg",
-        "assets/images/25-flachau-winter-ski-urlaub-outdoor-4.jpg",
-        "assets/images/25-flachau-winter-ski-urlaub-17.jpg"
-      ]
-    }
-  ],
-  "heroes": [
-    {
-      "id": "summer",
-      "label": "Sommer Hero",
-      "image": "assets/images/winter-page-hero.webp"
-    },
-    {
-      "id": "winter",
-      "label": "Winter Hero",
-      "image": "assets/images/winter-page-hero.webp"
-    }
-  ]
+  "heroes": {
+    "summer": "assets/images/winter-page-hero.webp",
+    "winter": "assets/images/winter-page-hero.webp"
+  },
+  "gallery": {
+    "id": "winter-hero-slideshow",
+    "label": "Winter: Hero-Slideshow",
+    "images": [
+      "assets/images/winter-page-hero.jpg",
+      "assets/images/IMG_5188.JPG",
+      "assets/images/IMG_5174.JPG",
+      "assets/images/Alpenchalet1_filter.jpg",
+      "assets/images/25-flachau-winter-ski-urlaub-outdoor-4.jpg",
+      "assets/images/25-flachau-winter-ski-urlaub-17.jpg"
+    ]
+  }
 }

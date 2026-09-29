@@ -492,29 +492,19 @@
       "url": "https://www.sunweb.de/skiurlaub/osterreich/ski-amade/salzburger-sportwelt-ski-amade/flachau/alpenchalets-flachauer-gutshof-kurz-und-wochenreisen"
     }
   ],
-  "galleries": [
-    {
-      "id": "chalet-5-gallery",
-      "label": "Bildergalerie 5-Zimmer-Chalet",
-      "images": [
-        "assets/images/exterior-main.webp",
-        "assets/images/bedroom-main.webp",
-        "assets/images/bathroom-sauna.webp",
-        "assets/images/living.webp",
-        "assets/images/kitchen.webp"
-      ]
-    }
-  ],
-  "heroes": [
-    {
-      "id": "summer",
-      "label": "Sommer Hero",
-      "image": "assets/images/exterior-main.webp"
-    },
-    {
-      "id": "winter",
-      "label": "Winter Hero",
-      "image": "assets/images/winter-header-real-chalet.webp"
-    }
-  ]
+  "heroes": {
+    "summer": "assets/images/exterior-main.webp",
+    "winter": "assets/images/winter-header-real-chalet.webp"
+  },
+  "gallery": {
+    "id": "chalet-5-gallery",
+    "label": "Bildergalerie 5-Zimmer-Chalet",
+    "images": [
+      "assets/images/exterior-main.webp",
+      "assets/images/bedroom-main.webp",
+      "assets/images/bathroom-sauna.webp",
+      "assets/images/living.webp",
+      "assets/images/kitchen.webp"
+    ]
+  }
 }
