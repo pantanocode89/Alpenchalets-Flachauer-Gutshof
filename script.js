@@ -181,7 +181,7 @@ langButtons.forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang
 setLanguage(readSavedLanguage());
 window.addEventListener('storage',event=>{if(event.key===languageStorageKey&&["de","en"].includes(event.newValue))setLanguage(event.newValue)});
 const modal=document.getElementById('imageModal'),modalImage=document.getElementById('modalImage'),modalTitle=document.getElementById('modalTitle');
-const modalGalleryItems=[...document.querySelectorAll('.gallery-item')];
+let modalGalleryItems=[...document.querySelectorAll('.gallery-item')];
 let modalGalleryIndex=-1;
 const modalPrev=document.createElement('button'),modalNext=document.createElement('button');
 modalPrev.type=modalNext.type='button';
@@ -195,7 +195,8 @@ function showModalGalleryImage(index){
   modalImage.src=item.dataset.src;
   modalImage.alt=item.querySelector('img')?.alt||'';
 }
-function openModal(src,title='',rotate=false){
+function openModal(src,title='',rotate=false,items=modalGalleryItems){
+  modalGalleryItems=items;
   modal.classList.toggle('is-map-plan',rotate);
   modalGalleryIndex=rotate?-1:modalGalleryItems.findIndex(item=>item.dataset.src===src);
   if(modalGalleryIndex>=0)showModalGalleryImage(modalGalleryIndex);else modalImage.src=src;
@@ -662,7 +663,7 @@ document.querySelectorAll('[data-chalet-carousel]').forEach(carousel=>{
     slide.tabIndex=0;
     slide.setAttribute('role','button');
     slide.setAttribute('aria-label',image.alt||'Bild vergrößern');
-    const enlarge=()=>openModal(image.currentSrc||image.src,image.alt||'');
+    const enlarge=()=>openModal(image.currentSrc||image.src,image.alt||'',false,slides.map(item=>({dataset:{src:item.querySelector('img')?.currentSrc||item.querySelector('img')?.src},querySelector:()=>item.querySelector('img')})));
     slide.addEventListener('click',enlarge);
     slide.addEventListener('keydown',event=>{
       if(event.key!=='Enter'&&event.key!==' ')return;

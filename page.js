@@ -165,7 +165,7 @@ window.addEventListener('storage',event=>{if(event.key===languageStorageKey&&sup
 
 const modal=document.querySelector('.modal');
 if(modal){
-  const galleryButtons=()=>[...document.querySelectorAll('[data-full]:not([data-plan="true"])')];
+  let activeGallery=()=>[...document.querySelectorAll('[data-full]:not([data-plan="true"])')];
   let galleryIndex=-1;
   const modalImage=modal.querySelector('img');
   const prev=document.createElement('button'),next=document.createElement('button');
@@ -174,7 +174,7 @@ if(modal){
   prev.setAttribute('aria-label','Previous image');next.setAttribute('aria-label','Next image');
   modal.append(prev,next);
   const showGalleryImage=index=>{
-    const buttons=galleryButtons();
+    const buttons=activeGallery();
     galleryIndex=(index+buttons.length)%buttons.length;
     modalImage.src=buttons[galleryIndex].dataset.full;
   };
@@ -184,7 +184,8 @@ if(modal){
     e.preventDefault();
     modal.classList.toggle('plan-modal',b.dataset.plan==='true');
     modal.classList.toggle('is-rotated-right',b.dataset.rotate==='right');
-    const buttons=galleryButtons();
+    activeGallery=()=>[...(b.closest('[data-lightbox-group]')||document).querySelectorAll('[data-full]:not([data-plan="true"])')];
+    const buttons=activeGallery();
     galleryIndex=buttons.indexOf(b);
     if(galleryIndex>=0)showGalleryImage(galleryIndex);else modalImage.src=b.dataset.full;
     modal.classList.toggle('has-gallery-nav',galleryIndex>=0&&buttons.length>1);
@@ -196,6 +197,14 @@ if(modal){
   modal.addEventListener('click',e=>{if(e.target===modal)modal.classList.remove('open','plan-modal','is-rotated-right','has-gallery-nav')});
   document.addEventListener('keydown',e=>{if(!modal.classList.contains('open')||galleryIndex<0)return;if(e.key==='ArrowLeft')showGalleryImage(galleryIndex-1);if(e.key==='ArrowRight')showGalleryImage(galleryIndex+1)});
 }
+
+document.querySelectorAll('[data-chalet-carousel]').forEach((carousel,index)=>{
+  carousel.dataset.lightboxGroup=`chalet-${index+1}`;
+  [...carousel.querySelectorAll('.chalet-carousel-slides figure')].forEach(slide=>{
+    slide.tabIndex=0;slide.dataset.full=slide.querySelector('img')?.src||'';
+    slide.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' ')slide.click()});
+  });
+});
 
 // FAQ accordion: start closed and keep at most one answer open.
 const faqItems=[...document.querySelectorAll('.faq details')];
