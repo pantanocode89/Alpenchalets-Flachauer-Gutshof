@@ -876,7 +876,7 @@ footer{padding:70px 0 22px;background:#e9e3d7;color:var(--ink)}
 .chalet-carousel-slides,.chalet-carousel-slides figure{position:absolute;inset:0;margin:0}
 .chalet-carousel-slides figure{opacity:0;visibility:hidden;transition:opacity .55s ease,visibility .55s ease}
 .chalet-carousel-slides figure.is-active{opacity:1;visibility:visible}
-.chalet-carousel-slides figure.is-active{cursor:zoom-in}
+.chalet-carousel-slides figure.is-active{cursor:default}
 .chalet-carousel-slides figure:focus-visible{outline:3px solid #596141;outline-offset:-5px}
 .chalet-carousel img{width:100%;height:100%;object-fit:cover}
 .chalet-carousel-slides figure.is-floorplan{background:#fff;padding:0}
