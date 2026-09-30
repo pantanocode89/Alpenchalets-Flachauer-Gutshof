@@ -5,9 +5,9 @@
   const sections=()=>[...document.querySelectorAll('[class*="ControlPaneContainer"] > [class*="ControlContainer"]')].map(row=>{
     const field=row.querySelector(':scope > [id]');
     const button=field?.querySelector(':scope > [class*="TopBarContainer"] button[data-testid="expand-button"]');
-    return button&&field?.children[1]?{button,content:field.children[1]}:null;
+    return button&&field?.children[1]?{button,content:field.children[1],key:field.id}:null;
   }).filter(Boolean);
-  let initialized=false,currentEntry='';
+  let initialized=false,currentEntry='',currentSections='';
   const tidy=()=>{
     const activeEntry=entry();
     if(activeEntry!==currentEntry){currentEntry=activeEntry;initialized=false;}
@@ -24,6 +24,8 @@
       if(hero&&translations&&translations.firstElementChild!==hero)translations.prepend(hero);
     }
     const items=sections();
+    const sectionKey=items.map(item=>item.key).join('|');
+    if(sectionKey!==currentSections){currentSections=sectionKey;initialized=false;}
     items.forEach(({button,content})=>{
       if(button.dataset.cmsAccordion)return;
       button.dataset.cmsAccordion='1';
