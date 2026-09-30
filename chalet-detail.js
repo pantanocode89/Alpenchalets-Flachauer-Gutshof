@@ -150,6 +150,9 @@ function openModal(src,title='',galleryIndex=-1){detailGalleryIndex=galleryIndex
 detailGalleryItems.forEach((b,index)=>b.addEventListener('click',()=>openModal(b.dataset.src,'',index)));
 detailModalPrev.addEventListener('click',()=>showDetailGalleryImage(detailGalleryIndex-1));
 detailModalNext.addEventListener('click',()=>showDetailGalleryImage(detailGalleryIndex+1));
+let detailModalTouchX=0,detailModalTouchY=0;
+modalImage.addEventListener('touchstart',event=>{const touch=event.changedTouches[0];detailModalTouchX=touch.clientX;detailModalTouchY=touch.clientY},{passive:true});
+modalImage.addEventListener('touchend',event=>{const touch=event.changedTouches[0],deltaX=touch.clientX-detailModalTouchX,deltaY=touch.clientY-detailModalTouchY;if(detailGalleryIndex<0||Math.abs(deltaX)<40||Math.abs(deltaX)<=Math.abs(deltaY))return;showDetailGalleryImage(detailGalleryIndex+(deltaX<0?1:-1))},{passive:true});
 document.querySelectorAll('.open-floorplan').forEach(b=>b.addEventListener('click',()=>openModal(b.dataset.image)));
 modal.querySelector('.modal-close').addEventListener('click',()=>modal.close());modal.addEventListener('click',e=>{if(e.target===modal)modal.close()});modal.addEventListener('close',()=>modal.classList.remove('has-gallery-nav'));document.addEventListener('keydown',e=>{if(!modal.open||detailGalleryIndex<0)return;if(e.key==='ArrowLeft')showDetailGalleryImage(detailGalleryIndex-1);if(e.key==='ArrowRight')showDetailGalleryImage(detailGalleryIndex+1)});document.getElementById('year').textContent=new Date().getFullYear();
 const detailBackToTop=document.createElement('a');

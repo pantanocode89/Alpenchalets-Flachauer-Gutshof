@@ -207,6 +207,9 @@ function openModal(src,title='',rotate=false,items=modalGalleryItems){
 modalGalleryItems.forEach((b,index)=>b.addEventListener('click',()=>{modalGalleryIndex=index;openModal(b.dataset.src)}));
 modalPrev.addEventListener('click',()=>showModalGalleryImage(modalGalleryIndex-1));
 modalNext.addEventListener('click',()=>showModalGalleryImage(modalGalleryIndex+1));
+let modalTouchX=0,modalTouchY=0;
+modalImage.addEventListener('touchstart',event=>{const touch=event.changedTouches[0];modalTouchX=touch.clientX;modalTouchY=touch.clientY},{passive:true});
+modalImage.addEventListener('touchend',event=>{const touch=event.changedTouches[0],deltaX=touch.clientX-modalTouchX,deltaY=touch.clientY-modalTouchY;if(modalGalleryIndex<0||Math.abs(deltaX)<40||Math.abs(deltaX)<=Math.abs(deltaY))return;showModalGalleryImage(modalGalleryIndex+(deltaX<0?1:-1))},{passive:true});
 document.querySelectorAll('.open-floorplan').forEach(b=>b.addEventListener('click',()=>openModal(b.dataset.image,b.dataset.title,b.dataset.rotate==='right')));
 document.getElementById('openGallery')?.addEventListener('click',()=>openModal('assets/images/exterior-wide.webp','Flachauer Alpenchalets'));
 modal.querySelector('.modal-close').addEventListener('click',()=>modal.close());modal.addEventListener('click',e=>{if(e.target===modal)modal.close()});modal.addEventListener('close',()=>{modal.classList.remove('is-map-plan','has-gallery-nav')});

@@ -193,6 +193,9 @@ if(modal){
   });
   prev.addEventListener('click',()=>showGalleryImage(galleryIndex-1));
   next.addEventListener('click',()=>showGalleryImage(galleryIndex+1));
+  let modalTouchX=0,modalTouchY=0;
+  modalImage.addEventListener('touchstart',event=>{const touch=event.changedTouches[0];modalTouchX=touch.clientX;modalTouchY=touch.clientY},{passive:true});
+  modalImage.addEventListener('touchend',event=>{const touch=event.changedTouches[0],deltaX=touch.clientX-modalTouchX,deltaY=touch.clientY-modalTouchY;if(galleryIndex<0||Math.abs(deltaX)<40||Math.abs(deltaX)<=Math.abs(deltaY))return;showGalleryImage(galleryIndex+(deltaX<0?1:-1))},{passive:true});
   modal.querySelector('button:not(.modal-nav)')?.addEventListener('click',()=>modal.classList.remove('open','plan-modal','is-rotated-right','has-gallery-nav'));
   modal.addEventListener('click',e=>{if(e.target===modal)modal.classList.remove('open','plan-modal','is-rotated-right','has-gallery-nav')});
   document.addEventListener('keydown',e=>{if(!modal.classList.contains('open')||galleryIndex<0)return;if(e.key==='ArrowLeft')showGalleryImage(galleryIndex-1);if(e.key==='ArrowRight')showGalleryImage(galleryIndex+1)});

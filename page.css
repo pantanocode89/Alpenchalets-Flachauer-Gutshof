@@ -140,7 +140,7 @@ html{scroll-behavior:auto}.page-header{backdrop-filter:none;-webkit-backdrop-fil
 .modal.has-gallery-nav .modal-nav{display:grid}
 .modal .modal-prev{left:22px;right:auto}.modal .modal-next{left:auto;right:22px}
 .page-hero[style*="gallery-hero-collage.png"]{background-image:url('assets/images/gallery-hero-collage.webp')!important}
-.modal-nav:hover,.modal-nav:focus-visible{background:#596141;transform:translateY(-50%) scale(1.06);outline:2px solid #fff;outline-offset:2px}
+.modal-nav:hover{background:#596141;transform:translateY(-50%) scale(1.06);cursor:pointer}.modal-nav:focus-visible{background:#596141;transform:translateY(-50%) scale(1.06);outline:2px solid #fff;outline-offset:2px}
 @media(max-width:600px){.modal-nav{width:40px;height:40px;font-size:22px}.modal-prev{left:8px}.modal-next{right:8px}}
 
 /* Selected Lage & Anfahrt header artwork. */
@@ -522,6 +522,7 @@ html{scroll-behavior:auto}.page-header{backdrop-filter:none;-webkit-backdrop-fil
   .modal{padding:12px}
   .modal img{max-width:calc(100vw - 24px);max-height:calc(100svh - 48px)}
 }
+@media(max-width:600px){.modal{height:100dvh;min-height:100dvh;align-items:center;justify-items:center}.modal img{width:auto;height:auto;max-width:calc(100vw - 24px);max-height:calc(100dvh - 24px);object-fit:contain;object-position:center}.modal .modal-nav{display:none!important}}
 @media(max-width:390px){
   .container,.footer-top,.footer-bottom{width:calc(100% - 28px)!important}
   .page-hero{padding-left:14px!important;padding-right:14px!important}
