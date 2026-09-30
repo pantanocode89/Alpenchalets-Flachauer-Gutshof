@@ -1,21 +1,35 @@
 /* Small presentation-only helper for the production Decap editor. */
 (()=>{
-  const nav=/^Navigation – /;
+  const home=()=>location.hash.includes('/entries/home');
+  const sections=()=>[...document.querySelectorAll('[class*="ControlPaneContainer"] > [class*="ControlContainer"]')].map(row=>{
+    const field=row.querySelector(':scope > [id]');
+    const button=field?.querySelector(':scope > [class*="TopBarContainer"] button[data-testid="expand-button"]');
+    return button&&field?.children[1]?{button,content:field.children[1]}:null;
+  }).filter(Boolean);
+  let initialized=false;
   const tidy=()=>{
-    const home=location.hash.includes('/entries/home');
-    document.querySelectorAll('label,div').forEach(el=>{
-      if(el.children.length||!nav.test(el.textContent.trim()))return;
-      const row=el.closest('[class*="field"], [class*="Field"]')||el.parentElement;
+    if(!home()){initialized=false;return;}
+    document.querySelectorAll('label').forEach(label=>{
+      if(!/^Navigation\s*–\s*/i.test(label.textContent.trim()))return;
+      const field=document.getElementById(label.htmlFor);
+      const row=field?.closest('[class*="ControlContainer"]');
       if(row)row.hidden=true;
     });
-    if(!home)return;
-    const hero=[...document.querySelectorAll('*')].find(el=>el.children.length===0&&el.textContent.trim()==='HERO – TITEL');
-    const title=hero?.closest('[class*="field"], [class*="Field"]');
-    const editor=document.querySelector('[class*="EditorControl"], main')||document.body;
-    if(title&&editor.firstElementChild!==title)editor.prepend(title);
-    document.querySelectorAll('details').forEach(detail=>{
-      if(!detail.dataset.cmsAccordion){detail.dataset.cmsAccordion='1';detail.open=false;detail.addEventListener('toggle',()=>{if(detail.open)detail.parentElement?.querySelectorAll(':scope > details[open]').forEach(other=>{if(other!==detail)other.open=false})})}
+    const hero=document.querySelector('[id^="hero.title-field-"]');
+    const translations=document.querySelector('[id^="translations-field-"] > :last-child');
+    if(hero&&translations&&translations.firstElementChild!==hero)translations.prepend(hero);
+    const items=sections();
+    items.forEach(({button,content})=>{
+      if(button.dataset.cmsAccordion)return;
+      button.dataset.cmsAccordion='1';
+      button.addEventListener('click',event=>{
+        event.preventDefault();event.stopImmediatePropagation();
+        const opening=content.hidden;
+        sections().forEach(item=>{item.content.hidden=true;});
+        if(opening)content.hidden=false;
+      },true);
     });
+    if(!initialized&&items.length){items.forEach(item=>{item.content.hidden=true;});initialized=true;}
   };
   new MutationObserver(tidy).observe(document.documentElement,{childList:true,subtree:true});
   addEventListener('hashchange',tidy);tidy();
