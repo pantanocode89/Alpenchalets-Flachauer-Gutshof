@@ -882,7 +882,7 @@ footer{padding:70px 0 22px;background:#e9e3d7;color:var(--ink)}
 .chalet-carousel-slides figure.is-floorplan img{object-fit:contain}
 .chalet-carousel-arrow{position:absolute;z-index:2;top:50%;width:46px;height:46px;display:grid;place-items:center;border:1px solid rgba(255,255,255,.75);border-radius:50%;background:rgba(28,33,23,.62);color:#fff;font-size:20px;cursor:pointer;transform:translateY(-50%);backdrop-filter:blur(8px);transition:background .25s ease,transform .25s ease}
 .chalet-carousel-arrow:hover{background:rgba(28,33,23,.86);transform:translateY(-50%) scale(1.04)}
-.chalet-carousel-arrow{border-color:rgba(255,255,255,.55);background:#151713;font-size:28px;backdrop-filter:none}.chalet-carousel-arrow:hover,.chalet-carousel-arrow:focus-visible{background:#151713;transform:translateY(-50%) scale(1.06);outline:2px solid #fff;outline-offset:2px}
+.chalet-carousel-arrow{border-color:rgba(255,255,255,.5);background:rgba(63,70,48,.78);font-size:28px;line-height:1;backdrop-filter:none}.chalet-carousel-arrow:hover,.chalet-carousel-arrow:focus-visible{background:#596141;transform:translateY(-50%) scale(1.06);outline:2px solid #fff;outline-offset:2px}
 .chalet-carousel-arrow.is-prev{left:18px}.chalet-carousel-arrow.is-next{right:18px}
 .chalet-carousel-count{position:absolute;z-index:2;right:18px;bottom:16px;padding:5px 10px;border-radius:999px;background:rgba(28,33,23,.64);color:#fff;font-size:11px;letter-spacing:.08em;backdrop-filter:blur(8px)}
 @media(max-width:900px){.chalet-compare-grid{grid-template-columns:1fr;gap:28px}.chalet-compare-card .chalet-content{padding:34px 26px}.chalet-compare-card .chalet-content h3{font-size:40px}}
