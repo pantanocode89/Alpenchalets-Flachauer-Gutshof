@@ -165,7 +165,7 @@ window.addEventListener('storage',event=>{if(event.key===languageStorageKey&&sup
 
 const modal=document.querySelector('.modal');
 if(modal){
-  const galleryButtons=[...document.querySelectorAll('[data-full]:not([data-plan="true"])')];
+  const galleryButtons=()=>[...document.querySelectorAll('[data-full]:not([data-plan="true"])')];
   let galleryIndex=-1;
   const modalImage=modal.querySelector('img');
   const prev=document.createElement('button'),next=document.createElement('button');
@@ -174,18 +174,22 @@ if(modal){
   prev.setAttribute('aria-label','Previous image');next.setAttribute('aria-label','Next image');
   modal.append(prev,next);
   const showGalleryImage=index=>{
-    galleryIndex=(index+galleryButtons.length)%galleryButtons.length;
-    modalImage.src=galleryButtons[galleryIndex].dataset.full;
+    const buttons=galleryButtons();
+    galleryIndex=(index+buttons.length)%buttons.length;
+    modalImage.src=buttons[galleryIndex].dataset.full;
   };
-  document.querySelectorAll('[data-full]').forEach(b=>b.addEventListener('click',e=>{
+  document.addEventListener('click',e=>{
+    const b=e.target.closest('[data-full]');
+    if(!b)return;
     e.preventDefault();
     modal.classList.toggle('plan-modal',b.dataset.plan==='true');
     modal.classList.toggle('is-rotated-right',b.dataset.rotate==='right');
-    galleryIndex=galleryButtons.indexOf(b);
+    const buttons=galleryButtons();
+    galleryIndex=buttons.indexOf(b);
     if(galleryIndex>=0)showGalleryImage(galleryIndex);else modalImage.src=b.dataset.full;
-    modal.classList.toggle('has-gallery-nav',galleryIndex>=0&&galleryButtons.length>1);
+    modal.classList.toggle('has-gallery-nav',galleryIndex>=0&&buttons.length>1);
     modal.classList.add('open');
-  }));
+  });
   prev.addEventListener('click',()=>showGalleryImage(galleryIndex-1));
   next.addEventListener('click',()=>showGalleryImage(galleryIndex+1));
   modal.querySelector('button:not(.modal-nav)')?.addEventListener('click',()=>modal.classList.remove('open','plan-modal','is-rotated-right','has-gallery-nav'));

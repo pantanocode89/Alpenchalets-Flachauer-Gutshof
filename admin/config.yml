@@ -82,7 +82,7 @@ collections:
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Private Wärme und wohltuende Ruhe nach einem Tag in den Bergen. – Titel"
+              - label: "Private Sauna – Beschreibung"
                 name: home-text-012
                 widget: object
                 fields:
@@ -392,577 +392,577 @@ collections:
             name: translations
             widget: object
             fields:
-              - label: "Text"
+              - label: "Navigation – Startseite"
                 name: nav.home
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Chalets"
                 name: nav.chalets
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Sommer"
                 name: nav.summer
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Winter"
                 name: nav.winter
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Komfort"
                 name: nav.comfort
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Restaurant"
                 name: nav.restaurant
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Galerie"
                 name: nav.gallery
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Lage & Anfahrt"
                 name: nav.location
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Urlaubsanfrage"
                 name: nav.enquiry
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – FAQ"
                 name: nav.faq
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Kontakt"
                 name: nav.contact
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Hero – Titel"
                 name: hero.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Hero – Untertitel"
                 name: hero.text
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Hero – Sommer-Schaltfläche"
                 name: hero.summerBook
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Hero – Winter-Schaltfläche"
                 name: hero.winterBook
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Willkommen – Einleitung"
                 name: intro.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Willkommen – Titel"
                 name: intro.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Willkommen – Beschreibung"
                 name: intro.text
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Willkommen – Vorteil 1"
                 name: intro.f1
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Willkommen – Vorteil 2"
                 name: intro.f2
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Willkommen – Vorteil 3"
                 name: intro.f3
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Unsere Chalets – Einleitung"
                 name: chalets.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Unsere Chalets – Titel"
                 name: chalets.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Unsere Chalets – Beschreibung"
                 name: chalets.lead
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Einleitung"
                 name: chalet4.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Titel"
                 name: chalet4.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Beschreibung"
                 name: chalet4.text
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – sleeping"
                 name: common.sleeping
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Schlafen"
                 name: chalet4.sleeping
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – bathrooms"
                 name: common.bathrooms
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bad & Wellness"
                 name: chalet4.bathrooms
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – living"
                 name: common.living
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Wohnen"
                 name: chalet4.living
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – outdoor"
                 name: common.outdoor
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Außenbereich"
                 name: chalet4.outdoor
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – guests12"
                 name: common.guests12
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – sauna"
                 name: common.sauna
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – breadService"
                 name: common.breadService
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – skiRoom"
                 name: common.skiRoom
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – details"
                 name: common.details
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – floorplan"
                 name: common.floorplan
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Einleitung"
                 name: chalet5.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Titel"
                 name: chalet5.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Beschreibung"
                 name: chalet5.text
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Schlafen"
                 name: chalet5.sleeping
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bad & Wellness"
                 name: chalet5.bathrooms
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Wohnen"
                 name: chalet5.living
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Außenbereich"
                 name: chalet5.outdoor
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – guests10"
                 name: common.guests10
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – noBunks"
                 name: common.noBunks
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sommer – Einleitung"
                 name: summer.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sommer – Titel"
                 name: summer.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sommer – Beschreibung"
                 name: summer.text
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Sommer – Schaltfläche"
                 name: summer.cardCta
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Winter – Einleitung"
                 name: winter.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Winter – Titel"
                 name: winter.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Winter – Beschreibung"
                 name: winter.text
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gemeinsame Zeit – Einleitung"
                 name: atmosphere.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gemeinsame Zeit – Titel"
                 name: atmosphere.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Gemeinsame Zeit – Beschreibung"
                 name: atmosphere.text
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Komfort – Einleitung"
                 name: services.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Komfort – Titel"
                 name: services.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Komfort – Beschreibung"
                 name: services.lead
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Brötchenservice – Titel"
                 name: services.breadTitle
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Brötchenservice – Beschreibung"
                 name: services.breadText
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Skiraum – Titel"
                 name: services.skiTitle
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Skiraum – Beschreibung"
                 name: services.skiText
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wäscheküche – Titel"
                 name: services.laundryTitle
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Wäscheküche – Beschreibung"
                 name: services.laundryText
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Tiefgarage – Titel"
                 name: services.garageTitle
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Tiefgarage – Beschreibung"
                 name: services.garageText
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "E-Ladestationen – Titel"
                 name: services.chargingTitle
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "E-Ladestationen – Beschreibung"
                 name: services.chargingText
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Spielplatz – Titel"
                 name: services.playgroundTitle
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Spielplatz – Beschreibung"
                 name: services.playgroundText
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Restaurant – Einleitung"
                 name: restaurant.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Restaurant – Titel"
                 name: restaurant.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Restaurant – Beschreibung"
                 name: restaurant.text
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Restaurant – Schaltfläche"
                 name: restaurant.cta
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Galerie – Einleitung"
                 name: gallery.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Galerie – Titel"
                 name: gallery.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Galerie – Schaltfläche"
                 name: gallery.all
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Lage – Einleitung"
                 name: location.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Lage – Titel"
                 name: location.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Lage – Beschreibung"
                 name: location.text
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Lage – Lageplan-Schaltfläche"
                 name: location.map
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Buchung – Einleitung"
                 name: finalBooking.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Buchung – Titel"
                 name: finalBooking.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Buchung – Beschreibung"
                 name: finalBooking.text
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Buchung – Sommer-Schaltfläche"
                 name: finalBooking.summer
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Buchung – Winter-Schaltfläche"
                 name: finalBooking.winter
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Kontakt – Einleitung"
                 name: contact.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Kontakt – Titel"
                 name: contact.title
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Kontakt – Beschreibung"
                 name: contact.text
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Kontakt – Telefon"
                 name: contact.phone
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Footer – Slogan"
                 name: footer.tagline
                 widget: object
                 fields:
@@ -1065,421 +1065,421 @@ collections:
             name: translations
             widget: object
             fields:
-              - label: "Text"
+              - label: "Navigation – Startseite"
                 name: nav.home
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Chalets"
                 name: nav.chalets
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Sommer"
                 name: nav.summer
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Winter"
                 name: nav.winter
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Komfort"
                 name: nav.comfort
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Restaurant"
                 name: nav.restaurant
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Galerie"
                 name: nav.gallery
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Urlaubsanfrage"
                 name: nav.enquiry
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – FAQ"
                 name: nav.faq
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Kontakt"
                 name: nav.contact
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Einleitung"
                 name: c4.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Beschreibung"
                 name: c4.lead
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Ausstattungsmerkmal"
                 name: c4.fact1
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Ausstattungsmerkmal"
                 name: c4.fact2
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Ausstattungsmerkmal"
                 name: c4.fact3
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Ausstattungsmerkmal"
                 name: c4.fact4
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Ausstattungsmerkmal"
                 name: c4.fact5
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Einleitung"
                 name: c4.introKicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Einleitung – Titel"
                 name: c4.introTitle
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Einleitung – Beschreibung"
                 name: c4.introText
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Hinweis"
                 name: c4.note
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – rooms"
                 name: common.rooms
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 1 – Bereich"
                 name: c4.room1
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 1 – Ausstattung"
                 name: c4.room1t
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 1 – Beschreibung"
                 name: c4.room1d
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 2 – Bereich"
                 name: c4.room2
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 2 – Ausstattung"
                 name: c4.room2t
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 2 – Beschreibung"
                 name: c4.room2d
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 3 – Bereich"
                 name: c4.room3
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 3 – Ausstattung"
                 name: c4.room3t
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 3 – Beschreibung"
                 name: c4.room3d
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 4 – Bereich"
                 name: c4.room4
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 4 – Ausstattung"
                 name: c4.room4t
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 4 – Beschreibung"
                 name: c4.room4d
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 5 – Bereich"
                 name: c4.room5
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 5 – Ausstattung"
                 name: c4.room5t
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 5 – Beschreibung"
                 name: c4.room5d
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 6 – Bereich"
                 name: c4.room6
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 6 – Ausstattung"
                 name: c4.room6t
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Bereich 6 – Beschreibung"
                 name: c4.room6d
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – amenities"
                 name: common.amenities
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.kitchen"
                 name: amenity.kitchen
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.kitchenD"
                 name: amenity.kitchenD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.fire"
                 name: amenity.fire
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.fireD"
                 name: amenity.fireD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.sauna"
                 name: amenity.sauna
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.saunaD"
                 name: amenity.saunaD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.terrace"
                 name: amenity.terrace
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.terraceD"
                 name: amenity.terraceD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.wifi"
                 name: amenity.wifi
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.wifiD"
                 name: amenity.wifiD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.parking"
                 name: amenity.parking
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.parkingD"
                 name: amenity.parkingD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.storage"
                 name: amenity.storage
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.storageD"
                 name: amenity.storageD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.laundry"
                 name: amenity.laundry
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.laundryD"
                 name: amenity.laundryD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.kids"
                 name: amenity.kids
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.kidsD"
                 name: amenity.kidsD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.location"
                 name: amenity.location
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.locationD"
                 name: amenity.locationD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – gallery"
                 name: common.gallery
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – goodToKnow"
                 name: common.goodToKnow
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "4-Zimmer Chalet – Gut zu wissen"
                 name: c4.good
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – floor"
                 name: common.floor
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – contact"
                 name: common.contact
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – contactText"
                 name: common.contactText
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – summer"
                 name: common.summer
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – winter"
                 name: common.winter
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Footer – Slogan"
                 name: footer.tagline
                 widget: object
                 fields:
@@ -1552,421 +1552,421 @@ collections:
             name: translations
             widget: object
             fields:
-              - label: "Text"
+              - label: "Navigation – Startseite"
                 name: nav.home
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Chalets"
                 name: nav.chalets
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Sommer"
                 name: nav.summer
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Winter"
                 name: nav.winter
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Komfort"
                 name: nav.comfort
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Restaurant"
                 name: nav.restaurant
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Galerie"
                 name: nav.gallery
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Urlaubsanfrage"
                 name: nav.enquiry
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – FAQ"
                 name: nav.faq
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Navigation – Kontakt"
                 name: nav.contact
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Einleitung"
                 name: c5.kicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Beschreibung"
                 name: c5.lead
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Ausstattungsmerkmal"
                 name: c5.fact1
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Ausstattungsmerkmal"
                 name: c5.fact2
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Ausstattungsmerkmal"
                 name: c5.fact3
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Ausstattungsmerkmal"
                 name: c5.fact4
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Ausstattungsmerkmal"
                 name: c5.fact5
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Einleitung"
                 name: c5.introKicker
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Einleitung – Titel"
                 name: c5.introTitle
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Einleitung – Beschreibung"
                 name: c5.introText
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Hinweis"
                 name: c5.note
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – rooms"
                 name: common.rooms
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 1 – Bereich"
                 name: c5.room1
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 1 – Ausstattung"
                 name: c5.room1t
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 1 – Beschreibung"
                 name: c5.room1d
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 2 – Bereich"
                 name: c5.room2
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 2 – Ausstattung"
                 name: c5.room2t
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 2 – Beschreibung"
                 name: c5.room2d
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 3 – Bereich"
                 name: c5.room3
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 3 – Ausstattung"
                 name: c5.room3t
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 3 – Beschreibung"
                 name: c5.room3d
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 4 – Bereich"
                 name: c5.room4
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 4 – Ausstattung"
                 name: c5.room4t
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 4 – Beschreibung"
                 name: c5.room4d
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 5 – Bereich"
                 name: c5.room5
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 5 – Ausstattung"
                 name: c5.room5t
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 5 – Beschreibung"
                 name: c5.room5d
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 6 – Bereich"
                 name: c5.room6
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 6 – Ausstattung"
                 name: c5.room6t
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Bereich 6 – Beschreibung"
                 name: c5.room6d
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – amenities"
                 name: common.amenities
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.kitchen"
                 name: amenity.kitchen
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.kitchenD"
                 name: amenity.kitchenD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.fire"
                 name: amenity.fire
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.fireD"
                 name: amenity.fireD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.sauna"
                 name: amenity.sauna
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.saunaD"
                 name: amenity.saunaD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.terrace"
                 name: amenity.terrace
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.terraceD"
                 name: amenity.terraceD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.wifi"
                 name: amenity.wifi
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.wifiD"
                 name: amenity.wifiD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.parking"
                 name: amenity.parking
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.parkingD"
                 name: amenity.parkingD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.storage"
                 name: amenity.storage
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.storageD"
                 name: amenity.storageD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.laundry"
                 name: amenity.laundry
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.laundryD"
                 name: amenity.laundryD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.kids"
                 name: amenity.kids
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.kidsD"
                 name: amenity.kidsD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.location"
                 name: amenity.location
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Ausstattung –                 name: amenity.locationD"
                 name: amenity.locationD
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – gallery"
                 name: common.gallery
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – goodToKnow"
                 name: common.goodToKnow
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "5-Zimmer Chalet – Gut zu wissen"
                 name: c5.good
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – floor"
                 name: common.floor
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – contact"
                 name: common.contact
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – contactText"
                 name: common.contactText
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – summer"
                 name: common.summer
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Allgemein – winter"
                 name: common.winter
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Text"
+              - label: "Footer – Slogan"
                 name: footer.tagline
                 widget: object
                 fields:
@@ -3536,55 +3536,55 @@ collections:
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Nach der DSGVO stehen Ihnen insbesondere die folgenden Rechte zu: – Titel"
+              - label: "Ihre Rechte – Einleitung"
                 name: datenschutz-text-030
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Recht auf Information und Auskunft – Titel"
+              - label: "Ihre Rechte – Information und Auskunft"
                 name: datenschutz-text-031
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Recht auf Berichtigung und Löschung – Titel"
+              - label: "Ihre Rechte – Berichtigung und Löschung"
                 name: datenschutz-text-032
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Recht auf Einschränkung der Verarbeitung – Titel"
+              - label: "Ihre Rechte – Einschränkung der Verarbeitung"
                 name: datenschutz-text-033
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Recht auf Datenübertragbarkeit – Titel"
+              - label: "Ihre Rechte – Datenübertragbarkeit"
                 name: datenschutz-text-034
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Recht auf Widerspruch – Titel"
+              - label: "Ihre Rechte – Widerspruch"
                 name: datenschutz-text-035
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Recht auf Widerspruch – Beschreibung"
+              - label: "Ihre Rechte – Einwilligung widerrufen"
                 name: datenschutz-text-036
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Recht auf Widerspruch – Beschreibung"
+              - label: "Ihre Rechte – Beschwerde bei der Datenschutzbehörde"
                 name: datenschutz-text-037
                 widget: object
                 fields:
                   - {label: Deutsch, name: de, widget: text}
                   - {label: English, name: en, widget: text}
-              - label: "Stand: Juli 2026 – Titel"
+              - label: "Datenschutz – Stand"
                 name: datenschutz-text-038
                 widget: object
                 fields:
