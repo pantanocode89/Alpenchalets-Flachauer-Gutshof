@@ -61,7 +61,7 @@
 .modal-nav{display:none;position:fixed;top:50%;z-index:10001;width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.5);background:rgba(63,70,48,.78);color:#fff;place-items:center;font-size:28px;line-height:1;cursor:pointer;transform:translateY(-50%);transition:background .2s ease,transform .2s ease}
 .image-modal.has-gallery-nav .modal-nav{display:grid}
 .modal-prev{left:22px}.modal-next{right:22px}
-.modal-nav:hover{background:#596141;transform:translateY(-50%) scale(1.06);cursor:pointer}.modal-nav:focus-visible{background:#596141;transform:translateY(-50%) scale(1.06);outline:2px solid #fff;outline-offset:2px}
+.modal-nav:hover,.modal-nav:focus-visible{background:#596141;transform:translateY(-50%) scale(1.06);cursor:pointer;outline:none}
 @media(max-width:600px){.modal-nav{width:40px;height:40px;font-size:22px}.modal-prev{left:8px}.modal-next{right:8px}}
 .booking-banner .section-kicker{color:#f1eadb!important;opacity:1}.detail-footer .footer-contact a{text-decoration:none}.detail-footer .footer-contact a:hover,.detail-footer .footer-contact a:focus-visible{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
 .booking-banner .hero-buttons{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:14px;opacity:1!important}
