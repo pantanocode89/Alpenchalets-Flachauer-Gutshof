@@ -39,7 +39,7 @@ if(['summer','winter'].includes(seasonalPreview)){
 }
 const seasonalHeroes={
   'faq.html':{summer:'assets/images/faq-header-planning-v1.webp',winter:'assets/images/faq-header-planning-winter-v2.webp'},
-  'impressum.html':{summer:'assets/images/66261ce3-38b5-435d-9c1c-84d8aa9afd0d.png',winter:'assets/images/057becf1-c300-402d-aaba-e86d9ee57cdc.png'},
+  'impressum.html':{summer:'assets/images/66261ce3-38b5-435d-9c1c-84d8aa9afd0d.png',winter:'assets/images/WinterImpressum.png'},
   'kontakt.html':{summer:'assets/images/kontakt-header-modern-summer-v2.webp',winter:'assets/images/kontakt-header-modern-winter-v2.webp'},
   'lage.html':{summer:'assets/images/26-flachau-sommer-wandern-hüttenwanderung-franzfischerhütte-21.jpg',winter:'assets/images/lage.jpg'},
   'datenschutz.html':{summer:'assets/images/057becf1-c300-402d-aaba-e86d9ee57cdc.png',winter:'assets/images/0ab298b4-42ad-4d80-ab23-e68aa2d97c0d.png'},
@@ -477,9 +477,13 @@ mountFunspace();
   if(page==='restaurant.html'){
     const restaurantHeroDefaults=[
       {src:activeSeason==='winter'?'assets/images/restaurant-gutshof-winter-v2.webp':'assets/images/restaurant-gutshof-sommer.webp',position:'center 52%'},{src:'assets/images/Detail-Musistadl-Eingang.jpg',position:'center 52%'},{src:'assets/images/Terasse-1.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-48.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-91.jpg',position:'center 52%'}
-    ];heroSlides(document.querySelector('.page-hero'),window.acCmsGallery?.('restaurant-hero-slideshow',restaurantHeroDefaults.map(item=>item.src))?.map((src,index)=>({...restaurantHeroDefaults[index]||{},src}))||restaurantHeroDefaults);
+    ];const restaurantHeroImages=window.acCmsGallery?.('restaurant-hero-slideshow',restaurantHeroDefaults.map(item=>item.src))?.map((src,index)=>({...restaurantHeroDefaults[index]||{},src}))||restaurantHeroDefaults;
+    if(activeSeason==='winter')restaurantHeroImages.forEach(image=>{
+      if(image.src==='assets/images/restaurant-gutshof-sommer.webp'||image.src==='assets/images/restaurant-gutshof-winter-v2.webp')image.src=innerWidth<=700?'assets/images/restaurant-gutshof-winter-v2-mobile.webp':'assets/images/restaurant-gutshof-winter-v2.webp';
+    });
+    heroSlides(document.querySelector('.page-hero'),restaurantHeroImages);
     imageSlides(document.querySelector('.lead-grid>img.photo'),[
-      {src:'assets/images/Flachauer Gutshof_September_2k25_print-37.jpg',position:'center 68%'},{src:'assets/images/Flachauer Gutshof_September_2k25_print-73.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-79.jpg',position:'center 52%'}
+      {src:'assets/images/Flachauer Gutshof_September_2k25_print-37.jpg',position:'center 68%'},{src:activeSeason==='winter'?'assets/images/restaurant-dish-73-winter.webp':'assets/images/Flachauer Gutshof_September_2k25_print-73.jpg',position:'center 52%'},{src:'assets/images/Flachauer-Gutshof_September_2k25_print-79.jpg',position:'center 52%'}
     ],'Gerichte aus dem Flachauer Gutshof');
   }
   if(page==='galerie.html'){
