@@ -727,7 +727,6 @@ if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=docum
   const frame=document.querySelector('.playground-slideshow');if(!frame||frame.dataset.slideshowReady)return;
   frame.dataset.slideshowReady='true';
   const images=[
-    ['assets/images/Kinderspielplatz.jpg','Kinder vor dem Spielplatz','center 52%'],
     ['assets/images/Foto 24.07.26, 09 36 33(1).png','Kinder auf dem Holzspielplatz','center 42%'],
     ['assets/images/Foto 24.07.26, 09 36 34(1).png','Kinder im Sandkasten','center 58%'],
     ['assets/images/Foto 24.07.26, 11 07 55(1).png','Musistadl Spielplatz','center 55%'],

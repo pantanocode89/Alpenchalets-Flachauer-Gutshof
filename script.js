@@ -49,7 +49,7 @@ if(activeSeason==='winter'&&homeSlides.length){
   if(homeSlides[1])homeSlides[1].style.setProperty('background-image',innerWidth<=700?"url('assets/images/winter-generated-wide-final-mobile.webp')":"url('assets/images/winter-generated-wide-final.webp')",'important');
 }
 const warmedRoutes=new Set();
-const homeRouteHeroes={'sommer.html':'assets/images/sommer-header-terrasse.webp','winter.html':'assets/images/winter-page-hero.webp','#chalets':'assets/images/35314198-Original.jpg','#services':'assets/images/comfort-header-chalet.webp'};
+const homeRouteHeroes={'sommer.html':'assets/images/sommer-header-terrasse.webp','winter.html':'assets/images/winter-page-hero.webp','#chalets':activeSeason==='winter'?'assets/images/chalets-header-real-room-winter-v2.webp':'assets/images/35314198-Original.jpg','#services':activeSeason==='winter'?'assets/images/comfort-header-chalet-winter-v2.webp':'assets/images/comfort-header-chalet.webp'};
 function warmInternalRoute(link){
   const raw=link.getAttribute('href');
   if(!raw||raw.startsWith('#')&&!homeRouteHeroes[raw])return;
@@ -681,14 +681,13 @@ document.querySelectorAll('[data-chalet-carousel]').forEach(carousel=>{
 
 if(!document.querySelector('script[data-ac-final-polish]')){const acPolish=document.createElement('script');acPolish.src='final-polish.js?v=20260927-stable-1';acPolish.defer=true;acPolish.dataset.acFinalPolish='';document.head.append(acPolish)}
 
-(function(){var slides=[{url:'assets/images/35314198-Original.jpg',position:'center 52%'},{url:'assets/images/Fischbacher_Chalet_innen_2017 (3).jpg',position:'center 50%'},{url:'assets/images/Fischbacher_Chalet_innen_2017 (13).jpg',position:'center 50%'}],hero=document.querySelector('.chalets-header');if(!hero||hero.dataset.slideshowReady||hero.dataset.slideshowLoading)return;hero.dataset.slideshowLoading='true';slides.forEach(function(data,index){var slide=document.createElement('span');slide.className='ac-header-slide'+(index===0?' active':'');slide.style.backgroundImage='url("'+data.url+'")';slide.style.backgroundPosition=data.position;slide.setAttribute('aria-hidden','true');hero.prepend(slide);});var started=false,start=function(){if(started)return;started=true;delete hero.dataset.slideshowLoading;hero.dataset.slideshowReady='true';hero.classList.add('ac-header-slideshow');hero.style.setProperty('background-image','none','important');var items=hero.querySelectorAll('.ac-header-slide'),current=items.length-1;window.setInterval(function(){items[current].classList.remove('active');current=(current+1)%items.length;items[current].classList.add('active');},2500);},first=new Image();first.onload=start;first.onerror=start;first.src=slides[0].url;if(first.complete)start();})();
+(function(){var slides=activeSeason==='winter'?[{url:'assets/images/chalets-header-real-room-winter-v2.webp',position:'center 52%'},{url:'assets/images/Alpenchalet1_filter.jpg',position:'center 50%'}]:[{url:'assets/images/35314198-Original.jpg',position:'center 52%'},{url:'assets/images/Fischbacher_Chalet_innen_2017 (3).jpg',position:'center 50%'},{url:'assets/images/Fischbacher_Chalet_innen_2017 (13).jpg',position:'center 50%'}],hero=document.querySelector('.chalets-header');if(!hero||hero.dataset.slideshowReady||hero.dataset.slideshowLoading)return;hero.dataset.slideshowLoading='true';slides.forEach(function(data,index){var slide=document.createElement('span');slide.className='ac-header-slide'+(index===0?' active':'');slide.style.backgroundImage='url("'+data.url+'")';slide.style.backgroundPosition=data.position;slide.setAttribute('aria-hidden','true');hero.prepend(slide);});var started=false,start=function(){if(started)return;started=true;delete hero.dataset.slideshowLoading;hero.dataset.slideshowReady='true';hero.classList.add('ac-header-slideshow');hero.style.setProperty('background-image','none','important');var items=hero.querySelectorAll('.ac-header-slide'),current=items.length-1;window.setInterval(function(){items[current].classList.remove('active');current=(current+1)%items.length;items[current].classList.add('active');},2500);},first=new Image();first.onload=start;first.onerror=start;first.src=slides[0].url;if(first.complete)start();})();
 
 /* Home Komfort: use the same quiet crossfade as the other image areas. */
 (function(){
   const frame=document.querySelector('.playground-slideshow');if(!frame||frame.dataset.slideshowReady)return;
   frame.dataset.slideshowReady='true';
   const images=[
-    ['assets/images/Kinderspielplatz.jpg','Kinder vor dem Spielplatz','center 52%'],
     ['assets/images/Foto 24.07.26, 09 36 33(1).png','Kinder auf dem Holzspielplatz','center 42%'],
     ['assets/images/Foto 24.07.26, 09 36 34(1).png','Kinder im Sandkasten','center 58%'],
     ['assets/images/Foto 24.07.26, 11 07 55(1).png','Musistadl Spielplatz','center 55%'],
