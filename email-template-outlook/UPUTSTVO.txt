@@ -1,0 +1,10 @@
+FLACHAUER GUTSHOF – OUTLOOK E-MAIL ŠABLON
+
+1. Logo se učitava sa zvaničnog sajta Flachauer Gutshof, zato je pri slanju potrebna internet veza. Lokalni logo je priložen kao rezerva.
+2. Otvorite flachauer-gutshof-email-template.html u Edge-u ili Chrome-u.
+3. Pritisnite Ctrl+A, zatim Ctrl+C.
+4. U Outlooku napravite novi e-mail i nalepite sadržaj sa Ctrl+V.
+5. Zamenite tekst u uglastim zagradama stvarnim tekstom poruke.
+6. U Outlooku izaberite File > Save As > Outlook Template (*.oft) da ga sačuvate za buduće poruke.
+
+Napomena: pre prvog pravog slanja pošaljite probnu poruku sebi i proverite prikaz na računaru i telefonu.
