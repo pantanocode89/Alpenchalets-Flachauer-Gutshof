@@ -91,7 +91,7 @@ if(seasonalPage==='lage.html'){
   if(planPreview)planPreview.dataset.full=lageplanPreview;
   const planImage=planPreview?.querySelector('[data-seasonal-lageplan-image]');
   if(planImage)planImage.src=lageplanPreview;
-  const gutshofMap=document.querySelector('[data-seasonal-gutshof-map]');
+  const gutshofMap=document.querySelector('.route-map-stage img');
   if(gutshofMap)gutshofMap.src=lageplanPreview;
 }
 document.documentElement.dataset.season=activeSeason;
