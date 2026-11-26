@@ -89,8 +89,10 @@ if(seasonalPage==='lage.html'){
   if(lageplan){lageplan.href=winterPlan?'assets/docs/Lageplan_Winter-2026.pdf':'assets/docs/Lageplan_Sommer-2026.pdf';lageplan.dataset.full=lageplanPreview;}
   const planPreview=document.querySelector('.plan-preview');
   if(planPreview)planPreview.dataset.full=lageplanPreview;
-  const planImage=planPreview?.querySelector('img');
+  const planImage=planPreview?.querySelector('[data-seasonal-lageplan-image]');
   if(planImage)planImage.src=lageplanPreview;
+  const gutshofMap=document.querySelector('[data-seasonal-gutshof-map]');
+  if(gutshofMap)gutshofMap.src=lageplanPreview;
 }
 document.documentElement.dataset.season=activeSeason;
 
