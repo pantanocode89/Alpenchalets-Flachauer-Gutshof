@@ -1,10 +1,9 @@
 (()=>{
   try{
     const page=(location.pathname.split('/').pop()||'index.html').toLowerCase();
-    const preview=new URLSearchParams(location.search).get('season');
     const month=Number(new Intl.DateTimeFormat('en-US',{timeZone:'Europe/Vienna',month:'numeric'}).format(new Date()));
     const forced=page==='sommer.html'?'summer':page==='winter.html'?'winter':null;
-    const season=forced||(['summer','winter'].includes(preview)?preview:(month>=11||month<=4?'winter':'summer'));
+    const season=forced||(month>=11||month<=4?'winter':'summer');
     document.documentElement.dataset.season=season;    const stored=localStorage.getItem('alpenchalets-language');
     const cookie=document.cookie.match(/(?:^|;\s*)alpenchalets-language=(de|en)(?:;|$)/)?.[1];
     const lang=stored==='en'||stored==='de'?stored:(cookie||'de');

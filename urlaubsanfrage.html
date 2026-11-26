@@ -55,8 +55,8 @@
   const openBooking=()=>{booking.hidden=false;document.body.style.overflow='hidden';};
   const closeBooking=()=>{booking.hidden=true;document.body.style.overflow='';select.value='winter';render();};
   document.getElementById('closeSummerBooking').addEventListener('click',closeBooking);
-  seasonOptions.addEventListener('click',event=>{const button=event.target.closest('[data-season]');if(!button)return;select.value=button.dataset.season;render();if(select.value==='winter'){window.location.assign(links.winter);return;}openBooking();});
-  form.addEventListener('submit',event=>{event.preventDefault();window.location.assign(links.winter);});
+  seasonOptions.addEventListener('click',event=>{const button=event.target.closest('[data-season]');if(!button)return;select.value=button.dataset.season;render();if(select.value==='winter'){window.open(links.winter,'_blank','noopener');return;}openBooking();});
+  form.addEventListener('submit',event=>{event.preventDefault();window.open(links.winter,'_blank','noopener');});
   document.querySelectorAll('[data-lang]').forEach(button=>button.addEventListener('click',()=>setTimeout(render,0)));
   render();
 })();
